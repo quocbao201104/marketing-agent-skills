@@ -127,6 +127,17 @@ Creative proposals can introduce new expression, analogy, or structure without i
 
 The strongest wording cannot compensate for missing evidence. When material is weak, seek better material within scope, write a more modest claim, or provide a clearly provisional concept if that serves the requested job. Keep draft status and missing proof visible to the person making the decision; do not publish a hypothesis as an established product claim.
 
+### Decision-local role steering
+
+Most expression choices do not require a separate role audit. Run a check only when a candidate would materially increase what a retained item functions as in the artifact. Compare the item's **resolved role**, the **effective role** the candidate would give it, and the reader state, touchpoint job, evidence, or adopted decision that supports that delta.
+
+- **No material role change:** execute normally.
+- **Local foregrounding:** a supporting item becomes prominent because the current touchpoint needs it, while its strategic role remains unchanged; execute without rewriting upstream strategy.
+- **Supported promotion:** the current decision genuinely establishes a higher role; update retained state, then execute.
+- **Unsupported promotion:** the higher role arises only through salience, concreteness, repetition, placement, or creative convenience; return to the last supported role and repair the smallest affected downstream choice rather than reopening unrelated strategy.
+
+Repeated foregrounding is subject to the same check only when another material use would make a supporting item function as a cross-surface organizing premise. A prior local lead is not itself evidence for strategic promotion.
+
 ## 6. Concreteness and processing fluency
 
 Packard and Berger study how concrete language in customer–employee interactions can signal listening and improve customer responses within the studied contexts [R07]. Kostyk and colleagues develop and validate a measure of subjective processing ease [R08]. Linguistic concreteness, processing ease, and communication effectiveness are distinct questions; these studies do not validate one general writing recipe.
