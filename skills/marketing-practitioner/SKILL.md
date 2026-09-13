@@ -142,6 +142,16 @@ When audience-facing communication is consequential, resolve enough of the audie
 
 Do not use fluent prose to conceal unresolved strategy. When exploring an open strategic choice, provisional drafts can help make alternatives inspectable; preserve their candidate status and supported facts. Final communication must use sufficiently resolved strategic inputs. When the task is narrow and those inputs are already settled, do not rebuild them.
 
+Preserve the **role** of resolved state as well as its factual content when it moves downstream. A fact, signal, constraint, proof item, objection, barrier, metric, commercial condition, platform mechanic, or representation requirement does not become audience, demand state, primary value, core promise, angle, objective, or headline merely because it is concrete, distinctive, highly evidenced, necessary for accuracy, or important enough to surface.
+
+```text
+LOWER-LAYER ITEM IS TRUE / IMPORTANT / NECESSARY
+≠
+HIGHER-LAYER ROLE IS ESTABLISHED
+```
+
+One item can legitimately occupy multiple roles. Establish the higher role from the evidence and current decision rather than assuming promotion. Downstream expression may change placement, compression, or emphasis to fit the surface; it must not silently change what the item means strategically.
+
 ## 6. Persuasion must preserve meaningful choice
 
 Do not use fake scarcity, false social proof, hidden material terms, deceptive defaults, shame, obstructed cancellation, fabricated urgency, or deliberately asymmetric friction. Conversion does not justify deception.
@@ -187,6 +197,7 @@ When only current platform-specific behavior, field semantics, or policy is miss
 - **Diagnose the actual question.** When cause is unresolved, use Chapter 05 before recommending a tactical change; load paid-media, content, commerce, or founder-sales knowledge when the discriminating question reaches those mechanics. A descriptive field/state discrepancy need not become a causal research project. A paid creator relationship alone does not establish paid-media delivery. A sales noun such as `price`, `POC`, `security`, `proposal`, or `objection` does not identify its decision owner by itself.
 - **Route copywriting by the open decision.** `copywriting.*` is just-in-time knowledge, not a required pipeline or a new controller job. Load only the smallest route that can change the pending result; do not run persuasion, angle, progression, closure, craft, editing, and short-form guidance as a ritual. When a downstream environment owner has already resolved representation, preserve those decisions rather than taking the artifact back under generic copywriting control.
 - **Keep representation ownership local.** A downstream content, page, email, or document-artifact owner may resolve the interaction job, information order, ask, retrieval, and representation needed by its surface or use. Preserve upstream message truth/proof and voice without imposing a generic Chapter 04 outline over that resolved representation. Supplied voice samples outrank generic stylistic preferences within truth, ethics, and the task.
+- **Preserve semantic roles across owners.** A downstream owner can decide where and how an upstream item is represented without silently changing its strategic role. Required visibility does not make a detail primary value; a barrier does not become demand state; proof does not become promise; a platform signal does not become a business objective. If the downstream job genuinely requires that role change, resolve or route the higher-level decision rather than achieving it through emphasis alone.
 - **Distinguish factual sufficiency from interaction sufficiency.** Complete product facts can support truthful copy while leaving the reader benefit, participation invitation or return path unresolved. For a Facebook Group introduction seeking use, discussion or feedback, consult `facebook.groups` and `facebook.community-participation` when those choices remain open; preserve supplied facts and resolve only that dependency. If the interaction and representation are already sufficiently supplied, keep the direct path. Unavailable external Group rules do not prevent reading packaged guidance, and packaged guidance does not establish those local rules.
 - **Respect destination and relationship state.** Verify current rules for a named community or bounded publication destination when they could change eligibility, labels, representation, links, or the permitted ask. Use Chapter 02 for market selection; Chapter 07 for adaptation and any still-open target-language choice that could materially change relationship, authority, obligation, identity, or responsibility. A country/language mention alone does not require a full localization path.
 - **Distinguish communication owners.** Email state/history questions enter `email.*`. Other owned-channel next-message questions can combine Chapter 04 with `content.audience-interaction`; add `commercial-design.dynamics` only for an unresolved transition rule and Chapter 05 only for an actual diagnosis or treatment-response question.
@@ -213,6 +224,18 @@ Do not make one piece of communication carry information that a linked artifact,
 When the current job introduces or explains an unfamiliar product, project, method, or other object, preserve enough **domain-specific capability identity** for the reader to understand what category of work it actually enables and why it is relevant. Generic runtime discipline, safety constraints, or implementation mechanics — such as preserving state, avoiding fabrication, or loading knowledge just in time — may explain how the object behaves, but they must not substitute for the supported domain capability itself. Do not solve this by listing every feature; retain the smallest truthful capability set, example, or contrast that makes the object identifiable for the current reader and job.
 
 For each candidate detail, ask whether omitting it would materially impair understanding of the core message, cause a misleading interpretation, weaken necessary proof, or prevent the intended next action. If not, omit it from this touchpoint even when it is true, relevant, or useful elsewhere.
+
+Passing that inclusion test answers **whether the detail must be represented**, not **which strategic role it should occupy**.
+
+```text
+MUST APPEAR
+≠ MUST LEAD
+
+MUST BE PROMINENT / EARLY
+≠ PRIMARY VALUE / CORE PROMISE
+```
+
+A detail can be required above the fold, in a subject preview, beside a CTA, or near a claim because omission would mislead, while remaining a specification, proof item, qualification, identity discriminator, objection resolution, or commercial condition. Let the touchpoint allocate visibility without silently promoting the detail into the message hierarchy.
 
 Minimum sufficient does not mean minimum factual inventory. Do not serialize internal audience labels, job labels, source notes, or routing decisions into prose merely because they are decision-relevant internally. Compile them into the discourse functions required by the artifact and current job.
 
@@ -245,6 +268,7 @@ Before returning material work, check only the dimensions relevant to the curren
 - **Relational realization:** when wording materially encodes social relation, do not invent or erase familiarity, hierarchy, authority, obligation, responsibility, speaker identity, or community standing; if the material choice is genuinely underdetermined, do not silently classify the relationship.
 - **Language / register fit:** for audience-facing output in a specified language, remove avoidable source or internal vocabulary; every retained non-target-language term should have a term-specific reason to remain untranslated.
 - **Strategic coherence:** final communication expresses sufficiently resolved strategy; exploratory drafts remain identifiable as candidates and do not silently become adopted strategy or evidence.
+- **Priority / role fidelity:** headlines, subject lines, hooks, first views, openings, examples, repetition, and other emphasis preserve the resolved primary value/message and the current touchpoint job. A lower-layer fact, proof item, specification, caveat, barrier, objection, commercial condition, metric, or representation requirement does not become the effective strategy merely through salience or repetition unless the higher role is independently supported.
 - **Evidence-generation fit:** when platform metrics drive a decision, the interpretation respects material exposure, response opportunity, interaction provenance, delivery/allocation state, visibility, history, maturity, billing/attribution/optimization-feedback roles, and comparability constraints.
 - **Quality beyond correctness:** when alternatives are requested, make their relevant differences and trade-offs clear; distinguish wording variants from different concepts. When a choice is requested and justified, recommend one for the current job without claiming unmeasured effectiveness.
 - **Simplicity:** remove information, framework language, and explanation that do not earn their place.
