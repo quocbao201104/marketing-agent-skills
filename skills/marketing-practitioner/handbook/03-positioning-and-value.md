@@ -17,7 +17,7 @@ A category reduces interpretation cost by giving the customer a familiar frame. 
 
 Category choice therefore creates a trade-off. A familiar category lowers education cost but can intensify comparison. A novel category can highlight a new mechanism or problem frame but requires the organization to teach the market how to evaluate it.
 
-When category is uncertain, a useful diagnostic question is: **What will the customer initially mistake this for?** The answer often reveals the actual mental shelf against which communication must work.
+When category is uncertain, a useful diagnostic question is: **What will the customer initially mistake this for?** The answer often reveals the actual mental shelf against which communication must work. It identifies a category or identity problem; it does not by itself identify the offer's primary customer value. A fact needed to prevent object or category confusion can remain a representation requirement without becoming the reason the customer should care.
 
 ## 3. Positioning inputs
 
@@ -37,6 +37,19 @@ A complete positioning analysis should consider:
 - conditions under which the offer is not appropriate.
 
 The analysis should be grounded in both customer evidence and actual product capability. Customer desire can establish relevance; it cannot create a product fact that does not exist.
+
+These inputs perform different roles. Do not treat them as a promotion ladder in which the most concrete, distinctive, measurable, or decision-critical item automatically moves upward into `PRIMARY VALUE`.
+
+```text
+PRIMARY VALUE
+≠ DIFFERENTIATOR
+≠ DISTINCTIVE CUE
+≠ REASON TO BELIEVE
+≠ TRADE-OFF
+≠ IDENTITY / REPRESENTATION REQUIREMENT
+```
+
+One fact can legitimately occupy more than one role, but each role must be supported for the current customer decision. A specification can prove a value, distinguish one configuration from another, or prevent a misleading representation without becoming the value itself. A trade-off can shape choice without becoming the promise. A distinctive cue can aid recognition without becoming a reason to buy. Promote an item into a higher strategic role only when customer/context evidence and the comparative decision justify that role, not because the item is easier to verify or express.
 
 ## 4. Value proposition as a structured relationship
 
@@ -69,11 +82,15 @@ CAPABILITY
 
 The final level requires particular caution. Emotional and risk-related benefits are persuasive precisely because they are consequential; they should not be inferred merely because they sound plausible. Customer research should support them.
 
+The chain is explanatory, not an automatic promotion path. A capability or specification may remain the correct endpoint for a technical or identity decision. Do not infer that every supported feature has a customer-level value proposition, or that the most concrete feature should lead communication when the customer-level value is already resolved elsewhere.
+
 ## 6. Proof and value are inseparable
 
 A promise has little strategic value if the market cannot believe it. Match support to the exact claim: demonstrations and product behavior can establish capabilities within the observed conditions; outcome claims require evidence of those outcomes with adequate method and scope. Mechanisms can explain plausibility, while guarantees can define commitments and reduce customer risk under their terms. Neither a plausible mechanism nor a guarantee by itself establishes achieved effects. Making a claim testable does not establish that it has been tested.
 
 The principle "proof before adjectives" follows from this relationship. Promotional descriptors such as *innovative*, *trusted*, *powerful*, or *best* are weak substitutes for evidence. Research on linguistic concreteness also suggests that concrete language can affect perceived listening and customer responses in the contexts studied, while not supporting a universal rule that concreteness always wins [R07]. Processing fluency research similarly supports attention to ease of processing without turning clarity into a deterministic persuasion formula [R08].
+
+Proof constrains and supports the promise; it does not automatically own the promise. A highly specific number, mechanism, certification, guarantee, or demonstration can be the strongest reason to believe while remaining subordinate to the customer value it supports.
 
 ## 7. Positioning requires trade-offs
 
@@ -121,6 +138,8 @@ TRADE-OFF
 CLAIMS NOT SUPPORTED
 MATERIAL UNCERTAINTIES
 ```
+
+Preserve the role of each retained field when handing positioning downstream. The presence of an item in this record does not authorize downstream copy to promote it into another role. In particular, a reason to believe, specification, identity discriminator, trade-off, caveat, or distinctive cue should not become the headline promise or primary selling angle unless the current customer decision independently supports that promotion.
 
 Where an offering's relationship to another offer affects the current decision, add `OFFER RELATION / EXPECTED CUSTOMER TRANSITION`: complement, substitute, migration, coexistence, endorsement, or overlap, with direction and scope. Product and roadmap authority, and cannibalization economics, remain dependencies rather than conclusions of positioning.
 

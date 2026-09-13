@@ -65,6 +65,7 @@ A useful review identifies the specific issue, its consequence for the reader or
 
 - Is value linked to a specific customer situation and desired progress?
 - Is the value proposition prioritized rather than expressed as an undifferentiated benefit list?
+- Has a specification, reason to believe, distinctive cue, trade-off, identity discriminator, or representation requirement been promoted into primary value merely because it is concrete, unusual, measurable, or necessary for accuracy?
 
 ### Credibility
 
@@ -88,6 +89,8 @@ A useful review identifies the specific issue, its consequence for the reader or
 
 - Is there one primary message?
 - Are supporting pillars subordinate rather than competing at the same level?
+- Do the headline, subject line, hook, opening, selected examples, and repeated emphasis preserve the intended primary value or current touchpoint job?
+- Has a lower-layer detail — such as a specification, proof item, caveat, local barrier, objection, commercial condition, or identity fact — become the effective lead without evidence that the higher-level role itself is warranted?
 
 ### Proof
 
@@ -118,6 +121,7 @@ Review the applicable dimensions below after identifying whether this is explora
 - For final communication, does the copy express the sufficiently resolved positioning and message?
 - For exploratory copy, does it faithfully express the candidate assumptions while preserving fixed facts and claim boundaries?
 - Has prose introduced claims that strategy or evidence did not authorize?
+- Has expression changed the *role* of an authorized fact — for example turning proof into the promise, an objection into the value proposition, a representation requirement into the selling angle, or a local barrier into the market demand state?
 
 ### Relevance
 
@@ -127,6 +131,7 @@ Review the applicable dimensions below after identifying whether this is explora
 
 - Are concrete nouns, direct verbs, and stable terminology used where appropriate?
 - Is necessary complexity preserved without unnecessary processing burden?
+- Is concreteness serving the resolved meaning rather than outranking it simply because a number, mechanism, or specification is easier to state precisely?
 
 ### Credibility
 
@@ -257,6 +262,7 @@ Use for requested concept exploration or comparison of creative candidates. For 
 - Is there a concrete supported idea, example, image, or contrast that makes the intended meaning identifiable?
 - Does an analogy clarify the object without implying unsupported capabilities or outcomes?
 - Does a distinctive choice help express the intended meaning, or merely add decoration or surprise?
+- Is a concrete proof point or specification being rewarded as the concept merely because it is easier to dramatize than the resolved value?
 
 These questions concern inspectable properties and plausible communication mechanisms. They do not establish measured recall, conversion, learned brand recognition, or causal response. Use the appropriate specialist evidence standard for those claims.
 
@@ -291,6 +297,7 @@ Use when an artifact can be technically correct yet fail the requested job.
 - Does each included detail perform a useful communication function? Has compression removed an essential actor, beneficiary, qualification, responsibility, or relationship?
 - Is the intended action, participation, or no-action state clear, with a natural ending or handoff for this touchpoint?
 - Does a linked artifact carry deeper detail rather than the minimum understanding needed here?
+- When a detail must appear to prevent misunderstanding, is it placed at the level needed for that job without automatically displacing the primary value or message?
 
 ### Useful judgment
 

@@ -74,6 +74,17 @@ Do not convert these facts into a lifecycle label unless the label is only short
 
 can be useful practitioner labels, but they are not canonical state primitives.
 
+Communication-relevant state can justify whether another email exists, when it is sent, or which unresolved question it should address without redefining the product's or campaign's strategic value. Preserve:
+
+```text
+EMAIL TRIGGER / LOCAL BLOCKER
+≠ DEMAND STATE
+≠ PRIMARY VALUE
+≠ CORE MESSAGE BY DEFAULT
+```
+
+A recipient may need one missing fact to continue a decision. That can make the fact central to **this email's information job** while it remains a specification, objection resolution, proof item, or local clarification rather than the offer's positioning. Let Chapter 04 decide whether a higher message role is warranted.
+
 ### Ask whether communication should exist at all
 
 The first email-specific question is not:
@@ -306,6 +317,8 @@ The sender/subject/preview should help the recipient correctly identify relevanc
 
 Do not optimize the subject line for opens independently of message fulfillment. A subject that earns an open by creating an expectation the body does not repay is a representation failure even if the open metric rises.
 
+The inbox surface can foreground the specific unresolved question that gives this send a legitimate job, but it must not silently turn that question into the offer's primary value or campaign premise. When a subject or preview elevates a specification, proof item, barrier, deadline, or commercial condition, verify that the **email job** — not merely its concreteness or trigger state — warrants that emphasis and that the body/destination preserve the upstream strategic roles.
+
 Personalization is not a universal fix. Randomized field experiments published in 2018 found positive effects from adding recipient-specific information in the studied settings [EM07]. In a 2023 study, a first-name experiment with university students did not establish a positive open or click effect; a separate title-plus-surname experiment with politicians reported a significant open increase, but not a significant click increase [EM08]. These German-language experiments used different populations, not a direct comparison of name forms. Treat personalization as a conditional treatment, not a law: these results establish neither universal surname superiority nor that first-name effects are zero or have disappeared through habituation.
 
 ### Message surface
@@ -369,7 +382,7 @@ Preserve decision-relevant state established upstream:
 - relevant recipient/relationship state;
 - commitments, deadlines, or limitations.
 
-Do not silently strengthen, weaken, contradict, or drop a material condition between subject, message, action, and destination.
+Do not silently strengthen, weaken, contradict, drop, or **reassign the strategic role of** a material condition between subject, message, action, and destination. Cross-surface continuity includes role fidelity: proof remains proof unless the current communication job legitimately makes it the subject; a local blocker remains a local blocker unless a higher-level message decision promotes it.
 
 ### Representation degradation
 
@@ -538,6 +551,9 @@ PERMISSION / SUPPRESSION
 
 TRIGGER
 ≠ INTENT
+
+EMAIL TRIGGER / LOCAL BLOCKER
+≠ PRIMARY VALUE / CORE MESSAGE BY DEFAULT
 
 WAIT
 ≠ ARBITRARY CADENCE
