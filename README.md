@@ -8,7 +8,7 @@
 
 A reusable marketing skill for people working with AI: research customers, shape strategy, create content, and interpret results—with claims grounded in evidence.
 
-[![Version: v1.9.0](https://img.shields.io/badge/version-v1.9.0-0a7.svg)](#status-and-scope)
+[![Version: v1.9.1](https://img.shields.io/badge/version-v1.9.1-0a7.svg)](#status-and-scope)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Language: English](https://img.shields.io/badge/language-English-4c1.svg)](#)
 [![Format: Agent Skill](https://img.shields.io/badge/format-Agent%20Skill-6f42c1.svg)](skills/marketing-practitioner/SKILL.md)
@@ -120,6 +120,7 @@ A fluent answer can still be the wrong marketing action.
 | Rewrite creative because CPA moved | Diagnose before selecting the intervention |
 | Load a TikTok playbook because the prompt says “TikTok” | Route by decision dependency, not by noun |
 | Reopen approved positioning while writing copy | Freeze resolved state unless it becomes contradictory, stale, or insufficient |
+| Let a concrete spec or proof point become the strategy by repetition | Preserve its resolved role; check only when a candidate would materially change that role |
 | Turn attribution into causality | Preserve what a result did — and did not — prove |
 
 The core keeps distinctions that change marketing decisions:
@@ -148,6 +149,8 @@ Complex work can start with a brief working plan without waiting for approval. T
 Reads serve a remaining question; they are not completion by themselves. When evidence is missing, the agent is instructed to retrieve it, ask a material question, or give a useful bounded result.
 
 For work spanning several steps, the core keeps track of requested outputs, adopted choices, unresolved dependencies, and evidence limits. A changed request updates the affected work; paused work retains its status for resumption when the host preserves that context.
+
+When a downstream expression would materially change what a retained item functions as — for example turning a specification or proof point into the dominant proposition — the skill performs a decision-local role check before commitment. Ordinary expression stays on the fast path; legitimate local foregrounding can proceed, while unsupported promotion re-anchors to the last supported role and repairs only the affected downstream choice.
 
 Seven runtime jobs are recognized:
 
@@ -242,7 +245,7 @@ If the skill makes a poor decision, overcomplicates a simple task, misses suppli
 
 ## Status and scope
 
-Current release: **v1.9.0 — Founder-led Sales Decision Runtime**.
+Current release: **v1.9.1 — Role Fidelity and Decision-local Steering**.
 
 The package covers seven marketing jobs with specialist guidance for content, commerce, commercial design, buyer-specific founder-led sales, landing pages, email, search/discovery, paid media, brand identity, and scoped localization. See [CHANGELOG.md](CHANGELOG.md) for release history.
 
