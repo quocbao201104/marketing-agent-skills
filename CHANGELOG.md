@@ -5,6 +5,13 @@ All notable changes to this repository are documented here.
 The project uses semantic versioning for published skill revisions. v1.0.0 marks the first stable core contract: future 1.x work should preserve compatibility-sensitive controller semantics, logical knowledge interfaces, owner boundaries, and evidence/claim behavior unless a demonstrated failure justifies a scoped change. Historical frozen evaluation and research references keep the version labels under which they were produced.
 
 
+## [Unreleased]
+
+### Fixed
+
+- Distinguished project understanding from sufficient identity inputs before choosing new brand-identifying cues. Preserved delegated choices, provisional exploration, and direct production of approved identities.
+- Added five targeted identity-input regression cases covering underspecified requests, sufficient context, approved exports, provisional sketches, and required-use validation. These are evaluation contracts, not evidence of live image-generation quality.
+
 ## [1.9.0] - 2026-09-13
 
 ### Founder-led Sales
