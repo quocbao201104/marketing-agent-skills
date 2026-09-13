@@ -73,6 +73,18 @@ Examples:
 
 Do not turn these examples into awareness stages or a risk taxonomy. Retain only blockers that can change the current action.
 
+A material blocker can determine **what information must become reachable or visible** without determining **what the page is fundamentally about**. Preserve:
+
+```text
+ACTION BLOCKER
+≠ PRIMARY VALUE
+
+MUST BE VISIBLE
+≠ MUST LEAD
+```
+
+For example, size, compatibility, security, a return condition, or another identity/risk fact may need early representation because omission would mislead or block action. That requirement does not promote the fact into the page's core promise, headline, or value proposition unless the resolved upstream message or the visitor's actual job supports that higher role.
+
 A useful qualitative idea is **information distance**: how much material state separates the visitor's current understanding from action readiness. It is not a score and does not imply that more content is always better.
 
 ```text
@@ -134,6 +146,13 @@ These are derived jobs, not a required checklist.
 Treat the first view as the first decision checkpoint, not a fixed component bundle.
 
 It should resolve enough of the earliest material question to prevent a mismatch between the visitor's expectation and the page. Depending on entry state, it may need orientation, category, core value, offer confirmation, product evidence, proof, or an action path.
+
+The first view can carry several roles at once without collapsing them into one. A specification or identity discriminator can appear prominently to prevent a mismatch while the headline or dominant message still carries the resolved value. Page architecture allocates attention; it does not silently promote a lower-layer fact into a higher-layer strategic role merely because that fact must appear early.
+
+```text
+EARLY REPRESENTATION
+≠ STRATEGIC PROMOTION
+```
 
 Do not require by default:
 
@@ -506,6 +525,9 @@ SECTION ≠ CONTENT-TYPE REQUIREMENT
 PAGE TYPE ≠ PRIMITIVE
 AWARENESS STAGE ≠ ORACLE
 CTA AVAILABILITY ≠ CTA READINESS
+ACTION BLOCKER ≠ PRIMARY VALUE
+MUST BE VISIBLE ≠ MUST LEAD
+EARLY REPRESENTATION ≠ STRATEGIC PROMOTION
 PROOF ≠ TESTIMONIAL
 OBJECTION ≠ FAQ
 VISUAL ≠ DECORATION
