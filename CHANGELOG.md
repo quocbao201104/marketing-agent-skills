@@ -7,10 +7,24 @@ The project uses semantic versioning for published skill revisions. v1.0.0 marks
 
 ## [Unreleased]
 
-### Fixed
+## [1.9.1] - 2026-09-14
+
+### Role fidelity and decision-local steering
+
+- Preserved semantic roles across positioning, messaging, landing-page, email, and downstream handoffs: a specification, proof item, barrier, objection, commercial condition, metric, or representation requirement does not become primary value, core promise, angle, objective, or campaign premise merely through concreteness, visibility, placement, or repetition.
+- Added a decision-local role-steering interrupt at the expression commitment boundary. Ordinary writing stays on the existing fast path; local foregrounding may lead without changing strategy; supported promotion updates retained state; unsupported promotion re-anchors to the last supported role and repairs only the affected downstream choice.
+- Clarified `must appear ≠ must lead`, `must be prominent/early ≠ primary value/core promise`, proof ≠ promise, barrier ≠ demand state, and local blocker ≠ market demand.
+- Added targeted cross-layer and steering regressions covering product specifications, enterprise proof, return policy, local page blockers, VOC recurrence, paid-media metrics, precise proof, compatibility visibility, fast-path non-interference, bounded recovery, cross-surface accumulation, and evidence-supported promotion.
+
+### Identity-input guard
 
 - Distinguished project understanding from sufficient identity inputs before choosing new brand-identifying cues. Preserved delegated choices, provisional exploration, and direct production of approved identities.
 - Added five targeted identity-input regression cases covering underspecified requests, sufficient context, approved exports, provisional sketches, and required-use validation. These are evaluation contracts, not evidence of live image-generation quality.
+
+### Compatibility and validation scope
+
+- Preserved seven runtime jobs, 289 logical routes, 262 evidence sources, and existing specialist ownership. Added no new controller job, mandatory role-audit workflow, role ledger, cross-surface counter, or generic escalation subsystem.
+- Static review and regression contracts establish architecture/evaluation intent only. They do not prove that every host/model fires the decision-local interrupt at runtime or improve marketing outcomes.
 
 ## [1.9.0] - 2026-09-13
 
