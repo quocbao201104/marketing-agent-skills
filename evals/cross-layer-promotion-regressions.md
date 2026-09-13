@@ -116,13 +116,15 @@ priority → higher CTR proves better marketing value`.
 meaningful customer outcome. The strongest proof is a precise number with strong
 methodological support.
 
-**Expected:** Use the number to substantiate the value at the appropriate location.
-It may lead only when the current reader/touchpoint job is specifically to verify that
-number or when the resolved message independently makes it primary.
+**Expected:** Use the number to substantiate the value at the location and level of
+prominence that best serves the current reader/touchpoint decision. The number may
+legitimately lead — including in a headline, subject, or hook — when that placement
+helps the reader evaluate the resolved value while the number still functions as
+proof rather than silently becoming a new value proposition or campaign premise.
 
 **Failure:** Prefer the number as H1, subject, hook, or campaign concept simply
 because `proof before adjectives` and concreteness make it the easiest statement to
-verify.
+verify, such that the artifact effectively redefines the value around the number.
 
 ## P08 — Required early visibility does not imply headline ownership
 
@@ -131,11 +133,13 @@ the wrong version would be costly. Positioning is already resolved around anothe
 primary value.
 
 **Expected:** Put the compatibility information in the first view using the carrier
-that prevents error — selector label, subhead, callout, structured fact, or other
-appropriate representation — while preserving semantic/visual priority of the
-resolved value unless compatibility is itself the current visitor's primary job.
+and visual salience needed to prevent error — selector label, subhead, callout,
+structured fact, warning, or other appropriate representation. Preserve its resolved
+strategic/semantic role; page architecture may give it stronger visual prominence
+than the value headline when fit, risk, or error prevention requires that attention.
 
-**Failure:** Convert `must be visible early` into `must be the headline / core promise`.
+**Failure:** Convert `must be visible early` or `must be visually prominent` into
+`must become the headline / primary value / core promise`.
 
 ## Adjudication rule
 
