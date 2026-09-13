@@ -90,6 +90,8 @@ Proof should be close enough to the claim that the reader can evaluate the relat
 
 A useful distinction is between **relevance evidence** and **capability evidence**. Customer research can show that a problem matters; it cannot establish that a product performs a capability it does not possess. Product facts constrain what marketing is allowed to say.
 
+Proof can be decisive for credibility without becoming the value proposition. Treat proof strength and message priority as separate judgments. A precise specification, certification, measured result, guarantee, mechanism, or demonstration may be the best support available while remaining subordinate to the customer value it supports.
+
 ## 5. Copy as an expression layer
 
 For final communication, copywriting expresses a strategic message that is sufficiently resolved for the artifact. Its job is to preserve meaning while improving comprehension, attention, memorability, and the appropriate response within channel constraints. During exploration, provisional copy can help examine an open message or positioning choice; it must remain a candidate rather than silently becoming a settled input.
@@ -133,6 +135,8 @@ Clarity, specific nouns, observable mechanisms, and direct verbs are practical w
 
 The cited studies do **not** establish that shorter or more concrete copy always converts better. Complexity can be necessary when the decision is complex. Technical buyers may require precision that increases reading effort but decreases uncertainty. The standard is not minimal word count; it is minimal unnecessary processing burden.
 
+Concreteness does not determine message priority. A number, mechanism, specification, or named constraint can make a supporting statement unusually crisp without earning the role of core promise, angle, headline, or hook. Preserve the resolved strategic role first; then choose the most concrete expression that faithfully serves that role.
+
 ## 7. Format as an information constraint
 
 Different formats create different information budgets and reader expectations.
@@ -140,6 +144,8 @@ Different formats create different information budgets and reader expectations.
 ### Headlines and subject lines
 
 They compete for attention before substantive evaluation. Relevance and clarity normally precede rhetorical novelty. Curiosity is legitimate when the communication identifies its subject and subsequently repays the information gap.
+
+A headline or subject can foreground a proof point, objection, specification, or barrier when that is the current touchpoint's actual job. Do not promote such an item into the lead merely because it is concrete, surprising, necessary somewhere in the artifact, or easy to verify. The lead should preserve the resolved message priority unless the reader state or touchpoint job justifies a different emphasis.
 
 ### Landing pages
 
@@ -307,6 +313,18 @@ A copy review should not begin with whether the prose is "good." It should evalu
 
 Assess the effective hierarchy of the whole artifact, not only whether each required idea appears. Placement, repetition, examples and procedural detail can give a secondary point more emphasis than the intended value. Ask what the selected examples actually demonstrate and what understanding or next action the draft makes most prominent. If that differs from the resolved communication job, rebalance the material while preserving necessary proof, qualifications and a usable next step. An introduction, a setup guide and a risk explanation can legitimately emphasize different things; this check requires no fixed opening, length, example count or outline.
 
+For audience-facing leads and repeated emphasis, add a role check:
+
+```text
+WHAT ROLE WAS THIS ITEM RESOLVED TO PLAY?
+→ primary value / proposition / proof / objection / barrier /
+  specification / qualification / identity support / commercial condition
+
+WHAT ROLE DOES THE FINAL EXPRESSION MAKE IT PLAY?
+```
+
+A fact can remain true while its role becomes wrong. If a headline, subject, hook, opening, first-view element, repeated example, or recurring phrase makes a lower-layer item function as the primary value or campaign premise without support for that promotion, the artifact is strategically incoherent even when every sentence is factually correct.
+
 Stylistic polish is downstream of strategic correctness.
 
 ---
@@ -370,6 +388,17 @@ OBSERVED EVIDENCE
 ```
 
 Do not infer a psychological state merely from low conversion, weak engagement, or another outcome metric. `Conversion is low → readers are afraid → add reassurance` is not a valid inference without evidence.
+
+A binding barrier identifies what may prevent the **current communication objective**. It does not automatically identify what the market principally wants or what the offer should promise.
+
+```text
+BINDING BARRIER
+≠ DEMAND STATE
+≠ PRIMARY VALUE
+≠ CORE PROMISE
+```
+
+A barrier can be local to a broken, incomplete, or ambiguous representation. For example, missing size, compatibility, pricing detail, or security information can require repair at the current surface without establishing that customers buy primarily for size clarity, compatibility, pricing transparency, or security. Promote a barrier into a higher strategic role only when evidence supports that role beyond the local defect or the current touchpoint's job specifically is to resolve that barrier.
 
 Possible decision-relevant dimensions include:
 
@@ -473,6 +502,15 @@ An angle describes decision logic, not surface wording.
 - **wording** — the surface linguistic realization.
 
 Gain/loss, question/declaration, aspirational/fearful, short/long, metaphor/no metaphor, and other presentational differences do not automatically create new angles.
+
+A specification, reason to believe, constraint, trade-off, objection, or barrier can shape an angle or provide its proof. None becomes an angle merely because it is vivid or concrete.
+
+```text
+SPECIFICATION / REASON TO BELIEVE / CONSTRAINT / BARRIER
+≠ ANGLE BY DEFAULT
+```
+
+Such an item may legitimately lead when the reader's current decision is specifically to evaluate that dimension, when the resolved positioning/message makes it primary, or when evidence independently supports the corresponding valued change. Otherwise keep it in its supporting role.
 
 ### Discovery procedure
 
@@ -681,7 +719,7 @@ Use operators only for a diagnosed problem:
 
 Optimize semantic economy, not minimum word count.
 
-Specificity is justified by the uncertainty it resolves. Unsupported precision is worse than warranted abstraction.
+Specificity is justified by the uncertainty it resolves. Unsupported precision is worse than warranted abstraction. Necessary specificity does not by itself authorize higher message priority; a detail can resolve uncertainty while remaining subordinate in the argument.
 
 Rhythm is a pattern of processing boundaries, not mechanical alternation of short and long sentences. A short sentence earns its place when its boundary performs a job.
 
@@ -783,6 +821,7 @@ Do not silently:
 - invent urgency or personalization;
 - remove a material qualifier;
 - change the offer or positioning;
+- promote a supporting proof point, specification, caveat, barrier, or commercial condition into the primary message merely because short-form compression rewards concreteness;
 - manufacture social proof or prior relationship;
 - treat `sent` as `seen`, `served` as `noticed`, `noticed` as `understood`, or `understood` as `remembered`.
 
