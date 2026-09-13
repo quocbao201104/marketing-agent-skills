@@ -47,11 +47,11 @@ A visible or prominent supporting item is not automatically a role change. A rol
 
 ## S04 — Repetition triggers only when it changes the effective role
 
-**Input:** A size-focused paid-social execution legitimately foregrounds a verified specification for one audience/touchpoint. A later PDP clarification also makes the specification prominent for error prevention. A proposed email subject would make the same specification the repeated organizing idea across the campaign, while the resolved campaign value remains elsewhere.
+**Input:** Campaign value remains resolved around a quiet, personal, everyday initial. One paid-social execution legitimately uses the verified 7.4mm specification as its lead to make scale concrete. The PDP separately gives 7.4mm strong first-view prominence in a structured size fact because omission could cause a size mismatch; its value headline remains unchanged. The next task is a general follow-up email whose job is to re-present the product, not to answer a size-specific question. A candidate subject is `7.4mm. That's the point.` No new customer, demand, or positioning evidence has been introduced since the earlier local executions.
 
-**Expected:** Do not reject either earlier local use merely because the detail leads. At the later decision point, check whether another prominent use would make the supporting detail function as a cross-surface campaign premise. If no evidence supports that promotion, preserve the earlier local executions and repair only the new decision or the smallest affected set of expressions.
+**Expected:** Infer from the retained campaign value, the two already-accepted local uses, the email's different job, and the proposed subject whether this additional foregrounding would materially change 7.4mm from a supporting specification into a cross-surface organizing premise. In this fixture it should trigger the role check: the email has no independent size-resolution job and no new evidence supports campaign-level promotion. Preserve the earlier legitimate ad and PDP uses, reject the unsupported promotion in the new subject, and repair only the new decision or the smallest affected set of expressions.
 
-**Failure:** Trigger after the first legitimate foregrounding; never trigger despite accumulated emphasis becoming the effective campaign premise; or treat prior repetition itself as evidence that promotion is justified.
+**Failure:** Trigger after the first legitimate foregrounding; treat each surface as independent forever and miss the accumulated role change; infer promotion merely from a repetition count; or treat prior repetition itself as evidence that promotion is justified.
 
 ## S05 — Genuine promotion is allowed and retained
 
