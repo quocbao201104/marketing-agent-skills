@@ -147,6 +147,8 @@ Review the applicable dimensions below after identifying whether this is explora
 
 - Is the prose natural for the intended author or brand?
 - Has humanization removed filler without flattening characteristic rhythm or judgment?
+- In a specified output language, does each retained foreign term have a term-specific reason (proper name, identifier, code/command, precision/naturalness, or explicit requirement), rather than relying on technical audience or general familiarity?
+- Does wording preserve supported familiarity, hierarchy, authority, obligation, responsibility, speaker identity, and community standing without silently classifying a materially underdetermined relationship?
 
 ### AI-pattern audit
 
@@ -160,6 +162,8 @@ Check for significance inflation, vague attribution, filler analysis, forced tri
 
 - Is the metric definition stable and complete?
 - Have instrumentation changes been ruled out or accounted for?
+
+For platform-derived metrics, check the evidence-generation conditions that could change interpretation: exposure and response opportunity, interaction provenance, delivery/allocation state, visibility, history, maturity, billing/attribution/optimization-feedback roles, and comparability. Retrieve the relevant platform or domain section when one of those mechanisms remains unresolved; this is not a checklist to impose on descriptive tasks.
 
 ### Baseline
 
@@ -294,6 +298,8 @@ Use when an artifact can be technically correct yet fail the requested job.
 ### Reader understanding and interaction
 
 - Can the intended reader identify what is being discussed and understand enough supported capability or value to judge relevance?
+- Does an unfamiliar object's representation show its supported domain capability rather than substituting generic operating discipline, safeguards, or implementation mechanics?
+- Does the artifact perform the required functions in context without imposing a title, hook, CTA, gratitude, or other template element when the job does not need it?
 - Does each included detail perform a useful communication function? Has compression removed an essential actor, beneficiary, qualification, responsibility, or relationship?
 - Is the intended action, participation, or no-action state clear, with a natural ending or handoff for this touchpoint?
 - Does a linked artifact carry deeper detail rather than the minimum understanding needed here?

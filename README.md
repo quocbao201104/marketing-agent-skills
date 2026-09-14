@@ -8,7 +8,7 @@
 
 A reusable marketing skill for people working with AI: research customers, shape strategy, create content, and interpret results—with claims grounded in evidence.
 
-[![Version: v1.9.2](https://img.shields.io/badge/version-v1.9.2-0a7.svg)](#status-and-scope)
+[![Version: v2.0.0](https://img.shields.io/badge/version-v2.0.0-0a7.svg)](#status-and-scope)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Language: English](https://img.shields.io/badge/language-English-4c1.svg)](#)
 [![Format: Agent Skill](https://img.shields.io/badge/format-Agent%20Skill-6f42c1.svg)](skills/marketing-practitioner/SKILL.md)
@@ -245,7 +245,7 @@ If the skill makes a poor decision, overcomplicates a simple task, misses suppli
 
 ## Status and scope
 
-Current release: **v1.9.2 — Role Boundaries and Guidance Clarity**.
+Current release: **v2.0.0 — Compact Core and Conditional Guidance**.
 
 The package covers seven marketing jobs with specialist guidance for content, commerce, commercial design, buyer-specific founder-led sales, landing pages, email, search/discovery, paid media, brand identity, and scoped localization. See [CHANGELOG.md](CHANGELOG.md) for release history.
 

@@ -2,7 +2,7 @@
 
 Status: static design cases and expected properties. No agent runs or benchmark results are recorded here.
 
-Target: [SKILL.md](../skills/marketing-practitioner/SKILL.md), `Coordinating subagents when useful`, read with its controller, continuity, source-fidelity and uncertainty rules. These cases exercise optional coordination inside marketing work; they do not require a particular host tool, model, agent count, or visible workflow template.
+Target: the delegation condition in [SKILL.md](../skills/marketing-practitioner/SKILL.md#conditional-support) and [Coordinating subagents when useful](../skills/marketing-practitioner/references/work-coordination.md#coordinating-subagents-when-useful), read with the core continuity, evidence, authority, and uncertainty rules. These cases exercise optional coordination inside marketing work; they do not require a particular host tool, model, agent count, or visible workflow template.
 
 ## SC01: independent work with a shared final decision
 

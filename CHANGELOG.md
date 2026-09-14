@@ -7,6 +7,25 @@ The project uses semantic versioning for published skill revisions. v1.0.0 marks
 
 ## [Unreleased]
 
+## [2.0.0] - 2026-09-15
+
+### Controller refactor
+
+- Reorganized `SKILL.md` into six sections and reduced its common instruction body from 5,449 to 2,841 whitespace-delimited words, including metadata (about 48% shorter).
+- Moved planning, continuation/recovery, and subagent coordination detail into `references/work-coordination.md`, with separate conditions and headings. Consolidated specialist boundaries, content-selection detail, and deeper review criteria in the existing operating guide and quality rubrics.
+- Made reading decisions depend on a concrete unresolved question, clarified coordination triggers, and tied communication review to what the whole artifact expresses relative to the adopted message and touchpoint job.
+
+### Compatibility and upgrade
+
+- Retained one skill, seven jobs, 289 logical routes, 262 evidence sources, and the existing index, selectors, retrieval helpers, and specialist ownership. Direct links to conditional references remain outside the routing index.
+- Kept evidence/authority boundaries, direct execution for sufficient tasks, decision-local role steering, and essential continuation/content safeguards in the common core. Reading instructions changed; identical model behavior is not claimed.
+- Upgrade the complete skill/plugin package to v2.0.0 so the new coordination reference travels with the controller. Do not replace `SKILL.md` alone. Historical evaluation records retain their original version labels.
+
+### Validation
+
+- Added a migration map and 14 paired static review contracts; updated the subagent-coordination case target. Clarifications include sufficient-task, exploratory-work, scope-change, and whole-artifact review controls.
+- Repository verification, harness unit tests, route/source validation, and file/link integrity checks passed. Static reasoning and fixture checks do not establish improved live model behavior or marketing outcomes; no live model or subagent trials were run.
+
 ## [1.9.2] - 2026-09-15
 
 - Clarified that local emphasis, a draft hook, or an accepted execution does not by itself authorize broader strategic promotion; aligned copy and email guidance with that boundary.

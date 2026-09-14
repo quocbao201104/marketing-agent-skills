@@ -2,14 +2,14 @@
 
 This reference contains the detailed operating paths and state handoffs governed by [SKILL.md](../SKILL.md). It is conditional detail, not a required reading sequence or a second controller.
 
-Start with the core's direct knowledge table. Consult this file only when a specialist boundary, subroute choice, or required handoff state is still unclear. Search for the relevant `##` heading and read that section; expand only when the unresolved dependency crosses its boundary.
+Start with the core's direct knowledge table. Consult this file when a specialist boundary, subroute choice, or required handoff state remains unclear, or when applying the core inclusion/local-sufficiency rule needs the content-selection subsection. Search for the relevant `##` heading and read that section; expand only when the unresolved dependency crosses its boundary.
 
 - [Operating paths and decision-point loading](#operating-paths-and-decision-point-loading): activation conditions and route examples, organized by the current specialist question.
 - [State handoffs](#state-handoffs): what to preserve when one resolved decision or observation informs another.
 
 **Path convention:** file paths in backticks in the sections below are relative to the installed skill root, the directory containing `SKILL.md`. Thus `handbook/...`, `references/...`, `routing-index.json`, and `scripts/...` retain their original meaning after relocation. Logical IDs still resolve through the root `routing-index.json`; this reference does not redefine their physical selectors.
 
-The core controller, its direct fast path, universal invariants, audience-facing content-selection gate, and final checks continue to govern all sections.
+The core's current-task execution, shared decision safeguards, content-selection gate, and completion criteria govern all sections. Conditional detail here does not replace those requirements or require a read for a sufficient task.
 
 ---
 
@@ -42,6 +42,8 @@ When any of those choices are unresolved and material to the requested decision,
 Positioning should connect a specific target context and relevant alternative to a prioritized value with a credible reason to believe. Competitor whitespace is not automatically customer value. Distinctiveness and differentiation are related but not interchangeable.
 
 ## Brand identity / visual systems
+
+For a new or changed identity, establish the audience, intended recognition, and deployment needs that could change the visual choice using retained context and available project documentation/assets. A project's name and functions are inputs, not a complete identity brief. Separate established facts, delegated choices, and candidate assumptions; resolve material gaps through the uncertainty policy. Use relevant `brand-identity` guidance before selecting an open identifying cue or metaphor. Keep provisional sketches as candidates and validate selected assets in the required uses. Sufficient retained inputs support direct continuation without repeated intake or extra approval; an approved identity needing only mechanical production stays on the direct path.
 
 Use only when a **persistent or reusable brand-identifying visual cue, asset relationship, preserve/evolve/replace choice, or identity-system commitment** remains materially open and specialist identity knowledge can change the current decision.
 
@@ -149,6 +151,12 @@ If target context, relevant alternative, value, proof, or trade-off is materiall
 
 When causal response, incrementality, experiment design, or treatment effects become material, use Chapter 05. Once commercial conditions are resolved, pass only the material configuration, payment structure, terms, allocation rule, modifiers, scope/history, and uncertainty forward to Chapter 04, Chapter 07, Chapter 09, or a platform module as required by the downstream job.
 
+## Founder-led sales
+
+`founder-sales.*` owns unresolved work for a concrete Account × Buying Situation, not general market segmentation, positioning, default commercial-system design, or sentence-level copy. Preserve upstream Chapter 02/03/10 decisions unless the specific buying situation produces material contradictory evidence; once who/why/ask/proof/commitment decisions are sufficiently resolved, route expression to Chapter 04 rather than keeping the task under Sales.
+
+Choose the smallest `founder-sales` route for the actual buyer decision. Words such as `price`, `POC`, `security`, `proposal`, or `objection` alone do not establish ownership. A default package/term design remains Commercial Design; applying or negotiating within that system for one buyer uses `founder-sales.commercial`. Settled commitments needing wording remain on the direct expression path.
+
 ## Message strategy / copywriting
 
 Use when the requested outcome is audience-facing communication or a message/copy decision.
@@ -223,9 +231,39 @@ These routes specialize existing state, relationship, representation, history, a
 
 Before drafting, identify the reader's current situation, the one job of this touchpoint, the core message, proof available, material objections, allowed or unsupported claims, and the appropriate next action. A user-provided voice sample outranks generic style preferences unless it conflicts with truth, ethics, or the task.
 
-Apply the core [audience-facing content-selection gate](../SKILL.md#audience-facing-content-selection-gate) when drafting or finalizing communication.
+Apply the core [audience-facing content-selection gate](../SKILL.md#audience-facing-content-selection-gate) when drafting or finalizing communication. Read the following subsection only when content selection or realization remains unclear.
+
+### Content selection and realization
+
+Use for an unresolved inclusion, local-sufficiency, or realization question. The controller's role, evidence, and authority boundaries still apply. A resolved downstream page, email, content, or document owner keeps its interaction and representation decisions; use this guidance within those decisions.
+
+Select content for the reader's current understanding and next decision. Use claim boundaries and other constraints to shape the message. Surface limitations, uncertainty, contradictions, or missing proof when they materially affect the reader's decision, are necessary for truthful interpretation, or are explicitly requested; keep the remaining constraints in the working state.
+
+Make this touchpoint sufficient for its own job: orient the reader, provide enough concrete understanding to judge relevance, and make the intended interaction usable. Delegate deeper detail to a linked artifact, later interaction, or another stage when it serves the reader better there. The current artifact must still supply the understanding and action information needed here.
+
+When introducing an unfamiliar product, project, method, or object, express its supported **domain-specific capability identity** through the smallest useful capability set, behavior, example, or contrast. Show what kind of work it enables and why it matters to this reader. Use operating discipline, safeguards, or implementation mechanics as supporting explanation when needed; those details do not replace the domain capability. Exhaustive feature, installation, or implementation detail can live elsewhere.
+
+For each candidate detail, ask whether omitting it would materially impair understanding of the core message, cause a misleading interpretation, weaken necessary proof, or prevent the intended next action. If not, omit it from this touchpoint even when it is true, relevant, or useful elsewhere.
+
+Passing that inclusion test answers **whether the detail must be represented**, not **which strategic role it should occupy**.
+
+```text
+MUST APPEAR
+≠ MUST LEAD
+
+MUST BE PROMINENT / EARLY
+≠ PRIMARY VALUE / CORE PROMISE
+```
+
+A detail can be required above the fold, in a subject preview, beside a CTA, or near a claim because omission would mislead, while remaining a specification, proof item, qualification, identity discriminator, objection resolution, or commercial condition. Let the touchpoint allocate visibility without silently promoting the detail into the message hierarchy.
+
+Minimum sufficient does not mean minimum factual inventory. Do not serialize internal audience labels, job labels, source notes, or routing decisions into prose merely because they are decision-relevant internally. Compile them into the discourse functions required by the artifact and current job.
+
+Human-sounding writing is a quality floor, not the strategy. Use the human-writing guidance in [Chapter 04](../handbook/04-messaging-proof-and-copy.md) or [quality rubrics](../frameworks/quality-rubrics.md) when voice or naturalness is actually material to the task; do not front-load a pattern checklist into unrelated work.
 
 ## Platform content / distribution
+
+Complete product facts can support truthful copy while leaving the reader benefit, participation invitation or return path unresolved. For a Facebook Group introduction seeking use, discussion or feedback, consult `facebook.groups` and `facebook.community-participation` when those choices remain open; preserve supplied facts and resolve only that dependency. If the interaction and representation are already sufficiently supplied, keep the direct path. Unavailable external Group rules do not prevent reading packaged guidance, and packaged guidance does not establish those local rules.
 
 Use when a social, community, feed, creator, recommendation, or platform-native content environment can materially change what should be published, how it should be represented, who can encounter/respond to it, or how later performance can be interpreted.
 
@@ -615,6 +653,8 @@ Use when evaluating existing copy rather than creating new strategy by default.
 Preserve supplied facts and intended voice. Review strategic fit, claim support, relevance, clarity, proof, channel fit, naturalness, and CTA coherence. If a critique exposes an upstream strategy problem, identify it rather than trying to solve everything through wording changes.
 
 ## Funnel diagnosis / causal reasoning / experiment design
+
+For an unresolved causal question, use Chapter 05 before recommending a tactical change. Bring in paid-media, content, commerce, or founder-sales guidance when the discriminating question reaches those mechanics. Handle a descriptive field/state discrepancy at that level when no causal inference is needed. Use delivery evidence to establish whether a paid creator relationship involves paid-media delivery, and use the open sales decision to choose its owner rather than a noun such as `price`, `POC`, `security`, `proposal`, or `objection`.
 
 Use when a metric changed, the user asks why something happened, or the task requires choosing a test or intervention.
 
