@@ -7,6 +7,12 @@ The project uses semantic versioning for published skill revisions. v1.0.0 marks
 
 ## [Unreleased]
 
+## [1.9.2] - 2026-09-15
+
+- Clarified that local emphasis, a draft hook, or an accepted execution does not by itself authorize broader strategic promotion; aligned copy and email guidance with that boundary.
+- Simplified guidance for retained choices, delegated authority, continuation, routing, and content selection. Supported claim repairs preserve material meaning and stay within the editing task.
+- Added static reasoning counterexamples and regression variants for semantic drift and continuation summaries. Mechanical validation does not establish improved live model behavior.
+
 ## [1.9.1] - 2026-09-14
 
 ### Role fidelity and decision-local steering

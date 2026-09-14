@@ -129,11 +129,11 @@ The strongest wording cannot compensate for missing evidence. When material is w
 
 ### Decision-local role steering
 
-Most expression choices do not require a separate role audit. Run a check only when a candidate would materially increase what a retained item functions as in the artifact. Compare the item's **resolved role**, the **effective role** the candidate would give it, and the reader state, touchpoint job, evidence, or adopted decision that supports that delta.
+Express the adopted message through wording and placement suited to the current touchpoint. When a candidate would materially change a retained item's role, compare its **resolved role**, its proposed **effective role**, and the basis for that change. Ground the basis in task evidence and decision authority, distinguishing established reader state, warranted inference, and an authorized editorial choice. A draft may reveal a question; the wording itself does not establish the answer.
 
 - **No material role change:** execute normally.
 - **Local foregrounding:** a supporting item becomes prominent because the current touchpoint needs it, while its strategic role remains unchanged; execute without rewriting upstream strategy.
-- **Supported promotion:** the current decision genuinely establishes a higher role; update retained state, then execute.
+- **Supported promotion:** evidence or a decision within the task's authority establishes the higher role for the current use; retain that basis and its scope, update the affected state, then execute. Selection authorizes use within that scope; factual assumptions retain their evidence status.
 - **Unsupported promotion:** the higher role arises only through salience, concreteness, repetition, placement, or creative convenience; return to the last supported role and repair the smallest affected downstream choice rather than reopening unrelated strategy.
 
 Repeated foregrounding is subject to the same check only when another material use would make a supporting item function as a cross-surface organizing premise. A prior local lead is not itself evidence for strategic promotion.
@@ -297,7 +297,7 @@ Before publication, every material claim should be classified informally into on
 - **unknown** — evidence is insufficient;
 - **forbidden** — the claim conflicts with known facts, policy, law, ethics, or explicit product limitations.
 
-Qualification narrows certainty, scope, or strength; it does not authorize deleting a downstream-resolved semantic relation that is material to the current communication job. If a supported relation includes a beneficiary, returned shared object, causal boundary, responsibility, or another meaning-bearing edge, preserve that relation while qualifying only what the evidence requires. Replacing a supported relation with a process fact that remains true after the beneficiary or returned object is removed is not conservative wording; it is semantic loss.
+When a claim needs qualification, adjust the certainty, scope, or strength that exceeds its support. Preserve the supported relations material to the communication, including who benefits, what object is returned or shared, who is responsible, and what causal boundary applies. Check that those relations remain recoverable after the edit. A process fact is an adequate replacement only if it preserves the material supported meaning; factual truth alone does not make the two statements equivalent.
 
 ```text
 QUALIFY CLAIM STRENGTH
@@ -322,9 +322,9 @@ A copy review should not begin with whether the prose is "good." It should evalu
 10. voice and naturalness;
 11. CTA coherence.
 
-Assess the effective hierarchy of the whole artifact, not only whether each required idea appears. Placement, repetition, examples and procedural detail can give a secondary point more emphasis than the intended value. Ask what the selected examples actually demonstrate and what understanding or next action the draft makes most prominent. If that differs from the resolved communication job, rebalance the material while preserving necessary proof, qualifications and a usable next step. An introduction, a setup guide and a risk explanation can legitimately emphasize different things; this check requires no fixed opening, length, example count or outline.
+Identify the understanding and next action communicated by the whole artifact, considering its headline, imagery, examples, body, repetition, and action. Compare that meaning with the adopted message and current touchpoint job. The comparison concerns what the artifact communicates, not whether its planning notes name the intended positioning or its copy repeats particular keywords. Rebalance a material mismatch while preserving necessary proof, qualifications, and a usable next step. An introduction, a setup guide, and a risk explanation can legitimately emphasize different things.
 
-For audience-facing leads and repeated emphasis, add a role check:
+When this comparison reveals a possible material role change, apply the decision-local role check:
 
 ```text
 WHAT ROLE WAS THIS ITEM RESOLVED TO PLAY?
@@ -409,7 +409,7 @@ BINDING BARRIER
 ≠ CORE PROMISE
 ```
 
-A barrier can be local to a broken, incomplete, or ambiguous representation. For example, missing size, compatibility, pricing detail, or security information can require repair at the current surface without establishing that customers buy primarily for size clarity, compatibility, pricing transparency, or security. Promote a barrier into a higher strategic role only when evidence supports that role beyond the local defect or the current touchpoint's job specifically is to resolve that barrier.
+A barrier can be local to a broken, incomplete, or ambiguous representation. For example, missing size, compatibility, pricing detail, or security information can require repair at the current surface without establishing that customers buy primarily for size clarity, compatibility, pricing transparency, or security. A touchpoint whose job is to resolve a barrier may foreground that barrier without changing its strategic role. Promoting the barrier into primary value, demand state, or a broader campaign premise requires independent support for that higher role; the local need to resolve it is not sufficient.
 
 Possible decision-relevant dimensions include:
 
@@ -783,7 +783,9 @@ GENRE / CHANNEL
 READER STATE
 ```
 
-If the proposed repair requires changing one of these decisions, query or route unless the task explicitly authorizes that wider decision.
+Apply supported claim corrections within the editing task: narrow or flag an unsupported claim while preserving supported meaning and unaffected strategy. Respect any fixed-wording constraint by flagging the issue when the wording must remain unchanged. Claim correction does not require a new positioning decision or additional approval merely because claim strength changes.
+
+For other changes to these decisions, establish the authority available from the request and retained context. Execute within that authority, retrieving specialist guidance when an unresolved dependency needs it. When a material input or authority remains missing, use the controller's uncertainty policy to clarify or bound the result before dependent work.
 
 Diagnose:
 

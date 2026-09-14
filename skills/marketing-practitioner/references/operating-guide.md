@@ -664,9 +664,11 @@ Pass forward the target context, relevant alternative, category/frame, primary v
 
 ## Message → copy
 
-Pass forward the reader and moment, one job of the communication, core message, proof, mandatory facts, material objections, allowed/qualified/forbidden claims, voice constraints, channel constraints, and CTA logic. When they can materially change the legitimate interaction force or language realization, also preserve resolved relationship, standing/authority, relevant history, invited/expected/unsolicited state, recipient autonomy/obligation, responsibility/repair state, and expected next interaction.
+Give the copy task the reader and moment, the communication job, and the core message to express. Carry the proof, mandatory facts, material objections, allowed/qualified/forbidden claims, voice/channel constraints, and CTA logic that govern that expression.
 
-Do not automatically surface research methodology, absent evidence, internal notes, or every known limitation in the final copy.
+When relationship or language choices are material, also carry the resolved relationship, standing/authority, relevant history, invited/expected/unsolicited state, recipient autonomy or obligation, responsibility/repair state, and expected next interaction. Use them to realize the appropriate wording and interaction, surfacing relationship or responsibility information when the communication job requires it.
+
+Keep research methodology, evidence gaps, internal notes, and limitations in the working state. Surface the relevant information when the reader needs it for the current decision or truthful interpretation, or the task requests it. Apply the controller's content-selection gate to determine what appears in the artifact; the handoff itself is not an output outline.
 
 ## Message / strategy → platform content
 

@@ -382,7 +382,7 @@ Preserve decision-relevant state established upstream:
 - relevant recipient/relationship state;
 - commitments, deadlines, or limitations.
 
-Do not silently strengthen, weaken, contradict, drop, or **reassign the strategic role of** a material condition between subject, message, action, and destination. Cross-surface continuity includes role fidelity: proof remains proof unless the current communication job legitimately makes it the subject; a local blocker remains a local blocker unless a higher-level message decision promotes it.
+Do not silently strengthen, weaken, contradict, drop, or **reassign the strategic role of** a material condition between subject, message, action, and destination. Cross-surface continuity includes role fidelity: proof can remain proof while leading a subject line, and a local blocker can remain local while organizing a clarification email. Neither placement establishes a broader strategic role.
 
 ### Representation degradation
 

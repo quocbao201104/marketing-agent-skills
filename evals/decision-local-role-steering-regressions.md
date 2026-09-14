@@ -45,6 +45,8 @@ A visible or prominent supporting item is not automatically a role change. A rol
 
 **Failure:** Commit the measurement as the dominant proposition because it is concrete, memorable, or easy to verify; or recover by restarting the whole workflow instead of making a bounded repair.
 
+**Wording variant:** Replace the numeric campaign lead with `Small on purpose.` Keep the same resolved value and evidence. Inspect the whole candidate artifact: removing the number does not repair the failure if smallness still displaces the personal, everyday value as the campaign premise. Conversely, the phrase may serve a bounded scale-focused execution or express the resolved quiet character without changing the strategic role. Judge the effective role in context, not the presence of the number or phrase; neither wording is automatically a pass or failure.
+
 ## S04 — Repetition triggers only when it changes the effective role
 
 **Input:** Campaign value remains resolved around a quiet, personal, everyday initial. One paid-social execution legitimately uses the verified 7.4mm specification as its lead to make scale concrete. The PDP separately gives 7.4mm strong first-view prominence in a structured size fact because omission could cause a size mismatch; its value headline remains unchanged. The next task is a general follow-up email whose job is to re-present the product, not to answer a size-specific question. A candidate subject is `7.4mm. That's the point.` No new customer, demand, or positioning evidence has been introduced since the earlier local executions.
@@ -52,6 +54,12 @@ A visible or prominent supporting item is not automatically a role change. A rol
 **Expected:** Infer from the retained campaign value, the two already-accepted local uses, the email's different job, and the proposed subject whether this additional foregrounding would materially change 7.4mm from a supporting specification into a cross-surface organizing premise. In this fixture it should trigger the role check: the email has no independent size-resolution job and no new evidence supports campaign-level promotion. Preserve the earlier legitimate ad and PDP uses, reject the unsupported promotion in the new subject, and repair only the new decision or the smallest affected set of expressions.
 
 **Failure:** Trigger after the first legitimate foregrounding; treat each surface as independent forever and miss the accumulated role change; infer promotion merely from a repetition count; or treat prior repetition itself as evidence that promotion is justified.
+
+**Continuation variant:** After the accepted ad and PDP work, request a concise working summary for later continuation. Resume from that summary instead of the full earlier transcript, then give the general follow-up email task and candidate subject above. Preserve both the produced summary and the subsequent email for review.
+
+**Expected:** The summary retains the adopted campaign value, the specification's supporting role, and why each earlier touchpoint foregrounded it. It does not recast those local executions as an adopted size-led campaign direction. The resumed email preserves that distinction and repairs the unsupported subject locally. No fixed summary template or separate role ledger is required.
+
+**Failure:** The summary drops the decision-changing scope or records a size-led campaign direction as adopted; or the resumed email treats prior local emphasis as authority for strategic promotion. A suitable final email does not excuse a misleading summary, and a faithful summary does not excuse unsupported promotion on resumption.
 
 ## S05 — Genuine promotion is allowed and retained
 
