@@ -142,7 +142,7 @@ It has no authority to invent product, financial, legal, operational, sales, pla
 
 The skill starts from the current job, not from a predefined marketing funnel.
 
-![Marketing Practitioner workflow: frame the task, use relevant guidance when needed, do the work, check quality, and return useful outputs. Material gaps lead back to the open question; a checkpoint is needed only when a material choice remains unresolved and user input or decision authority is still needed.](assets/diagrams/from-brief-to-marketing-decision.png)
+![Marketing Practitioner workflow: frame the task and proceed directly when inputs are sufficient; read relevant guidance when knowledge is needed to resolve an open question. Check evidence, reader fit, message and role fidelity, and completion. Revisit material gaps; a user checkpoint applies when a material choice remains unresolved and user input or authority is needed.](assets/diagrams/from-brief-to-marketing-decision.png)
 
 Complex work can start with a brief working plan without waiting for approval. The agent proceeds on resolved or delegated choices; when a material choice remains unresolved and the request or retained context does not provide enough input or authority to decide, it prepares a concrete proposal and asks before the dependent work. Independent work can continue while you decide. Task size or HTML output alone does not create an approval gate.
 
@@ -172,11 +172,11 @@ The host controls skill activation, available tools, and how much context surviv
 
 ## Under the hood
 
-![Inside Marketing Practitioner: SKILL.md guides the agent; the index locates relevant knowledge in the handbook, platform modules, and local adaptations. Frameworks and references supply optional working aids, evidence boundaries, and report planning and presentation guidance.](assets/diagrams/inside-the-skill.png)
+![Inside Marketing Practitioner v2: SKILL.md is the compact core. Direct chapter entry and indexed lookup locate relevant knowledge; the index also resolves evidence IDs. Independent conditional supports use direct file and heading links for work coordination, operating guidance, report planning, rubrics, and records. Evidence references preserve source scope and provenance.](assets/diagrams/inside-the-skill.png)
 
 For complex reports, [report planning and presentation](skills/marketing-practitioner/references/report-planning-and-presentation.md) connects reader questions, section purposes, evidence, and useful visual forms across formats, with additional HTML delivery guidance.
 
-Large knowledge is addressed by logical IDs in [`routing-index.json`](skills/marketing-practitioner/routing-index.json). Headings and file paths are implementation details.
+Large knowledge is addressed by logical IDs in [`routing-index.json`](skills/marketing-practitioner/routing-index.json). The index owns physical bindings for indexed knowledge. Conditional supports use direct file and heading links from the core; they are independent reads for specific unresolved needs.
 
 When the host can run helpers, [`get-knowledge.py`](skills/marketing-practitioner/scripts/get-knowledge.py) resolves one route or one evidence source without reading the rest of the ledger:
 

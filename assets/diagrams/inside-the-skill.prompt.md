@@ -1,46 +1,45 @@
-Use case: infographic-diagram.
-Generate a single high-resolution landscape 16:9 hand-drawn chalkboard diagram for the Marketing Practitioner GitHub README. Match a refined dark chalkboard aesthetic: deep charcoal navy #1D202B background, warm ivory handwritten lettering, bright readable teal outlines, soft gold accents and sparing lavender. Slightly irregular marker lines, extremely clear English text, sparse diagram, generous margins. No gradients, realistic chalk dust, UI screenshots, provider logos, invented service architecture or databases.
-Title at top: "Inside the skill"
-Subtitle: "Marketing Practitioner"
-Composition: three columns across the main middle band, left narrower controller, center narrow index, right wide knowledge panel. Two supporting boxes in a bottom band. Large type, short lines; must remain readable at 900px wide.
-LEFT main teal box with small checklist icon:
-"SKILL.md"
-"Guide the agent"
-"Current job and open question"
-"Settled choices and evidence limits"
-"Completion and quality checks"
-CENTER main gold box with small signpost icon:
-"routing-index.json"
-"Find the right section"
-"Logical IDs → scoped content"
-RIGHT main teal box with a simple open book icon:
-"Marketing knowledge"
-"handbook/"
-"Research · Positioning · Messaging"
-"Pricing · Brand · Diagnosis"
-"Content · Commerce · Learning"
-then a small subtle separator and:
-"platforms/ + adaptations/"
-"Scoped platform and local guidance"
-Clear single thin arrow from LEFT box to CENTER box labelled "Indexed lookup".
-Clear single thin arrow from CENTER box to RIGHT box labelled "Read relevant section".
-Above this row, below title/subtitle, draw ONE thin curved arrow from top of LEFT box across to top of RIGHT box labelled "Direct chapter entry when relevant". This explicitly shows index is not an obligatory hop before every chapter.
-BOTTOM LEFT support box, lavender outline, below controller and part of center:
-"Quality and working aids"
-"frameworks/"
-"Rubrics and optional task records"
-BOTTOM RIGHT support box, muted gold outline, below knowledge:
-"Sources and operating detail"
-"references/"
-"Evidence scope, bibliography, handoffs"
-Bottom support boxes are unconnected reference panels. Do not invent arrows between them or imply a fixed sequence. Do not put a database cylinder in the image.
-One centered final footer:
-"Load guidance when it can change the answer."
-Small second footer:
-"Instructions and reference files • The host provides tools and context"
-Keep exact text and file names, including lowercase and punctuation. Do not add counts, version numbers, guarantee statements, irrelevant mechanics or any other prose. Clearly distinguish three main boxes from two bottom supports. Precise spacing, no collisions. This image explains a skill's file roles, not software services running autonomously.
+# Inside the skill — v2.0.0
 
+Edit target: `inside-the-skill.png` from v2.0.0, before this illustration refresh. The current PNG is the reviewed result of the following ImageGen edit specification.
 
-## Planning update edit
-
-Edit the supplied diagram with minimal changes. Preserve all existing layout, text, arrows, colors, chalkboard style and proportions. In the SKILL.md panel add: Planning and decision checkpoints. In the Sources and operating detail panel add: Report planning and presentation. Preserve readable spacing and all existing text. Do not add arrows or boxes.
+Redraw the supplied "Inside the skill" diagram to reflect a compact core and conditional supporting guidance. Preserve its refined dark navy chalkboard style, ivory handwritten English lettering, teal and gold main outlines, lavender support accents and simple line icons. One high-resolution landscape 16:9 image, large legible text, generous margins, precise filenames, sparse lines. Recompose as needed. This is a file-role diagram, not autonomous software services.
+Title: Inside the skill
+Subtitle: Marketing Practitioner
+Main middle band: three panels, left compact core, center indexed retrieval, right knowledge.
+LEFT teal panel:
+SKILL.md
+Compact core
+• Current job and settled state
+• Evidence and authority limits
+• Meaning and role fidelity
+• Completion and reading conditions
+CENTER gold panel:
+routing-index.json
+• Logical IDs → relevant sections
+• Evidence IDs → source sections
+RIGHT teal panel:
+Marketing knowledge
+handbook/
+Research · Strategy · Communication
+Commercial choices · Diagnosis · Learning
+platforms/ + adaptations/
+Scoped platform and local guidance
+A left-to-center arrow labelled "Indexed lookup". A center-to-right arrow labelled "Relevant section".
+Above the main panels below subtitle, one curved arrow left panel to right panel labelled "Direct chapter entry when relevant".
+Bottom band: a WIDE lavender panel taking approximately 70 percent width and a smaller gold panel on right.
+WIDE lavender panel:
+Conditional support
+Direct file + heading links
+work-coordination.md — planning or recovery questions
+operating-guide.md — unclear boundaries or content application
+Report planning — open artifact structure
+Rubrics and cards — deeper review or useful records
+A single distinct lavender arrow from left core down to wide support panel labelled "When needed". It must visibly join these two panels only. Within support panel these are independent choices with no arrows or numbering.
+SMALL gold panel:
+Evidence references
+Source scope and limits
+Bibliography and provenance
+Known evidence IDs use the index
+Footer line: Read the relevant section to resolve an open question.
+Small footer: One skill • Independent supports • Tools and context come from the host
+Keep the bottom panel readable with compact yet well-spaced text. No version numbers or counts. Do not imply all supports must load, do not route conditional supports through the index, do not turn references into a second controller. No extra arrows. Exact English spelling and filenames.
