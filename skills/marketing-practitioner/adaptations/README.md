@@ -2,6 +2,8 @@
 
 This directory is reserved for **scoped local adaptation knowledge** that can materially change an already-valid Marketing Practitioner decision without becoming a new decision owner.
 
+The global framework is the default for all locales. The absence of a local adaptation does not mean a locale is unsupported; it means no additional scoped exception has been demonstrated as necessary.
+
 Do not use this directory as a country profile, culture encyclopedia, locale pack, regional inheritance tree, or platform-fact dump.
 
 ## Core model
