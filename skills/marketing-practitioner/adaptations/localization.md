@@ -748,3 +748,193 @@ reviewed
 **USAGE STATE**
 
 active
+
+### PT-LANG-ADDR-01 — Portuguese second-person address-system realization
+
+**SCOPE**
+
+- language: Portuguese (`pt`)
+- market / geography: not inherently Brazil-, Portugal-, Angola-, Mozambique-, or country-specific; applicability follows target-language realization and scoped evidence rather than market membership
+- audience / role: audience-facing or interpersonal wording where second-person treatment-system realization is materially open or being changed
+- channel / surface: any, but only when second-person treatment morphology or explicit/null addressee realization is material
+- category / buying context: not category-specific
+- effective period: core structural variation is relatively durable; sociolinguistic distribution, organization policy, and surface usage remain scope- and time-sensitive
+
+**CLAIM**
+
+Portuguese second-person discourse reference is not mechanically determined by one visible address form. In scoped Portuguese varieties, subject form, verbal agreement, object clitics, possessives, and related person-sensitive forms can combine in ways that do not collapse into one uniform textbook paradigm [PTLA04][PTLA05][PTLA06][PTLA07][PTLA08].
+
+Therefore:
+
+```text
+ADDRESS FORM
+!= COMPLETE PERSON PARADIGM
+
+TU
+!= AUTOMATIC OVERT 2SG AGREEMENT EVERYWHERE
+
+VOCÊ SUBJECT
+!= AUTOMATIC REPLACEMENT OF TE
+
+VOCÊ
+!= AUTOMATIC COMPLETE 3SG PARADIGM ACROSS ALL FORMS
+
+SCOPED VOCÊ + TU-DERIVED / 2SG-SHAPED FORMS
+!= AUTOMATIC CORRUPTION
+
+ATTESTED COMPOSITION
+!= BLANKET PRESERVATION OF EVERY MIX
+```
+
+Portuguese also has a distinct explicitness-sensitive treatment boundary. In scoped European Portuguese evidence, explicit `você` and third-person-singular realization with no overt subject are not pragmatically interchangeable merely because both can address the recipient with 3SG verbal morphology [PTLA02][PTLA03].
+
+```text
+EXPLICIT VOCÊ
+!= NULL 3SG ADDRESS REALIZATION
+
+SAME 3SG VERBAL MORPHOLOGY
+!= SAME TREATMENT REALIZATION
+
+ZERO OVERT PRONOUN
+!= ZERO PRAGMATIC / RELATIONAL VALUE
+```
+
+A transformation such as `Deseja continuar? → Você deseja continuar?` is therefore not guaranteed to be relationship-neutral.
+
+**DECISION IMPACT**
+
+This contribution can change only the bounded Chapter 07 decision:
+
+> Given an already-resolved recipient relationship, stance, interaction state, approved voice, and applicable scoped Portuguese variety/community/organization evidence, how should second-person address be realized without falsely treating one address form as a complete person paradigm, mechanically normalizing supported treatment-system composition, or changing treatment value by inserting/removing an explicit addressee form?
+
+Use resolved state as input. The unit may preserve supported `tu / você` treatment composition, preserve supported `tu` agreement patterns, preserve supported `você + te` or analogous scoped composition, distinguish explicit `você` from null-3SG realization when material, and repair unsupported drift only against applicable resolved state.
+
+If an explicit first-party writing rule or approved organization/surface policy resolves the relevant treatment dimension, freeze it. Current first-party surface usage can also be strong scoped evidence and may be resolved state when it is the actual approved wording/voice, but observed usage alone must not be upgraded into a documented organization policy [PTLA10][PTLA11][PTLA12].
+
+**LOAD WHEN**
+
+Load this route only after the localization owner has an open realization decision and all are true:
+
+```text
+TARGET LANGUAGE = PORTUGUESE
++
+SECOND-PERSON TREATMENT REALIZATION
+IS MATERIALLY OPEN OR BEING CHANGED
++
+THE OPEN CHOICE CAN ALTER TREATMENT-SYSTEM COHERENCE
+OR EXPLICIT / NULL ADDRESSEE REALIZATION
+```
+
+`Portuguese`, `Brazil`, `Portugal`, `Angola`, `Mozambique`, customer status, age, business context, formality, friendliness, public-sector context, marketing, or social media alone is not activation authority.
+
+**DO NOT USE WHEN**
+
+- the task is only market selection, country research, locale formatting, or localization with no material second-person treatment choice;
+- all material Portuguese treatment dimensions are already resolved by applicable approved forms and no truthful or linguistic conflict requires reopening them;
+- the surface naturally contains no material second-person/addressee realization;
+- the remaining issue is ordinary Portuguese grammar unrelated to the treatment system;
+- the only remaining issue is generic source-referent ambiguity such as `seu / sua` with the treatment system already fixed;
+- activation would rest only on country, nationality, age, customer status, channel, organization membership, or broad culture;
+- an applicable explicit first-party rule fully resolves the treatment dimension still at issue.
+
+A country label does not select a target variety or treatment system. If the choice remains genuinely underdetermined, preserve an applicable verified form or approved current wording when possible; otherwise follow Chapter 07 rather than inventing a country/pronoun default.
+
+**MUST PRESERVE**
+
+- speaker / publishing identity;
+- actual recipient relationship;
+- standing / authority resolved upstream;
+- relevant interaction history and interaction state;
+- intended stance;
+- source addressee / third-party distinctions;
+- verified treatment forms already supplied;
+- approved organization / surface voice;
+- scoped target-variety / community evidence when actually supplied;
+- applicable accessibility / plain-language constraints;
+- truthfulness and source meaning;
+- the distinction between documented first-party policy and observed current first-party usage.
+
+**MUST NOT INFER**
+
+Do not manufacture any of the following from Portuguese language, country, nationality, market, customer status, age, channel, organization membership, or broad culture alone:
+
+```text
+BRAZIL = VOCÊ
+PORTUGAL = TU
+ANGOLA = ONE SYSTEM
+MOZAMBIQUE = ONE SYSTEM
+COUNTRY = TARGET VARIETY
+CUSTOMER = VOCÊ
+FORMAL = SENHOR / SENHORA
+FRIENDLY = TU
+YOUNG = TU
+GOVERNMENT = VOCÊ
+TU = OVERT 2SG EVERYWHERE
+VOCÊ = COMPLETE 3SG PARADIGM EVERYWHERE
+ONE PRONOUN = ONE COMPLETE TREATMENT PARADIGM
+CURRENT FIRST-PARTY USAGE = DOCUMENTED POLICY
+OBSERVED CROSS-SURFACE DIFFERENCE = VERIFIED INTENTIONAL POLICY
+```
+
+**REALIZATION GUARDRAILS**
+
+```text
+ADDRESS FORM
+!= COMPLETE PERSON PARADIGM
+
+TU
+!= AUTOMATIC OVERT 2SG AGREEMENT
+
+VOCÊ SUBJECT
+!= AUTOMATIC REPLACEMENT OF TE
+
+VOCÊ + TE
+!= AUTOMATIC ERROR
+
+VOCÊ + 2SG-SHAPED FORM
+!= AUTOMATIC ERROR
+
+MIXED PARADIGM
+!= AUTOMATIC ERROR
+!= AUTOMATICALLY VALID
+
+EXPLICIT VOCÊ
+!= NULL 3SG ADDRESS REALIZATION
+
+ZERO OVERT PRONOUN
+!= ZERO RELATIONSHIP MEANING
+
+BRAZIL / PORTUGAL / ANGOLA / MOZAMBIQUE
+!= TREATMENT LOOKUP KEY
+
+FORMAL
+!= SENHOR / SENHORA LOOKUP
+
+FIRST-PARTY USAGE
+!= POPULATION NORM
+!= DOCUMENTED POLICY BY DEFAULT
+```
+
+When the resolved treatment system changes or a draft drifts away from it, recheck only treatment-sensitive forms actually implicated. Do not turn this contribution into a full Portuguese conjugation, clitic, possessive, or proofreading module.
+
+Possessive or other referent ambiguity, including `seu / sua`, remains generic source-referent fidelity / ordinary Portuguese competence under the current evidence set. Do not treat it as an independently evidenced `PT-LANG-ADDR-01` mechanism or prescribe a Portuguese-specific possessive resolver without separate evidence.
+
+Current first-party usage must retain its evidence class. PTLA10 is documented gov.br policy within its actual service-writing scope. PTLA11 and PTLA12 are current scoped gov.pt usage evidence; they show that one organization ecosystem can exhibit different treatment realizations, but they do not independently prove a documented or intentional cross-surface policy.
+
+If the treatment choice remains genuinely underdetermined and unavoidable, follow Chapter 07: preserve applicable verified existing wording when possible, use natural wording that avoids unsupported relationship claims where the surface permits it, and expose or request missing state only when the socially meaningful choice is unavoidable and consequential.
+
+**EVIDENCE**
+
+Primary mechanism evidence: [PTLA02][PTLA03][PTLA04][PTLA05][PTLA06][PTLA07][PTLA08] in `../references/local-adaptation-portuguese-evidence.md`.
+
+Boundary and composition evidence: [PTLA01][PTLA09][PTLA10][PTLA11][PTLA12] in the same ledger.
+
+Evidence type: published Portuguese sociolinguistic/pragmatic research across scoped varieties plus bounded first-party public-service evidence. PTLA10 is documented first-party policy within its scope; PTLA11/PTLA12 are current first-party usage, not documented cross-surface policy. These sources do not establish country-wide treatment defaults, a country/variety resolver, population preference, universal brand voice, hierarchy mapping, or marketing lift.
+
+**REVIEW STATE**
+
+reviewed
+
+**USAGE STATE**
+
+active
