@@ -7,6 +7,31 @@ The project uses semantic versioning for published skill revisions. v1.0.0 marks
 
 ## [Unreleased]
 
+## [2.1.0] - 2026-09-18
+
+### Scoped local adaptation
+
+- Added reviewed Spanish second-person relationship realization, Korean addressee speech-level realization, and Portuguese second-person address realization under the existing `adapt-localization.relationship-realization` route.
+- Added scoped evidence and targeted regression suites for those adaptations and repaired Portuguese evidence-ID addressability. The units specialize already-open language/relationship decisions; they do not create country profiles, new decision owners, or a precedence engine.
+- Preserved the seven runtime jobs and 289 logical routes while expanding the current indexed evidence inventory to 296 sources.
+
+### Behavioral instruction clarity
+
+- Made the core `material` definition the canonical threshold for action gates and clarified that a decision-changing difference does not need to be high-stakes.
+- Split the just-in-time external-fact verification condition so time-sensitive, provider-controlled, and market-specific material facts are not suppressed by ambiguous modifier attachment.
+- Clarified that sufficiently current, scoped evidence already available can satisfy verification; retrieve again only when freshness, applicability, or support remains unresolved.
+
+### Evaluation and validation
+
+- Added the behavioral-instruction-clarity audit, frozen regression contract, diagnostic corpus, theoretical closure, real-task validation brief, and static adjudication records. `F01` / `F02` closure means the identified static instruction-realization defects were repaired; it does not establish improved live behavior or marketing outcomes.
+- Made the legacy behavioral reporter fail closed on cross-case `sensitivity` / `invariance` semantics it does not implement. Those relation semantics remain in the Pressure Discovery protocol; the legacy reporter supports `skill_not_worse`.
+- Kept synthetic live-model evaluation intentionally deferred in favor of later real-task observation. Repository verification continues to cover package validation, routing/source integrity, Pressure Discovery, the behavioral harness, Episode 01, and UTF-8/generated-artifact hygiene.
+
+### Distribution
+
+- Aligned skill metadata, Claude and Codex plugin manifests, README status, installation guidance, package links, and current diagram documentation at v2.1.0.
+- Historical frozen evaluations, research records, scenario versions, prior release notes, and diagram-generation prompts retain the version labels under which they were produced.
+
 ## [2.0.0] - 2026-09-15
 
 ### Controller refactor
@@ -335,7 +360,6 @@ The project uses semantic versioning for published skill revisions. v1.0.0 marks
 - Updated `SKILL.md` so paid-delivery decisions can route directly to the smallest `paid-media.*` section while narrow ad-copy transformations remain on the existing fast path and unresolved performance symptoms remain Chapter 05-first.
 - Preserved Chapter 04 ownership of ad message/claim/proof, Chapter 05 ownership of causality/incrementality/experiments, Chapter 08 ownership of shared platform/content grammar, Chapter 09 ownership of product/listing/commerce identity, Chapter 10 ownership of customer-facing Commercial Design, Chapter 11 ownership of landing-page architecture, and Chapter 13 ownership of generic non-paid discovery.
 - Kept current provider objectives, bidding products, auction/deal mechanics, audience-control meanings, placement systems, billing rules, attribution windows, learning-state definitions, policy constraints, and automated-creative behavior as time-sensitive JIT dependencies rather than permanent provider modules or universal paid-media laws.
-- Updated installable skill metadata and public README capability/status/routing examples to `v0.9.0`.
 
 ### Fixed
 
