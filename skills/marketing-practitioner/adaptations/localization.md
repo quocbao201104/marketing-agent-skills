@@ -571,3 +571,180 @@ reviewed
 **USAGE STATE**
 
 active
+
+### KO-LANG-SPEECH-01 — Korean addressee speech-level realization
+
+**SCOPE**
+
+- language: Korean (`ko`)
+- market / geography: not inherently Korea-only; applicability follows target-language realization rather than nationality or market membership
+- audience / role: audience-facing or interpersonal wording where a finite sentence-ending addressee speech-level choice is materially open or being changed
+- channel / surface: any, but only when an addressee-facing ending choice is actually material; titles, labels, banners, buttons, and nominal/non-final forms may require no speech-level decision
+- category / buying context: not category-specific
+- effective period: core grammatical distinctions are relatively structural; organization policy, usage distribution, and response effects remain scope- and time-sensitive
+
+**CLAIM**
+
+Korean `상대 높임법` realizes addressee treatment through sentence-ending choices including `해라체`, `하게체`, `하오체`, `하십시오체`, `해체`, and `해요체` [KOLA01]. The critical runtime constraint is not simply that Korean has polite and casual endings. Formal/non-formal register and addressee respect are related but non-identical dimensions [KOLA01][KOLA02].
+
+Therefore:
+
+```text
+ADDRESSEE RESPECT
+!= FORMALITY / REGISTER
+!= INTERPERSONAL DISTANCE
+!= DISCOURSE FUNCTION
+
+FORMAL
+!= MORE RESPECTFUL
+
+NON-FORMAL
+!= LESS RESPECTFUL
+```
+
+Current usage evidence also supports contextual speech-level shifting with the same listener, including `하십시오체 ↔ 해요체` shifting in formal situations [KOLA03][KOLA04]. Therefore a fixed broad relationship does not require one invariant speech level across every utterance.
+
+```text
+ONE RELATIONSHIP
+!= ONE SPEECH LEVEL FOR EVERY UTTERANCE
+
+SPEECH-LEVEL SHIFT
+!= AUTOMATIC RELATIONSHIP SHIFT
+
+MIXED SPEECH LEVELS
+!= AUTOMATIC ERROR
+!= AUTOMATICALLY VALID
+```
+
+The last boundary is required: preserve a supported shift, but repair unsupported drift when applicable organization, interaction, stance, or surrounding discourse state resolves another system.
+
+**DECISION IMPACT**
+
+This contribution can change only the bounded Chapter 07 decision:
+
+> Given already-resolved recipient relationship, interaction state, intended stance, approved voice, communication function, and applicable organization/surface evidence, how should Korean sentence-ending addressee speech level be realized without inventing a different relationship, collapsing formality into respect, or normalizing a legitimate discourse-functional shift?
+
+Use resolved state as input. The unit may preserve an approved speech-level policy, distinguish register from addressee respect, preserve a supported same-listener style shift, repair unsupported speech-level drift, and leave naturally non-final surfaces alone when no ending decision exists.
+
+If an applicable first-party organization or surface policy already resolves the relevant speech-level dimension, freeze it. Broader linguistic or marketing evidence is not permission to reopen that choice merely because other Korean styles exist [KOLA07].
+
+**LOAD WHEN**
+
+Load this route only after the localization owner has an open realization decision and all are true:
+
+```text
+TARGET LANGUAGE = KOREAN
++
+ADDRESSEE SPEECH-LEVEL REALIZATION
+IS MATERIALLY OPEN OR BEING CHANGED
++
+THE CHOICE CAN ALTER ADDRESSEE RESPECT / REGISTER /
+INTERPERSONAL DISTANCE / DISCOURSE FUNCTION
+```
+
+`Korean`, `Korea`, customer status, age, seniority, business context, marketing, social media, or a request for “polite Korean” alone is not activation authority.
+
+**DO NOT USE WHEN**
+
+- the task is only market selection, Korea research, or localization with no material finite addressee-ending choice;
+- all material Korean speech-level dimensions are already resolved by applicable approved forms and no truthful or linguistic conflict requires reopening them;
+- the surface naturally uses a title, label, button, banner, noun, nominal ending, or other non-final realization with no material addressee speech-level choice [KOLA07][KOLA08];
+- the only open issue is subject or object/action-target honorification rather than sentence-ending addressee treatment;
+- the remaining issue is ordinary Korean grammar unrelated to addressee speech level;
+- activation would rest only on nationality, market, age, job title, customer status, organization membership, or broad culture;
+- a current first-party organization/community/surface policy fully resolves the speech-level dimension still at issue.
+
+Non-final or address-neutral realization is optional only where natural for the surface. Do not distort direct conversational copy merely to hide an unresolved speech-level dependency.
+
+**MUST PRESERVE**
+
+- speaker / publishing identity;
+- actual recipient relationship;
+- standing / authority already resolved upstream;
+- relevant interaction history and interaction state;
+- intended stance;
+- communication function of the utterance;
+- verified existing speech-level choices and approved voice;
+- supported discourse-functional speech-level shifts;
+- applicable organization / surface / community policy;
+- applicable accessibility constraints;
+- truthfulness and source participant/reference distinctions.
+
+**MUST NOT INFER**
+
+Do not manufacture any of the following from Korean language, Korea market, age, job title, customer status, organization membership, or broad culture alone:
+
+```text
+HIERARCHY
+FAMILIARITY
+INTIMACY
+AUTHORITY
+SENIORITY RELATIONSHIP
+CUSTOMER DEFERENCE LEVEL
+ONE UNIVERSAL "POLITE KOREAN" STYLE
+ONE SPEECH LEVEL PER BRAND
+ONE SPEECH LEVEL PER RELATIONSHIP
+```
+
+**REALIZATION GUARDRAILS**
+
+```text
+KOREAN
+!= MAXIMUM HONORIFICATION
+
+CUSTOMER
+!= 하십시오체
+
+MARKETING
+!= 해요체
+
+FORMAL
+!= MORE RESPECTFUL
+
+FRIENDLY
+!= 해체
+
+BUSINESS
+!= 하십시오체 BY DEFINITION
+
+ONE RELATIONSHIP
+!= ONE INVARIANT SPEECH LEVEL
+
+SUPPORTED SPEECH-LEVEL SHIFT
+!= AUTOMATIC DRIFT
+
+MIXED SPEECH LEVELS
+!= AUTOMATICALLY VALID
+```
+
+Korean subject, object/action-target, and addressee honorification remain separate dimensions [KOLA05][KOLA06]:
+
+```text
+ADDRESSEE SPEECH LEVEL
+!= SUBJECT HONORIFICATION
+!= OBJECT / ACTION-TARGET HONORIFICATION
+```
+
+If only `-시-`, lexical object honorification, or another subject/object-honorification issue remains open while the addressee ending is already resolved, do not use `KO-LANG-SPEECH-01` to seize that decision. The current evidence does not justify `KO-LANG-HON-02`.
+
+Do not convert `사물존대` into `inanimate + -시- → always wrong` or `customer-related noun + -시- → always correct`; KOLA10 establishes a grammatical boundary, not a lookup table. Likewise, `압존법` does not justify a listener-rank/referent-rank suppression algorithm or hierarchy resolver [KOLA11].
+
+Marketing evidence remains contextual only. Distribution in TV ads and bounded experimental response effects show that speech-level realization can vary materially and affect response under tested conditions [KOLA08][KOLA09]; they do not establish `해요체` as a default, conversion lift, or a universal channel rule.
+
+If the speech-level choice remains genuinely underdetermined and unavoidable, follow Chapter 07: preserve an applicable verified existing form; otherwise keep the unresolved dependency visible rather than inventing `standard Korean = 하십시오체`, `marketing = 해요체`, or another cultural default.
+
+**EVIDENCE**
+
+Primary mechanism evidence: [KOLA01][KOLA02][KOLA03][KOLA04] in `../references/local-adaptation-korean-evidence.md`.
+
+Boundary and composition evidence: [KOLA05][KOLA06][KOLA07][KOLA08][KOLA09][KOLA10][KOLA11] in the same ledger.
+
+Evidence type: current National Institute of Korean Language guidance, published Korean applied-linguistics research, first-party organization language policy, and bounded Korean advertising research. These sources support the speech-level mechanism and its non-transfer boundaries; they do not establish a Korea-wide relationship lookup, one universal brand voice, a hierarchy graph, or marketing lift.
+
+**REVIEW STATE**
+
+provisional
+
+**USAGE STATE**
+
+active
