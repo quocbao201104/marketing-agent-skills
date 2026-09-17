@@ -8,7 +8,7 @@
 
 A reusable marketing skill for people working with AI: research customers, shape strategy, create content, and interpret results—with claims grounded in evidence.
 
-[![Version: v2.0.0](https://img.shields.io/badge/version-v2.0.0-0a7.svg)](#status-and-scope)
+[![Version: v2.1.0](https://img.shields.io/badge/version-v2.1.0-0a7.svg)](#status-and-scope)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Language: English](https://img.shields.io/badge/language-English-4c1.svg)](#)
 [![Format: Agent Skill](https://img.shields.io/badge/format-Agent%20Skill-6f42c1.svg)](skills/marketing-practitioner/SKILL.md)
@@ -189,7 +189,7 @@ python skills/marketing-practitioner/scripts/get-knowledge.py --source PM01
 
 If helper execution is unavailable, the same index remains the address table: read the smallest feasible section, or degrade to the smallest target file, rather than loading an entire chapter.
 
-The current index validates at **289 routes / 262 evidence sources**. Evidence files state what a source **supports** and **does not support**; those bounds are part of claim control.
+The current index validates at **289 routes / 296 evidence sources**. Evidence files state what a source **supports** and **does not support**; those bounds are part of claim control.
 
 Shared architecture expands only when a decision-relevant failure cannot be repaired locally without material distortion. Research under [`research/`](research/) keeps theory freezes, audits, and rejected expansions out of the runtime until they survive that bar.
 
@@ -197,7 +197,7 @@ Shared architecture expands only when a decision-relevant failure cannot be repa
 
 Local adaptation follows the same rule. [`adaptations/`](skills/marketing-practitioner/adaptations/) contains scoped evidence that can specialize an **already-open decision owned elsewhere**; it is not a country-profile layer, cultural encyclopedia, or precedence engine.
 
-Current reference units address scoped Vietnamese and Japanese wording choices where self-reference, recipient address, honorific targets, permission, or benefit can change the relationship expressed. They do not infer behavior from nationality or require a localization detour for every translated sentence. See the [contribution contract](skills/marketing-practitioner/adaptations/README.md) and [reference units](skills/marketing-practitioner/adaptations/localization.md).
+Current reference units address scoped Vietnamese, Japanese, Spanish, Korean, and Portuguese relationship-sensitive wording choices where self-reference, recipient address, honorific/deference targets, speech level, permission, or benefit can change the relationship expressed. They do not infer behavior from nationality or require a localization detour for every translated sentence. See the [contribution contract](skills/marketing-practitioner/adaptations/README.md) and [reference units](skills/marketing-practitioner/adaptations/localization.md).
 
 ## Repository map
 
@@ -245,7 +245,7 @@ If the skill makes a poor decision, overcomplicates a simple task, misses suppli
 
 ## Status and scope
 
-Current release: **v2.0.0 — Compact Core and Conditional Guidance**.
+Current release: **v2.1.0 — Scoped Adaptation and Behavioral Clarity**.
 
 The package covers seven marketing jobs with specialist guidance for content, commerce, commercial design, buyer-specific founder-led sales, landing pages, email, search/discovery, paid media, brand identity, and scoped localization. See [CHANGELOG.md](CHANGELOG.md) for release history.
 
