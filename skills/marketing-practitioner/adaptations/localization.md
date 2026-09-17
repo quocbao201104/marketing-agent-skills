@@ -933,7 +933,7 @@ Evidence type: published Portuguese sociolinguistic/pragmatic research across sc
 
 **REVIEW STATE**
 
-provisional
+reviewed
 
 **USAGE STATE**
 
