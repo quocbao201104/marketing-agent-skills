@@ -24,12 +24,30 @@ Use market evidence to make bounded marketing and founder-led sales decisions, e
 
 ### Working with missing information and uncertainty
 
-A difference is **material** when it could change the choice, supported claim, interpretation, necessary artifact function, or allowed action; an empty framework field is not material by itself. Use this definition for action gates throughout the skill; a difference does not need to be high-stakes to be material.
+A difference is **material** when it could change the choice, supported claim, interpretation, necessary artifact function, resource allocation, success evaluation, or allowed action; an empty framework field is not material by itself. Use plausible counterfactuals: if two reasonable values would lead to materially different downstream work, treat the dependency as material.
 
-- **Proceed** with sufficient inputs and ordinary reversible execution choices within the user's intent. Use a brief plan when it helps dependencies, uncertainty, or scope. Task size, duration, and format do not create approval requirements.
-- **Retrieve** a material missing fact within available capabilities and task scope. Seek evidence that distinguishes plausible answers, including counterevidence.
-- **Clarify** when materially different results depend on missing user input or authority that context or a useful bounded answer cannot resolve. Prepare the smallest necessary question and, when useful, a bounded recommendation with its decisive trade-off. Wait before dependent work while continuing independent parts. Silence is not approval; a recommendation request authorizes analysis and recommendation, not an external commitment.
-- **Bound the result** when evidence remains unavailable: provide the supported portion, conditional recommendation, or provisional options, identifying the dependency when the recipient needs it. Nonessential preferences do not block completion.
+Before asking or assuming, classify the unresolved dependency by its role in the current job:
+
+- **USER** — intent, preference, private constraint, fixed business choice, or authority that only the user or another stakeholder can supply.
+- **FACT** — external or source-backed information that can in principle be retrieved, inspected, or verified.
+- **DECISION** — a choice the user has delegated to the practitioner to analyze, recommend, or make within scope.
+- **DETAIL** — a non-critical execution preference with a safe reversible default or several useful alternatives.
+
+Resolve uncertainty by role rather than by missingness alone:
+
+- **Clarify USER dependencies** only when they are material and needed before the next dependent commitment. Ask the smallest question that resolves the highest-impact open dependency. Wait before dependent work while continuing independent parts. Silence is not approval; a recommendation request authorizes analysis and recommendation, not an external commitment.
+- **Retrieve FACT dependencies** within available capabilities and task scope. Do not ask the user merely because the practitioner does not know an externally discoverable fact. If a material fact is private or unavailable, request the necessary source or bound the result rather than inventing it.
+- **Resolve DECISION dependencies** through analysis and recommendation within delegated scope. Do not ask the user to decide the variable they asked the practitioner to determine. When evidence cannot support a single choice, return bounded alternatives and the decisive trade-off or missing evidence.
+- **Infer or diversify DETAIL dependencies** when the assumption is reversible and would not materially change the trajectory. Nonessential preferences do not block completion. When several plausible interpretations can be represented cheaply as useful variants, prefer bounded variants over an unnecessary clarification turn.
+
+Do not collect a complete marketing brief by default. Preserve settled explicit constraints through research, routing, summarization, and execution; do not silently weaken a fixed requirement into a preference. Before asking, verify that the answer belongs to the user or an unavailable private source and would materially change what happens next. Before assuming a user-owned dependency, verify that a wrong assumption would not materially change the strategy, scope, claim, resource allocation, consequential action, or success criterion.
+
+Contrastive examples:
+
+- "Write 10 TikTok hooks for this productivity app" with no detailed audience: proceed and use reasonable or varied executions; do not block on a persona form.
+- "Reposition this brand for the new segment we already chose" when the segment is not supplied: clarify the fixed segment before segment-dependent positioning work.
+- "Research the main competitors for this accounting app": retrieve the competitor set; do not ask the user to name the competitors that the research is meant to discover.
+- "Which customer segment should we target first?": analyze and recommend a segment; do not ask "Who is your target audience?" unless an independent user-owned constraint is still required.
 
 Compare feasible options against objectives, constraints, consequences, and reversibility, including investigation or no-change. A justified action does not prove its effect. Stop investigating when further information is unlikely to change the present choice enough to justify its cost; requested research ends at a sufficiently supported account or explicit evidence limit, without implying exhaustive coverage.
 
