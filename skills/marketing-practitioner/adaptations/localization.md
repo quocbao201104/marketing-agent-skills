@@ -401,3 +401,173 @@ reviewed
 **USAGE STATE**
 
 active
+
+### ES-LANG-ADDR-01 — Spanish second-person address-system realization
+
+**SCOPE**
+
+- language: Spanish (`es`)
+- variety: section-local; use pan-Hispanic claims only where the evidence supports them, and preserve stronger current regional, community, or organization evidence for the dimension at issue
+- market / geography: not inherently Spain-, Latin-America-, or country-specific; applicability follows target-language realization rather than market membership
+- audience / role: audience-facing or interpersonal wording where second-person treatment is explicit or materially implied and remains unresolved
+- channel / surface: any; a surface may remain address-neutral when that is natural and no material relationship meaning is lost
+- category / buying context: not category-specific
+- effective period: core treatment-system facts are relatively structural; population preference, brand policy, and channel usage remain more scope- and time-sensitive
+
+**CLAIM**
+
+Spanish second-person realization is not one universal choice among `tú / vos / usted / vosotros / ustedes`. In scoped varieties, the tonic address form, verbal treatment pattern, and other treatment-sensitive forms can be coupled without being identical [ESLA01][ESLA03].
+
+RAE/ASALE documents pronominal and verbal voseo that need not coincide, and ordinary American voseo can preserve `te`, `tu`, and `tuyo` rather than replacing an entire `tú` paradigm [ESLA01]. Chilean research provides a discriminating counterexample in which `tú +` voseante verbal morphology and `vos +` tuteante morphology are attested configurations [ESLA03].
+
+Therefore:
+
+```text
+TONIC ADDRESS FORM
+!= COMPLETE TREATMENT SYSTEM
+
+PRONOUN
+!= VERBAL TREATMENT PATTERN
+
+MIXED PRONOUN / VERB FORM
+!= AUTOMATIC ERROR
+```
+
+Plural realization also varies. Current Canarian evidence defeats `Spain → vosotros` and `ustedes → formal plural`: `ustedes` can serve familiar/peer as well as respectful plural treatment in the common Canarian pattern [ESLA05].
+
+**DECISION IMPACT**
+
+This contribution can change only the bounded Chapter 07 decision:
+
+> Given already-resolved recipient relationship, intended stance, approved voice, applicable surface state, and target Spanish variety when materially known, how should second-person address be realized without inventing a different relationship, stance, or regional identity and without corrupting treatment-sensitive grammar?
+
+Use resolved state as input. The unit may preserve a supported local treatment system, repair only the treatment-sensitive forms that are inconsistent with the resolved system, and preserve legitimate mixed pronominal/verbal configurations when scoped evidence supports them.
+
+If applicable first-party organization or channel policy already resolves the relevant treatment dimension, freeze it. Broader sociolinguistic evidence is not permission to reopen that choice merely because other Spanish systems exist [ESLA07][ESLA08].
+
+**LOAD WHEN**
+
+Load this route only after the localization owner has an open realization decision and all are true:
+
+```text
+TARGET LANGUAGE = SPANISH
++
+SECOND-PERSON TREATMENT REALIZATION IS MATERIALLY OPEN
++
+THE CHOICE CAN CHANGE RELATIONSHIP / STANCE /
+VARIETY-SENSITIVE ADDRESS OR TREATMENT-SYSTEM COHERENCE
+```
+
+A materially ambiguous `usted / ustedes` verbal form may also load this unit when second-person treatment realization has collapsed an addressee/third-party distinction because the verbal agreement shares third-person morphology [ESLA11].
+
+`Spanish`, `Spain`, `Latin America`, a country name, customer status, age, social-media context, or a Spanish-speaking-market label alone is not activation authority.
+
+**DO NOT USE WHEN**
+
+- the task is only market selection, country research, or localization with no material second-person treatment choice;
+- all material Spanish treatment dimensions are already resolved by applicable approved forms and no truthful or linguistic conflict requires reopening them;
+- the surface naturally uses an address-neutral form and no material relationship meaning is lost;
+- the remaining issue is ordinary Spanish grammar unrelated to the treatment system;
+- the only evidence is country, nationality, broad region, age/status, customer status, or a generic market label;
+- the contribution would be used to infer a regional form merely from geography without stronger scoped evidence;
+- a current first-party organization/community/surface policy fully resolves the treatment dimension still at issue.
+
+An address-neutral realization is optional only where it is natural for the surface. Do not make direct copy awkward or impersonal merely to hide an unresolved treatment dependency [ESLA09][ESLA10].
+
+**MUST PRESERVE**
+
+- speaker / publishing identity;
+- actual recipient relation;
+- intended stance and supported interactional shifts;
+- relevant interaction history;
+- singular / plural audience reference;
+- verified existing treatment forms and approved voice;
+- applicable organization / channel policy;
+- scoped target-variety or community evidence when actually supplied;
+- source addressee / third-party referent distinctions when treatment-sensitive verbal morphology makes them material.
+
+**MUST NOT INFER**
+
+Do not manufacture any of the following from Spanish language, country, nationality, broad region, customer status, age, or channel alone:
+
+```text
+ONE UNIVERSAL ADDRESS SYSTEM
+
+TÚ = INFORMAL
+
+USTED = FORMAL
+
+VOS = REQUIRED IN A VOSEO REGION
+
+SPAIN = VOSOTROS
+
+LATIN AMERICA = ONE TREATMENT SYSTEM
+
+USTEDES = FORMAL PLURAL
+
+COUNTRY = TARGET VARIETY
+
+CUSTOMER = USTED
+
+SOCIAL MEDIA = TÚ
+
+LOCAL EVERYDAY SPEECH = BRAND POLICY
+```
+
+**REALIZATION GUARDRAILS**
+
+```text
+PRONOUN
+!= COMPLETE TREATMENT PARADIGM
+
+VOS
+!= REPLACE TÚ EVERYWHERE
+
+VOS
+!= REPLACE TE / TU / TUYO
+
+TÚ
+!= NECESSARILY TUTEANTE VERB MORPHOLOGY
+
+MIXED FORM
+!= AUTOMATIC ERROR
+
+MIXED FORM
+!= AUTOMATICALLY VALID
+
+USTEDES
+!= FORMAL PLURAL BY DEFINITION
+
+SPAIN
+!= VOSOTROS IN EVERY VARIETY
+
+EVERYDAY SPEECH NORM
+!= AUTOMATIC MARKETING REALIZATION
+
+ADDRESS-NEUTRAL WORDING EXISTS
+!= MUST USE IT
+```
+
+When the resolved treatment system changes or a draft drifts away from it, recheck only the treatment-sensitive forms actually present. Do not turn this contribution into a full Spanish conjugation or proofreading module [ESLA01].
+
+For `usted / ustedes`, second-person verbal agreement shares morphology with third-person forms [ESLA11]. If that creates a material addressee-versus-third-party ambiguity in context, clarify the referent only as needed using a natural formulation supported for the target variety and voice. Do not import another variety's address paradigm solely to disambiguate.
+
+Possessive or other referent ambiguity, including `su / sus`, remains generic source-referent fidelity / ordinary Spanish competence under the current evidence set. Do not treat it as an independently evidenced `ES-LANG-ADDR-01` mechanism or prescribe a Spanish-specific possessive repair without separate evidence.
+
+If the treatment choice remains genuinely underdetermined, follow Chapter 07: preserve an applicable verified existing form; otherwise use natural wording that avoids unsupported relationship claims when the surface permits it, and expose or request the missing state only when the socially meaningful choice is unavoidable and consequential.
+
+**EVIDENCE**
+
+Primary mechanism evidence: [ESLA01][ESLA03][ESLA05][ESLA11] in `../references/local-adaptation-spanish-evidence.md`.
+
+Boundary and composition evidence: [ESLA02][ESLA04][ESLA06][ESLA07][ESLA08][ESLA09][ESLA10] in the same ledger.
+
+Evidence type: authoritative pan-Hispanic grammatical references, scoped Spanish-language sociolinguistic research, current regional academy guidance, bounded advertising-context research, and first-party organization/product style policies. These sources support the treatment-system mechanism and its non-transfer boundaries; they do not establish universal population preference, country lookup rules, marketing lift, or one pan-Hispanic brand voice.
+
+**REVIEW STATE**
+
+reviewed
+
+**USAGE STATE**
+
+active
