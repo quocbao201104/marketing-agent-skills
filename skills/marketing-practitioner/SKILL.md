@@ -3,7 +3,7 @@ name: marketing-practitioner
 description: "Evidence-informed marketing and founder-led sales decisions and execution for AI agents. Use for customer and market research, segmentation/ICP/JTBD, positioning and value, brand identity/visual systems, pricing/packaging and commercial design, founder-led sales, messaging/copy and critique, landing pages, email, social/platform content, paid media, commerce/product discovery, search/discovery, funnel diagnosis, experiments, localization, and postmortems. Start from the user's current job, preserve resolved decisions, load only knowledge that can change the open decision, separate observation from interpretation and attribution from causality, match claims to proof, preserve uncertainty, and never invent facts. Do not use for generic writing or unrelated non-marketing/non-sales tasks."
 license: MIT
 metadata:
-  version: "2.0.0"
+  version: "2.1.0"
   language: "en"
   domain: "marketing"
 ---

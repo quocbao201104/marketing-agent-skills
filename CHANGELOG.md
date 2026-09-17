@@ -7,6 +7,31 @@ The project uses semantic versioning for published skill revisions. v1.0.0 marks
 
 ## [Unreleased]
 
+## [2.1.0] - 2026-09-18
+
+### Scoped local adaptation
+
+- Added reviewed Spanish second-person relationship realization, Korean addressee speech-level realization, and Portuguese second-person address realization under the existing `adapt-localization.relationship-realization` route.
+- Added scoped evidence and targeted regression suites for those adaptations and repaired Portuguese evidence-ID addressability. The units specialize already-open language/relationship decisions; they do not create country profiles, new decision owners, or a precedence engine.
+- Preserved the seven runtime jobs and 289 logical routes while expanding the current indexed evidence inventory to 296 sources.
+
+### Behavioral instruction clarity
+
+- Made the core `material` definition the canonical threshold for action gates and clarified that a decision-changing difference does not need to be high-stakes.
+- Split the just-in-time external-fact verification condition so time-sensitive, provider-controlled, and market-specific material facts are not suppressed by ambiguous modifier attachment.
+- Clarified that sufficiently current, scoped evidence already available can satisfy verification; retrieve again only when freshness, applicability, or support remains unresolved.
+
+### Evaluation and validation
+
+- Added the behavioral-instruction-clarity audit, frozen regression contract, diagnostic corpus, theoretical closure, real-task validation brief, and static adjudication records. `F01` / `F02` closure means the identified static instruction-realization defects were repaired; it does not establish improved live behavior or marketing outcomes.
+- Made the legacy behavioral reporter fail closed on cross-case `sensitivity` / `invariance` semantics it does not implement. Those relation semantics remain in the Pressure Discovery protocol; the legacy reporter supports `skill_not_worse`.
+- Kept synthetic live-model evaluation intentionally deferred in favor of later real-task observation. Repository verification continues to cover package validation, routing/source integrity, Pressure Discovery, the behavioral harness, Episode 01, and UTF-8/generated-artifact hygiene.
+
+### Distribution
+
+- Aligned skill metadata, Claude and Codex plugin manifests, README status, installation guidance, package links, and current diagram documentation at v2.1.0.
+- Historical frozen evaluations, research records, scenario versions, prior release notes, and diagram-generation prompts retain the version labels under which they were produced.
+
 ## [2.0.0] - 2026-09-15
 
 ### Controller refactor
