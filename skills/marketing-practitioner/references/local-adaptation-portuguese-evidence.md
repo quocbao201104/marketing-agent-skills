@@ -38,7 +38,7 @@ SEU/SUA AMBIGUITY
 
 ---
 
-## PTLA01 — Nascimento, Duarte & Mendes 2018
+## [PTLA01] Nascimento, Duarte & Mendes 2018
 
 **Source**  
 Maria Fernanda Bacelar do Nascimento, Eugênia Duarte & Amália Mendes, `Sobre formas de tratamento no Português Europeu e Brasileiro`, *Diadorim* 20 (2018), 245–262.  
@@ -66,7 +66,7 @@ Boundary evidence against country/pronoun simplification. Not sufficient by itse
 
 ---
 
-## PTLA02 — Lara & Guilherme 2018
+## [PTLA02] Lara & Guilherme 2018
 
 **Source**  
 Víctor Lara & Ana Guilherme, `The politeness of você in European Portuguese`, *Studies in Hispanic and Lusophone Linguistics* 11(2), 2018, 337–366.  
@@ -94,7 +94,7 @@ Primary mechanism evidence for explicit-vs-null treatment realization.
 
 ---
 
-## PTLA03 — Roque & Pinto 2023
+## [PTLA03] Roque & Pinto 2023
 
 **Source**  
 Renato Roque & Alexandra Guedes Pinto, `Formas de tratamento no português europeu: algumas considerações sobre formas neutras e não neutras`, *Redis: Revista de Estudos do Discurso* 13.  
@@ -121,7 +121,7 @@ Corroborating evidence for explicit-vs-null treatment realization.
 
 ---
 
-## PTLA04 — Souza & Chaves 2015
+## [PTLA04] Souza & Chaves 2015
 
 **Source**  
 Christiane Nunes de Souza & Raquel Gomes Chaves, `A avaliação da concordância verbal com o pronome tu em Florianópolis`, *Working Papers em Linguística* 16(1), 2015, 170–199.  
@@ -147,7 +147,7 @@ Primary mechanism evidence against `tu → overt 2SG agreement` normalization.
 
 ---
 
-## PTLA05 — Scherre, Andrade & Catão 2021
+## [PTLA05] Scherre, Andrade & Catão 2021
 
 **Source**  
 Maria Marta Pereira Scherre, Carolina Queiroz Andrade & Rafael de Castro Catão, `Por onde transitam o tu e o você no Nordeste?`, *Revista de Letras* 1(40), 2021.  
@@ -173,7 +173,7 @@ Mechanism A support and country-resolver boundary.
 
 ---
 
-## PTLA06 — Lopes & Cavalcante 2011
+## [PTLA06] Lopes & Cavalcante 2011
 
 **Source**  
 Célia Regina dos Santos Lopes & Silvia Regina de Oliveira Cavalcante, `A cronologia do voceamento no português brasileiro: expansão de você-sujeito e retenção do clítico-te`, *Lingüística* 25 (2011), 30–65.
@@ -198,7 +198,7 @@ Primary historical evidence against full-paradigm normalization from visible `vo
 
 ---
 
-## PTLA07 — Schwenter et al. 2018
+## [PTLA07] Schwenter et al. 2018
 
 **Source**  
 Scott A. Schwenter, Mark Hoff, Kendra V. Dickinson, Justin Bland & Luana Lamberti, `Experimental evidence for 2SG direct object pronoun preferences in Brazilian Portuguese`, *Revista Linguíʃtica* 14(2), 2018, 259–290.  
@@ -224,7 +224,7 @@ Contemporary support for Mechanism A.
 
 ---
 
-## PTLA08 — Gutiérrez Maté 2024
+## [PTLA08] Gutiérrez Maté 2024
 
 **Source**  
 Miguel Gutiérrez Maté, `Você + 2SG no Português de Cabinda (Angola): dois efeitos do contato linguístico`, *LaborHistórico* 10(2), 2024.  
@@ -250,7 +250,7 @@ Strongest falsification of a universal `você → full 3SG paradigm` rule.
 
 ---
 
-## PTLA09 — Pires 2022
+## [PTLA09] Pires 2022
 
 **Source**  
 Queneth Pires, `Sobre as formas de tratamento no português em Angola: o caso de você`, *Linguística: Revista de Estudos Linguísticos da Universidade do Porto*, 2022.
@@ -274,7 +274,7 @@ Boundary evidence against a global formality lookup.
 
 ---
 
-## PTLA10 — gov.br service-writing guide
+## [PTLA10] gov.br service-writing guide
 
 **Source**  
 Brazilian federal government, `Escrevendo o seu texto`, gov.br service editing guide.  
@@ -300,7 +300,7 @@ Documented first-party policy boundary/composition evidence.
 
 ---
 
-## PTLA11 — gov.pt general public-service surface
+## [PTLA11] gov.pt general public-service surface
 
 **Source**  
 Portuguese government portal, `Serviços públicos em Portugal`, updated 2026-05-12.  
@@ -327,7 +327,7 @@ Current scoped first-party usage evidence. **Not documented policy evidence.**
 
 ---
 
-## PTLA12 — gov.pt `On@18`
+## [PTLA12] gov.pt `On@18`
 
 **Source**  
 Portuguese government portal, `On@18 - O guia de serviços públicos para jovens`, updated 2025-10-09.  
