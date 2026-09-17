@@ -743,7 +743,7 @@ Evidence type: current National Institute of Korean Language guidance, published
 
 **REVIEW STATE**
 
-provisional
+reviewed
 
 **USAGE STATE**
 
