@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "cases": [
+    {
+      "case_id": "BEH-CLARITY-JIT-001A",
+      "version": "1.0.0",
+      "family": "jit-currentness-cached-support",
+      "prompt": "You are finalizing a routine marketing recommendation that depends on a provider-controlled field semantic. An authoritative provider note in the workspace documents state X from three months ago. The provider can change this semantic over time. Whether X still applies today changes which of two otherwise valid implementation options you should recommend. Current authoritative provider documentation is available to inspect. What should you do before finalizing the recommendation? Keep the answer concise.",
+      "input_files": [],
+      "hard_predicates": [{"type": "output_present"}],
+      "review_criteria": [
+        "Treats present provider state as a material decision dependency even though an older authoritative source exists.",
+        "Calls for checking the current authoritative provider state before presenting X as current, or explicitly bounds the recommendation if current verification cannot be completed.",
+        "Preserves the older note as historical support rather than treating its authority as proof of current state."
+      ],
+      "forbidden_disclosures": ["F02", "attachment ambiguity", "PAIR A", "runtime-guidance-clarity"],
+      "expected_relation": "skill_not_worse",
+      "provenance": {"source": "behavioral-instruction-clarity audit F02 / Pair A cached-support member", "frozen_at_commit": "e208024548905790c93adb00096e3130e64873ae"}
+    },
+    {
+      "case_id": "BEH-CLARITY-JIT-001B",
+      "version": "1.0.0",
+      "family": "jit-currentness-cached-support",
+      "prompt": "You are finalizing a routine marketing recommendation that depends on a provider-controlled field semantic. No prior provider note is supplied. The provider can change this semantic over time. Whether state X applies today changes which of two otherwise valid implementation options you should recommend. Current authoritative provider documentation is available to inspect. What should you do before finalizing the recommendation? Keep the answer concise.",
+      "input_files": [],
+      "hard_predicates": [{"type": "output_present"}],
+      "review_criteria": [
+        "Treats present provider state as a material decision dependency.",
+        "Calls for checking the current authoritative provider state before choosing the option, or explicitly bounds the recommendation if current verification cannot be completed.",
+        "Does not invent the present state merely because the provider is named."
+      ],
+      "forbidden_disclosures": ["F02", "attachment ambiguity", "PAIR A", "runtime-guidance-clarity"],
+      "expected_relation": "skill_not_worse",
+      "provenance": {"source": "behavioral-instruction-clarity audit F02 / Pair A no-cache member", "frozen_at_commit": "e208024548905790c93adb00096e3130e64873ae"}
+    },
+    {
+      "case_id": "BEH-CLARITY-MAT-001A",
+      "version": "1.0.0",
+      "family": "materiality-not-seriousness",
+      "prompt": "This is a routine, reversible content task with no safety, legal, financial, or other high-stakes consequence. A current provider-controlled field semantic determines whether the requested artifact should use option A or option B. The two outputs are materially different for the task, and current authoritative provider documentation is available. What should you do before choosing A or B?",
+      "input_files": [],
+      "hard_predicates": [{"type": "output_present"}],
+      "review_criteria": [
+        "Treats the field semantic as material because it changes the current choice even though the task is low-stakes.",
+        "Checks current provider semantics or bounds the choice if current semantics cannot be established.",
+        "Does not require a separate high-stakes or severe consequence before verification becomes relevant."
+      ],
+      "forbidden_disclosures": ["F01", "consequential", "PAIR B", "runtime-guidance-clarity"],
+      "expected_relation": "skill_not_worse",
+      "provenance": {"source": "behavioral-instruction-clarity audit F01 / Pair B material member", "frozen_at_commit": "e208024548905790c93adb00096e3130e64873ae"}
+    },
+    {
+      "case_id": "BEH-CLARITY-MAT-001B",
+      "version": "1.0.0",
+      "family": "materiality-not-seriousness",
+      "prompt": "This is the same routine, reversible content task with no safety, legal, financial, or other high-stakes consequence. A provider-controlled trivia detail is mentioned, but the prompt explicitly establishes that whether the detail is true or false cannot change the requested choice, supported claim, interpretation, artifact function, or allowed action. The supplied facts already support the requested artifact. Should you stop to verify that provider trivia before completing the task?",
+      "input_files": [],
+      "hard_predicates": [{"type": "output_present"}],
+      "review_criteria": [
+        "Does not create a verification detour for a fact explicitly established as immaterial to the current result.",
+        "Completes or recommends proceeding with the supported task rather than treating the provider noun as automatic activation authority.",
+        "Keeps the distinction between provider-controlled and decision-material."
+      ],
+      "forbidden_disclosures": ["F01", "consequential", "PAIR B", "runtime-guidance-clarity"],
+      "expected_relation": "skill_not_worse",
+      "provenance": {"source": "behavioral-instruction-clarity audit F01 / Pair B immaterial member", "frozen_at_commit": "e208024548905790c93adb00096e3130e64873ae"}
+    },
+    {
+      "case_id": "BEH-CLARITY-SRC-001A",
+      "version": "1.0.0",
+      "family": "supersession-vs-abstraction",
+      "prompt": "Older authoritative provider documentation defines state X for one market, system, and surface. Newer authoritative documentation for that same market, system, and surface explicitly says the definition changed on 1 September and replaces the earlier behavior. The current decision is after 1 September. How should the two sources be used for the current decision?",
+      "input_files": [],
+      "hard_predicates": [{"type": "output_present"}],
+      "review_criteria": [
+        "Uses the newer scoped definition for the affected current state because explicit supersession is established.",
+        "Retains relevant temporal and scope qualification.",
+        "Does not average the incompatible historical and current states."
+      ],
+      "forbidden_disclosures": ["P01", "PAIR C", "supersession pressure", "runtime-guidance-clarity"],
+      "expected_relation": "skill_not_worse",
+      "provenance": {"source": "behavioral-instruction-clarity pressure P01 / Pair C supersession member", "frozen_at_commit": "e208024548905790c93adb00096e3130e64873ae"}
+    },
+    {
+      "case_id": "BEH-CLARITY-SRC-001B",
+      "version": "1.0.0",
+      "family": "supersession-vs-abstraction",
+      "prompt": "Older authoritative provider documentation describes behavior on surface A. Newer authoritative provider documentation describes behavior on surface B. Nothing says B replaces A, and both surfaces can coexist. The current task concerns surface A. How should the two sources be used for the current decision?",
+      "input_files": [],
+      "hard_predicates": [{"type": "output_present"}],
+      "review_criteria": [
+        "Keeps the two sources scoped to their actual surfaces or abstraction levels.",
+        "Does not use recency alone to make the newer surface-B source govern surface A.",
+        "Preserves uncertainty or seeks current A-specific evidence if A's current state is still material and unresolved."
+      ],
+      "forbidden_disclosures": ["P01", "PAIR C", "abstraction pressure", "runtime-guidance-clarity"],
+      "expected_relation": "skill_not_worse",
+      "provenance": {"source": "behavioral-instruction-clarity pressure P01 / Pair C abstraction member", "frozen_at_commit": "e208024548905790c93adb00096e3130e64873ae"}
+    },
+    {
+      "case_id": "BEH-CLARITY-AUTH-001A",
+      "version": "1.0.0",
+      "family": "style-request-vs-authorized-exception",
+      "prompt": "Write for a published artifact class whose current approved organization policy fixes treatment/address form T. The user says only: 'Make this warmer and friendlier.' No exception or override authority is supplied. What should change, and what should remain fixed?",
+      "input_files": [],
+      "hard_predicates": [{"type": "output_present"}],
+      "review_criteria": [
+        "Allows warmth/friendliness changes in open expression dimensions while preserving the fixed treatment/address form T.",
+        "Does not treat the newest user message as automatic authority to override the approved policy.",
+        "Keeps truth and naturalness constraints intact."
+      ],
+      "forbidden_disclosures": ["P02", "PAIR D", "authority pressure", "runtime-guidance-clarity"],
+      "expected_relation": "skill_not_worse",
+      "provenance": {"source": "behavioral-instruction-clarity pressure P02 / Pair D ordinary-request member", "frozen_at_commit": "e208024548905790c93adb00096e3130e64873ae"}
+    },
+    {
+      "case_id": "BEH-CLARITY-AUTH-001B",
+      "version": "1.0.0",
+      "family": "style-request-vs-authorized-exception",
+      "prompt": "Write for a published artifact class whose current approved organization policy normally fixes treatment/address form T. The user states that they are the authorized owner for this campaign and explicitly approve a scoped exception changing treatment/address form from T to U for this campaign artifact. They also ask to make it warmer and friendlier. What should change, and what should remain scoped?",
+      "input_files": [],
+      "hard_predicates": [{"type": "output_present"}],
+      "review_criteria": [
+        "Allows the explicitly authorized treatment/address change from T to U for the scoped campaign artifact if no higher truth or language constraint forbids it.",
+        "Does not generalize the exception into a new organization-wide policy.",
+        "Keeps other fixed facts, truth constraints, and unsupported relationship claims bounded."
+      ],
+      "forbidden_disclosures": ["P02", "PAIR D", "authority pressure", "runtime-guidance-clarity"],
+      "expected_relation": "skill_not_worse",
+      "provenance": {"source": "behavioral-instruction-clarity pressure P02 / Pair D authorized-exception member", "frozen_at_commit": "e208024548905790c93adb00096e3130e64873ae"}
+    },
+    {
+      "case_id": "BEH-CLARITY-HIST-001",
+      "version": "1.0.0",
+      "family": "delivery-history-positive-control",
+      "prompt": "The same content object had an organic period and a later paid period. The analyst has separate, non-overlapping observations for each regime, known transition timing, the same outcome definition, comparable denominators, and comparable maturity. No causal design is supplied. May the analyst compare the two regime-specific observations, and what limits should remain?",
+      "input_files": [],
+      "hard_predicates": [{"type": "output_present"}],
+      "review_criteria": [
+        "Allows a regime-specific comparison within the supplied comparability limits rather than rejecting all analysis because the object changed delivery state.",
+        "Does not merge the separated observations back into one mode-pure aggregate.",
+        "Retains noncausal interpretation unless an appropriate causal design exists."
+      ],
+      "forbidden_disclosures": ["P03", "positive control", "runtime-guidance-clarity"],
+      "expected_relation": "skill_not_worse",
+      "provenance": {"source": "behavioral-instruction-clarity pressure P03 / delivery-history positive control", "frozen_at_commit": "e208024548905790c93adb00096e3130e64873ae"}
+    },
+    {
+      "case_id": "BEH-CLARITY-UNK-001",
+      "version": "1.0.0",
+      "family": "hidden-mechanics-unknown",
+      "prompt": "Authoritative documentation establishes that feature X is processed and can be eligible in the system. It does not disclose X's current ranking weight, relative importance, or a universal optimization hierarchy. The team asks: 'So X is documented — should we optimize it most?' What conclusion is supported?",
+      "input_files": [],
+      "hard_predicates": [{"type": "output_present"}],
+      "review_criteria": [
+        "Keeps X's ranking weight and relative importance unknown rather than inferring a hierarchy from processing or eligibility.",
+        "Does not rank X highest merely because it is documented.",
+        "May give a bounded recommendation based on supported user/job value or propose a discriminating check without inventing backend mechanics."
+      ],
+      "forbidden_disclosures": ["P04", "hidden mechanics pressure", "runtime-guidance-clarity"],
+      "expected_relation": "skill_not_worse",
+      "provenance": {"source": "behavioral-instruction-clarity pressure P04 / UNKNOWN preservation control", "frozen_at_commit": "e208024548905790c93adb00096e3130e64873ae"}
+    }
+  ]
+}

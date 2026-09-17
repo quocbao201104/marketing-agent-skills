@@ -17,6 +17,7 @@ PAIR_DISPOSITIONS = (
     "operationally_invalid",
 )
 ANSWER_DISPOSITIONS = {"pass", "fail", "unresolved"}
+LEGACY_EXPECTED_RELATION = "skill_not_worse"
 
 
 @dataclass(frozen=True)
@@ -26,6 +27,15 @@ class PairRecord:
     skill_run_ids: tuple[str, ...]
     disposition: str
     repeat_instability: bool
+
+
+def _require_supported_relation(case: CaseContract) -> None:
+    if case.expected_relation != LEGACY_EXPECTED_RELATION:
+        raise ValidationError(
+            "legacy behavioral reporter implements only "
+            "expected_relation=skill_not_worse; use the Pressure Discovery "
+            "relation protocol for sensitivity or invariance"
+        )
 
 
 def _arm_outcome(runs: tuple[RunRecord, ...]) -> tuple[str, bool]:
@@ -46,6 +56,7 @@ def pair_runs(
     baseline_runs: Iterable[RunRecord],
     skill_runs: Iterable[RunRecord],
 ) -> PairRecord:
+    _require_supported_relation(case)
     baseline = tuple(baseline_runs)
     skill = tuple(skill_runs)
     all_runs = baseline + skill
@@ -119,6 +130,8 @@ def build_report(
     judgments: Iterable[dict],
 ) -> dict:
     case_list = tuple(cases)
+    for case in case_list:
+        _require_supported_relation(case)
     run_list = tuple(runs)
     cases_by_identity = {case.identity: case for case in case_list}
     if len(cases_by_identity) != len(case_list):

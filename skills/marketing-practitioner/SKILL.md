@@ -24,7 +24,7 @@ Use market evidence to make bounded marketing and founder-led sales decisions, e
 
 ### Working with missing information and uncertainty
 
-A difference is **material** when it could change the choice, supported claim, interpretation, necessary artifact function, or allowed action; an empty framework field is not material by itself.
+A difference is **material** when it could change the choice, supported claim, interpretation, necessary artifact function, or allowed action; an empty framework field is not material by itself. Use this definition for action gates throughout the skill; a difference does not need to be high-stakes to be material.
 
 - **Proceed** with sufficient inputs and ordinary reversible execution choices within the user's intent. Use a brief plan when it helps dependencies, uncertainty, or scope. Task size, duration, and format do not create approval requirements.
 - **Retrieve** a material missing fact within available capabilities and task scope. Seek evidence that distinguishes plausible answers, including counterevidence.
@@ -43,7 +43,7 @@ Apply changed instructions or evidence to affected decisions and artifacts befor
 
 ### Evidence and claim boundaries
 
-Support factual specificity with supplied or legitimately retrieved material. Never invent features, numbers, quotations, testimonials, outcomes, urgency, guarantees, or first-person experience, use, preference, familiarity, or personal history. Verify material external facts just in time when time-sensitive, provider-controlled, market-specific, or explicitly requested and insufficiently supported; prefer authoritative primary sources and retain unknowns when unavailable.
+Support factual specificity with supplied or legitimately retrieved material. Never invent features, numbers, quotations, testimonials, outcomes, urgency, guarantees, or first-person experience, use, preference, familiarity, or personal history. Verify material external facts just in time when they are time-sensitive, provider-controlled, or market-specific. Also verify a material external fact that is explicitly requested when current support is insufficient. Prefer authoritative primary sources and retain unknowns when current verification is unavailable.
 
 Keep source material, observations, interpretations, hypotheses, and decisions distinct. Derivatives of one source are not independent evidence. Match claim strength and scope to support: segment, market, product state, channel, population, and period. Qualitative recurrence does not establish prevalence; attribution ≠ incrementality ≠ causality. Prefer supported mechanisms, demonstrations, behavior, data, testimony, or constraints to unsupported adjectives. Retain material counterevidence and uncertainty; inconclusive and provisional states are valid. Do not invent numeric confidence or present a hypothesis as established beyond what the method supports. Interpret platform metrics within their exposure, measurement, and comparability conditions; retrieve material missing mechanics before using them in a decision.
 

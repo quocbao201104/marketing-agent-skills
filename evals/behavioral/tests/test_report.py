@@ -1,8 +1,9 @@
 from __future__ import annotations
 
+from dataclasses import replace
 import unittest
 
-from evals.behavioral.behavioral_eval.models import CaseContract, RunRecord, RunState
+from evals.behavioral.behavioral_eval.models import CaseContract, RunRecord, RunState, ValidationError
 from evals.behavioral.behavioral_eval.report import build_report, pair_runs
 
 
@@ -84,6 +85,14 @@ class PairingTests(unittest.TestCase):
 
         self.assertEqual("operationally_invalid", pair.disposition)
 
+    def test_legacy_reporter_rejects_cross_case_relation_semantics(self) -> None:
+        case = replace(make_case(), expected_relation="sensitivity")
+
+        with self.assertRaisesRegex(
+            ValidationError, "implements only expected_relation=skill_not_worse"
+        ):
+            pair_runs(case, [], [])
+
 
 class ReportTests(unittest.TestCase):
     def test_invalid_run_is_counted_but_not_scored_as_answer_failure(self) -> None:
@@ -135,6 +144,14 @@ class ReportTests(unittest.TestCase):
 
         self.assertEqual(2, report["families"]["fast-path"]["runs"])
         self.assertEqual(1, report["families"]["fast-path"]["pairs"])
+
+    def test_report_rejects_cross_case_relation_semantics_before_scoring(self) -> None:
+        case = replace(make_case(), expected_relation="invariance")
+
+        with self.assertRaisesRegex(
+            ValidationError, "implements only expected_relation=skill_not_worse"
+        ):
+            build_report([case], [], [])
 
 
 if __name__ == "__main__":
