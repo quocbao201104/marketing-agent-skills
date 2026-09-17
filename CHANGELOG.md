@@ -360,6 +360,7 @@ The project uses semantic versioning for published skill revisions. v1.0.0 marks
 - Updated `SKILL.md` so paid-delivery decisions can route directly to the smallest `paid-media.*` section while narrow ad-copy transformations remain on the existing fast path and unresolved performance symptoms remain Chapter 05-first.
 - Preserved Chapter 04 ownership of ad message/claim/proof, Chapter 05 ownership of causality/incrementality/experiments, Chapter 08 ownership of shared platform/content grammar, Chapter 09 ownership of product/listing/commerce identity, Chapter 10 ownership of customer-facing Commercial Design, Chapter 11 ownership of landing-page architecture, and Chapter 13 ownership of generic non-paid discovery.
 - Kept current provider objectives, bidding products, auction/deal mechanics, audience-control meanings, placement systems, billing rules, attribution windows, learning-state definitions, policy constraints, and automated-creative behavior as time-sensitive JIT dependencies rather than permanent provider modules or universal paid-media laws.
+- Updated installable skill metadata and public README capability/status/routing examples to `v0.9.0`.
 
 ### Fixed
 
