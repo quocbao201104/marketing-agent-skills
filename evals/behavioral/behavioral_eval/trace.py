@@ -19,7 +19,7 @@ from .models import RunRecord, RunState, ValidationError
 
 
 ORACLE_SCHEMA_VERSION = 1
-TRACE_SCHEMA_VERSION = 2
+TRACE_SCHEMA_VERSION = 3
 HELPER_ROUTE_RE = re.compile(r"^[a-z0-9]+(?:[.-][a-z0-9]+)*$")
 SKILL_ROOT_RE = re.compile(
     r"marketing-practitioner/(?P<rel>(?:skill\.md|routing-index\.json|"
@@ -38,7 +38,7 @@ SLICE_RE = re.compile(
 WHOLE_FILE_RE = re.compile(r"(?:-raw|readalltext|readalllines|readallbytes)\b", re.I)
 PRIMARY_ORDER = (
     "no_activation",
-    "premature_closure",
+    "partial_route_coverage",
     "skip_jit",
     "wrong_edge",
     "resolve_fail",
@@ -442,7 +442,7 @@ def classify_skill_walk(
             and required_group_count >= 2
             and 0 < satisfied_group_count < required_group_count
         ):
-            labels.append("premature_closure")
+            labels.append("partial_route_coverage")
         labels.append("skip_jit")
 
     allowed_specs = (

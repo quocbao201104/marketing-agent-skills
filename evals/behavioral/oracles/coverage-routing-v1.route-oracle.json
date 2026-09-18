@@ -1,77 +1,46 @@
 {
   "schema_version": 1,
   "corpus_id": "coverage-routing-v1",
-  "description": "Route expectations for broad-problem coverage, narrow sibling materiality, strategic dependencies, and fast-path regression guards.",
+  "description": "Permitted and excluded route reads for coverage cases. No mandatory route list establishes semantic coverage; use the separate surface oracle and judgments.",
   "cases": {
-    "BEH-COV-MULTI-001@1.0.0": {
+    "BEH-COV-MULTI-001@1.1.0": {
       "walk": "jit",
-      "must_load": [
-        [
-          "handbook/05-diagnosis-causality-and-experimentation.md"
-        ],
-        [
-          "paid-media.observation"
-        ],
-        [
-          "handbook/02-segmentation-icp-and-jtbd.md"
-        ],
-        [
-          "handbook/03-positioning-and-value.md"
-        ]
-      ],
+      "must_load": [],
       "must_not_load": [
         "commercial-design",
         "brand-identity",
         "email"
       ],
       "may_load": [
-        "landing-page.diagnosis"
+        "landing-page.diagnosis",
+        "handbook/05-diagnosis-causality-and-experimentation.md",
+        "paid-media.observation",
+        "handbook/02-segmentation-icp-and-jtbd.md",
+        "handbook/03-positioning-and-value.md"
       ],
       "handoff": []
     },
-    "BEH-COV-MULTI-002@1.0.0": {
+    "BEH-COV-MULTI-002@1.1.0": {
       "walk": "jit",
-      "must_load": [
-        [
-          "handbook/05-diagnosis-causality-and-experimentation.md"
-        ],
-        [
-          "paid-media.observation"
-        ],
-        [
-          "commercial-design.dynamics"
-        ],
-        [
-          "landing-page.commercial-comparison",
-          "landing-page.diagnosis"
-        ]
-      ],
+      "must_load": [],
       "must_not_load": [
         "brand-identity",
         "email"
       ],
       "may_load": [
         "commercial-design.decision",
-        "paid-media.control"
+        "paid-media.control",
+        "handbook/05-diagnosis-causality-and-experimentation.md",
+        "paid-media.observation",
+        "commercial-design.dynamics",
+        "landing-page.commercial-comparison",
+        "landing-page.diagnosis"
       ],
       "handoff": []
     },
-    "BEH-COV-MULTI-003@1.0.0": {
+    "BEH-COV-MULTI-003@1.1.0": {
       "walk": "jit",
-      "must_load": [
-        [
-          "founder-sales.diagnosis"
-        ],
-        [
-          "founder-sales.proof"
-        ],
-        [
-          "handbook/02-segmentation-icp-and-jtbd.md"
-        ],
-        [
-          "handbook/03-positioning-and-value.md"
-        ]
-      ],
+      "must_load": [],
       "must_not_load": [
         "paid-media",
         "email",
@@ -79,40 +48,32 @@
       ],
       "may_load": [
         "founder-sales.handoffs",
-        "copywriting.handoffs"
+        "copywriting.handoffs",
+        "founder-sales.diagnosis",
+        "founder-sales.proof",
+        "handbook/02-segmentation-icp-and-jtbd.md",
+        "handbook/03-positioning-and-value.md"
       ],
       "handoff": []
     },
-    "BEH-COV-NARROW-001@1.0.0": {
+    "BEH-COV-NARROW-001@1.1.0": {
       "walk": "jit",
-      "must_load": [
-        [
-          "handbook/05-diagnosis-causality-and-experimentation.md"
-        ],
-        [
-          "paid-media.observation"
-        ]
-      ],
+      "must_load": [],
       "must_not_load": [
         "handbook/02-segmentation-icp-and-jtbd.md",
         "handbook/03-positioning-and-value.md",
         "commercial-design"
       ],
       "may_load": [
-        "paid-media.control"
+        "paid-media.control",
+        "handbook/05-diagnosis-causality-and-experimentation.md",
+        "paid-media.observation"
       ],
       "handoff": []
     },
-    "BEH-COV-NARROW-002@1.0.0": {
+    "BEH-COV-NARROW-002@1.1.0": {
       "walk": "jit",
-      "must_load": [
-        [
-          "handbook/05-diagnosis-causality-and-experimentation.md"
-        ],
-        [
-          "landing-page.diagnosis"
-        ]
-      ],
+      "must_load": [],
       "must_not_load": [
         "handbook/02-segmentation-icp-and-jtbd.md",
         "handbook/03-positioning-and-value.md",
@@ -120,17 +81,15 @@
       ],
       "may_load": [
         "landing-page.responsive",
-        "landing-page.action-form"
+        "landing-page.action-form",
+        "handbook/05-diagnosis-causality-and-experimentation.md",
+        "landing-page.diagnosis"
       ],
       "handoff": []
     },
-    "BEH-COV-NARROW-003@1.0.0": {
+    "BEH-COV-NARROW-003@1.1.0": {
       "walk": "jit",
-      "must_load": [
-        [
-          "landing-page.sequence"
-        ]
-      ],
+      "must_load": [],
       "must_not_load": [
         "handbook/02-segmentation-icp-and-jtbd.md",
         "handbook/03-positioning-and-value.md",
@@ -138,49 +97,29 @@
       ],
       "may_load": [
         "landing-page.responsive",
-        "landing-page.visual"
+        "landing-page.visual",
+        "landing-page.sequence"
       ],
       "handoff": []
     },
-    "BEH-COV-DEP-001@1.0.0": {
+    "BEH-COV-DEP-001@1.1.0": {
       "walk": "jit",
-      "must_load": [
-        [
-          "handbook/01-customer-research-and-evidence.md"
-        ],
-        [
-          "handbook/02-segmentation-icp-and-jtbd.md"
-        ],
-        [
-          "handbook/03-positioning-and-value.md"
-        ]
-      ],
+      "must_load": [],
       "must_not_load": [
         "copywriting",
         "paid-media",
         "commercial-design"
       ],
-      "may_load": [],
-      "handoff": [
+      "may_load": [
         "handbook/01-customer-research-and-evidence.md",
         "handbook/02-segmentation-icp-and-jtbd.md",
         "handbook/03-positioning-and-value.md"
-      ]
-    },
-    "BEH-COV-DEP-002@1.0.0": {
-      "walk": "jit",
-      "must_load": [
-        [
-          "handbook/02-segmentation-icp-and-jtbd.md"
-        ],
-        [
-          "handbook/03-positioning-and-value.md"
-        ],
-        [
-          "commercial-design.core",
-          "commercial-design.decision"
-        ]
       ],
+      "handoff": []
+    },
+    "BEH-COV-DEP-002@1.1.0": {
+      "walk": "jit",
+      "must_load": [],
       "must_not_load": [
         "copywriting",
         "paid-media",
@@ -188,24 +127,18 @@
       ],
       "may_load": [
         "commercial-design.configuration",
-        "commercial-design.evidence"
-      ],
-      "handoff": [
+        "commercial-design.evidence",
         "handbook/02-segmentation-icp-and-jtbd.md",
         "handbook/03-positioning-and-value.md",
+        "commercial-design.core",
+        "commercial-design.decision",
         "commercial-design"
-      ]
-    },
-    "BEH-COV-DEP-003@1.0.0": {
-      "walk": "jit",
-      "must_load": [
-        [
-          "founder-sales.selection"
-        ],
-        [
-          "founder-sales.pursuit"
-        ]
       ],
+      "handoff": []
+    },
+    "BEH-COV-DEP-003@1.1.0": {
+      "walk": "jit",
+      "must_load": [],
       "must_not_load": [
         "handbook/02-segmentation-icp-and-jtbd.md",
         "paid-media",
@@ -214,14 +147,13 @@
       ],
       "may_load": [
         "founder-sales.state",
-        "founder-sales.handoffs"
-      ],
-      "handoff": [
+        "founder-sales.handoffs",
         "founder-sales.selection",
         "founder-sales.pursuit"
-      ]
+      ],
+      "handoff": []
     },
-    "BEH-COV-FAST-001@1.0.0": {
+    "BEH-COV-FAST-001@1.1.0": {
       "walk": "fast_path",
       "must_load": [],
       "must_not_load": [
@@ -233,30 +165,23 @@
       "may_load": [],
       "handoff": []
     },
-    "BEH-COV-FAST-002@1.0.0": {
+    "BEH-COV-FAST-002@1.1.0": {
       "walk": "jit",
-      "must_load": [
-        [
-          "copywriting.editing"
-        ]
-      ],
+      "must_load": [],
       "must_not_load": [
         "handbook/02-segmentation-icp-and-jtbd.md",
         "handbook/03-positioning-and-value.md",
         "commercial-design"
       ],
       "may_load": [
-        "copywriting.craft"
+        "copywriting.craft",
+        "copywriting.editing"
       ],
       "handoff": []
     },
-    "BEH-COV-FAST-003@1.0.0": {
+    "BEH-COV-FAST-003@1.1.0": {
       "walk": "jit",
-      "must_load": [
-        [
-          "landing-page.sequence"
-        ]
-      ],
+      "must_load": [],
       "must_not_load": [
         "handbook/02-segmentation-icp-and-jtbd.md",
         "handbook/03-positioning-and-value.md",
@@ -264,7 +189,8 @@
       ],
       "may_load": [
         "landing-page.responsive",
-        "landing-page.visual"
+        "landing-page.visual",
+        "landing-page.sequence"
       ],
       "handoff": []
     }

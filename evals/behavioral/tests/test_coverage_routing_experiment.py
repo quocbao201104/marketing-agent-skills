@@ -4,6 +4,7 @@ import unittest
 from pathlib import Path
 
 from evals.behavioral.behavioral_eval.trace import load_oracle
+from evals.behavioral.behavioral_eval.coverage import load_coverage_oracle
 from evals.behavioral.behavioral_eval.validation import load_cases
 
 
@@ -41,17 +42,17 @@ class CoverageRoutingExperimentContractTests(unittest.TestCase):
         oracle = load_oracle(ORACLE)
         self.assertEqual({case.identity for case in cases}, set(oracle))
 
-    def test_multi_owner_cases_require_multiple_groups(self) -> None:
-        cases = {case.identity: case for case in load_cases(CASES)}
-        oracle = load_oracle(ORACLE)
-        multi = [
-            identity
-            for identity, case in cases.items()
-            if case.family == "coverage-multi-owner"
-        ]
-        self.assertEqual(3, len(multi))
-        for identity in multi:
-            self.assertGreaterEqual(len(oracle[identity].must_load), 3)
+    def test_multi_owner_cases_have_semantic_questions_not_required_reads(self) -> None:
+        cases = load_cases(CASES)
+        routes = load_oracle(ORACLE)
+        surfaces = load_coverage_oracle(
+            ROOT / "evals/behavioral/oracles/coverage-routing-v1.surface-oracle.json"
+        )
+        for case in cases:
+            self.assertFalse(routes[case.identity].must_load)
+            self.assertTrue(case.review_criteria)
+            if case.family == "coverage-multi-owner":
+                self.assertGreaterEqual(len(surfaces[case.identity]), 3)
 
     def test_narrow_cases_keep_explicit_forbidden_upstream_owners(self) -> None:
         cases = {case.identity: case for case in load_cases(CASES)}
@@ -64,19 +65,16 @@ class CoverageRoutingExperimentContractTests(unittest.TestCase):
         for identity in narrow:
             self.assertTrue(oracle[identity].must_not_load)
 
-    def test_dependency_cases_have_ordered_handoffs(self) -> None:
-        cases = {case.identity: case for case in load_cases(CASES)}
+    def test_dependency_cases_do_not_require_route_read_order(self) -> None:
+        cases = load_cases(CASES)
         oracle = load_oracle(ORACLE)
-        dependencies = [
-            identity
-            for identity, case in cases.items()
-            if case.family == "coverage-strategic-dependency"
-        ]
-        for identity in dependencies:
-            self.assertGreaterEqual(len(oracle[identity].handoff), 2)
+        for case in cases:
+            if case.family == "coverage-strategic-dependency":
+                self.assertFalse(oracle[case.identity].handoff)
+                self.assertTrue(oracle[case.identity].may_load)
 
     def test_founder_sales_dependency_case_preserves_settled_icp(self) -> None:
-        oracle = load_oracle(ORACLE)["BEH-COV-DEP-003@1.0.0"]
+        oracle = load_oracle(ORACLE)["BEH-COV-DEP-003@1.1.0"]
         self.assertNotIn(
             ("handbook/02-segmentation-icp-and-jtbd.md",),
             oracle.must_load,
@@ -85,10 +83,9 @@ class CoverageRoutingExperimentContractTests(unittest.TestCase):
             "handbook/02-segmentation-icp-and-jtbd.md",
             oracle.must_not_load,
         )
-        self.assertEqual(
-            ("founder-sales.selection", "founder-sales.pursuit"),
-            oracle.handoff,
-        )
+        self.assertFalse(oracle.handoff)
+        self.assertIn("founder-sales.selection", oracle.may_load)
+        self.assertIn("founder-sales.pursuit", oracle.may_load)
 
     def test_fast_path_family_contains_a_true_no_read_case(self) -> None:
         cases = {case.identity: case for case in load_cases(CASES)}
@@ -113,11 +110,11 @@ class CoverageRoutingExperimentContractTests(unittest.TestCase):
             text,
         )
         self.assertIn(
-            "Do not stop after resolving one plausible path while another material unresolved surface remains.",
+            "Before closing, account for other material open questions",
             text,
         )
         self.assertIn(
-            "Apply the stopping rule only after the material open decision surfaces",
+            "For each material open question, assess whether further information could change",
             text,
         )
 

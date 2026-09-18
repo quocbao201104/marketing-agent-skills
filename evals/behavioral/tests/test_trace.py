@@ -144,11 +144,11 @@ class TraceReconstructionTests(unittest.TestCase):
         result = classify_skill_walk(steps, oracle)
 
         self.assertEqual("skip_jit", result["primary"])
-        self.assertNotIn("premature_closure", result["labels"])
+        self.assertNotIn("partial_route_coverage", result["labels"])
         self.assertEqual(2, result["required_group_count"])
         self.assertEqual(0, result["satisfied_group_count"])
 
-    def test_multi_group_partial_load_is_premature_closure(self) -> None:
+    def test_multi_group_partial_load_is_partial_route_coverage(self) -> None:
         oracle = OracleCase(
             identity="FIXTURE@1.0.0",
             walk="jit",
@@ -172,7 +172,7 @@ class TraceReconstructionTests(unittest.TestCase):
 
         result = classify_skill_walk(steps, oracle)
 
-        self.assertEqual("premature_closure", result["primary"])
+        self.assertEqual("partial_route_coverage", result["primary"])
         self.assertIn("skip_jit", result["labels"])
         self.assertEqual(2, result["required_group_count"])
         self.assertEqual(1, result["satisfied_group_count"])
@@ -211,7 +211,7 @@ class TraceReconstructionTests(unittest.TestCase):
         self.assertEqual(2, result["satisfied_group_count"])
         self.assertEqual([], result["missing_groups"])
 
-    def test_partial_load_on_noncompleted_run_is_not_premature_closure(self) -> None:
+    def test_partial_load_on_noncompleted_run_is_not_partial_route_coverage(self) -> None:
         oracle = OracleCase(
             identity="FIXTURE@1.0.0",
             walk="jit",
@@ -236,7 +236,7 @@ class TraceReconstructionTests(unittest.TestCase):
         result = classify_skill_walk(steps, oracle, run_completed=False)
 
         self.assertEqual("skip_jit", result["primary"])
-        self.assertNotIn("premature_closure", result["labels"])
+        self.assertNotIn("partial_route_coverage", result["labels"])
 
     def test_trace_report_counts_all_stacked_labels_for_case(self) -> None:
         oracle = OracleCase(
@@ -273,9 +273,9 @@ class TraceReconstructionTests(unittest.TestCase):
             results_id="fixture",
         )
 
-        self.assertEqual(2, report["schema_version"])
+        self.assertEqual(3, report["schema_version"])
         counts = report["case_label_counts"]["FIXTURE@1.0.0"]
-        self.assertEqual(1, counts["premature_closure"])
+        self.assertEqual(1, counts["partial_route_coverage"])
         self.assertEqual(1, counts["skip_jit"])
 
     def test_failed_probe_of_required_file_is_resolve_fail(self) -> None:

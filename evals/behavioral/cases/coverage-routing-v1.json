@@ -3,7 +3,7 @@
   "cases": [
     {
       "case_id": "BEH-COV-MULTI-001",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "family": "coverage-multi-owner",
       "prompt": "Paid traffic increased about 60% after targeting expanded from architecture firms to all SMBs. Trial starts stayed flat. The landing page still speaks almost entirely to architecture firms. Tracking and price did not change. The team wants to rewrite the hero immediately. Diagnose what should be investigated before choosing the fix.",
       "input_files": [],
@@ -12,7 +12,11 @@
           "type": "output_present"
         }
       ],
-      "review_criteria": [],
+      "review_criteria": [
+        "Distinguishes observation from cause; unchanged tracking alone does not prove complete measurement validity.",
+        "Accounts for broadened audience and page-message fit where they could change the next investigation; may exclude a surface only with a context-supported reason.",
+        "Does not prescribe a hero rewrite as established treatment from the symptom alone; gives a discriminating next check or a useful bounded diagnosis."
+      ],
       "forbidden_disclosures": [
         "route oracle",
         "must_load",
@@ -21,13 +25,13 @@
       ],
       "expected_relation": "skill_not_worse",
       "provenance": {
-        "source": "research/skill-retrieval-and-coverage/01-design-freeze.md#12-coverage-case-families",
-        "frozen_at_commit": "ed6ba1727e0b927ec94fda03eaa76abc6e728add"
+        "source": "research/skill-retrieval-and-coverage/04-precision-corrections.md",
+        "frozen_at_commit": "facc468a86ce6f3c8f5836f7a3a475facf58406f"
       }
     },
     {
       "case_id": "BEH-COV-MULTI-002",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "family": "coverage-multi-owner",
       "prompt": "Checkout completion fell after two changes shipped in the same week: the paid campaign started sending a broader mix of visitors and the pricing page introduced a new plan transition rule. Instrumentation is healthy. Determine what needs to be investigated before deciding whether to change media, the commercial setup, or the page.",
       "input_files": [],
@@ -36,7 +40,11 @@
           "type": "output_present"
         }
       ],
-      "review_criteria": [],
+      "review_criteria": [
+        "Keeps visitor mix and the new transition rule as plausible competing or interacting explanations until evidence distinguishes them.",
+        "Distinguishes the commercial rule from its page representation when that affects the fix; healthy instrumentation is retained.",
+        "Recommends discriminating inspection or a bounded next action without asserting a causal winner from simultaneous changes."
+      ],
       "forbidden_disclosures": [
         "route oracle",
         "must_load",
@@ -45,13 +53,13 @@
       ],
       "expected_relation": "skill_not_worse",
       "provenance": {
-        "source": "research/skill-retrieval-and-coverage/01-design-freeze.md#12-coverage-case-families",
-        "frozen_at_commit": "ed6ba1727e0b927ec94fda03eaa76abc6e728add"
+        "source": "research/skill-retrieval-and-coverage/04-precision-corrections.md",
+        "frozen_at_commit": "facc468a86ce6f3c8f5836f7a3a475facf58406f"
       }
     },
     {
       "case_id": "BEH-COV-MULTI-003",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "family": "coverage-multi-owner",
       "prompt": "Several founder-led deals reach the demo and then stall when buyers ask why the product is credible for their environment. The accounts span two customer types that use different alternatives. Diagnose the blockage and what evidence or decision surfaces must be resolved before rewriting sales copy.",
       "input_files": [],
@@ -60,7 +68,11 @@
           "type": "output_present"
         }
       ],
-      "review_criteria": [],
+      "review_criteria": [
+        "Examines buyer-specific blockage and needed environment proof without treating all stalled deals as a copy problem.",
+        "Accounts for differences in customer use and alternatives when they affect the diagnosis, or explains a supported exclusion.",
+        "Provides evidence needs and bounded implications before rewriting sales copy; does not invent prevalence or hidden buyer motives."
+      ],
       "forbidden_disclosures": [
         "route oracle",
         "must_load",
@@ -69,13 +81,13 @@
       ],
       "expected_relation": "skill_not_worse",
       "provenance": {
-        "source": "research/skill-retrieval-and-coverage/01-design-freeze.md#12-coverage-case-families",
-        "frozen_at_commit": "ed6ba1727e0b927ec94fda03eaa76abc6e728add"
+        "source": "research/skill-retrieval-and-coverage/04-precision-corrections.md",
+        "frozen_at_commit": "facc468a86ce6f3c8f5836f7a3a475facf58406f"
       }
     },
     {
       "case_id": "BEH-COV-NARROW-001",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "family": "coverage-narrow-sibling",
       "prompt": "Paid traffic increased and signup rate fell. Audience, positioning, landing-page content, price, and tracking are unchanged. The only material change was bidding and delivery configuration, which shifted exposure toward lower-intent placements. Diagnose the change without reopening settled strategy.",
       "input_files": [],
@@ -84,7 +96,11 @@
           "type": "output_present"
         }
       ],
-      "review_criteria": [],
+      "review_criteria": [
+        "Uses the supplied placement/delivery change to localize the diagnosis and next inspection.",
+        "Preserves verified unchanged strategy, page, price and tracking rather than reopening ICP or positioning.",
+        "Bounds any causal or treatment-effect claim to the supplied evidence."
+      ],
       "forbidden_disclosures": [
         "route oracle",
         "must_load",
@@ -93,13 +109,13 @@
       ],
       "expected_relation": "skill_not_worse",
       "provenance": {
-        "source": "research/skill-retrieval-and-coverage/01-design-freeze.md#12-coverage-case-families",
-        "frozen_at_commit": "ed6ba1727e0b927ec94fda03eaa76abc6e728add"
+        "source": "research/skill-retrieval-and-coverage/04-precision-corrections.md",
+        "frozen_at_commit": "facc468a86ce6f3c8f5836f7a3a475facf58406f"
       }
     },
     {
       "case_id": "BEH-COV-NARROW-002",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "family": "coverage-narrow-sibling",
       "prompt": "Conversion dropped after a mobile form/layout release. Traffic mix, audience, positioning, offer, price, and measurement are unchanged and verified. Diagnose the problem and recommend the next inspection.",
       "input_files": [],
@@ -108,7 +124,11 @@
           "type": "output_present"
         }
       ],
-      "review_criteria": [],
+      "review_criteria": [
+        "Localizes inspection to the changed mobile form/layout and a discriminating check rather than guessing a specific defect.",
+        "Retains the explicitly verified unchanged audience, offer, message and measurement.",
+        "Does not require a broader marketing audit before giving the supported next inspection."
+      ],
       "forbidden_disclosures": [
         "route oracle",
         "must_load",
@@ -117,13 +137,13 @@
       ],
       "expected_relation": "skill_not_worse",
       "provenance": {
-        "source": "research/skill-retrieval-and-coverage/01-design-freeze.md#12-coverage-case-families",
-        "frozen_at_commit": "ed6ba1727e0b927ec94fda03eaa76abc6e728add"
+        "source": "research/skill-retrieval-and-coverage/04-precision-corrections.md",
+        "frozen_at_commit": "facc468a86ce6f3c8f5836f7a3a475facf58406f"
       }
     },
     {
       "case_id": "BEH-COV-NARROW-003",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "family": "coverage-narrow-sibling",
       "prompt": "Audience, positioning, value proposition, price, offer, proof set, and CTA are already approved and fixed for this task. Build the landing-page information sequence and section order without reopening those decisions.",
       "input_files": [],
@@ -132,7 +152,11 @@
           "type": "output_present"
         }
       ],
-      "review_criteria": [],
+      "review_criteria": [
+        "Returns a useful page information sequence and section order.",
+        "Preserves approved strategic and commercial inputs; uses functional section roles where exact copy or proof assets are not supplied.",
+        "Does not invent claims or require renewed approval for settled choices."
+      ],
       "forbidden_disclosures": [
         "route oracle",
         "must_load",
@@ -141,13 +165,13 @@
       ],
       "expected_relation": "skill_not_worse",
       "provenance": {
-        "source": "research/skill-retrieval-and-coverage/01-design-freeze.md#12-coverage-case-families",
-        "frozen_at_commit": "ed6ba1727e0b927ec94fda03eaa76abc6e728add"
+        "source": "research/skill-retrieval-and-coverage/04-precision-corrections.md",
+        "frozen_at_commit": "facc468a86ce6f3c8f5836f7a3a475facf58406f"
       }
     },
     {
       "case_id": "BEH-COV-DEP-001",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "family": "coverage-strategic-dependency",
       "prompt": "We need to choose which customer group to prioritize. Interviews show two groups with different jobs and barriers, and they compare us with different alternatives. Our current positioning was written for everyone. Recommend the priority segment and explain what positioning consequence follows from that choice. Do not write campaign copy.",
       "input_files": [],
@@ -156,7 +180,11 @@
           "type": "output_present"
         }
       ],
-      "review_criteria": [],
+      "review_criteria": [
+        "Connects target selection to differences in jobs, barriers and alternatives rather than route names.",
+        "Does not invent interview contents or arbitrarily name a winning group when distinguishing evidence is missing; a bounded decision rule or necessary question is acceptable.",
+        "Explains the dependent positioning implication within the chosen or provisional scope and does not write campaign copy."
+      ],
       "forbidden_disclosures": [
         "route oracle",
         "must_load",
@@ -165,13 +193,13 @@
       ],
       "expected_relation": "skill_not_worse",
       "provenance": {
-        "source": "research/skill-retrieval-and-coverage/01-design-freeze.md#12-coverage-case-families",
-        "frozen_at_commit": "ed6ba1727e0b927ec94fda03eaa76abc6e728add"
+        "source": "research/skill-retrieval-and-coverage/04-precision-corrections.md",
+        "frozen_at_commit": "facc468a86ce6f3c8f5836f7a3a475facf58406f"
       }
     },
     {
       "case_id": "BEH-COV-DEP-002",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "family": "coverage-strategic-dependency",
       "prompt": "We are deciding whether to move from one broad package to two packages for different customer situations. The target situations are not yet settled, and the current value story mixes both. Decide what must be resolved first and then recommend a commercial direction without writing the pricing page.",
       "input_files": [],
@@ -180,7 +208,11 @@
           "type": "output_present"
         }
       ],
-      "review_criteria": [],
+      "review_criteria": [
+        "Resolves or bounds customer situations and value differences before treating a package split as justified.",
+        "Gives a conditional commercial direction when evidence is insufficient, with the material discriminator.",
+        "Does not invent customer facts, force two packages, or write a pricing page."
+      ],
       "forbidden_disclosures": [
         "route oracle",
         "must_load",
@@ -189,13 +221,13 @@
       ],
       "expected_relation": "skill_not_worse",
       "provenance": {
-        "source": "research/skill-retrieval-and-coverage/01-design-freeze.md#12-coverage-case-families",
-        "frozen_at_commit": "ed6ba1727e0b927ec94fda03eaa76abc6e728add"
+        "source": "research/skill-retrieval-and-coverage/04-precision-corrections.md",
+        "frozen_at_commit": "facc468a86ce6f3c8f5836f7a3a475facf58406f"
       }
     },
     {
       "case_id": "BEH-COV-DEP-003",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "family": "coverage-strategic-dependency",
       "prompt": "The founder can personally pursue only a small subset of current opportunities. General ICP guidance exists, but the active accounts differ in buying situation, urgency, access, and proof needs. Decide how to allocate founder attention while preserving the distinction between general target-market choice and account-specific pursuit.",
       "input_files": [],
@@ -204,7 +236,11 @@
           "type": "output_present"
         }
       ],
-      "review_criteria": [],
+      "review_criteria": [
+        "Preserves general ICP and distinguishes it from account-specific buying situation.",
+        "Uses limited founder capacity, urgency, access and proof burden to support allocation criteria or a bounded prioritization.",
+        "Does not fabricate account rankings from absent account-level records; clarifies only a necessary dependency."
+      ],
       "forbidden_disclosures": [
         "route oracle",
         "must_load",
@@ -213,22 +249,29 @@
       ],
       "expected_relation": "skill_not_worse",
       "provenance": {
-        "source": "research/skill-retrieval-and-coverage/01-design-freeze.md#12-coverage-case-families",
-        "frozen_at_commit": "ed6ba1727e0b927ec94fda03eaa76abc6e728add"
+        "source": "research/skill-retrieval-and-coverage/04-precision-corrections.md",
+        "frozen_at_commit": "facc468a86ce6f3c8f5836f7a3a475facf58406f"
       }
     },
     {
       "case_id": "BEH-COV-FAST-001",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "family": "coverage-fast-path",
-      "prompt": "Shorten this approved meta description to 150 characters while preserving its approved meaning exactly. Do not reconsider audience, positioning, offer, or claims.",
+      "prompt": "Approved meta description:\n\"Patchboard is a visual debugger for local Python AI-agent workflows. It shows run steps and tool calls, helping teams inspect how each workflow runs.\"\n\nShorten this approved meta description to 150 characters while preserving its approved meaning exactly. Do not reconsider audience, positioning, offer, or claims.",
       "input_files": [],
       "hard_predicates": [
         {
           "type": "output_present"
+        },
+        {
+          "type": "max_characters",
+          "value": 150
         }
       ],
-      "review_criteria": [],
+      "review_criteria": [
+        "Returns a shortened description of at most 150 characters preserving every material supplied meaning.",
+        "Does not add claims, reopen strategy, or ask for the source text that is already supplied."
+      ],
       "forbidden_disclosures": [
         "route oracle",
         "must_load",
@@ -237,22 +280,25 @@
       ],
       "expected_relation": "skill_not_worse",
       "provenance": {
-        "source": "research/skill-retrieval-and-coverage/01-design-freeze.md#12-coverage-case-families",
-        "frozen_at_commit": "ed6ba1727e0b927ec94fda03eaa76abc6e728add"
+        "source": "research/skill-retrieval-and-coverage/04-precision-corrections.md",
+        "frozen_at_commit": "facc468a86ce6f3c8f5836f7a3a475facf58406f"
       }
     },
     {
       "case_id": "BEH-COV-FAST-002",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "family": "coverage-fast-path",
-      "prompt": "The message hierarchy and proof order are approved. Tighten this paragraph for clarity and voice without changing its role, claim strength, or strategy.",
+      "prompt": "Approved paragraph:\n\"Patchboard helps Python teams debug local AI-agent workflows visually. You can see the run steps and the tool calls in each run. Try it locally.\"\nApproved order: local visual debugging, run-step/tool-call proof, then invitation.\n\nThe message hierarchy and proof order are approved. Tighten this paragraph for clarity and voice without changing its role, claim strength, or strategy.",
       "input_files": [],
       "hard_predicates": [
         {
           "type": "output_present"
         }
       ],
-      "review_criteria": [],
+      "review_criteria": [
+        "Returns the revised supplied paragraph rather than asking for missing copy or reopening strategy.",
+        "Preserves local debugging first, run-step/tool-call proof next, and the invitation last; does not strengthen the claim."
+      ],
       "forbidden_disclosures": [
         "route oracle",
         "must_load",
@@ -261,13 +307,13 @@
       ],
       "expected_relation": "skill_not_worse",
       "provenance": {
-        "source": "research/skill-retrieval-and-coverage/01-design-freeze.md#12-coverage-case-families",
-        "frozen_at_commit": "ed6ba1727e0b927ec94fda03eaa76abc6e728add"
+        "source": "research/skill-retrieval-and-coverage/04-precision-corrections.md",
+        "frozen_at_commit": "facc468a86ce6f3c8f5836f7a3a475facf58406f"
       }
     },
     {
       "case_id": "BEH-COV-FAST-003",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "family": "coverage-fast-path",
       "prompt": "The target audience, positioning, commercial terms, message, proof, and CTA are all final. Produce a responsive landing-page section sequence that preserves those decisions.",
       "input_files": [],
@@ -276,7 +322,11 @@
           "type": "output_present"
         }
       ],
-      "review_criteria": [],
+      "review_criteria": [
+        "Returns a responsive section sequence usable for the requested page.",
+        "Preserves approved upstream decisions; describes functional sections without inventing unspecified claims or commercial terms.",
+        "Does not turn missing optional creative details into a strategic rebrief."
+      ],
       "forbidden_disclosures": [
         "route oracle",
         "must_load",
@@ -285,8 +335,8 @@
       ],
       "expected_relation": "skill_not_worse",
       "provenance": {
-        "source": "research/skill-retrieval-and-coverage/01-design-freeze.md#12-coverage-case-families",
-        "frozen_at_commit": "ed6ba1727e0b927ec94fda03eaa76abc6e728add"
+        "source": "research/skill-retrieval-and-coverage/04-precision-corrections.md",
+        "frozen_at_commit": "facc468a86ce6f3c8f5836f7a3a475facf58406f"
       }
     }
   ]
