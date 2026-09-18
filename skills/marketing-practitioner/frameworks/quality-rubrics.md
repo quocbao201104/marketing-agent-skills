@@ -315,4 +315,5 @@ Use when an artifact can be technically correct yet fail the requested job.
 ### Proportionate review
 
 - Does the correction improve this job without adding an unrelated strategy exercise or mandatory process?
+- Does the review validate the active job rather than manufacture new completion requirements from optional improvements?
 - Has the work reached an appropriate completion point, rather than accumulating variants, caveats, or polish that do not change its usefulness?

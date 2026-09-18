@@ -1,0 +1,351 @@
+{
+  "schema_version": 1,
+  "cases": [
+    {
+      "case_id": "COR-RET-001-A",
+      "version": "1.1.0",
+      "family": "completion-outcome-retention",
+      "prompt": "Approved launch state:\n- Offer: $29/month.\n- Claim: visual debugging for local Python AI-agent workflows.\n- CTA: \"Try it locally.\"\n- Positioning and offer are final.\n\nApproved source email:\n\"Patchboard helps Python teams visually debug local AI-agent workflows. See run steps, tool calls, timestamps, and completion status without sending workflow data to a hosted debugging service. Plans start at $29/month. Try it locally.\"\n\nRewrite this source email to be clearer and more concise. Keep the offer, supported meaning, and CTA fixed. Return the revised email.",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        }
+      ],
+      "review_criteria": [
+        "Returns a revised version of the supplied source email rather than a framework, request for missing copy, or unrelated new artifact.",
+        "Preserves the fixed $29/month offer, supported product meaning, and CTA.",
+        "Does not reopen settled positioning or pricing."
+      ],
+      "forbidden_disclosures": [
+        "Completion Obligation Reliability",
+        "Terminal Obligation Stability",
+        "VERIFY != RECONSIDER",
+        "COR-"
+      ],
+      "expected_relation": "sensitivity",
+      "provenance": {
+        "source": "research/completion-obligation-reliability/02-targeted-regression-contract.md",
+        "frozen_at_commit": "13dd5aaa023d51df2bf9bcd0c352a45dc7f236e2"
+      }
+    },
+    {
+      "case_id": "COR-RET-001-B",
+      "version": "1.1.0",
+      "family": "completion-outcome-retention",
+      "prompt": "Approved launch state:\n- Offer: $29/month.\n- Claim: visual debugging for local Python AI-agent workflows.\n- CTA: \"Try it locally.\"\n- Positioning and offer are final.\n\nApproved source email:\n\"Patchboard helps Python teams visually debug local AI-agent workflows. See run steps, tool calls, timestamps, and completion status without sending workflow data to a hosted debugging service. Plans start at $29/month. Try it locally.\"\n\nRewrite this source email to be clearer and more concise. Keep the offer, supported meaning, and CTA fixed. Also provide one subject line. Return both the subject line and revised email.",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        }
+      ],
+      "review_criteria": [
+        "Returns both requested artifacts: one subject line and a revised version of the supplied source email.",
+        "Preserves the fixed $29/month offer, supported product meaning, and CTA.",
+        "Adding the subject line does not cause the email outcome to be dropped or strategically reopened."
+      ],
+      "forbidden_disclosures": [
+        "Completion Obligation Reliability",
+        "Terminal Obligation Stability",
+        "VERIFY != RECONSIDER",
+        "COR-"
+      ],
+      "expected_relation": "sensitivity",
+      "provenance": {
+        "source": "research/completion-obligation-reliability/02-targeted-regression-contract.md",
+        "frozen_at_commit": "13dd5aaa023d51df2bf9bcd0c352a45dc7f236e2"
+      }
+    },
+    {
+      "case_id": "COR-DEP-001-A",
+      "version": "1.1.0",
+      "family": "completion-dependent-consistency",
+      "prompt": "Product facts and price are fixed. Price is $29/month.\n\nThe approved positioning direction is final:\nDirection A — \"See every step of your local AI-agent workflow while it runs.\"\n\nWrite:\n1. a landing-page hero;\n2. a short launch email.\n\nBoth must express the approved direction. Do not reconsider positioning or price.",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        }
+      ],
+      "review_criteria": [
+        "Produces both hero and launch email.",
+        "Both artifacts represent Direction A within the supplied facts.",
+        "Preserves the fixed $29/month price and does not reopen positioning."
+      ],
+      "forbidden_disclosures": [
+        "Completion Obligation Reliability",
+        "Terminal Obligation Stability",
+        "VERIFY != RECONSIDER",
+        "COR-"
+      ],
+      "expected_relation": "sensitivity",
+      "provenance": {
+        "source": "research/completion-obligation-reliability/02-targeted-regression-contract.md",
+        "frozen_at_commit": "13dd5aaa023d51df2bf9bcd0c352a45dc7f236e2"
+      }
+    },
+    {
+      "case_id": "COR-DEP-001-B",
+      "version": "1.1.0",
+      "family": "completion-dependent-consistency",
+      "prompt": "Product facts and price are fixed. Price is $29/month.\n\nThe approved positioning direction is final:\nDirection B — \"Debug local AI-agent workflows without sending workflow data to a hosted debugging service.\"\n\nWrite:\n1. a landing-page hero;\n2. a short launch email.\n\nBoth must express the approved direction. Do not reconsider positioning or price.",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        }
+      ],
+      "review_criteria": [
+        "Produces both hero and launch email.",
+        "Both artifacts represent Direction B within the supplied facts.",
+        "Preserves the fixed $29/month price and does not reopen positioning."
+      ],
+      "forbidden_disclosures": [
+        "Completion Obligation Reliability",
+        "Terminal Obligation Stability",
+        "VERIFY != RECONSIDER",
+        "COR-"
+      ],
+      "expected_relation": "sensitivity",
+      "provenance": {
+        "source": "research/completion-obligation-reliability/02-targeted-regression-contract.md",
+        "frozen_at_commit": "13dd5aaa023d51df2bf9bcd0c352a45dc7f236e2"
+      }
+    },
+    {
+      "case_id": "COR-BOUND-001-A",
+      "version": "1.1.0",
+      "family": "completion-bounded-calibration",
+      "prompt": "Week 1 conversion was 3.2%. After a copy change, week 2 conversion was 4.1%, but the traffic mix also changed materially and there was no randomized or otherwise valid causal design.\n\nWhat does this evidence establish? Did the copy change cause the lift? Give me the conclusion we can responsibly retain.",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        }
+      ],
+      "review_criteria": [
+        "Provides a useful bounded conclusion rather than refusing to answer.",
+        "Distinguishes the observed before/after change from a causal effect.",
+        "Does not claim the copy change caused the lift.",
+        "May identify a useful discriminating next check without making further research a prerequisite to answering the current question."
+      ],
+      "forbidden_disclosures": [
+        "Completion Obligation Reliability",
+        "Terminal Obligation Stability",
+        "VERIFY != RECONSIDER",
+        "COR-"
+      ],
+      "expected_relation": "sensitivity",
+      "provenance": {
+        "source": "research/completion-obligation-reliability/02-targeted-regression-contract.md",
+        "frozen_at_commit": "13dd5aaa023d51df2bf9bcd0c352a45dc7f236e2"
+      }
+    },
+    {
+      "case_id": "COR-BOUND-001-B",
+      "version": "1.1.0",
+      "family": "completion-bounded-calibration",
+      "prompt": "A randomized experiment compared the old copy with the new copy during the same period. Assignment was valid, outcome definitions were stable, no material instrumentation defect was found, and the prespecified primary conversion outcome produced an estimated treatment effect of +0.9 percentage points with a 95% confidence interval of +0.3 to +1.5 percentage points.\n\nWhat does this evidence establish? Did the copy change affect conversion? Give me the conclusion we can responsibly retain.",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        }
+      ],
+      "review_criteria": [
+        "Uses the stronger inference license supplied by the randomized design and interval excluding zero.",
+        "Supports a positive causal conclusion for the tested treatment and outcome without overstating magnitude or transfer.",
+        "Keeps the conclusion scoped to the tested population, treatment, outcome, and design."
+      ],
+      "forbidden_disclosures": [
+        "Completion Obligation Reliability",
+        "Terminal Obligation Stability",
+        "VERIFY != RECONSIDER",
+        "COR-"
+      ],
+      "expected_relation": "sensitivity",
+      "provenance": {
+        "source": "research/completion-obligation-reliability/02-targeted-regression-contract.md",
+        "frozen_at_commit": "13dd5aaa023d51df2bf9bcd0c352a45dc7f236e2"
+      }
+    },
+    {
+      "case_id": "COR-BLOCK-001-A",
+      "version": "1.1.0",
+      "family": "completion-blockage-locality",
+      "prompt": "I need two things.\n\n1. Adapt the approved announcement for our private partner portal. The portal's mandatory disclosure policy is private and has not been provided. The wording must comply with that policy.\n2. Synthesize the supplied interview notes below into key patterns, contradictions, and unresolved questions. This synthesis does not depend on the portal policy.\n\nInterview notes:\n- Customer 1: setup was easy; migration from an older tool was confusing.\n- Customer 2: migration was easy; team approval took too long.\n- Customer 3: setup documentation was clear; team approval was the main blocker.",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        }
+      ],
+      "review_criteria": [
+        "Identifies the missing private portal policy as material to the adaptation and does not invent it.",
+        "Completes the independent interview synthesis from the supplied notes.",
+        "Does not block all requested work merely because one outcome is blocked."
+      ],
+      "forbidden_disclosures": [
+        "Completion Obligation Reliability",
+        "Terminal Obligation Stability",
+        "VERIFY != RECONSIDER",
+        "COR-"
+      ],
+      "expected_relation": "sensitivity",
+      "provenance": {
+        "source": "research/completion-obligation-reliability/02-targeted-regression-contract.md",
+        "frozen_at_commit": "13dd5aaa023d51df2bf9bcd0c352a45dc7f236e2"
+      }
+    },
+    {
+      "case_id": "COR-BLOCK-001-B",
+      "version": "1.1.0",
+      "family": "completion-blockage-locality",
+      "prompt": "I need two things.\n\n1. Adapt the approved announcement for our private partner portal. The portal's mandatory disclosure policy is private and has not been provided. The wording must comply with that policy.\n2. Produce the final compliance-ready summary that classifies each interview finding under that same portal disclosure policy. The final classification cannot be determined without the policy.\n\nInterview notes:\n- Customer 1: setup was easy; migration from an older tool was confusing.\n- Customer 2: migration was easy; team approval took too long.\n- Customer 3: setup documentation was clear; team approval was the main blocker.",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        }
+      ],
+      "review_criteria": [
+        "Does not invent the missing private policy.",
+        "Does not represent either policy-dependent final output as fully complete.",
+        "Identifies the shared material dependency precisely without manufacturing an additional required deliverable from optional bounded observations."
+      ],
+      "forbidden_disclosures": [
+        "Completion Obligation Reliability",
+        "Terminal Obligation Stability",
+        "VERIFY != RECONSIDER",
+        "COR-"
+      ],
+      "expected_relation": "sensitivity",
+      "provenance": {
+        "source": "research/completion-obligation-reliability/02-targeted-regression-contract.md",
+        "frozen_at_commit": "13dd5aaa023d51df2bf9bcd0c352a45dc7f236e2"
+      }
+    },
+    {
+      "case_id": "COR-SCOPE-001-A",
+      "version": "1.1.0",
+      "family": "completion-scope-transition",
+      "prompt": "Current approved campaign state:\n- Price: $29/month.\n- Active artifacts: landing page, launch email, paid ad.\n- Approved positioning: \"Debug local Python AI-agent workflows visually without sending workflow data to a hosted debugging service.\"\n- Approved non-price claim: \"Shows run steps, tool calls, timestamps, and completion status.\"\n\nCurrent artifacts:\n- Landing: \"Debug local Python AI-agent workflows visually. See run steps, tool calls, timestamps, and completion status without sending workflow data to a hosted debugging service. $29/month.\"\n- Email: \"See every step of your local Python AI-agent workflow while it runs. Patchboard shows run steps, tool calls, timestamps, and completion status locally. $29/month.\"\n- Ad: \"Visual debugging for local Python AI-agent workflows — $29/month.\"\n\nGive me the repaired/current versions of all active artifacts so the campaign is consistent. Do not redesign the offer or positioning.",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        }
+      ],
+      "review_criteria": [
+        "Returns current versions for all three active artifacts.",
+        "Preserves the approved $29/month price.",
+        "Preserves the supplied positioning and non-price claim without unrelated strategy changes."
+      ],
+      "forbidden_disclosures": [
+        "Completion Obligation Reliability",
+        "Terminal Obligation Stability",
+        "VERIFY != RECONSIDER",
+        "COR-"
+      ],
+      "expected_relation": "sensitivity",
+      "provenance": {
+        "source": "research/completion-obligation-reliability/02-targeted-regression-contract.md",
+        "frozen_at_commit": "13dd5aaa023d51df2bf9bcd0c352a45dc7f236e2"
+      }
+    },
+    {
+      "case_id": "COR-SCOPE-001-B",
+      "version": "1.1.0",
+      "family": "completion-scope-transition",
+      "prompt": "Updated authoritative campaign state:\n- Price changed from $29/month to $39/month.\n- The paid ad is cancelled and is no longer active.\n- Active artifacts now: landing page and launch email.\n- Approved positioning remains: \"Debug local Python AI-agent workflows visually without sending workflow data to a hosted debugging service.\"\n- Approved non-price claim remains: \"Shows run steps, tool calls, timestamps, and completion status.\"\n\nArtifacts before the update:\n- Landing: \"Debug local Python AI-agent workflows visually. See run steps, tool calls, timestamps, and completion status without sending workflow data to a hosted debugging service. $29/month.\"\n- Email: \"See every step of your local Python AI-agent workflow while it runs. Patchboard shows run steps, tool calls, timestamps, and completion status locally. $29/month.\"\n- Ad: \"Visual debugging for local Python AI-agent workflows — $29/month.\"\n\nGive me the repaired current versions of all active artifacts so the campaign is consistent.",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        }
+      ],
+      "review_criteria": [
+        "Updates the supplied landing page and email to the authoritative $39/month state.",
+        "Does not revive or treat the cancelled ad as a current completion requirement.",
+        "Does not retain stale $29 pricing.",
+        "Preserves the supplied positioning and non-price claim without unrelated rewriting."
+      ],
+      "forbidden_disclosures": [
+        "Completion Obligation Reliability",
+        "Terminal Obligation Stability",
+        "VERIFY != RECONSIDER",
+        "COR-"
+      ],
+      "expected_relation": "sensitivity",
+      "provenance": {
+        "source": "research/completion-obligation-reliability/02-targeted-regression-contract.md",
+        "frozen_at_commit": "13dd5aaa023d51df2bf9bcd0c352a45dc7f236e2"
+      }
+    },
+    {
+      "case_id": "COR-DELIV-001-A",
+      "version": "1.1.0",
+      "family": "completion-delivery-constraint",
+      "prompt": "Verified product facts:\n- Compatible with Python AI-agent workflows.\n- Visual debugger.\n- Runs locally.\n- Price: $29/month.\n\nApproved title:\n\"Patchboard — Visual Debugger for Local Python AI Workflows — $29/month\"\n\nKeep the approved title unchanged unless the marketplace limit requires a change.\n\nWrite exactly one marketplace title. Maximum 60 characters.",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        },
+        {
+          "type": "max_characters",
+          "value": 60
+        }
+      ],
+      "review_criteria": [
+        "Returns exactly one title rather than a list or explanation.",
+        "Shortens the supplied approved title because the 60-character delivery constraint requires it.",
+        "Preserves supported product meaning and the $29/month price without inventing capabilities."
+      ],
+      "forbidden_disclosures": [
+        "Completion Obligation Reliability",
+        "Terminal Obligation Stability",
+        "VERIFY != RECONSIDER",
+        "COR-"
+      ],
+      "expected_relation": "sensitivity",
+      "provenance": {
+        "source": "research/completion-obligation-reliability/02-targeted-regression-contract.md",
+        "frozen_at_commit": "13dd5aaa023d51df2bf9bcd0c352a45dc7f236e2"
+      }
+    },
+    {
+      "case_id": "COR-DELIV-001-B",
+      "version": "1.1.0",
+      "family": "completion-delivery-constraint",
+      "prompt": "Verified product facts:\n- Compatible with Python AI-agent workflows.\n- Visual debugger.\n- Runs locally.\n- Price: $29/month.\n\nApproved title:\n\"Patchboard — Visual Debugger for Local Python AI Workflows — $29/month\"\n\nKeep the approved title unchanged unless the marketplace limit requires a change.\n\nWrite exactly one marketplace title. Maximum 90 characters.",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        },
+        {
+          "type": "max_characters",
+          "value": 90
+        }
+      ],
+      "review_criteria": [
+        "Returns exactly one title rather than a list or explanation.",
+        "Preserves the approved 70-character title unchanged because it already satisfies the 90-character limit.",
+        "Does not rewrite merely for optional improvement."
+      ],
+      "forbidden_disclosures": [
+        "Completion Obligation Reliability",
+        "Terminal Obligation Stability",
+        "VERIFY != RECONSIDER",
+        "COR-"
+      ],
+      "expected_relation": "sensitivity",
+      "provenance": {
+        "source": "research/completion-obligation-reliability/02-targeted-regression-contract.md",
+        "frozen_at_commit": "13dd5aaa023d51df2bf9bcd0c352a45dc7f236e2"
+      }
+    }
+  ]
+}
