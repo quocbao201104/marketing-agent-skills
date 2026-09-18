@@ -19,7 +19,7 @@ from .models import RunRecord, RunState, ValidationError
 
 
 ORACLE_SCHEMA_VERSION = 1
-TRACE_SCHEMA_VERSION = 1
+TRACE_SCHEMA_VERSION = 2
 HELPER_ROUTE_RE = re.compile(r"^[a-z0-9]+(?:[.-][a-z0-9]+)*$")
 SKILL_ROOT_RE = re.compile(
     r"marketing-practitioner/(?P<rel>(?:skill\.md|routing-index\.json|"
@@ -633,7 +633,7 @@ def build_trace_report(
         class_counts[primary] += 1
         for label in classification["labels"]:
             label_counts[label] += 1
-        family_counts[identity][label] += 1
+            family_counts[identity][label] += 1
 
     return {
         "schema_version": TRACE_SCHEMA_VERSION,
