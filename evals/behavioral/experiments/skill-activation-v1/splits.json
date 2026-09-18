@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "experiment_id": "skill-activation-description-v1",
+  "splits": {
+    "development": [
+      "BEH-ACT-DIR-001",
+      "BEH-ACT-DIR-002",
+      "BEH-ACT-DIR-003",
+      "BEH-ACT-PARA-001",
+      "BEH-ACT-PARA-002",
+      "BEH-ACT-PARA-003",
+      "BEH-ACT-SYM-001",
+      "BEH-ACT-SYM-002",
+      "BEH-ACT-SYM-003",
+      "BEH-ACT-NOISY-001",
+      "BEH-ACT-NOISY-002",
+      "BEH-ACT-ADJ-001",
+      "BEH-ACT-ADJ-003",
+      "BEH-ACT-NOUN-001"
+    ],
+    "holdout": [
+      "BEH-ACT-DIR-004",
+      "BEH-ACT-SYM-004",
+      "BEH-ACT-NOISY-003",
+      "BEH-ACT-ADJ-004",
+      "BEH-ACT-NOUN-002",
+      "BEH-ACT-NOUN-003"
+    ],
+    "challenge": [
+      "BEH-ACT-PARA-004",
+      "BEH-ACT-NOISY-004",
+      "BEH-ACT-ADJ-002",
+      "BEH-ACT-NOUN-004"
+    ]
+  },
+  "rule": "Tune only on development. Freeze the selected description before opening holdout or challenge results."
+}
