@@ -200,9 +200,6 @@
       "walk": "jit",
       "must_load": [
         [
-          "handbook/02-segmentation-icp-and-jtbd.md"
-        ],
-        [
           "founder-sales.selection"
         ],
         [
@@ -210,6 +207,7 @@
         ]
       ],
       "must_not_load": [
+        "handbook/02-segmentation-icp-and-jtbd.md",
         "paid-media",
         "email",
         "brand-identity"
@@ -219,7 +217,6 @@
         "founder-sales.handoffs"
       ],
       "handoff": [
-        "handbook/02-segmentation-icp-and-jtbd.md",
         "founder-sales.selection",
         "founder-sales.pursuit"
       ]
