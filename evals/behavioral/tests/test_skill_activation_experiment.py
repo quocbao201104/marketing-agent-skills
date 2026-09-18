@@ -33,6 +33,14 @@ PROFILES = (
     / "profiles.json"
 )
 SKILL = ROOT / "skills" / "marketing-practitioner" / "SKILL.md"
+SPLITS = (
+    ROOT
+    / "evals"
+    / "behavioral"
+    / "experiments"
+    / "skill-activation-v1"
+    / "splits.json"
+)
 
 
 class SkillActivationExperimentContractTests(unittest.TestCase):
@@ -86,6 +94,17 @@ class SkillActivationExperimentContractTests(unittest.TestCase):
         )
         current = json.loads(current_line.split(":", 1)[1].strip())
         self.assertEqual(current, variants["D0"]["description"])
+
+    def test_splits_are_disjoint_and_cover_all_cases(self) -> None:
+        cases = load_cases(CASES)
+        document = json.loads(SPLITS.read_text(encoding="utf-8"))
+        splits = document["splits"]
+        self.assertEqual(14, len(splits["development"]))
+        self.assertEqual(6, len(splits["holdout"]))
+        self.assertEqual(4, len(splits["challenge"]))
+        flattened = [case_id for values in splits.values() for case_id in values]
+        self.assertEqual(len(flattened), len(set(flattened)))
+        self.assertEqual({case.case_id for case in cases}, set(flattened))
 
     def test_description_variants_stay_in_comparable_word_budget(self) -> None:
         variants = json.loads(VARIANTS.read_text(encoding="utf-8"))["variants"]
