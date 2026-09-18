@@ -20,8 +20,17 @@ Default submission-routing run:
 4. record whether Marketing Practitioner was selected;
 5. judge the task behavior separately from activation.
 
-For a positive case, expected activation is **YES** under this default auto-routing
-run. For a negative case, expected activation is **NO**.
+These activation labels are **internal auto-routing expectations**, not OpenAI's
+public definition of positive and negative submission cases.
+
+- Positive submission cases still need the expected skill/workflow behavior,
+  expected result shape, and any fixture or test-account requirements.
+- Negative submission cases need the expected refusal, clarification, or safe
+  fallback plus the reason Marketing Practitioner should not complete the
+  requested action.
+
+For the internal routing regression, positive cases expect selection and negative
+cases expect non-selection in the clean auto-routing run above.
 
 If a reviewer instead runs a case with the plugin already explicitly selected,
 activation is no longer a valid pass/fail signal. In that regime, judge ownership
@@ -51,8 +60,9 @@ Practitioner as the task-solving framework.
 **Job:** RESEARCH / UNDERSTAND  
 **Primary owner:** Chapter 01 — customer research and evidence  
 **Secondary dependency:** Chapter 04 only if communication implications are used  
-**Expected activation (default auto-routing run):** YES  
+**Internal auto-routing expectation:** YES  
 **Activation shape:** explicit evidence synthesis with product-adoption symptoms
+**Fixture / test account:** No account or authentication required. All material fixture data is included inline in the submission prompt.  
 
 ### Public provenance
 
@@ -140,9 +150,10 @@ the product-roadmap handoff.
 **Primary routes:** `commercial-design.configuration`,
 `commercial-design.payment`, `commercial-design.modifiers-representation`,
 `commercial-design.decision`  
-**Expected activation (default auto-routing run):** YES  
+**Internal auto-routing expectation:** YES  
 **Activation shape:** published offer structure with an unresolved commercial
 communication/design question
+**Fixture / test account:** No account or authentication required. All material fixture data is included inline in the submission prompt.  
 
 ### Public provenance
 
@@ -218,9 +229,10 @@ available.
 **Job:** DIAGNOSE  
 **Primary owner:** Chapter 05 — diagnosis / causality / experimentation  
 **Conditional routes:** `etsy.diagnosis`, `paid-media.observation`  
-**Expected activation (default auto-routing run):** YES  
+**Internal auto-routing expectation:** YES  
 **Activation shape:** apparently good aggregate growth with mixed underlying
 drivers and an intervention temptation
+**Fixture / test account:** No account or authentication required. All material fixture data is included inline in the submission prompt.  
 
 ### Public provenance
 
@@ -298,16 +310,19 @@ and what should be checked before changing paid-search allocation or creative?
 `founder-sales.proof`, `founder-sales.decision`  
 **Conditional dependency:** `commercial-design` only for the buyer's requested
 pricing structure  
-**Expected activation (default auto-routing run):** YES  
+**Internal auto-routing expectation:** YES  
 **Activation shape:** buyer opportunity with a mix of confirmed fit, unknowns,
 and likely gaps
+**Fixture / test account:** No account or authentication required. All material fixture data is included inline in the submission prompt.  
 
 ### Public provenance
 
 University at Buffalo RFI #25AXB0165 and Buffer public product/pricing pages:
 
-- RFI mirror:
+- Secondary public RFI mirror:
   https://govtribe.com/file/government-file/1392364-event-dot-pdf
+  - No official public primary URL is currently located.
+  - Fixture facts are frozen inline, so test execution does not depend on mirror availability.
 - Buffer pricing:
   https://buffer.com/pricing
 - Buffer small-business product page:
@@ -393,9 +408,10 @@ disqualifier.
 **Primary routes:** Chapter 04, `landing-page.core`,
 `landing-page.sequence`, `landing-page.proof-risk`,
 `landing-page.action-form`  
-**Expected activation (default auto-routing run):** YES  
+**Internal auto-routing expectation:** YES  
 **Activation shape:** approved strategy and product facts; execution should not
 reopen positioning
+**Fixture / test account:** No account or authentication required. All material fixture data is included inline in the submission prompt.  
 
 ### Public provenance
 
@@ -473,7 +489,7 @@ product capabilities.
 
 **ID:** SUB-NEG-001  
 **Boundary:** unrelated technical work / product-roadmap implementation  
-**Expected activation (default auto-routing run):** NO  
+**Internal auto-routing expectation:** NO  
 **Source:** https://github.com/plausible/analytics/issues/5612
 
 ### Submission prompt
@@ -484,18 +500,23 @@ runtime actually requires. I want you to patch the Elixir/Phoenix configuration
 code, add validation, and write the regression test for this bug.
 ```
 
-### Expected behavior
+### Internal auto-routing expectation
 
-Under the default auto-routing run, Marketing Practitioner should not be
-selected. The request is a software implementation/debugging task. If the host
-has a coding capability, route to that capability; otherwise explain the
-boundary.
+Marketing Practitioner should not be selected in the clean auto-routing run.
 
-If the plugin was already explicitly selected before the prompt, do not use
-Marketing Practitioner as the task-solving framework. Bound or hand off the
-technical implementation instead. Marketing Practitioner may only become
-relevant later if the user separately asks how to communicate the change or
-learn from customer evidence.
+### Expected submission behavior
+
+Use a safe fallback or handoff to the appropriate coding capability. If the
+plugin was already explicitly selected before the prompt, do not use Marketing
+Practitioner as the task-solving framework; bound or hand off the technical
+implementation instead.
+
+### Why Marketing Practitioner should not complete this task
+
+The requested action is software implementation/debugging, which is outside the
+skill's ownership. Marketing Practitioner may only become relevant later if the
+user separately asks how to communicate the change or learn from customer
+evidence.
 
 ---
 
@@ -503,7 +524,7 @@ learn from customer evidence.
 
 **ID:** SUB-NEG-002  
 **Boundary:** legal/compliance authority  
-**Expected activation (default auto-routing run):** NO  
+**Internal auto-routing expectation:** NO  
 **Source:** University at Buffalo RFI #25AXB0165 public procurement materials
 
 ### Submission prompt
@@ -516,15 +537,23 @@ withheld from disclosure, cite the controlling New York law, and draft the legal
 language we should rely on.
 ```
 
-### Expected behavior
+### Internal auto-routing expectation
 
-Under the default auto-routing run, Marketing Practitioner should not be
-selected as the task owner. The requested judgment is legal.
+Marketing Practitioner should not be selected as the task owner in the clean
+auto-routing run.
 
-If the plugin was already explicitly selected before the prompt, it should not
-give a definitive legal conclusion or use marketing guidance as a substitute for
-legal analysis. It can identify the legal dependency and preserve any separate
-commercial/sales work that does not require that legal answer.
+### Expected submission behavior
+
+Refuse to provide a definitive legal determination as Marketing Practitioner, or
+hand off to an appropriate legal capability if one is available. If the plugin
+was already explicitly selected, identify the legal dependency and preserve any
+separate commercial/sales work that does not require the legal answer.
+
+### Why Marketing Practitioner should not complete this task
+
+The requested judgment depends on legal authority and interpretation. Marketing
+guidance must not substitute for legal analysis merely because the scenario
+arises inside procurement or sales work.
 
 ---
 
@@ -532,7 +561,7 @@ commercial/sales work that does not require that legal answer.
 
 **ID:** SUB-NEG-003  
 **Boundary:** finance/accounting  
-**Expected activation (default auto-routing run):** NO  
+**Internal auto-routing expectation:** NO  
 **Source:** https://buffer.com/pricing
 
 ### Submission prompt
@@ -543,16 +572,20 @@ recognition treatment and journal entries for a customer who prepays an annual
 subscription, including deferred revenue and monthly recognition.
 ```
 
-### Expected behavior
+### Internal auto-routing expectation
 
-Under the default auto-routing run, Marketing Practitioner should not be
-selected. Pricing is mentioned, but the actual job is revenue recognition and
-journal-entry accounting.
+Marketing Practitioner should not be selected in the clean auto-routing run.
 
-If the plugin was already explicitly selected before the prompt, it should
-recognize that accounting owns the task and hand off or bound the work rather
-than applying commercial-design guidance. Route to an accounting/finance
-capability if available.
+### Expected submission behavior
+
+Use a safe fallback or handoff to an accounting/finance capability if available.
+If the plugin was already explicitly selected, recognize that accounting owns
+the task and do not apply commercial-design guidance as a substitute.
+
+### Why Marketing Practitioner should not complete this task
+
+Pricing is mentioned, but the requested work is revenue recognition and
+journal-entry accounting, which is outside Marketing Practitioner's ownership.
 
 ---
 
