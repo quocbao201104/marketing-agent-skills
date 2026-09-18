@@ -11,6 +11,7 @@ from evals.behavioral.behavioral_eval.cli import main
 from evals.behavioral.behavioral_eval.models import RunRecord, RunState, ValidationError
 from evals.behavioral.behavioral_eval.trace import (
     OracleCase,
+    build_trace_report,
     classify_skill_walk,
     extract_helper_routes,
     extract_skill_paths,
@@ -236,6 +237,46 @@ class TraceReconstructionTests(unittest.TestCase):
 
         self.assertEqual("skip_jit", result["primary"])
         self.assertNotIn("premature_closure", result["labels"])
+
+    def test_trace_report_counts_all_stacked_labels_for_case(self) -> None:
+        oracle = OracleCase(
+            identity="FIXTURE@1.0.0",
+            walk="jit",
+            must_load=(("alpha",), ("beta",)),
+            must_not_load=(),
+            may_load=(),
+            handoff=(),
+        )
+        record = RunRecord(
+            run_id="RUN-STACKED",
+            case_identity="FIXTURE@1.0.0",
+            profile_id="current-skill",
+            state=RunState.COMPLETED,
+            started_at="2026-09-18T00:00:00Z",
+            finished_at="2026-09-18T00:00:01Z",
+            raw_events=(
+                command_event(
+                    "Get-Content -LiteralPath "
+                    "'.agents\\skills\\marketing-practitioner\\SKILL.md' -Raw"
+                ),
+                command_event(
+                    "python '.agents\\skills\\marketing-practitioner\\scripts\\"
+                    "get-knowledge.py' alpha"
+                ),
+            ),
+        )
+
+        report = build_trace_report(
+            (record,),
+            {"FIXTURE@1.0.0": oracle},
+            {},
+            results_id="fixture",
+        )
+
+        self.assertEqual(2, report["schema_version"])
+        counts = report["case_label_counts"]["FIXTURE@1.0.0"]
+        self.assertEqual(1, counts["premature_closure"])
+        self.assertEqual(1, counts["skip_jit"])
 
     def test_failed_probe_of_required_file_is_resolve_fail(self) -> None:
         oracle = load_oracle(ORACLE)["BEH-EVID-001@1.0.0"]
