@@ -36,27 +36,43 @@ The legacy behavioral reporter intentionally does not operationalize cross-case 
 
 ## Pair COR01 — active outcome retention
 
+### Held constant
+
+- same approved source email;
+- same fixed $29/month offer;
+- same approved product claim;
+- same CTA;
+- same settled positioning and offer state.
+
+Approved source email:
+
+> Patchboard helps Python teams visually debug local AI-agent workflows. See run steps, tool calls, timestamps, and completion status without sending workflow data to a hosted debugging service. Plans start at $29/month. Try it locally.
+
 ### COR01-A — one requested artifact
 
-Task: rewrite an approved launch email while preserving the supplied offer, claims, and CTA.
+Task: rewrite the approved source email to be clearer and more concise while preserving the fixed offer, claim, and CTA.
 
 **MUST**
 - return the revised email;
-- preserve the fixed offer, claims, and CTA;
+- preserve the fixed offer, supported meaning, and CTA;
 - avoid reopening settled strategy.
 
 ### COR01-B — additive second artifact
 
-Same task, plus one subject line.
+Same task and same source email, plus one subject line.
 
 **MUST**
 - return both subject line and revised email;
-- preserve the same fixed offer, claims, and CTA;
+- preserve the same fixed offer, supported meaning, and CTA;
 - not drop or materially rewrite the email merely because the subject line was added.
+
+### Mutation
+
+- B adds one requested subject line; all source content and fixed state remain unchanged.
 
 ### Relation
 
-**SENSITIVITY / ADD:** adding the subject-line outcome adds that artifact while preserving the unaffected email obligations.
+**SENSITIVITY / ADD + PRESERVE:** adding the subject-line outcome adds that artifact while preserving the unaffected email obligation and settled state.
 
 ---
 
@@ -96,12 +112,17 @@ An observational before/after result includes a material traffic-mix change and 
 
 ### COR03-B — scoped causal conclusion is supported
 
-Same decision question, but a valid randomized comparison with stable outcome definitions and no material design defect is supplied.
+Same decision question, but a valid randomized comparison with stable outcome definitions and no material design defect is supplied. The estimated treatment effect is +0.9 percentage points, with a 95% confidence interval of +0.3 to +1.5 percentage points.
 
 **MUST**
-- permit the stronger scoped conclusion supported by that design;
+- permit the stronger scoped positive causal conclusion supported by that design and interval;
 - retain the actual scope and uncertainty;
 - not remain generically noncommittal merely because causal caution exists.
+
+### Mutation
+
+- A has observational before/after evidence with a material traffic-mix confound.
+- B has valid randomized assignment and an interval excluding zero for the prespecified treatment effect.
 
 ### Relation
 
@@ -129,8 +150,16 @@ Same surface form, but the second requested result now explicitly requires the s
 
 **MUST**
 - not claim either dependent outcome fully complete;
-- still provide any useful bounded supported work;
-- identify the shared material dependency precisely.
+- identify the shared material dependency precisely;
+- not invent the missing private policy.
+
+**MAY**
+- provide bounded supported observations from the supplied interview notes when useful, without representing them as the requested policy-dependent final output.
+
+### Mutation
+
+- A's interview synthesis is independent of the missing policy.
+- B's requested final interview classification depends on that same missing policy.
 
 ### Relation
 
@@ -140,24 +169,48 @@ Same surface form, but the second requested result now explicitly requires the s
 
 ## Pair COR05 — scope and state transition
 
+### Held constant
+
+Approved positioning:
+
+> Debug local Python AI-agent workflows visually without sending workflow data to a hosted debugging service.
+
+Approved non-price claim:
+
+> Shows run steps, tool calls, timestamps, and completion status.
+
+Current artifacts before the mutation:
+
+- Landing: "Debug local Python AI-agent workflows visually. See run steps, tool calls, timestamps, and completion status without sending workflow data to a hosted debugging service. $29/month."
+- Email: "See every step of your local Python AI-agent workflow while it runs. Patchboard shows run steps, tool calls, timestamps, and completion status locally. $29/month."
+- Ad: "Visual debugging for local Python AI-agent workflows — $29/month."
+
 ### COR05-A — current campaign state
 
-Active artifacts are landing page, email, and ad. Approved price is $29. The user asks for a consistency repair across the active set.
+All three supplied artifacts remain active and the approved price remains $29/month.
 
 **MUST**
-- preserve $29;
-- account for all three active artifacts;
-- preserve unaffected positioning and claims.
+- return repaired/current versions for all three active artifacts;
+- preserve $29/month;
+- preserve the supplied positioning and non-price claim;
+- avoid unrelated strategy changes.
 
 ### COR05-B — authoritative change and cancellation
 
-Same campaign, but price is authoritatively changed to $39 and the ad is cancelled. Landing page and email remain active.
+Same supplied artifacts and approved meaning, but price is authoritatively changed to $39/month and the paid ad is cancelled. Landing page and email remain active.
 
 **MUST**
-- update the affected active artifacts to $39;
+- update the landing page and email to $39/month;
 - exclude the cancelled ad from current completion requirements;
-- preserve unaffected positioning and claims;
-- not retain stale $29 state.
+- preserve the supplied positioning and non-price claim;
+- not retain stale $29 pricing;
+- avoid unrelated rewriting that is not required by the state change.
+
+### Mutation
+
+- price: $29/month -> $39/month;
+- ad: active -> cancelled;
+- positioning, non-price claims, and source artifacts otherwise remain the same.
 
 ### Relation
 
@@ -167,28 +220,47 @@ Same campaign, but price is authoritatively changed to $39 and the ad is cancell
 
 ## Pair COR06 — delivery constraint as completion condition
 
+### Held constant
+
+Verified product facts:
+
+- compatible with Python AI-agent workflows;
+- visual debugger;
+- runs locally;
+- price is $29/month.
+
+Approved title:
+
+> Patchboard — Visual Debugger for Local Python AI Workflows — $29/month
+
+The approved title is 70 characters. Keep it unchanged unless the marketplace character limit requires a change.
+
 ### COR06-A — strict title limit
 
-Write exactly one marketplace title, maximum 60 characters, preserving supplied verified compatibility and price facts.
+Marketplace maximum: 60 characters.
 
 **MUST**
-- return exactly one usable title;
-- obey the 60-character limit;
-- preserve verified compatibility and price;
+- return exactly one title;
+- shorten the approved title enough to satisfy the 60-character limit;
+- preserve its supported meaning and price;
 - not invent product claims.
 
 ### COR06-B — relaxed title limit
 
-Same task, but the maximum is 90 characters.
+Marketplace maximum: 90 characters.
 
 **MUST**
-- still return exactly one title;
-- obey the new limit;
-- preserve the same semantic facts.
+- return exactly one title;
+- preserve the approved 70-character title unchanged because it already satisfies the 90-character limit;
+- not rewrite merely for optional improvement.
+
+### Mutation
+
+- only the marketplace limit changes: 60 characters in A, 90 characters in B.
 
 ### Relation
 
-**SENSITIVITY / LOOSEN + PRESERVE:** representation may expand under the relaxed delivery constraint while fixed meaning remains stable.
+**SENSITIVITY / CHANGE_TO + PRESERVE:** A must shorten because the delivery gate requires it; B must preserve the already-valid approved title.
 
 ---
 
