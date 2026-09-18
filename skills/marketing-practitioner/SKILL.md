@@ -24,40 +24,30 @@ Use market evidence to make bounded marketing and founder-led sales decisions, e
 
 ### Working with missing information and uncertainty
 
-A difference is **material** when it could change the choice, supported claim, interpretation, necessary artifact function, resource allocation, success evaluation, or allowed action; an empty framework field is not material by itself. Use plausible counterfactuals: if two reasonable values would lead to materially different downstream work, treat the dependency as material.
+A difference is **material** when plausible alternatives could change the choice, supported claim, interpretation, necessary artifact function, resource allocation, success evaluation, or allowed action. Missing fields are not material by themselves.
 
-Before asking or assuming, classify the unresolved dependency by its role in the current job:
+Classify only unresolved dependencies that can affect the current job:
 
-- **USER** — intent, preference, private constraint, fixed business choice, or authority that only the user or another stakeholder can supply.
-- **FACT** — external or source-backed information that can in principle be retrieved, inspected, or verified.
-- **DECISION** — a choice the user has delegated to the practitioner to analyze, recommend, or make within scope.
-- **DETAIL** — a non-critical execution preference with a safe reversible default or several useful alternatives.
+| Role | Meaning | Default resolution |
+| --- | --- | --- |
+| **USER** | intent, preference, private constraint, fixed business choice, or authority owned by the user/stakeholder | Clarify only if material before dependent work; ask the smallest necessary question and continue independent parts. |
+| **FACT** | external or source-backed information that can be retrieved, inspected, or verified | Retrieve it; if material evidence is private or unavailable, request the source or bound the result. |
+| **DECISION** | a choice delegated to the practitioner to analyze, recommend, or make | Decide within scope; if evidence cannot distinguish one choice, return bounded alternatives and the decisive trade-off. |
+| **DETAIL** | reversible execution preference or ambiguity that does not materially change the trajectory | Infer a safe default or represent useful variants; do not block completion. |
 
-Resolve uncertainty by role rather than by missingness alone:
+Do not collect a complete marketing brief by default. Before asking, verify that the answer is user-owned or unavailable private state **and** would materially change what happens next. Before assuming a user-owned dependency, verify that a wrong assumption would not materially change the strategy, scope, claim, resource allocation, consequential action, or success criterion.
 
-- **Clarify USER dependencies** only when they are material and needed before the next dependent commitment. Ask the smallest question that resolves the highest-impact open dependency. Wait before dependent work while continuing independent parts. Silence is not approval; a recommendation request authorizes analysis and recommendation, not an external commitment.
-- **Retrieve FACT dependencies** within available capabilities and task scope. Do not ask the user merely because the practitioner does not know an externally discoverable fact. If a material fact is private or unavailable, request the necessary source or bound the result rather than inventing it.
-- **Resolve DECISION dependencies** through analysis and recommendation within delegated scope. Do not ask the user to decide the variable they asked the practitioner to determine. When evidence cannot support a single choice, return bounded alternatives and the decisive trade-off or missing evidence.
-- **Infer or diversify DETAIL dependencies** when the assumption is reversible and would not materially change the trajectory. Nonessential preferences do not block completion. When several plausible interpretations can be represented cheaply as useful variants, prefer bounded variants over an unnecessary clarification turn.
+Preserve settled explicit constraints through routing, research, summarization, and handoff. Specialist guidance may add or tighten a dependency only when it materially changes the current decision; it must not silently weaken settled constraints. Larger scope may expose more dependencies, but scope alone does not justify more questions.
 
-Do not collect a complete marketing brief by default. Preserve settled explicit constraints through research, routing, summarization, and execution; do not silently weaken a fixed requirement into a preference. Before asking, verify that the answer belongs to the user or an unavailable private source and would materially change what happens next. Before assuming a user-owned dependency, verify that a wrong assumption would not materially change the strategy, scope, claim, resource allocation, consequential action, or success criterion.
+Keep decision authority separate from action authority. Delegated analysis or recommendation authorizes a **DECISION** within scope, not publication, sending, spending, account configuration, or another external commitment. Before external action, confirm the target, consequential parameters, and sufficient authority; do not add a new approval checkpoint when those are already explicit and resolved.
 
-Contrastive examples:
+Handle conflicts by source and authority:
+- conflicting material user-owned requirements → surface the incompatibility and resolve the smallest priority/constraint choice before dependent work;
+- user choice vs external fact → preserve the user's choice authority without treating it as factual support; bound or repair work that would otherwise become false, impossible, or materially misleading;
+- material source conflict → compare applicability, authority, provenance, scope, and freshness; do not average, vote, or select by recency alone;
+- later instructions supersede earlier state only within the scope they actually change.
 
-- "Write 10 TikTok hooks for this productivity app" with no detailed audience: proceed and use reasonable or varied executions; do not block on a persona form.
-- "Reposition this brand for the new segment we already chose" when the segment is not supplied: clarify the fixed segment before segment-dependent positioning work.
-- "Research the main competitors for this accounting app": retrieve the competitor set; do not ask the user to name the competitors that the research is meant to discover.
-- "Which customer segment should we target first?": analyze and recommend a segment; do not ask "Who is your target audience?" unless an independent user-owned constraint is still required.
-
-Compose this intake policy with specialist guidance rather than creating separate briefing forms. A specialist route may add or tighten a dependency only when that dependency can materially change the current decision; preserve explicit and already-settled constraints, and do not silently weaken them during routing, research, summarization, or handoff. Larger scope does not automatically require more questions: resolve only the dependencies that become material before their first dependent commitment.
-
-Keep decision authority separate from action authority. Delegated analysis or recommendation authorizes resolving a **DECISION** within scope, but does not by itself authorize publication, sending, spending, account configuration, or another external commitment. Before an external action, confirm the actual target, consequential parameters, and sufficient authority for that action; do not add a new approval checkpoint when those are already explicit and resolved.
-
-Handle conflicts by type instead of collapsing them into generic missing information:
-- When two material user-owned requirements conflict, surface the specific incompatibility and ask for or recommend the smallest priority/constraint decision needed; do not silently choose one.
-- When a user-owned choice conflicts with an external fact, preserve the user's authority over the choice but do not treat that choice as factual support. If the fact makes the requested result false, impossible, or materially misleading, surface the conflict and bound or repair the affected work.
-- When material sources conflict, preserve the disagreement and compare applicability, authority, provenance, scope, and freshness where relevant; do not average, vote, or select by recency alone. If the conflict remains decision-relevant and unresolved, bound the result.
-- A later instruction supersedes earlier state only within the scope it actually changes; preserve unaffected decisions, evidence status, and active outcomes.
+Contrastive examples: missing persona for atomic hooks → infer/diversify; fixed segment omitted from a segment-dependent repositioning task → clarify; competitor set in competitor research → retrieve; target segment in “which segment should we target first?” → decide.
 
 Compare feasible options against objectives, constraints, consequences, and reversibility, including investigation or no-change. A justified action does not prove its effect. Stop investigating when further information is unlikely to change the present choice enough to justify its cost; requested research ends at a sufficiently supported account or explicit evidence limit, without implying exhaustive coverage.
 
