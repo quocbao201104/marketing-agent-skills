@@ -78,3 +78,84 @@ python -B -m evals.behavioral.behavioral_eval.cli trace --results evals\behavior
 
 Use local sealed results when they exist. Do not treat this reconstruction as a reason to edit handbook nodes unless the walk shows the required node was loaded and behavior was still wrong.
 
+## Decision coverage review
+
+Coverage case v1.1.0 separates three observations:
+
+- `trace` reports file/route reads. Schema v3 calls a partial required walk
+  `partial_route_coverage`; it never establishes `premature_closure`.
+- `report` evaluates each answer against its semantic criteria. With no judgment,
+  nonempty coverage answers remain `unresolved`.
+- `coverage` reports task-local surface resolution from independent reviewer
+  judgments. It does not read route traces or trust executor self-reports.
+
+The coverage route oracle permits relevant reads without requiring every domain
+or a fixed read order. The separate `coverage-routing-v1.surface-oracle.json`
+contains concrete task questions. These are evaluator questions, not a runtime
+form or mandatory output sections. Each can be resolved from supplied evidence,
+excluded with a supported materiality judgment, or bounded appropriately.
+
+Review `blind-packets.json` together with the matching surface questions. Keep
+profile/arm identities hidden. A reviewer must assess what the answer actually
+establishes, whether remaining uncertainty can change the useful result, and
+whether the answer claims completion, reports partial work, or awaits necessary
+input. A finished model turn does not itself claim task completion.
+
+Save a separate coverage judgment file, with one entry per reviewed blind ID:
+
+```json
+{
+  "schema_version": 1,
+  "judgments": [{
+    "blind_id": "<ID from blind-packets.json>",
+    "answer_sha256": "<SHA-256 of candidate_answer encoded as UTF-8>",
+    "closure": "complete",
+    "surfaces": {
+      "<surface ID from oracle>": {
+        "state": "resolved_by_evidence",
+        "material": true,
+        "basis": "Explain the supported conclusion and its effect on the requested result.",
+        "evidence": [{"source": "answer", "quote": "<exact supporting passage>"}]
+      }
+    }
+  }]
+}
+```
+
+Include every surface for that case exactly once. Evidence anchors may quote
+`prompt` or `answer`. For an omission, cite the relevant prompt obligation and
+explain the missing treatment in `basis`; do not invent an answer quotation.
+Hashes, exact surface sets, and quotes are checked mechanically. These checks
+bind the judgment to the candidate but do not establish semantic entailment:
+that remains the independent reviewer's responsibility. If a tool result changes
+the decision, its material evidence must be present in the review packet before
+it can justify the judgment; otherwise retain `not_assessable`.
+
+Surface states:
+
+- `resolved_by_evidence`: the question is answered with sufficient support.
+- `not_material_after_context`: context establishes that it cannot materially
+  change the requested result; `material` must be false.
+- `bounded_by_limit`: an evidence, authority, or justified inquiry-cost limit is
+  explicit and the answer respects it; `material` must be true. Merely saying
+  "unknown" while prescribing an unsupported fix is not a valid bound.
+- `still_unresolved`: a relevant uncertainty remains unaddressed; `material` is
+  true when its impact is established, or null when that impact is unassessable.
+- `not_assessable`: the packet cannot support a decision; `material` is null.
+
+`closure` is `complete`, `partial`, `awaiting_input`, or `not_assessable`.
+`premature_closure` requires a completed run, independently judged claimed task
+completion, and at least one still-unresolved material surface. Partial work or
+a necessary question remains `open_dependency`; an honest bounded conclusion may
+satisfy coverage. Missing judgments or unassessable conditions remain unresolved.
+Coverage satisfaction is not an overall answer-quality or causal-effect claim.
+
+```powershell
+python -B -m evals.behavioral.behavioral_eval.cli coverage --cases evals/behavioral/cases/coverage-routing-v1.json --results <sealed-results-directory> --judgments <coverage-judgments.json> --output <new-coverage-report.json>
+```
+
+Omit `--judgments` to inspect the unjudged denominator; no completed run passes
+by default. Existing reports are never overwritten. Use case versions from the
+same sealed experiment. All reviewer judgments and generated reports stay outside
+tracked source. A new material surface absent from the frozen oracle requires a
+versioned oracle correction, not retroactive success or failure under the old one.

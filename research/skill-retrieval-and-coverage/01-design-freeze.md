@@ -1,5 +1,7 @@
 # Skill Retrieval and Coverage — Design Freeze
 
+Current coverage semantics are amended by [Precision Corrections](04-precision-corrections.md); the original route-count design below is retained as historical provenance.
+
 Status: **FROZEN FOR BOUNDED IMPLEMENTATION EXPERIMENT — LIVE BEHAVIOR NOT YET ESTABLISHED**  
 Freeze date: 2026-09-18  
 Repository base: `main@c12a7e2760636bed76551e897c0419273296a684`  

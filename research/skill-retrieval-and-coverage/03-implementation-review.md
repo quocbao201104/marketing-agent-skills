@@ -1,5 +1,7 @@
 # Skill Retrieval and Coverage — Implementation Review
 
+Current coverage semantics are amended by [Precision Corrections](04-precision-corrections.md); the original route-count design below is retained as historical provenance.
+
 Status: **SELF-REVIEW COMPLETE — NO OPEN BLOCKING FINDINGS — LIVE BEHAVIOR NOT YET ESTABLISHED**  
 Review date: 2026-09-18  
 Design freeze: `research/skill-retrieval-and-coverage/01-design-freeze.md`  
