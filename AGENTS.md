@@ -17,7 +17,7 @@ Run from the repository root with Python available. CI uses Python 3.13 and Wind
 - `.\scripts\verify.ps1 -PackageOnly` runs package validation only.
 - `python -B skills/marketing-practitioner/scripts/test-knowledge-routing.py` checks retrieval mechanics.
 - `python -B -m unittest discover -s evals/behavioral/tests -v` runs behavioral harness unit tests.
-- `python -B scripts/package_skill.py ../marketing-practitioner.zip` creates a new portable ZIP from tracked runtime files using current working-tree bytes; existing output is never overwritten.
+- `python -B scripts/package_skill.py ../skill.zip` creates a new portable ZIP from tracked runtime files using current working-tree bytes; existing output is never overwritten.
 
 ## Coding Style & Naming Conventions
 
