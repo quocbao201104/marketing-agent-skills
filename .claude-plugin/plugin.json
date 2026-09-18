@@ -9,5 +9,12 @@
   "homepage": "https://github.com/quocbao201104/marketing-practitioner",
   "repository": "https://github.com/quocbao201104/marketing-practitioner",
   "license": "MIT",
-  "keywords": ["marketing", "research", "positioning", "copywriting", "pricing"]
+  "keywords": [
+    "marketing",
+    "research",
+    "positioning",
+    "copywriting",
+    "pricing"
+  ],
+  "displayName": "Marketing Practitioner"
 }
