@@ -1,8 +1,10 @@
 # Build a skill upload package
 
-Download the [v2.2.0 skill ZIP](https://github.com/quocbao201104/marketing-practitioner/releases/download/v2.2.0/marketing-practitioner.zip), or build from the tagged source using the command below. The host-specific import limits below still apply.
+Download the [v2.2.0 `skill.zip`](https://github.com/quocbao201104/marketing-practitioner/releases/download/v2.2.0/skill.zip), or build from the tagged source using the command below. The host-specific import limits below still apply.
 
-Publishing a release triggers `.github/workflows/release.yml`, which builds from that release tag and attaches `marketing-practitioner.zip`. Ordinary pushes do not rebuild release assets. Existing ZIP assets are not overwritten; fixes ship under a new release tag.
+Use the release asset named exactly `skill.zip` for skill upload. Do **not** use GitHub's automatically generated **Source code (zip)** or **Source code (tar.gz)** downloads: those archives contain the whole repository rather than the single distributable skill and can include more than one `SKILL.md` entrypoint.
+
+Publishing a release triggers `.github/workflows/release.yml`, which builds from that release tag and attaches `skill.zip`. Ordinary pushes do not rebuild release assets, except changes to the release workflow itself. Existing ZIP assets are not overwritten; fixes ship under a new release tag.
 
 From a Git checkout, run:
 

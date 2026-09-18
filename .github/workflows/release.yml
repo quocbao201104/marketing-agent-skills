@@ -1,4 +1,4 @@
-name: Release ZIP
+name: Release skill.zip
 
 on:
   release:
@@ -38,7 +38,7 @@ jobs:
               : await github.rest.repos.getLatestRelease(repo);
             if (release.draft) throw new Error('Publish the release before packaging it.');
             core.setOutput('tag', release.tag_name);
-            core.setOutput('missing', !release.assets.some(a => a.name === 'marketing-practitioner.zip'));
+            core.setOutput('missing', !release.assets.some(a => a.name === 'skill.zip'));
 
       - uses: actions/checkout@v4
         if: steps.release.outputs.missing == 'true'
@@ -53,13 +53,13 @@ jobs:
       - name: Build and validate release ZIP
         if: steps.release.outputs.missing == 'true'
         shell: powershell
-        run: python -B scripts/package_skill.py "$env:RUNNER_TEMP/marketing-practitioner.zip"
+        run: python -B scripts/package_skill.py "$env:RUNNER_TEMP/skill.zip"
 
-      - name: Attach ZIP to release
+      - name: Attach skill.zip to release
         if: steps.release.outputs.missing == 'true'
         shell: powershell
         env:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
           RELEASE_TAG: ${{ steps.release.outputs.tag }}
-        run: gh release upload "$env:RELEASE_TAG" "$env:RUNNER_TEMP/marketing-practitioner.zip"
+        run: gh release upload "$env:RELEASE_TAG" "$env:RUNNER_TEMP/skill.zip"
