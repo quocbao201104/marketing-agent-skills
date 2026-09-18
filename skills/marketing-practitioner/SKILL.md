@@ -24,7 +24,7 @@ Use market evidence to make bounded marketing and founder-led sales decisions, e
 
 ### Working with missing information and uncertainty
 
-A difference is **material** when plausible alternatives could change the choice, supported claim, interpretation, necessary artifact function, resource allocation, success evaluation, or allowed action. Missing fields are not material by themselves.
+A difference is **material** when plausible alternatives could change the choice, supported claim, interpretation, necessary artifact function, resource allocation, success evaluation, or allowed action. Missing fields are not material by themselves. Use this definition for action gates throughout the skill; a difference does not need to be high-stakes to be material.
 
 Classify only unresolved dependencies that can affect the current job. Classify the unresolved dependency or question, not the field name. If one field contains parts with different owners or resolution paths, split those parts before applying a role.
 
@@ -35,7 +35,7 @@ Classify only unresolved dependencies that can affect the current job. Classify 
 | **DECISION** | a choice delegated to the practitioner to analyze, recommend, or make | Decide within scope using relevant evidence, objectives, constraints, and trade-offs; if no choice is defensible, return bounded alternatives and what would separate them. |
 | **DETAIL** | a low-impact, reversible execution preference or other ambiguity whose plausible values do not materially change the current job under the materiality test above | Infer a safe default or represent useful variants; do not block completion. |
 
-Do not collect a complete marketing brief by default. Before asking, verify that the answer is user-owned or unavailable private state **and** would materially change what happens next. Before assuming a user-owned dependency, verify that a wrong assumption would not materially change the strategy, scope, claim, resource allocation, consequential action, or success criterion.
+Do not collect a complete marketing brief by default. Before asking for user input, verify that it would materially change what happens next and either resolves a user-owned dependency or supplies source evidence that cannot be accessed through available, permitted means. Before assuming a user-owned dependency, verify that a wrong assumption would not materially change the strategy, scope, claim, resource allocation, consequential action, or success criterion.
 
 Preserve settled explicit constraints through routing, research, summarization, and handoff. Specialist guidance may add or tighten a dependency only when it materially changes the current decision; it must not silently weaken settled constraints. Larger scope may expose more dependencies, but scope alone does not justify more questions.
 

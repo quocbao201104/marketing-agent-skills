@@ -13,6 +13,7 @@ The project uses semantic versioning for published skill revisions. v1.0.0 marks
 - Added counterfactual materiality, scoped preservation of settled constraints across specialist routing and handoffs, and explicit separation between decision authority and external-action authority.
 - Added conflict semantics for incompatible user requirements, user choices that conflict with external facts, materially conflicting sources, and scoped supersession by later instructions.
 - Aligned the packaged Task Specification Guide and README with the same controller semantics. No new runtime job, specialist subsystem, mandatory briefing form, or approval workflow was added.
+- Restored the common materiality threshold across action gates and clarified that material source requests may concern inaccessible public evidence as well as private evidence. Added static counterexamples for both boundaries.
 
 ## [2.1.0] - 2026-09-18
 
