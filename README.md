@@ -14,7 +14,7 @@ A reusable marketing skill for people working with AI: research customers, shape
 [![Format: Agent Skill](https://img.shields.io/badge/format-Agent%20Skill-6f42c1.svg)](skills/marketing-practitioner/SKILL.md)
 [![skills.sh](https://skills.sh/b/quocbao201104/marketing-practitioner)](https://skills.sh/quocbao201104/marketing-practitioner)
 
-**[What you can do](#what-you-can-do) · [Quick start](#quick-start) · [How it works](#how-it-works) · [Research](#research-and-verification) · [Contributing](#contributing)**
+**[What you can do](#what-you-can-do) · [Quick start](#quick-start) · [How it works](#how-it-works) · [Troubleshooting](#troubleshooting) · [Research](#research-and-verification) · [Contributing](#contributing)**
 
 <sub><strong>Customer evidence · Strategy · Communication · Diagnosis · Learning</strong></sub>
 
@@ -170,6 +170,19 @@ The installable package keeps its controller, knowledge, references, and helper 
 The host controls skill activation, available tools, and how much context survives between turns or sessions. Keep important facts, adopted choices, and evidence boundaries in the current task or accessible project records; persistence is not guaranteed by the skill itself.
 
 **Instructions guide the agent; they do not supply unavailable tools or external authority.** Producing design assets, accessing private data, or acting in an external system depends on the host's capabilities and the user's authorization.
+
+## Troubleshooting
+
+If Marketing Practitioner does not behave as expected, check the smallest relevant layer before changing the skill itself.
+
+- **The skill does not appear after installation:** confirm the plugin or skill package is enabled in the host, then reload or restart the host if it requires an explicit refresh. In Claude Code, keep `.claude-plugin/plugin.json` at the plugin root and `skills/marketing-practitioner/SKILL.md` under the root-level `skills/` directory.
+- **The skill does not activate for a marketing request:** try the request in a clean conversation without explicitly invoking the skill. Activation is controlled by the host and the skill description. If a clear in-scope request consistently misses, report the exact prompt and host/model rather than adding broad trigger keywords immediately.
+- **The skill activates for an unrelated task:** preserve the original prompt and report the false positive. The skill is intentionally out of scope for generic writing, product-roadmap authority, legal work, finance/accounting, CRM administration, and unrelated technical implementation.
+- **A helper script cannot run:** the Python helpers are optional conveniences for exact route retrieval. Read the smallest relevant file or section directly through `routing-index.json` instead of treating helper execution as required.
+- **An update seems not to take effect:** verify the installed version, refresh/reload the plugin in the host, and start a new conversation before comparing behavior. Existing sessions may retain earlier context.
+- **The skill chooses a poor route or produces an unsupported conclusion:** open a [behavior report](https://github.com/quocbao201104/marketing-practitioner/issues/new?template=behavior-report.yml) with sanitized context, expected vs observed behavior, model/runtime, and skill version.
+
+For installation-specific steps, see [local setup](docs/local-setup.md) and [web setup](docs/web-setup.md).
 
 ## Under the hood
 
