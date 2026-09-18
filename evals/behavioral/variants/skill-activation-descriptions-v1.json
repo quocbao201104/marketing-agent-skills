@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "experiment_id": "skill-activation-description-v1",
+  "base_skill": "skills/marketing-practitioner",
+  "base_commit": "c12a7e2760636bed76551e897c0419273296a684",
+  "constraint": "Only SKILL.md frontmatter description may differ. Body and all bundled resources must remain byte-identical to the selected base skill.",
+  "variants": {
+    "D0": {
+      "label": "current",
+      "description": "Evidence-informed marketing and founder-led sales decisions and execution for AI agents. Use for customer and market research, segmentation/ICP/JTBD, positioning and value, brand identity/visual systems, pricing/packaging and commercial design, founder-led sales, messaging/copy and critique, landing pages, email, social/platform content, paid media, commerce/product discovery, search/discovery, funnel diagnosis, experiments, localization, and postmortems. Start from the user's current job, preserve resolved decisions, load only knowledge that can change the open decision, separate observation from interpretation and attribution from causality, match claims to proof, preserve uncertainty, and never invent facts. Do not use for generic writing or unrelated non-marketing/non-sales tasks."
+    },
+    "D1": {
+      "label": "routing-budget-cleanup",
+      "description": "Evidence-informed marketing and founder-led sales decisions and execution. Use for customer and market research; segmentation, ICP and JTBD; positioning and value; brand identity and visual systems; pricing, packaging and commercial design; founder-led sales; messaging, copy and critique; landing pages; email; social and platform content; paid media; commerce and product discovery; search and discovery; funnel diagnosis; experiments; localization; and postmortems. Use when the task requires marketing or sales judgment, diagnosis, semantic execution, or adaptation. Do not use for generic writing, mechanical content operations, or unrelated non-marketing/non-sales work."
+    },
+    "D2": {
+      "label": "job-centered",
+      "description": "Evidence-informed marketing and founder-led sales decisions and execution. Use when the user needs to understand customers or markets; choose an audience, segment, position, value proposition, pricing, packaging or offer; diagnose performance or causal uncertainty; design, critique or repair marketing communication and brand identity; prioritize founder-led sales; run experiments; localize work; or preserve learning. Covers landing pages, email, social and platform content, paid media, commerce, search and discovery. Do not use for generic writing, mechanical operations, product-roadmap work, legal work, finance/accounting, CRM administration, or unrelated technical tasks."
+    },
+    "D3": {
+      "label": "job-symptom-boundary",
+      "description": "Evidence-informed marketing and founder-led sales decisions and execution. Use when the user needs to understand customers or markets; choose audiences, positioning, value, pricing, packaging or offers; diagnose weak or changing performance; create or critique marketing communication or brand identity; prioritize founder-led sales; work across pages, email, social, paid, search or commerce; test, localize, or retain learning. Also use when symptoms imply these jobs, such as unclear differentiation, uncertain targeting, weak conversion, conflicting marketing signals, unclear commercial fit, or stalled buyer progress. Do not use for generic writing, mechanical content operations, product-roadmap, legal, finance/accounting, CRM administration, or unrelated technical work."
+    }
+  }
+}
