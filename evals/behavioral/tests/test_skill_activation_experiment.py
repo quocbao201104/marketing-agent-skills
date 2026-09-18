@@ -86,14 +86,16 @@ class SkillActivationExperimentContractTests(unittest.TestCase):
         self.assertEqual({"medium"}, {profile.reasoning_effort for profile in profiles})
         self.assertEqual({2}, {profile.repetitions for profile in profiles})
 
-    def test_d0_matches_current_skill_description(self) -> None:
+    def test_runtime_candidate_matches_d3_while_d0_remains_frozen(self) -> None:
         variants = json.loads(VARIANTS.read_text(encoding="utf-8"))["variants"]
         skill_text = SKILL.read_text(encoding="utf-8")
         current_line = next(
             line for line in skill_text.splitlines() if line.startswith("description:")
         )
         current = json.loads(current_line.split(":", 1)[1].strip())
-        self.assertEqual(current, variants["D0"]["description"])
+        self.assertEqual(current, variants["D3"]["description"])
+        self.assertNotEqual(current, variants["D0"]["description"])
+
 
     def test_splits_are_disjoint_and_cover_all_cases(self) -> None:
         cases = load_cases(CASES)
