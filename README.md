@@ -144,9 +144,9 @@ The skill starts from the current job, not from a predefined marketing funnel.
 
 ![Marketing Practitioner workflow: frame the task and proceed directly when inputs are sufficient; read relevant guidance when knowledge is needed to resolve an open question. Check evidence, reader fit, message and role fidelity, and completion. Revisit material gaps; a user checkpoint applies when a material choice remains unresolved and user input or authority is needed.](assets/diagrams/from-brief-to-marketing-decision.png)
 
-Complex work can start with a brief working plan without waiting for approval. The agent proceeds on resolved or delegated choices; when a material choice remains unresolved and the request or retained context does not provide enough input or authority to decide, it prepares a concrete proposal and asks before the dependent work. Independent work can continue while you decide. Task size or HTML output alone does not create an approval gate.
+Complex work can start with a brief working plan without waiting for approval. The agent distinguishes unresolved user-owned inputs, externally recoverable facts, delegated decisions, and low-impact execution details. It asks only for material user-owned dependencies, retrieves discoverable facts, makes delegated choices within scope, and handles reversible details directly. Independent work can continue while a blocking user-owned dependency is resolved. Task size or HTML output alone does not create an approval gate.
 
-Reads serve a remaining question; they are not completion by themselves. When evidence is missing, the agent is instructed to retrieve it, ask a material question, or give a useful bounded result.
+Reads serve a remaining question; they are not completion by themselves. Missing information is resolved according to its role rather than by filling a universal brief.
 
 For work spanning several steps, the core keeps track of requested outputs, adopted choices, unresolved dependencies, and evidence limits. A changed request updates the affected work; paused work retains its status for resumption when the host preserves that context.
 
