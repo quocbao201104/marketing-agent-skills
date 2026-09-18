@@ -75,6 +75,21 @@ class CoverageRoutingExperimentContractTests(unittest.TestCase):
         for identity in dependencies:
             self.assertGreaterEqual(len(oracle[identity].handoff), 2)
 
+    def test_founder_sales_dependency_case_preserves_settled_icp(self) -> None:
+        oracle = load_oracle(ORACLE)["BEH-COV-DEP-003@1.0.0"]
+        self.assertNotIn(
+            ("handbook/02-segmentation-icp-and-jtbd.md",),
+            oracle.must_load,
+        )
+        self.assertIn(
+            "handbook/02-segmentation-icp-and-jtbd.md",
+            oracle.must_not_load,
+        )
+        self.assertEqual(
+            ("founder-sales.selection", "founder-sales.pursuit"),
+            oracle.handoff,
+        )
+
     def test_fast_path_family_contains_a_true_no_read_case(self) -> None:
         cases = {case.identity: case for case in load_cases(CASES)}
         oracle = load_oracle(ORACLE)
