@@ -28,8 +28,9 @@ PROFILES = (
     ROOT
     / "evals"
     / "behavioral"
-    / "profiles"
-    / "activation-variants-v1.json"
+    / "experiments"
+    / "skill-activation-v1"
+    / "profiles.json"
 )
 SKILL = ROOT / "skills" / "marketing-practitioner" / "SKILL.md"
 
