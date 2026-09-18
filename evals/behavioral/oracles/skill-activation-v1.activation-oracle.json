@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "corpus_id": "skill-activation-v1",
+  "description": "Top-level Marketing Practitioner activation expectations. This sidecar is intentionally separate from behavioral answer and route oracles.",
+  "cases": {
+    "BEH-ACT-DIR-001@1.0.0": {
+      "activation": "required"
+    },
+    "BEH-ACT-DIR-002@1.0.0": {
+      "activation": "required"
+    },
+    "BEH-ACT-DIR-003@1.0.0": {
+      "activation": "required"
+    },
+    "BEH-ACT-DIR-004@1.0.0": {
+      "activation": "required"
+    },
+    "BEH-ACT-PARA-001@1.0.0": {
+      "activation": "required"
+    },
+    "BEH-ACT-PARA-002@1.0.0": {
+      "activation": "required"
+    },
+    "BEH-ACT-PARA-003@1.0.0": {
+      "activation": "required"
+    },
+    "BEH-ACT-PARA-004@1.0.0": {
+      "activation": "required"
+    },
+    "BEH-ACT-SYM-001@1.0.0": {
+      "activation": "required"
+    },
+    "BEH-ACT-SYM-002@1.0.0": {
+      "activation": "required"
+    },
+    "BEH-ACT-SYM-003@1.0.0": {
+      "activation": "required"
+    },
+    "BEH-ACT-SYM-004@1.0.0": {
+      "activation": "required"
+    },
+    "BEH-ACT-NOISY-001@1.0.0": {
+      "activation": "required"
+    },
+    "BEH-ACT-NOISY-002@1.0.0": {
+      "activation": "required"
+    },
+    "BEH-ACT-NOISY-003@1.0.0": {
+      "activation": "required"
+    },
+    "BEH-ACT-NOISY-004@1.0.0": {
+      "activation": "required"
+    },
+    "BEH-ACT-ADJ-001@1.0.0": {
+      "activation": "forbidden"
+    },
+    "BEH-ACT-ADJ-002@1.0.0": {
+      "activation": "forbidden"
+    },
+    "BEH-ACT-ADJ-003@1.0.0": {
+      "activation": "forbidden"
+    },
+    "BEH-ACT-ADJ-004@1.0.0": {
+      "activation": "forbidden"
+    },
+    "BEH-ACT-NOUN-001@1.0.0": {
+      "activation": "forbidden"
+    },
+    "BEH-ACT-NOUN-002@1.0.0": {
+      "activation": "forbidden"
+    },
+    "BEH-ACT-NOUN-003@1.0.0": {
+      "activation": "forbidden"
+    },
+    "BEH-ACT-NOUN-004@1.0.0": {
+      "activation": "forbidden"
+    }
+  }
+}
