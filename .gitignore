@@ -3,3 +3,4 @@ __pycache__/
 .pytest_cache/
 evals/behavioral/results/
 .worktrees/
+evals/behavioral/.generated/

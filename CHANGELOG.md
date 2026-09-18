@@ -7,6 +7,14 @@ The project uses semantic versioning for published skill revisions. v1.0.0 marks
 
 ## [Unreleased]
 
+### Skill activation and decision coverage
+
+- Added symptom-aware activation and bounded localization of unresolved decision questions while retaining settled inputs and just-in-time reads.
+- Clarified that coverage concerns questions that can change the useful result, not a complete list of marketing domains; stopping retains bounded uncertainty and the value of further inquiry.
+- Separated route telemetry from evidence-anchored semantic coverage judgments. Partial route reads no longer establish premature closure, and missing judgments remain unresolved.
+- Added activation experiments and coverage case v1.1.0 with semantic criteria, source inputs, and a separate surface oracle. Live behavioral improvement remains unverified.
+
+
 ## [2.2.0] - 2026-09-18
 
 ### Intake and decision-dependency control

@@ -106,6 +106,17 @@ try {
         '--profiles',
         'evals/behavioral/profiles'
     )
+    Invoke-Checked -Label 'coverage regression corpus' -Arguments @(
+        $Python,
+        '-B',
+        '-m',
+        'evals.behavioral.behavioral_eval.cli',
+        'validate',
+        '--cases',
+        'evals/behavioral/cases/coverage-routing-v1.json',
+        '--profiles',
+        'evals/behavioral/profiles'
+    )
     Invoke-Checked -Label 'Pressure Discovery pilot tests' -Arguments @(
         $Python,
         '-B',

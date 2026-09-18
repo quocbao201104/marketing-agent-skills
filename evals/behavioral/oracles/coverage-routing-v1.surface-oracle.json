@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "corpus_id": "coverage-routing-v1",
+  "description": "Task-local semantic questions; resolution may use supplied evidence without route reads. Judge materiality and bounded outcomes from context, not topic membership.",
+  "cases": {
+    "BEH-COV-MULTI-001@1.1.0": {
+      "measurement": "What do traffic and trial observations establish, and what remains unverified despite unchanged tracking?",
+      "audience": "Could the newly reached customer mix change the diagnosis or warranted action?",
+      "message-fit": "Does the architecture-focused page fit the newly reached users well enough to choose a repair?"
+    },
+    "BEH-COV-MULTI-002@1.1.0": {
+      "traffic-mix": "Could visitor mix explain the checkout change?",
+      "transition-rule": "Could the changed plan transition explain the checkout change?",
+      "page-realization": "What evidence distinguishes commercial-rule problems from page representation problems?"
+    },
+    "BEH-COV-MULTI-003@1.1.0": {
+      "buyer-blockage": "What does the post-demo credibility objection establish about each buying situation?",
+      "proof": "What environment-specific evidence would resolve or bound the credibility question?",
+      "customer-alternatives": "Do the two customer types and their alternatives change the diagnosis or message implication?"
+    },
+    "BEH-COV-NARROW-001@1.1.0": {
+      "delivery": "What follows from the specified bidding, delivery and placement change without reopening fixed strategy?"
+    },
+    "BEH-COV-NARROW-002@1.1.0": {
+      "mobile-release": "Which mobile form or layout inspection is justified by the supplied unchanged factors and release timing?"
+    },
+    "BEH-COV-NARROW-003@1.1.0": {
+      "sequence": "Does the proposed page order serve the supplied communication job while preserving approved state?"
+    },
+    "BEH-COV-DEP-001@1.1.0": {
+      "target-choice": "Is a priority segment supported by the supplied evidence, or what material evidence prevents a defensible choice?",
+      "positioning-consequence": "What positioning consequence depends on the supported or provisional segment choice?"
+    },
+    "BEH-COV-DEP-002@1.1.0": {
+      "customer-situations": "Which unresolved customer situations would change whether one or two packages make sense?",
+      "value": "Which value differences matter to that package decision?",
+      "commercial-direction": "What commercial direction can be supported or bounded without inventing missing customer evidence?"
+    },
+    "BEH-COV-DEP-003@1.1.0": {
+      "account-fit": "How do account-specific buying situations affect eligibility for founder attention while retaining general ICP?",
+      "pursuit-allocation": "What prioritization or bounded allocation follows from urgency, access, proof needs and limited founder capacity?"
+    },
+    "BEH-COV-FAST-001@1.1.0": {
+      "approved-meaning": "Does the shortened supplied description preserve approved meaning and satisfy the 150-character limit?"
+    },
+    "BEH-COV-FAST-002@1.1.0": {
+      "local-edit": "Does the edit preserve the supplied hierarchy, proof order, claim strength and role?"
+    },
+    "BEH-COV-FAST-003@1.1.0": {
+      "responsive-sequence": "Does the responsive sequence preserve all supplied decisions without manufacturing strategic work?"
+    }
+  }
+}

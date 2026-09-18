@@ -10,6 +10,8 @@ from pathlib import Path
 from evals.behavioral.behavioral_eval.cli import main
 from evals.behavioral.behavioral_eval.models import RunRecord, RunState, ValidationError
 from evals.behavioral.behavioral_eval.trace import (
+    OracleCase,
+    build_trace_report,
     classify_skill_walk,
     extract_helper_routes,
     extract_skill_paths,
@@ -120,6 +122,161 @@ class TraceReconstructionTests(unittest.TestCase):
 
         self.assertEqual("skip_jit", result["primary"])
         self.assertIn("skip_jit", result["labels"])
+
+    def test_multi_group_none_loaded_remains_skip_jit(self) -> None:
+        oracle = OracleCase(
+            identity="FIXTURE@1.0.0",
+            walk="jit",
+            must_load=(("alpha",), ("beta",)),
+            must_not_load=(),
+            may_load=(),
+            handoff=(),
+        )
+        steps = reconstruct_steps(
+            (
+                command_event(
+                    "Get-Content -LiteralPath "
+                    "'.agents\\skills\\marketing-practitioner\\SKILL.md' -Raw"
+                ),
+            )
+        )
+
+        result = classify_skill_walk(steps, oracle)
+
+        self.assertEqual("skip_jit", result["primary"])
+        self.assertNotIn("partial_route_coverage", result["labels"])
+        self.assertEqual(2, result["required_group_count"])
+        self.assertEqual(0, result["satisfied_group_count"])
+
+    def test_multi_group_partial_load_is_partial_route_coverage(self) -> None:
+        oracle = OracleCase(
+            identity="FIXTURE@1.0.0",
+            walk="jit",
+            must_load=(("alpha",), ("beta",)),
+            must_not_load=(),
+            may_load=(),
+            handoff=(),
+        )
+        steps = reconstruct_steps(
+            (
+                command_event(
+                    "Get-Content -LiteralPath "
+                    "'.agents\\skills\\marketing-practitioner\\SKILL.md' -Raw"
+                ),
+                command_event(
+                    "python '.agents\\skills\\marketing-practitioner\\scripts\\"
+                    "get-knowledge.py' alpha"
+                ),
+            )
+        )
+
+        result = classify_skill_walk(steps, oracle)
+
+        self.assertEqual("partial_route_coverage", result["primary"])
+        self.assertIn("skip_jit", result["labels"])
+        self.assertEqual(2, result["required_group_count"])
+        self.assertEqual(1, result["satisfied_group_count"])
+        self.assertEqual([["beta"]], result["missing_groups"])
+
+    def test_multi_group_full_load_is_walk_ok(self) -> None:
+        oracle = OracleCase(
+            identity="FIXTURE@1.0.0",
+            walk="jit",
+            must_load=(("alpha",), ("beta",)),
+            must_not_load=(),
+            may_load=(),
+            handoff=(),
+        )
+        steps = reconstruct_steps(
+            (
+                command_event(
+                    "Get-Content -LiteralPath "
+                    "'.agents\\skills\\marketing-practitioner\\SKILL.md' -Raw"
+                ),
+                command_event(
+                    "python '.agents\\skills\\marketing-practitioner\\scripts\\"
+                    "get-knowledge.py' alpha"
+                ),
+                command_event(
+                    "python '.agents\\skills\\marketing-practitioner\\scripts\\"
+                    "get-knowledge.py' beta"
+                ),
+            )
+        )
+
+        result = classify_skill_walk(steps, oracle)
+
+        self.assertEqual("walk_ok", result["primary"])
+        self.assertEqual(2, result["required_group_count"])
+        self.assertEqual(2, result["satisfied_group_count"])
+        self.assertEqual([], result["missing_groups"])
+
+    def test_partial_load_on_noncompleted_run_is_not_partial_route_coverage(self) -> None:
+        oracle = OracleCase(
+            identity="FIXTURE@1.0.0",
+            walk="jit",
+            must_load=(("alpha",), ("beta",)),
+            must_not_load=(),
+            may_load=(),
+            handoff=(),
+        )
+        steps = reconstruct_steps(
+            (
+                command_event(
+                    "Get-Content -LiteralPath "
+                    "'.agents\\skills\\marketing-practitioner\\SKILL.md' -Raw"
+                ),
+                command_event(
+                    "python '.agents\\skills\\marketing-practitioner\\scripts\\"
+                    "get-knowledge.py' alpha"
+                ),
+            )
+        )
+
+        result = classify_skill_walk(steps, oracle, run_completed=False)
+
+        self.assertEqual("skip_jit", result["primary"])
+        self.assertNotIn("partial_route_coverage", result["labels"])
+
+    def test_trace_report_counts_all_stacked_labels_for_case(self) -> None:
+        oracle = OracleCase(
+            identity="FIXTURE@1.0.0",
+            walk="jit",
+            must_load=(("alpha",), ("beta",)),
+            must_not_load=(),
+            may_load=(),
+            handoff=(),
+        )
+        record = RunRecord(
+            run_id="RUN-STACKED",
+            case_identity="FIXTURE@1.0.0",
+            profile_id="current-skill",
+            state=RunState.COMPLETED,
+            started_at="2026-09-18T00:00:00Z",
+            finished_at="2026-09-18T00:00:01Z",
+            raw_events=(
+                command_event(
+                    "Get-Content -LiteralPath "
+                    "'.agents\\skills\\marketing-practitioner\\SKILL.md' -Raw"
+                ),
+                command_event(
+                    "python '.agents\\skills\\marketing-practitioner\\scripts\\"
+                    "get-knowledge.py' alpha"
+                ),
+            ),
+        )
+
+        report = build_trace_report(
+            (record,),
+            {"FIXTURE@1.0.0": oracle},
+            {},
+            results_id="fixture",
+        )
+
+        self.assertEqual(3, report["schema_version"])
+        counts = report["case_label_counts"]["FIXTURE@1.0.0"]
+        self.assertEqual(1, counts["partial_route_coverage"])
+        self.assertEqual(1, counts["skip_jit"])
 
     def test_failed_probe_of_required_file_is_resolve_fail(self) -> None:
         oracle = load_oracle(ORACLE)["BEH-EVID-001@1.0.0"]

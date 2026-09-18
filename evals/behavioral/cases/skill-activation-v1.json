@@ -1,0 +1,557 @@
+{
+  "schema_version": 1,
+  "cases": [
+    {
+      "case_id": "BEH-ACT-DIR-001",
+      "version": "1.0.0",
+      "family": "activation-direct",
+      "prompt": "Create a positioning strategy for this B2B SaaS using the supplied customer interviews and competitor notes.",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        }
+      ],
+      "review_criteria": [],
+      "forbidden_disclosures": [
+        "activation oracle",
+        "expected activation",
+        "description variant"
+      ],
+      "expected_relation": "skill_not_worse",
+      "provenance": {
+        "source": "research/skill-retrieval-and-coverage/01-design-freeze.md#8-lane-a--top-level-activation-evaluation",
+        "frozen_at_commit": "ed6ba1727e0b927ec94fda03eaa76abc6e728add"
+      }
+    },
+    {
+      "case_id": "BEH-ACT-DIR-002",
+      "version": "1.0.0",
+      "family": "activation-direct",
+      "prompt": "Audit this paid-media campaign and recommend what to change based on the delivery and qualified-lead evidence.",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        }
+      ],
+      "review_criteria": [],
+      "forbidden_disclosures": [
+        "activation oracle",
+        "expected activation",
+        "description variant"
+      ],
+      "expected_relation": "skill_not_worse",
+      "provenance": {
+        "source": "research/skill-retrieval-and-coverage/01-design-freeze.md#8-lane-a--top-level-activation-evaluation",
+        "frozen_at_commit": "ed6ba1727e0b927ec94fda03eaa76abc6e728add"
+      }
+    },
+    {
+      "case_id": "BEH-ACT-DIR-003",
+      "version": "1.0.0",
+      "family": "activation-direct",
+      "prompt": "Compare these two customer segments and recommend which one we should prioritize first.",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        }
+      ],
+      "review_criteria": [],
+      "forbidden_disclosures": [
+        "activation oracle",
+        "expected activation",
+        "description variant"
+      ],
+      "expected_relation": "skill_not_worse",
+      "provenance": {
+        "source": "research/skill-retrieval-and-coverage/01-design-freeze.md#8-lane-a--top-level-activation-evaluation",
+        "frozen_at_commit": "ed6ba1727e0b927ec94fda03eaa76abc6e728add"
+      }
+    },
+    {
+      "case_id": "BEH-ACT-DIR-004",
+      "version": "1.0.0",
+      "family": "activation-direct",
+      "prompt": "Review this pricing and packaging structure and explain whether the three plans make sense for how customers buy.",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        }
+      ],
+      "review_criteria": [],
+      "forbidden_disclosures": [
+        "activation oracle",
+        "expected activation",
+        "description variant"
+      ],
+      "expected_relation": "skill_not_worse",
+      "provenance": {
+        "source": "research/skill-retrieval-and-coverage/01-design-freeze.md#8-lane-a--top-level-activation-evaluation",
+        "frozen_at_commit": "ed6ba1727e0b927ec94fda03eaa76abc6e728add"
+      }
+    },
+    {
+      "case_id": "BEH-ACT-PARA-001",
+      "version": "1.0.0",
+      "family": "activation-paraphrase",
+      "prompt": "Help me figure out which kind of customer we should focus on first. We have interviews, support notes, and two groups that seem to want different things.",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        }
+      ],
+      "review_criteria": [],
+      "forbidden_disclosures": [
+        "activation oracle",
+        "expected activation",
+        "description variant"
+      ],
+      "expected_relation": "skill_not_worse",
+      "provenance": {
+        "source": "research/skill-retrieval-and-coverage/01-design-freeze.md#8-lane-a--top-level-activation-evaluation",
+        "frozen_at_commit": "ed6ba1727e0b927ec94fda03eaa76abc6e728add"
+      }
+    },
+    {
+      "case_id": "BEH-ACT-PARA-002",
+      "version": "1.0.0",
+      "family": "activation-paraphrase",
+      "prompt": "What should this product stand for compared with the alternatives buyers already use? I need a clear reason they would choose us.",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        }
+      ],
+      "review_criteria": [],
+      "forbidden_disclosures": [
+        "activation oracle",
+        "expected activation",
+        "description variant"
+      ],
+      "expected_relation": "skill_not_worse",
+      "provenance": {
+        "source": "research/skill-retrieval-and-coverage/01-design-freeze.md#8-lane-a--top-level-activation-evaluation",
+        "frozen_at_commit": "ed6ba1727e0b927ec94fda03eaa76abc6e728add"
+      }
+    },
+    {
+      "case_id": "BEH-ACT-PARA-003",
+      "version": "1.0.0",
+      "family": "activation-paraphrase",
+      "prompt": "The founder can personally spend time on only eight accounts this month. Which ones deserve that attention and why?",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        }
+      ],
+      "review_criteria": [],
+      "forbidden_disclosures": [
+        "activation oracle",
+        "expected activation",
+        "description variant"
+      ],
+      "expected_relation": "skill_not_worse",
+      "provenance": {
+        "source": "research/skill-retrieval-and-coverage/01-design-freeze.md#8-lane-a--top-level-activation-evaluation",
+        "frozen_at_commit": "ed6ba1727e0b927ec94fda03eaa76abc6e728add"
+      }
+    },
+    {
+      "case_id": "BEH-ACT-PARA-004",
+      "version": "1.0.0",
+      "family": "activation-paraphrase",
+      "prompt": "Bọn mình có hai nhóm khách dùng sản phẩm theo hai cách rất khác nhau. Giúp chọn nhóm nên tập trung trước và giải thích điều gì sẽ thay đổi nếu chọn nhóm đó.",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        }
+      ],
+      "review_criteria": [],
+      "forbidden_disclosures": [
+        "activation oracle",
+        "expected activation",
+        "description variant"
+      ],
+      "expected_relation": "skill_not_worse",
+      "provenance": {
+        "source": "research/skill-retrieval-and-coverage/01-design-freeze.md#8-lane-a--top-level-activation-evaluation",
+        "frozen_at_commit": "ed6ba1727e0b927ec94fda03eaa76abc6e728add"
+      }
+    },
+    {
+      "case_id": "BEH-ACT-SYM-001",
+      "version": "1.0.0",
+      "family": "activation-symptom",
+      "prompt": "Customers understand what the product does but keep saying they can get basically the same thing cheaper elsewhere. What should we investigate and change?",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        }
+      ],
+      "review_criteria": [],
+      "forbidden_disclosures": [
+        "activation oracle",
+        "expected activation",
+        "description variant"
+      ],
+      "expected_relation": "skill_not_worse",
+      "provenance": {
+        "source": "research/skill-retrieval-and-coverage/01-design-freeze.md#8-lane-a--top-level-activation-evaluation",
+        "frozen_at_commit": "ed6ba1727e0b927ec94fda03eaa76abc6e728add"
+      }
+    },
+    {
+      "case_id": "BEH-ACT-SYM-002",
+      "version": "1.0.0",
+      "family": "activation-symptom",
+      "prompt": "Clicks tripled this month but qualified leads barely moved. The team wants new creative immediately. What should we do next?",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        }
+      ],
+      "review_criteria": [],
+      "forbidden_disclosures": [
+        "activation oracle",
+        "expected activation",
+        "description variant"
+      ],
+      "expected_relation": "skill_not_worse",
+      "provenance": {
+        "source": "research/skill-retrieval-and-coverage/01-design-freeze.md#8-lane-a--top-level-activation-evaluation",
+        "frozen_at_commit": "ed6ba1727e0b927ec94fda03eaa76abc6e728add"
+      }
+    },
+    {
+      "case_id": "BEH-ACT-SYM-003",
+      "version": "1.0.0",
+      "family": "activation-symptom",
+      "prompt": "Deals get through the demo, then stall when buyers ask why they should trust the product in their environment. How should we diagnose the blockage?",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        }
+      ],
+      "review_criteria": [],
+      "forbidden_disclosures": [
+        "activation oracle",
+        "expected activation",
+        "description variant"
+      ],
+      "expected_relation": "skill_not_worse",
+      "provenance": {
+        "source": "research/skill-retrieval-and-coverage/01-design-freeze.md#8-lane-a--top-level-activation-evaluation",
+        "frozen_at_commit": "ed6ba1727e0b927ec94fda03eaa76abc6e728add"
+      }
+    },
+    {
+      "case_id": "BEH-ACT-SYM-004",
+      "version": "1.0.0",
+      "family": "activation-symptom",
+      "prompt": "Traffic tăng mạnh nhưng trial gần như đứng yên. Audience vừa được mở rộng còn trang đích vẫn nói với nhóm niche cũ. Theo m thì đang có vấn đề gì?",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        }
+      ],
+      "review_criteria": [],
+      "forbidden_disclosures": [
+        "activation oracle",
+        "expected activation",
+        "description variant"
+      ],
+      "expected_relation": "skill_not_worse",
+      "provenance": {
+        "source": "research/skill-retrieval-and-coverage/01-design-freeze.md#8-lane-a--top-level-activation-evaluation",
+        "frozen_at_commit": "ed6ba1727e0b927ec94fda03eaa76abc6e728add"
+      }
+    },
+    {
+      "case_id": "BEH-ACT-NOISY-001",
+      "version": "1.0.0",
+      "family": "activation-noisy",
+      "prompt": "We shipped a faster import flow and support volume is down. Separately, paid traffic doubled after targeting broadened from architecture firms to all SMBs. The landing page still speaks mostly to architecture firms and trial starts are flat. The team wants to rewrite the hero. What should we investigate first?",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        }
+      ],
+      "review_criteria": [],
+      "forbidden_disclosures": [
+        "activation oracle",
+        "expected activation",
+        "description variant"
+      ],
+      "expected_relation": "skill_not_worse",
+      "provenance": {
+        "source": "research/skill-retrieval-and-coverage/01-design-freeze.md#8-lane-a--top-level-activation-evaluation",
+        "frozen_at_commit": "ed6ba1727e0b927ec94fda03eaa76abc6e728add"
+      }
+    },
+    {
+      "case_id": "BEH-ACT-NOISY-002",
+      "version": "1.0.0",
+      "family": "activation-noisy",
+      "prompt": "The company has 31 employees and engineering is focused on enterprise SSO. The founder still runs strategic sales. Pipeline contains 24 active accounts, but only 6 have a clear operational pain, buying authority, and a near-term trigger. The founder cannot personally work all of them. Decide how to focus founder attention.",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        }
+      ],
+      "review_criteria": [],
+      "forbidden_disclosures": [
+        "activation oracle",
+        "expected activation",
+        "description variant"
+      ],
+      "expected_relation": "skill_not_worse",
+      "provenance": {
+        "source": "research/skill-retrieval-and-coverage/01-design-freeze.md#8-lane-a--top-level-activation-evaluation",
+        "frozen_at_commit": "ed6ba1727e0b927ec94fda03eaa76abc6e728add"
+      }
+    },
+    {
+      "case_id": "BEH-ACT-NOISY-003",
+      "version": "1.0.0",
+      "family": "activation-noisy",
+      "prompt": "The app has three plans and billing works correctly. Prospects repeatedly ask which plan fits them, sales keeps making exceptions, and buyers describe the jump between the middle and top tier as arbitrary. The team wants clearer plan names. What should we resolve before rewriting the page?",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        }
+      ],
+      "review_criteria": [],
+      "forbidden_disclosures": [
+        "activation oracle",
+        "expected activation",
+        "description variant"
+      ],
+      "expected_relation": "skill_not_worse",
+      "provenance": {
+        "source": "research/skill-retrieval-and-coverage/01-design-freeze.md#8-lane-a--top-level-activation-evaluation",
+        "frozen_at_commit": "ed6ba1727e0b927ec94fda03eaa76abc6e728add"
+      }
+    },
+    {
+      "case_id": "BEH-ACT-NOISY-004",
+      "version": "1.0.0",
+      "family": "activation-noisy",
+      "prompt": "Bối cảnh hơi dài: sản phẩm ổn định hơn, bug giảm, đội kỹ thuật không đổi roadmap. Sáu tuần gần đây lượt truy cập tăng gần gấp đôi vì mở rộng tệp quảng cáo, nhưng lead đủ chuẩn không tăng và sales nói khách mới thường không hiểu vì sao sản phẩm đáng giá hơn lựa chọn rẻ hơn. Team muốn sửa ngay quảng cáo. Nên bắt đầu từ đâu?",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        }
+      ],
+      "review_criteria": [],
+      "forbidden_disclosures": [
+        "activation oracle",
+        "expected activation",
+        "description variant"
+      ],
+      "expected_relation": "skill_not_worse",
+      "provenance": {
+        "source": "research/skill-retrieval-and-coverage/01-design-freeze.md#8-lane-a--top-level-activation-evaluation",
+        "frozen_at_commit": "ed6ba1727e0b927ec94fda03eaa76abc6e728add"
+      }
+    },
+    {
+      "case_id": "BEH-ACT-ADJ-001",
+      "version": "1.0.0",
+      "family": "activation-adjacent-negative",
+      "prompt": "Create a six-month product roadmap from these customer feature requests, engineering estimates, and dependency constraints.",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        }
+      ],
+      "review_criteria": [],
+      "forbidden_disclosures": [
+        "activation oracle",
+        "expected activation",
+        "description variant"
+      ],
+      "expected_relation": "skill_not_worse",
+      "provenance": {
+        "source": "research/skill-retrieval-and-coverage/01-design-freeze.md#8-lane-a--top-level-activation-evaluation",
+        "frozen_at_commit": "ed6ba1727e0b927ec94fda03eaa76abc6e728add"
+      }
+    },
+    {
+      "case_id": "BEH-ACT-ADJ-002",
+      "version": "1.0.0",
+      "family": "activation-adjacent-negative",
+      "prompt": "Configure these records in our CRM and create an automation that updates a field whenever the stage changes.",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        }
+      ],
+      "review_criteria": [],
+      "forbidden_disclosures": [
+        "activation oracle",
+        "expected activation",
+        "description variant"
+      ],
+      "expected_relation": "skill_not_worse",
+      "provenance": {
+        "source": "research/skill-retrieval-and-coverage/01-design-freeze.md#8-lane-a--top-level-activation-evaluation",
+        "frozen_at_commit": "ed6ba1727e0b927ec94fda03eaa76abc6e728add"
+      }
+    },
+    {
+      "case_id": "BEH-ACT-ADJ-003",
+      "version": "1.0.0",
+      "family": "activation-adjacent-negative",
+      "prompt": "Debug this API integration. The request succeeds but the webhook handler stores the wrong identifier.",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        }
+      ],
+      "review_criteria": [],
+      "forbidden_disclosures": [
+        "activation oracle",
+        "expected activation",
+        "description variant"
+      ],
+      "expected_relation": "skill_not_worse",
+      "provenance": {
+        "source": "research/skill-retrieval-and-coverage/01-design-freeze.md#8-lane-a--top-level-activation-evaluation",
+        "frozen_at_commit": "ed6ba1727e0b927ec94fda03eaa76abc6e728add"
+      }
+    },
+    {
+      "case_id": "BEH-ACT-ADJ-004",
+      "version": "1.0.0",
+      "family": "activation-adjacent-negative",
+      "prompt": "Rewrite this personal message to my landlord so it is shorter and more polite.",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        }
+      ],
+      "review_criteria": [],
+      "forbidden_disclosures": [
+        "activation oracle",
+        "expected activation",
+        "description variant"
+      ],
+      "expected_relation": "skill_not_worse",
+      "provenance": {
+        "source": "research/skill-retrieval-and-coverage/01-design-freeze.md#8-lane-a--top-level-activation-evaluation",
+        "frozen_at_commit": "ed6ba1727e0b927ec94fda03eaa76abc6e728add"
+      }
+    },
+    {
+      "case_id": "BEH-ACT-NOUN-001",
+      "version": "1.0.0",
+      "family": "activation-noun-trap-negative",
+      "prompt": "Count the number of characters in this approved meta description and return only the count.",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        }
+      ],
+      "review_criteria": [],
+      "forbidden_disclosures": [
+        "activation oracle",
+        "expected activation",
+        "description variant"
+      ],
+      "expected_relation": "skill_not_worse",
+      "provenance": {
+        "source": "research/skill-retrieval-and-coverage/01-design-freeze.md#8-lane-a--top-level-activation-evaluation",
+        "frozen_at_commit": "ed6ba1727e0b927ec94fda03eaa76abc6e728add"
+      }
+    },
+    {
+      "case_id": "BEH-ACT-NOUN-002",
+      "version": "1.0.0",
+      "family": "activation-noun-trap-negative",
+      "prompt": "Resize this approved brand logo to 512 by 512 pixels without changing its design.",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        }
+      ],
+      "review_criteria": [],
+      "forbidden_disclosures": [
+        "activation oracle",
+        "expected activation",
+        "description variant"
+      ],
+      "expected_relation": "skill_not_worse",
+      "provenance": {
+        "source": "research/skill-retrieval-and-coverage/01-design-freeze.md#8-lane-a--top-level-activation-evaluation",
+        "frozen_at_commit": "ed6ba1727e0b927ec94fda03eaa76abc6e728add"
+      }
+    },
+    {
+      "case_id": "BEH-ACT-NOUN-003",
+      "version": "1.0.0",
+      "family": "activation-noun-trap-negative",
+      "prompt": "Sort these paid-campaign names alphabetically and return the reordered list.",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        }
+      ],
+      "review_criteria": [],
+      "forbidden_disclosures": [
+        "activation oracle",
+        "expected activation",
+        "description variant"
+      ],
+      "expected_relation": "skill_not_worse",
+      "provenance": {
+        "source": "research/skill-retrieval-and-coverage/01-design-freeze.md#8-lane-a--top-level-activation-evaluation",
+        "frozen_at_commit": "ed6ba1727e0b927ec94fda03eaa76abc6e728add"
+      }
+    },
+    {
+      "case_id": "BEH-ACT-NOUN-004",
+      "version": "1.0.0",
+      "family": "activation-noun-trap-negative",
+      "prompt": "Explain how an AI agent should choose among available Skills when routing a user request.",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        }
+      ],
+      "review_criteria": [],
+      "forbidden_disclosures": [
+        "activation oracle",
+        "expected activation",
+        "description variant"
+      ],
+      "expected_relation": "skill_not_worse",
+      "provenance": {
+        "source": "research/skill-retrieval-and-coverage/01-design-freeze.md#8-lane-a--top-level-activation-evaluation",
+        "frozen_at_commit": "ed6ba1727e0b927ec94fda03eaa76abc6e728add"
+      }
+    }
+  ]
+}

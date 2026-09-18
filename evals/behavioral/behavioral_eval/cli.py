@@ -13,6 +13,7 @@ from typing import Any, Iterable
 from .adapters import ExecutorResult
 from .adjudication import build_blind_packet, order_blind_packets
 from .codex_cli import CodexCliAdapter
+from .coverage import build_coverage_report, load_coverage_oracle
 from .evidence import redact_text
 from .fixture import FixtureAdapter
 from .models import ArmProfile, RunRecord, RunState, ValidationError
@@ -386,6 +387,25 @@ def _trace(args: argparse.Namespace) -> int:
     return 0
 
 
+def _coverage(args: argparse.Namespace) -> int:
+    cases = load_cases(args.cases)
+    oracle = load_coverage_oracle(args.oracle)
+    results = Path(args.results)
+    records = json.loads((results / "run-records.json").read_text(encoding="utf-8"))
+    runs = [_record_from_dict(item) for item in records["runs"]]
+    index = json.loads((results / "blind-index.json").read_text(encoding="utf-8"))
+    judgments = (json.loads(args.judgments.read_text(encoding="utf-8"))
+                 if args.judgments else {"schema_version": 1, "judgments": []})
+    report = build_coverage_report(cases, runs, oracle, index, judgments)
+    output = Path(args.output)
+    if output.exists():
+        raise ValidationError(f"refusing to overwrite report: {output.resolve()}")
+    output.parent.mkdir(parents=True, exist_ok=True)
+    _write_json_fsynced(output, report)
+    print(f"PASS: coverage report {report['counts']}")
+    return 0
+
+
 def _parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Behavioral evaluation harness")
     subparsers = parser.add_subparsers(dest="command", required=True)
@@ -423,6 +443,13 @@ def _parser() -> argparse.ArgumentParser:
     trace.add_argument("--output", type=Path)
     trace.add_argument("--markdown", type=Path)
     trace.set_defaults(handler=_trace)
+    coverage = subparsers.add_parser("coverage", help="report independently judged decision surfaces")
+    coverage.add_argument("--cases", type=Path, default=Path("evals/behavioral/cases/coverage-routing-v1.json"))
+    coverage.add_argument("--oracle", type=Path, default=Path("evals/behavioral/oracles/coverage-routing-v1.surface-oracle.json"))
+    coverage.add_argument("--results", type=Path, required=True)
+    coverage.add_argument("--judgments", type=Path)
+    coverage.add_argument("--output", type=Path, required=True)
+    coverage.set_defaults(handler=_coverage)
     return parser
 
 
