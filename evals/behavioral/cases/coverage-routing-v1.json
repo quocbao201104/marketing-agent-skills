@@ -1,0 +1,293 @@
+{
+  "schema_version": 1,
+  "cases": [
+    {
+      "case_id": "BEH-COV-MULTI-001",
+      "version": "1.0.0",
+      "family": "coverage-multi-owner",
+      "prompt": "Paid traffic increased about 60% after targeting expanded from architecture firms to all SMBs. Trial starts stayed flat. The landing page still speaks almost entirely to architecture firms. Tracking and price did not change. The team wants to rewrite the hero immediately. Diagnose what should be investigated before choosing the fix.",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        }
+      ],
+      "review_criteria": [],
+      "forbidden_disclosures": [
+        "route oracle",
+        "must_load",
+        "must_not_load",
+        "coverage expectation"
+      ],
+      "expected_relation": "skill_not_worse",
+      "provenance": {
+        "source": "research/skill-retrieval-and-coverage/01-design-freeze.md#12-coverage-case-families",
+        "frozen_at_commit": "ed6ba1727e0b927ec94fda03eaa76abc6e728add"
+      }
+    },
+    {
+      "case_id": "BEH-COV-MULTI-002",
+      "version": "1.0.0",
+      "family": "coverage-multi-owner",
+      "prompt": "Checkout completion fell after two changes shipped in the same week: the paid campaign started sending a broader mix of visitors and the pricing page introduced a new plan transition rule. Instrumentation is healthy. Determine what needs to be investigated before deciding whether to change media, the commercial setup, or the page.",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        }
+      ],
+      "review_criteria": [],
+      "forbidden_disclosures": [
+        "route oracle",
+        "must_load",
+        "must_not_load",
+        "coverage expectation"
+      ],
+      "expected_relation": "skill_not_worse",
+      "provenance": {
+        "source": "research/skill-retrieval-and-coverage/01-design-freeze.md#12-coverage-case-families",
+        "frozen_at_commit": "ed6ba1727e0b927ec94fda03eaa76abc6e728add"
+      }
+    },
+    {
+      "case_id": "BEH-COV-MULTI-003",
+      "version": "1.0.0",
+      "family": "coverage-multi-owner",
+      "prompt": "Several founder-led deals reach the demo and then stall when buyers ask why the product is credible for their environment. The accounts span two customer types that use different alternatives. Diagnose the blockage and what evidence or decision surfaces must be resolved before rewriting sales copy.",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        }
+      ],
+      "review_criteria": [],
+      "forbidden_disclosures": [
+        "route oracle",
+        "must_load",
+        "must_not_load",
+        "coverage expectation"
+      ],
+      "expected_relation": "skill_not_worse",
+      "provenance": {
+        "source": "research/skill-retrieval-and-coverage/01-design-freeze.md#12-coverage-case-families",
+        "frozen_at_commit": "ed6ba1727e0b927ec94fda03eaa76abc6e728add"
+      }
+    },
+    {
+      "case_id": "BEH-COV-NARROW-001",
+      "version": "1.0.0",
+      "family": "coverage-narrow-sibling",
+      "prompt": "Paid traffic increased and signup rate fell. Audience, positioning, landing-page content, price, and tracking are unchanged. The only material change was bidding and delivery configuration, which shifted exposure toward lower-intent placements. Diagnose the change without reopening settled strategy.",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        }
+      ],
+      "review_criteria": [],
+      "forbidden_disclosures": [
+        "route oracle",
+        "must_load",
+        "must_not_load",
+        "coverage expectation"
+      ],
+      "expected_relation": "skill_not_worse",
+      "provenance": {
+        "source": "research/skill-retrieval-and-coverage/01-design-freeze.md#12-coverage-case-families",
+        "frozen_at_commit": "ed6ba1727e0b927ec94fda03eaa76abc6e728add"
+      }
+    },
+    {
+      "case_id": "BEH-COV-NARROW-002",
+      "version": "1.0.0",
+      "family": "coverage-narrow-sibling",
+      "prompt": "Conversion dropped after a mobile form/layout release. Traffic mix, audience, positioning, offer, price, and measurement are unchanged and verified. Diagnose the problem and recommend the next inspection.",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        }
+      ],
+      "review_criteria": [],
+      "forbidden_disclosures": [
+        "route oracle",
+        "must_load",
+        "must_not_load",
+        "coverage expectation"
+      ],
+      "expected_relation": "skill_not_worse",
+      "provenance": {
+        "source": "research/skill-retrieval-and-coverage/01-design-freeze.md#12-coverage-case-families",
+        "frozen_at_commit": "ed6ba1727e0b927ec94fda03eaa76abc6e728add"
+      }
+    },
+    {
+      "case_id": "BEH-COV-NARROW-003",
+      "version": "1.0.0",
+      "family": "coverage-narrow-sibling",
+      "prompt": "Audience, positioning, value proposition, price, offer, proof set, and CTA are already approved and fixed for this task. Build the landing-page information sequence and section order without reopening those decisions.",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        }
+      ],
+      "review_criteria": [],
+      "forbidden_disclosures": [
+        "route oracle",
+        "must_load",
+        "must_not_load",
+        "coverage expectation"
+      ],
+      "expected_relation": "skill_not_worse",
+      "provenance": {
+        "source": "research/skill-retrieval-and-coverage/01-design-freeze.md#12-coverage-case-families",
+        "frozen_at_commit": "ed6ba1727e0b927ec94fda03eaa76abc6e728add"
+      }
+    },
+    {
+      "case_id": "BEH-COV-DEP-001",
+      "version": "1.0.0",
+      "family": "coverage-strategic-dependency",
+      "prompt": "We need to choose which customer group to prioritize. Interviews show two groups with different jobs and barriers, and they compare us with different alternatives. Our current positioning was written for everyone. Recommend the priority segment and explain what positioning consequence follows from that choice. Do not write campaign copy.",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        }
+      ],
+      "review_criteria": [],
+      "forbidden_disclosures": [
+        "route oracle",
+        "must_load",
+        "must_not_load",
+        "coverage expectation"
+      ],
+      "expected_relation": "skill_not_worse",
+      "provenance": {
+        "source": "research/skill-retrieval-and-coverage/01-design-freeze.md#12-coverage-case-families",
+        "frozen_at_commit": "ed6ba1727e0b927ec94fda03eaa76abc6e728add"
+      }
+    },
+    {
+      "case_id": "BEH-COV-DEP-002",
+      "version": "1.0.0",
+      "family": "coverage-strategic-dependency",
+      "prompt": "We are deciding whether to move from one broad package to two packages for different customer situations. The target situations are not yet settled, and the current value story mixes both. Decide what must be resolved first and then recommend a commercial direction without writing the pricing page.",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        }
+      ],
+      "review_criteria": [],
+      "forbidden_disclosures": [
+        "route oracle",
+        "must_load",
+        "must_not_load",
+        "coverage expectation"
+      ],
+      "expected_relation": "skill_not_worse",
+      "provenance": {
+        "source": "research/skill-retrieval-and-coverage/01-design-freeze.md#12-coverage-case-families",
+        "frozen_at_commit": "ed6ba1727e0b927ec94fda03eaa76abc6e728add"
+      }
+    },
+    {
+      "case_id": "BEH-COV-DEP-003",
+      "version": "1.0.0",
+      "family": "coverage-strategic-dependency",
+      "prompt": "The founder can personally pursue only a small subset of current opportunities. General ICP guidance exists, but the active accounts differ in buying situation, urgency, access, and proof needs. Decide how to allocate founder attention while preserving the distinction between general target-market choice and account-specific pursuit.",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        }
+      ],
+      "review_criteria": [],
+      "forbidden_disclosures": [
+        "route oracle",
+        "must_load",
+        "must_not_load",
+        "coverage expectation"
+      ],
+      "expected_relation": "skill_not_worse",
+      "provenance": {
+        "source": "research/skill-retrieval-and-coverage/01-design-freeze.md#12-coverage-case-families",
+        "frozen_at_commit": "ed6ba1727e0b927ec94fda03eaa76abc6e728add"
+      }
+    },
+    {
+      "case_id": "BEH-COV-FAST-001",
+      "version": "1.0.0",
+      "family": "coverage-fast-path",
+      "prompt": "Shorten this approved meta description to 150 characters while preserving its approved meaning exactly. Do not reconsider audience, positioning, offer, or claims.",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        }
+      ],
+      "review_criteria": [],
+      "forbidden_disclosures": [
+        "route oracle",
+        "must_load",
+        "must_not_load",
+        "coverage expectation"
+      ],
+      "expected_relation": "skill_not_worse",
+      "provenance": {
+        "source": "research/skill-retrieval-and-coverage/01-design-freeze.md#12-coverage-case-families",
+        "frozen_at_commit": "ed6ba1727e0b927ec94fda03eaa76abc6e728add"
+      }
+    },
+    {
+      "case_id": "BEH-COV-FAST-002",
+      "version": "1.0.0",
+      "family": "coverage-fast-path",
+      "prompt": "The message hierarchy and proof order are approved. Tighten this paragraph for clarity and voice without changing its role, claim strength, or strategy.",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        }
+      ],
+      "review_criteria": [],
+      "forbidden_disclosures": [
+        "route oracle",
+        "must_load",
+        "must_not_load",
+        "coverage expectation"
+      ],
+      "expected_relation": "skill_not_worse",
+      "provenance": {
+        "source": "research/skill-retrieval-and-coverage/01-design-freeze.md#12-coverage-case-families",
+        "frozen_at_commit": "ed6ba1727e0b927ec94fda03eaa76abc6e728add"
+      }
+    },
+    {
+      "case_id": "BEH-COV-FAST-003",
+      "version": "1.0.0",
+      "family": "coverage-fast-path",
+      "prompt": "The target audience, positioning, commercial terms, message, proof, and CTA are all final. Produce a responsive landing-page section sequence that preserves those decisions.",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        }
+      ],
+      "review_criteria": [],
+      "forbidden_disclosures": [
+        "route oracle",
+        "must_load",
+        "must_not_load",
+        "coverage expectation"
+      ],
+      "expected_relation": "skill_not_worse",
+      "provenance": {
+        "source": "research/skill-retrieval-and-coverage/01-design-freeze.md#12-coverage-case-families",
+        "frozen_at_commit": "ed6ba1727e0b927ec94fda03eaa76abc6e728add"
+      }
+    }
+  ]
+}
