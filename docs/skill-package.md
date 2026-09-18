@@ -1,6 +1,6 @@
 # Build a skill upload package
 
-Download the [v2.2.0 `skill.zip`](https://github.com/quocbao201104/marketing-practitioner/releases/download/v2.2.0/skill.zip), or build from the tagged source using the command below. The host-specific import limits below still apply.
+Download the [v2.2.1 `skill.zip`](https://github.com/quocbao201104/marketing-practitioner/releases/download/v2.2.1/skill.zip), or build from the tagged source using the command below. The host-specific import limits below still apply.
 
 Use the release asset named exactly `skill.zip` for skill upload. Do **not** use GitHub's automatically generated **Source code (zip)** or **Source code (tar.gz)** downloads: those archives contain the whole repository rather than the single distributable skill and can include more than one `SKILL.md` entrypoint.
 

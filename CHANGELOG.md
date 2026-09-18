@@ -7,6 +7,8 @@ The project uses semantic versioning for published skill revisions. v1.0.0 marks
 
 ## [Unreleased]
 
+## [2.2.1] - 2026-09-18
+
 ### Skill activation and decision coverage
 
 - Added symptom-aware activation and bounded localization of unresolved decision questions while retaining settled inputs and just-in-time reads.
