@@ -80,7 +80,7 @@ For semantic review, prefer material atomic obligations over holistic impression
 
 ## Pair relations
 
-The legacy behavioral reporter does not score cross-case `sensitivity` or `invariance`. Use the existing Pressure Discovery relation protocol.
+Use corpus version `1.2.0` with the legacy behavioral reporter for independent member dispositions and baseline-versus-skill comparisons. Its `expected_relation = skill_not_worse` labels describe only that supported reporting contract. Adjudicate the six sensitivity relations separately with the existing Pressure Discovery relation protocol; the legacy report does not score or prove those relations.
 
 Both members must be independently acceptable before a pair can pass its relation.
 

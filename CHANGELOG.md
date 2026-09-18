@@ -7,6 +7,10 @@ The project uses semantic versioning for published skill revisions. v1.0.0 marks
 
 ## [Unreleased]
 
+### Completion evaluation corrections
+
+- Normalized completion corpus v1.2.0 for independent legacy reporting while preserving separate sensitivity adjudication; supplied the same approved announcement to both blockage-locality cases so only the intended policy dependency remains missing.
+
 ### Intake and decision-dependency control
 
 - Refined the common controller so missing information is resolved by role rather than by brief completeness: material user-owned dependencies are clarified, discoverable facts are retrieved, delegated choices are decided within scope, and reversible low-impact details are inferred or diversified.

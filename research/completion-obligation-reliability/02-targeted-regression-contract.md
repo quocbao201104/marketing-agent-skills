@@ -16,7 +16,7 @@ For every pair:
 2. then judge the required semantic relation;
 3. do not infer relation success from two independent PASS labels.
 
-The legacy behavioral reporter intentionally does not operationalize cross-case `sensitivity` or `invariance`; use the existing Pressure Discovery relation protocol for pair adjudication.
+Corpus version `1.2.0` uses `expected_relation = skill_not_worse` for independent case reporting with the legacy behavioral reporter. The six cross-case sensitivity relations remain defined below and require separate adjudication through the existing Pressure Discovery relation protocol. Independent member reports do not establish pair-relation success.
 
 ## Evaluation discipline
 
@@ -131,6 +131,14 @@ Same decision question, but a valid randomized comparison with stable outcome de
 ---
 
 ## Pair COR04 — blockage locality
+
+### Held constant
+
+Both members supply this approved source announcement:
+
+> Patchboard provides visual debugging for local Python AI-agent workflows. It shows run steps, tool calls, timestamps, and completion status. Plans start at $29/month. Try it locally.
+
+Only the private portal disclosure policy is unavailable. The source announcement is supplied so a missing artifact does not introduce a second adaptation blocker.
 
 ### COR04-A — one blocked, one independent
 
