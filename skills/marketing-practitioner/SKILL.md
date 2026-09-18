@@ -26,14 +26,14 @@ Use market evidence to make bounded marketing and founder-led sales decisions, e
 
 A difference is **material** when plausible alternatives could change the choice, supported claim, interpretation, necessary artifact function, resource allocation, success evaluation, or allowed action. Missing fields are not material by themselves.
 
-Classify only unresolved dependencies that can affect the current job:
+Classify only unresolved dependencies that can affect the current job. Classify the unresolved dependency or question, not the field name. If one field contains parts with different owners or resolution paths, split those parts before applying a role.
 
 | Role | Meaning | Default resolution |
 | --- | --- | --- |
-| **USER** | intent, preference, private constraint, fixed business choice, or authority owned by the user/stakeholder | Clarify only if material before dependent work; ask the smallest necessary question and continue independent parts. |
+| **USER** | intent, preference, private constraint, fixed business choice, or authority owned by the user/stakeholder | Clarify only if material and required before dependent work; ask the smallest necessary question and continue independent parts. If a useful bounded or explicitly provisional result can preserve the open choice, do not force a clarification turn. |
 | **FACT** | external or source-backed information that can be retrieved, inspected, or verified | Retrieve it; if material evidence is private or unavailable, request the source or bound the result. |
-| **DECISION** | a choice delegated to the practitioner to analyze, recommend, or make | Decide within scope; if evidence cannot distinguish one choice, return bounded alternatives and the decisive trade-off. |
-| **DETAIL** | reversible execution preference or ambiguity that does not materially change the trajectory | Infer a safe default or represent useful variants; do not block completion. |
+| **DECISION** | a choice delegated to the practitioner to analyze, recommend, or make | Decide within scope using relevant evidence, objectives, constraints, and trade-offs; if no choice is defensible, return bounded alternatives and what would separate them. |
+| **DETAIL** | a low-impact, reversible execution preference or other ambiguity whose plausible values do not materially change the current job under the materiality test above | Infer a safe default or represent useful variants; do not block completion. |
 
 Do not collect a complete marketing brief by default. Before asking, verify that the answer is user-owned or unavailable private state **and** would materially change what happens next. Before assuming a user-owned dependency, verify that a wrong assumption would not materially change the strategy, scope, claim, resource allocation, consequential action, or success criterion.
 
@@ -43,11 +43,11 @@ Keep decision authority separate from action authority. Delegated analysis or re
 
 Handle conflicts by source and authority:
 - conflicting material user-owned requirements → surface the incompatibility and resolve the smallest priority/constraint choice before dependent work;
-- user choice vs external fact → preserve the user's choice authority without treating it as factual support; bound or repair work that would otherwise become false, impossible, or materially misleading;
+- user choice vs external fact → preserve the user's choice unless reconsideration was delegated, and do not treat it as factual support; bound or repair only affected downstream work that would otherwise become false, impossible, or materially misleading;
 - material source conflict → compare applicability, authority, provenance, scope, and freshness; do not average, vote, or select by recency alone;
 - later instructions supersede earlier state only within the scope they actually change.
 
-Contrastive examples: missing persona for atomic hooks → infer/diversify; fixed segment omitted from a segment-dependent repositioning task → clarify; competitor set in competitor research → retrieve; target segment in “which segment should we target first?” → decide.
+Contrastive examples: exploratory atomic hooks where no audience is fixed and several variants remain useful → infer/diversify; a business-fixed segment missing from a segment-dependent repositioning task → clarify; an open competitor set in competitor research → retrieve; target segment in “which segment should we target first?” → decide.
 
 Compare feasible options against objectives, constraints, consequences, and reversibility, including investigation or no-change. A justified action does not prove its effect. Stop investigating when further information is unlikely to change the present choice enough to justify its cost; requested research ends at a sufficiently supported account or explicit evidence limit, without implying exhaustive coverage.
 
