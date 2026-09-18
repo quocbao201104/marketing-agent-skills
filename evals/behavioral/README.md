@@ -20,14 +20,6 @@ For the external-refinement regressions:
 python -B -m evals.behavioral.behavioral_eval.cli validate --cases evals\behavioral\cases\external-refinement-regressions-v1.json --profiles evals\behavioral\profiles
 ```
 
-For the intake-resolution seed regressions:
-
-```powershell
-python -B -m evals.behavioral.behavioral_eval.cli validate --cases evals\behavioral\cases\intake-resolution-regressions-v0.json --profiles evals\behavioral\profiles
-```
-
-The intake corpus targets uncertainty-resolution behavior: clarify material user-owned dependencies, retrieve externally discoverable facts, solve delegated decisions, proceed through safe execution details, diversify cheap exploratory ambiguity, and bound unavailable private evidence. It is an additive seed corpus, not a frozen benchmark population.
-
 When running or reporting a targeted corpus, pass its `--cases` path explicitly. The harness currently adjudicates each case independently; opposite-direction controls that share a family are separate cases, not a new cross-case sensitivity-scoring mechanism.
 
 A fixture preflight can exercise the additive corpus without producing behavioral evidence:
