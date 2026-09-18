@@ -38,6 +38,7 @@ SLICE_RE = re.compile(
 WHOLE_FILE_RE = re.compile(r"(?:-raw|readalltext|readalllines|readallbytes)\b", re.I)
 PRIMARY_ORDER = (
     "no_activation",
+    "premature_closure",
     "skip_jit",
     "wrong_edge",
     "resolve_fail",
@@ -409,10 +410,12 @@ def classify_skill_walk(
     oracle: OracleCase,
     *,
     answer_disposition: str | None = None,
+    run_completed: bool = True,
 ) -> dict[str, Any]:
     loads = _successful_knowledge(steps)
     labels: list[str] = []
     missing_groups: list[tuple[str, ...]] = []
+    satisfied_groups: list[tuple[str, ...]] = []
     forbidden_hits: list[str] = []
     failed_required_attempts: list[str] = []
 
@@ -422,14 +425,24 @@ def classify_skill_walk(
 
     for group in oracle.must_load:
         if _group_satisfied(group, loads):
+            satisfied_groups.append(group)
             continue
         missing_groups.append(group)
         if any(_attempted_spec(spec, steps) for spec in group):
             failed_required_attempts.extend(group)
 
+    required_group_count = len(oracle.must_load)
+    satisfied_group_count = len(satisfied_groups)
+
     if missing_groups and activated:
         if failed_required_attempts:
             labels.append("resolve_fail")
+        if (
+            run_completed
+            and required_group_count >= 2
+            and 0 < satisfied_group_count < required_group_count
+        ):
+            labels.append("premature_closure")
         labels.append("skip_jit")
 
     allowed_specs = (
@@ -515,6 +528,8 @@ def classify_skill_walk(
         "primary": primary,
         "labels": list(unique_labels),
         "activated": activated,
+        "required_group_count": required_group_count,
+        "satisfied_group_count": satisfied_group_count,
         "missing_groups": [list(group) for group in missing_groups],
         "forbidden_hits": forbidden_hits,
         "failed_required_attempts": failed_required_attempts,
@@ -581,6 +596,8 @@ def build_trace_report(
                 "primary": "no_oracle",
                 "labels": ["no_oracle"],
                 "activated": _controller_activated(steps),
+                "required_group_count": 0,
+                "satisfied_group_count": 0,
                 "missing_groups": [],
                 "forbidden_hits": [],
                 "failed_required_attempts": [],
@@ -600,6 +617,7 @@ def build_trace_report(
                 steps,
                 case_oracle,
                 answer_disposition=judgment_by_run.get(run.run_id),
+                run_completed=run.state is RunState.COMPLETED,
             )
         row = {
             "run_id": run.run_id,
