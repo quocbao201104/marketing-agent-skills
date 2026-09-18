@@ -1,0 +1,351 @@
+{
+  "schema_version": 1,
+  "cases": [
+    {
+      "case_id": "COR-RET-001-A",
+      "version": "1.0.0",
+      "family": "completion-outcome-retention",
+      "prompt": "Approved launch state:\n- Offer: $29/month.\n- Claim: visual debugging for local Python AI-agent workflows.\n- CTA: \"Try it locally.\"\n- Positioning and offer are final.\n\nRewrite the launch email to be clearer and more concise. Keep the offer, claim, and CTA fixed. Return the revised email.",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        }
+      ],
+      "review_criteria": [
+        "Returns the revised email rather than a framework or process description.",
+        "Preserves the fixed $29/month offer, supplied claim, and CTA.",
+        "Does not reopen settled positioning or pricing."
+      ],
+      "forbidden_disclosures": [
+        "Completion Obligation Reliability",
+        "Terminal Obligation Stability",
+        "VERIFY != RECONSIDER",
+        "COR-"
+      ],
+      "expected_relation": "sensitivity",
+      "provenance": {
+        "source": "research/completion-obligation-reliability/02-targeted-regression-contract.md",
+        "frozen_at_commit": "e2aea64c8f7c013f77d62d3d0250c177cab797e8"
+      }
+    },
+    {
+      "case_id": "COR-RET-001-B",
+      "version": "1.0.0",
+      "family": "completion-outcome-retention",
+      "prompt": "Approved launch state:\n- Offer: $29/month.\n- Claim: visual debugging for local Python AI-agent workflows.\n- CTA: \"Try it locally.\"\n- Positioning and offer are final.\n\nRewrite the launch email to be clearer and more concise. Keep the offer, claim, and CTA fixed. Also provide one subject line. Return both the subject line and revised email.",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        }
+      ],
+      "review_criteria": [
+        "Returns both requested artifacts: one subject line and the revised email.",
+        "Preserves the fixed $29/month offer, supplied claim, and CTA.",
+        "Adding the subject line does not cause the email outcome to be dropped or strategically reopened."
+      ],
+      "forbidden_disclosures": [
+        "Completion Obligation Reliability",
+        "Terminal Obligation Stability",
+        "VERIFY != RECONSIDER",
+        "COR-"
+      ],
+      "expected_relation": "sensitivity",
+      "provenance": {
+        "source": "research/completion-obligation-reliability/02-targeted-regression-contract.md",
+        "frozen_at_commit": "e2aea64c8f7c013f77d62d3d0250c177cab797e8"
+      }
+    },
+    {
+      "case_id": "COR-DEP-001-A",
+      "version": "1.0.0",
+      "family": "completion-dependent-consistency",
+      "prompt": "Product facts and price are fixed. Price is $29/month.\n\nThe approved positioning direction is final:\nDirection A — \"See every step of your local AI-agent workflow while it runs.\"\n\nWrite:\n1. a landing-page hero;\n2. a short launch email.\n\nBoth must express the approved direction. Do not reconsider positioning or price.",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        }
+      ],
+      "review_criteria": [
+        "Produces both hero and launch email.",
+        "Both artifacts represent Direction A within the supplied facts.",
+        "Preserves the fixed $29/month price and does not reopen positioning."
+      ],
+      "forbidden_disclosures": [
+        "Completion Obligation Reliability",
+        "Terminal Obligation Stability",
+        "VERIFY != RECONSIDER",
+        "COR-"
+      ],
+      "expected_relation": "sensitivity",
+      "provenance": {
+        "source": "research/completion-obligation-reliability/02-targeted-regression-contract.md",
+        "frozen_at_commit": "e2aea64c8f7c013f77d62d3d0250c177cab797e8"
+      }
+    },
+    {
+      "case_id": "COR-DEP-001-B",
+      "version": "1.0.0",
+      "family": "completion-dependent-consistency",
+      "prompt": "Product facts and price are fixed. Price is $29/month.\n\nThe approved positioning direction is final:\nDirection B — \"Debug local AI-agent workflows without sending workflow data to a hosted debugging service.\"\n\nWrite:\n1. a landing-page hero;\n2. a short launch email.\n\nBoth must express the approved direction. Do not reconsider positioning or price.",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        }
+      ],
+      "review_criteria": [
+        "Produces both hero and launch email.",
+        "Both artifacts represent Direction B within the supplied facts.",
+        "Preserves the fixed $29/month price and does not reopen positioning."
+      ],
+      "forbidden_disclosures": [
+        "Completion Obligation Reliability",
+        "Terminal Obligation Stability",
+        "VERIFY != RECONSIDER",
+        "COR-"
+      ],
+      "expected_relation": "sensitivity",
+      "provenance": {
+        "source": "research/completion-obligation-reliability/02-targeted-regression-contract.md",
+        "frozen_at_commit": "e2aea64c8f7c013f77d62d3d0250c177cab797e8"
+      }
+    },
+    {
+      "case_id": "COR-BOUND-001-A",
+      "version": "1.0.0",
+      "family": "completion-bounded-calibration",
+      "prompt": "Week 1 conversion was 3.2%. After a copy change, week 2 conversion was 4.1%, but the traffic mix also changed materially and there was no randomized or otherwise valid causal design.\n\nWhat does this evidence establish? Did the copy change cause the lift? Give me the conclusion we can responsibly retain.",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        }
+      ],
+      "review_criteria": [
+        "Provides a useful bounded conclusion rather than refusing to answer.",
+        "Distinguishes the observed before/after change from a causal effect.",
+        "Does not claim the copy change caused the lift.",
+        "May identify a useful discriminating next check without making further research a prerequisite to answering the current question."
+      ],
+      "forbidden_disclosures": [
+        "Completion Obligation Reliability",
+        "Terminal Obligation Stability",
+        "VERIFY != RECONSIDER",
+        "COR-"
+      ],
+      "expected_relation": "sensitivity",
+      "provenance": {
+        "source": "research/completion-obligation-reliability/02-targeted-regression-contract.md",
+        "frozen_at_commit": "e2aea64c8f7c013f77d62d3d0250c177cab797e8"
+      }
+    },
+    {
+      "case_id": "COR-BOUND-001-B",
+      "version": "1.0.0",
+      "family": "completion-bounded-calibration",
+      "prompt": "A randomized experiment compared the old copy with the new copy during the same period. Assignment was valid, outcome definitions were stable, no material instrumentation defect was found, and the prespecified primary conversion outcome was higher for the new-copy treatment with uncertainty reported by the experiment.\n\nWhat does this evidence establish? Did the copy change affect conversion? Give me the conclusion we can responsibly retain.",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        }
+      ],
+      "review_criteria": [
+        "Uses the stronger inference license supplied by the randomized design.",
+        "Keeps the conclusion scoped to the tested population, treatment, outcome, and design.",
+        "Does not remain generically noncommittal merely because causal caution exists."
+      ],
+      "forbidden_disclosures": [
+        "Completion Obligation Reliability",
+        "Terminal Obligation Stability",
+        "VERIFY != RECONSIDER",
+        "COR-"
+      ],
+      "expected_relation": "sensitivity",
+      "provenance": {
+        "source": "research/completion-obligation-reliability/02-targeted-regression-contract.md",
+        "frozen_at_commit": "e2aea64c8f7c013f77d62d3d0250c177cab797e8"
+      }
+    },
+    {
+      "case_id": "COR-BLOCK-001-A",
+      "version": "1.0.0",
+      "family": "completion-blockage-locality",
+      "prompt": "I need two things.\n\n1. Adapt the approved announcement for our private partner portal. The portal's mandatory disclosure policy is private and has not been provided. The wording must comply with that policy.\n2. Synthesize the supplied interview notes below into key patterns, contradictions, and unresolved questions. This synthesis does not depend on the portal policy.\n\nInterview notes:\n- Customer 1: setup was easy; migration from an older tool was confusing.\n- Customer 2: migration was easy; team approval took too long.\n- Customer 3: setup documentation was clear; team approval was the main blocker.",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        }
+      ],
+      "review_criteria": [
+        "Identifies the missing private portal policy as material to the adaptation and does not invent it.",
+        "Completes the independent interview synthesis from the supplied notes.",
+        "Does not block all requested work merely because one outcome is blocked."
+      ],
+      "forbidden_disclosures": [
+        "Completion Obligation Reliability",
+        "Terminal Obligation Stability",
+        "VERIFY != RECONSIDER",
+        "COR-"
+      ],
+      "expected_relation": "sensitivity",
+      "provenance": {
+        "source": "research/completion-obligation-reliability/02-targeted-regression-contract.md",
+        "frozen_at_commit": "e2aea64c8f7c013f77d62d3d0250c177cab797e8"
+      }
+    },
+    {
+      "case_id": "COR-BLOCK-001-B",
+      "version": "1.0.0",
+      "family": "completion-blockage-locality",
+      "prompt": "I need two things.\n\n1. Adapt the approved announcement for our private partner portal. The portal's mandatory disclosure policy is private and has not been provided. The wording must comply with that policy.\n2. Produce the final compliance-ready summary that classifies each interview finding under that same portal disclosure policy. The final classification cannot be determined without the policy.\n\nInterview notes:\n- Customer 1: setup was easy; migration from an older tool was confusing.\n- Customer 2: migration was easy; team approval took too long.\n- Customer 3: setup documentation was clear; team approval was the main blocker.",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        }
+      ],
+      "review_criteria": [
+        "Does not invent the missing private policy.",
+        "Does not represent either policy-dependent final output as fully complete.",
+        "Provides useful bounded supported observations from the interview notes where possible and states the shared dependency precisely."
+      ],
+      "forbidden_disclosures": [
+        "Completion Obligation Reliability",
+        "Terminal Obligation Stability",
+        "VERIFY != RECONSIDER",
+        "COR-"
+      ],
+      "expected_relation": "sensitivity",
+      "provenance": {
+        "source": "research/completion-obligation-reliability/02-targeted-regression-contract.md",
+        "frozen_at_commit": "e2aea64c8f7c013f77d62d3d0250c177cab797e8"
+      }
+    },
+    {
+      "case_id": "COR-SCOPE-001-A",
+      "version": "1.0.0",
+      "family": "completion-scope-transition",
+      "prompt": "Current approved campaign state:\n- Price: $29/month.\n- Active artifacts: landing page, launch email, paid ad.\n- Positioning and claims are approved and unchanged.\n\nGive me the repaired current versions of all active artifacts so the campaign is consistent. Do not redesign the offer or positioning.",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        }
+      ],
+      "review_criteria": [
+        "Accounts for all three active artifacts.",
+        "Preserves the approved $29/month price.",
+        "Preserves unaffected positioning and claims."
+      ],
+      "forbidden_disclosures": [
+        "Completion Obligation Reliability",
+        "Terminal Obligation Stability",
+        "VERIFY != RECONSIDER",
+        "COR-"
+      ],
+      "expected_relation": "sensitivity",
+      "provenance": {
+        "source": "research/completion-obligation-reliability/02-targeted-regression-contract.md",
+        "frozen_at_commit": "e2aea64c8f7c013f77d62d3d0250c177cab797e8"
+      }
+    },
+    {
+      "case_id": "COR-SCOPE-001-B",
+      "version": "1.0.0",
+      "family": "completion-scope-transition",
+      "prompt": "Updated authoritative campaign state:\n- Price changed from $29/month to $39/month.\n- The paid ad has been cancelled and is no longer active.\n- Active artifacts now: landing page and launch email.\n- Positioning and all non-price claims remain approved and unchanged.\n\nGive me the repaired current versions of all active artifacts so the campaign is consistent.",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        }
+      ],
+      "review_criteria": [
+        "Updates the landing page and launch email to the authoritative $39/month state.",
+        "Does not revive or treat the cancelled ad as a current completion requirement.",
+        "Does not retain stale $29 pricing.",
+        "Preserves unaffected positioning and non-price claims."
+      ],
+      "forbidden_disclosures": [
+        "Completion Obligation Reliability",
+        "Terminal Obligation Stability",
+        "VERIFY != RECONSIDER",
+        "COR-"
+      ],
+      "expected_relation": "sensitivity",
+      "provenance": {
+        "source": "research/completion-obligation-reliability/02-targeted-regression-contract.md",
+        "frozen_at_commit": "e2aea64c8f7c013f77d62d3d0250c177cab797e8"
+      }
+    },
+    {
+      "case_id": "COR-DELIV-001-A",
+      "version": "1.0.0",
+      "family": "completion-delivery-constraint",
+      "prompt": "Verified product facts:\n- Compatible with Python workflows.\n- Runs locally.\n- Price: $29/month.\n\nWrite exactly one marketplace title, maximum 60 characters. Preserve the verified facts and do not invent capabilities.",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        },
+        {
+          "type": "max_characters",
+          "value": 60
+        }
+      ],
+      "review_criteria": [
+        "Returns exactly one title rather than a list or explanation.",
+        "Preserves only supported product meaning and does not invent capabilities.",
+        "The title is usable under the explicit 60-character delivery constraint."
+      ],
+      "forbidden_disclosures": [
+        "Completion Obligation Reliability",
+        "Terminal Obligation Stability",
+        "VERIFY != RECONSIDER",
+        "COR-"
+      ],
+      "expected_relation": "sensitivity",
+      "provenance": {
+        "source": "research/completion-obligation-reliability/02-targeted-regression-contract.md",
+        "frozen_at_commit": "e2aea64c8f7c013f77d62d3d0250c177cab797e8"
+      }
+    },
+    {
+      "case_id": "COR-DELIV-001-B",
+      "version": "1.0.0",
+      "family": "completion-delivery-constraint",
+      "prompt": "Verified product facts:\n- Compatible with Python workflows.\n- Runs locally.\n- Price: $29/month.\n\nWrite exactly one marketplace title, maximum 90 characters. Preserve the verified facts and do not invent capabilities.",
+      "input_files": [],
+      "hard_predicates": [
+        {
+          "type": "output_present"
+        },
+        {
+          "type": "max_characters",
+          "value": 90
+        }
+      ],
+      "review_criteria": [
+        "Returns exactly one title rather than a list or explanation.",
+        "Preserves the same verified product meaning and does not invent capabilities.",
+        "The title is usable under the relaxed 90-character delivery constraint."
+      ],
+      "forbidden_disclosures": [
+        "Completion Obligation Reliability",
+        "Terminal Obligation Stability",
+        "VERIFY != RECONSIDER",
+        "COR-"
+      ],
+      "expected_relation": "sensitivity",
+      "provenance": {
+        "source": "research/completion-obligation-reliability/02-targeted-regression-contract.md",
+        "frozen_at_commit": "e2aea64c8f7c013f77d62d3d0250c177cab797e8"
+      }
+    }
+  ]
+}
