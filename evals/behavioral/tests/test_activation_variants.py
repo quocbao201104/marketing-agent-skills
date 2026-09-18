@@ -101,15 +101,28 @@ class ActivationVariantMaterializerTests(unittest.TestCase):
             (d1 / "SKILL.md").read_text(encoding="utf-8"),
         )
 
-    def test_d0_must_match_selected_base(self) -> None:
-        self.write_manifest(d0="different description")
+    def test_d0_can_preserve_a_frozen_baseline_description(self) -> None:
+        self.write_manifest(d0="frozen baseline description")
 
-        with self.assertRaises(MaterializationError):
-            materialize(
-                manifest_path=self.manifest,
-                repo_root=self.root,
-                output_root=self.root / "generated",
-            )
+        materialize(
+            manifest_path=self.manifest,
+            repo_root=self.root,
+            output_root=self.root / "generated",
+            selected=("D0",),
+        )
+
+        text = (
+            self.root
+            / "generated"
+            / "D0"
+            / "marketing-practitioner"
+            / "SKILL.md"
+        ).read_text(encoding="utf-8")
+        self.assertIn(
+            'description: "frozen baseline description"',
+            text,
+        )
+        self.assertIn("Body stays fixed.", text)
 
     def test_refuses_to_overwrite_existing_variant(self) -> None:
         self.write_manifest()
