@@ -23,6 +23,9 @@
     "logoDark": "./assets/brand/logo-dark.png",
     "capabilities": [],
     "websiteURL": "https://github.com/quocbao201104/marketing-practitioner",
+    "supportURL": "https://github.com/quocbao201104/marketing-practitioner/issues",
+    "privacyPolicyURL": "https://github.com/quocbao201104/marketing-practitioner/blob/main/PRIVACY.md",
+    "termsOfServiceURL": "https://github.com/quocbao201104/marketing-practitioner/blob/main/TERMS.md",
     "defaultPrompt": [
       "Turn these customer interviews into a grounded synthesis.",
       "Write a landing page using my approved positioning.",
