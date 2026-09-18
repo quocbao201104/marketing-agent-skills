@@ -8,7 +8,7 @@
 
 A reusable marketing skill for people working with AI: research customers, shape strategy, create content, and interpret results—with claims grounded in evidence.
 
-[![Version: v2.1.0](https://img.shields.io/badge/version-v2.1.0-0a7.svg)](#status-and-scope)
+[![Version: v2.2.0](https://img.shields.io/badge/version-v2.2.0-0a7.svg)](#status-and-scope)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Language: English](https://img.shields.io/badge/language-English-4c1.svg)](#)
 [![Format: Agent Skill](https://img.shields.io/badge/format-Agent%20Skill-6f42c1.svg)](skills/marketing-practitioner/SKILL.md)
@@ -120,6 +120,7 @@ A fluent answer can still be the wrong marketing action.
 | Rewrite creative because CPA moved | Diagnose before selecting the intervention |
 | Load a TikTok playbook because the prompt says “TikTok” | Route by decision dependency, not by noun |
 | Reopen approved positioning while writing copy | Freeze resolved state unless it becomes contradictory, stale, or insufficient |
+| Turn final review into a new improvement loop | Verify active completion obligations, repair material failures, then stop without reopening settled choices |
 | Let a concrete spec or proof point become the strategy by repetition | Preserve its resolved role; check only when a candidate would materially change that role |
 | Turn attribution into causality | Preserve what a result did — and did not — prove |
 
@@ -245,7 +246,7 @@ If the skill makes a poor decision, overcomplicates a simple task, misses suppli
 
 ## Status and scope
 
-Current release: **v2.1.0 — Scoped Adaptation and Behavioral Clarity**.
+Current release: **v2.2.0 — Input and Completion Governance**.
 
 The package covers seven marketing jobs with specialist guidance for content, commerce, commercial design, buyer-specific founder-led sales, landing pages, email, search/discovery, paid media, brand identity, and scoped localization. See [CHANGELOG.md](CHANGELOG.md) for release history.
 

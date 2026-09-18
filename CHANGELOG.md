@@ -7,9 +7,7 @@ The project uses semantic versioning for published skill revisions. v1.0.0 marks
 
 ## [Unreleased]
 
-### Completion evaluation corrections
-
-- Normalized completion corpus v1.2.0 for independent legacy reporting while preserving separate sensitivity adjudication; supplied the same approved announcement to both blockage-locality cases so only the intended policy dependency remains missing.
+## [2.2.0] - 2026-09-18
 
 ### Intake and decision-dependency control
 
@@ -18,6 +16,26 @@ The project uses semantic versioning for published skill revisions. v1.0.0 marks
 - Added conflict semantics for incompatible user requirements, user choices that conflict with external facts, materially conflicting sources, and scoped supersession by later instructions.
 - Aligned the packaged Task Specification Guide and README with the same controller semantics. No new runtime job, specialist subsystem, mandatory briefing form, or approval workflow was added.
 - Restored the common materiality threshold across action gates and clarified that material source requests may concern inaccessible public evidence as well as private evidence. Added static counterexamples for both boundaries.
+
+### Completion and stopping behavior
+
+- Made the return boundary explicit: produce each active requested result, verify only the material conditions that determine completion, repair material failures locally, and then stop.
+- Clarified that terminal validation checks existing obligations rather than reopening settled choices or manufacturing new work merely for optional improvement.
+- Clarified that the seven job-completion rows are terminal functions for active outcomes, not workflow steps, schemas, or mandatory presentation structures.
+- Preserved bounded completion under uncertainty: a remaining evidence limit does not make an outcome incomplete when a bounded conclusion is the requested useful result.
+- Added a proportional-review guard so quality review cannot silently turn optional polish into a new completion requirement.
+
+### Evaluation and review
+
+- Added the Completion Obligation Reliability theory freeze, targeted regression contract, live-evaluation design, static adjudication, independent-review correction record, and diagnostic behavioral corpus.
+- Repaired hidden-input, oracle-strength, world-state, and pair-sensitivity defects found by independent review before carrying the corpus forward.
+- Normalized completion corpus v1.2.0 for independent legacy reporting while preserving separate sensitivity adjudication; supplied the same approved announcement to both blockage-locality cases so only the intended policy dependency remains missing.
+- Static review supports the bounded controller repair and rejects architecture expansion. Live behavioral effect remains intentionally pending; these records are not benchmark or marketing-outcome claims.
+
+### Distribution
+
+- Aligned skill metadata, Claude and Codex plugin manifests, README status, installation guidance, package links, and current diagram documentation at v2.2.0.
+- Historical frozen evaluations, research records, scenario versions, prior release notes, and diagram-generation prompts retain the version labels under which they were produced.
 
 ## [2.1.0] - 2026-09-18
 
