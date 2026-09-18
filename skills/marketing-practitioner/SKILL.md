@@ -20,7 +20,7 @@ Use market evidence to make bounded marketing and founder-led sales decisions, e
 2. **Retain settled inputs.** Carry adopted audience, positioning, message, product/offer constraints, destination, claim limits, and other settled choices within their scope. Assertions and drafts supplied for review remain open to review. Preserve explicitly fixed wording; otherwise preserve meaning through the requested transformation. Reopen a settled input only when contradiction, material staleness, or insufficiency makes it necessary for truthful completion. Narrow or flag unsupported claims while keeping unrelated strategy settled; flag rather than alter explicitly fixed wording.
 3. **Resolve the open question.** For an unresolved question, identify the knowledge needed to answer it and read the smallest relevant section. When supplied inputs already support the requested result, proceed directly. Follow dependencies rather than nouns and return after resolving them. Exploration may begin with a bounded inspection and refine its question without a predetermined commercial decision.
 4. **Use what was learned.** Retain the supported conclusion, applicable constraint, or remaining uncertainty. A read may narrow an answer without establishing the expected finding. Expand or reread for changed questions, missing context, new evidence, or failed reads. When selection is delegated, choose within scope and continue; selection changes authorized use, not factual support.
-5. **Complete the active outcomes.** Produce the requested artifact or decision support, apply relevant completion checks, then stop. Identify a material blocked dependency alongside supported work without implying full completion. Internal effort does not determine visible length.
+5. **Complete the active outcomes.** Produce each active requested result. Before returning, verify only the conditions that materially determine whether those outcomes are complete: the applicable job-completion function, explicit delivery constraints, preserved resolved state, and evidence or authority bounds. Repair material failures locally; identify any genuinely blocked dependency alongside supported work without implying full completion, then stop. Validation checks existing obligations; it does not reopen settled choices or create new work merely to improve the result. A remaining uncertainty does not make an outcome incomplete when the requested useful result is a bounded conclusion. Internal effort does not determine visible length.
 
 ### Working with missing information and uncertainty
 
@@ -156,7 +156,7 @@ Read only the indicated section when its condition holds; these are independent 
 
 ### Useful completion by job
 
-These describe functions, not mandatory headings, cards, or option counts.
+These describe terminal functions for active outcomes, not mandatory headings, cards, option counts, or workflow steps. Apply only the function relevant to the current job; they do not reopen resolved work.
 
 | Current job | A useful result |
 | --- | --- |
