@@ -73,25 +73,6 @@ def _replace_description(text: str, description: str) -> str:
     )
 
 
-def _extract_description(text: str) -> str:
-    match = FRONTMATTER_RE.match(text)
-    if match is None:
-        raise MaterializationError("SKILL.md must begin with YAML frontmatter")
-    description_match = DESCRIPTION_RE.search(match.group("frontmatter"))
-    if description_match is None:
-        raise MaterializationError("SKILL.md description is missing")
-    raw = description_match.group("value").strip()
-    try:
-        parsed = json.loads(raw)
-    except json.JSONDecodeError as exc:
-        raise MaterializationError(
-            "SKILL.md description must use JSON-compatible quoted text"
-        ) from exc
-    if not isinstance(parsed, str):
-        raise MaterializationError("SKILL.md description must be text")
-    return parsed
-
-
 def _body_after_frontmatter(text: str) -> str:
     match = FRONTMATTER_RE.match(text)
     if match is None:
