@@ -131,7 +131,6 @@ def materialize(
     base_skill_file = base_skill / "SKILL.md"
     base_text = base_skill_file.read_text(encoding="utf-8")
     base_body = _body_after_frontmatter(base_text)
-    base_description = _extract_description(base_text)
     base_non_skill = _tree_manifest(base_skill, exclude_skill=True)
 
     variants = document["variants"]
@@ -166,11 +165,6 @@ def materialize(
             raise MaterializationError(
                 f"variant {variant_id} changed bundled files outside SKILL.md"
             )
-        if variant_id == "D0" and spec["description"] != base_description:
-            raise MaterializationError(
-                "D0 description does not match the selected base skill"
-            )
-
         receipts.append(
             {
                 "variant_id": variant_id,
