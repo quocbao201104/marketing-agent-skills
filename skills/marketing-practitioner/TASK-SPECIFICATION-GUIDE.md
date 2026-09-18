@@ -26,7 +26,7 @@ ONLY THE QUALIFIERS THAT CAN MATERIALLY CHANGE THE RESULT
 
 That is a sufficiency rule, not a completeness contest.
 
-A detail is **material** when it could change the requested choice, supported claim, interpretation, necessary artifact function, or allowed action. The goal is enough shared understanding to do the intended work; the fewest possible words are not a quality target.
+A detail is **material** when it could change the requested choice, supported claim, interpretation, necessary artifact function, resource allocation, success evaluation, or allowed action. The goal is enough shared understanding to do the intended work; the fewest possible words are not a quality target.
 
 ---
 
@@ -335,15 +335,24 @@ Research on clarification supports a conditional policy: asking can help when th
 
 The following practical defaults align with the skill's uncertainty policy. They are not a tested universal algorithm. You need to specify a different preference or boundary only when it matters to the task.
 
+First distinguish what kind of unresolved information it is:
+
+| Unresolved information | Good default |
+| --- | --- |
+| User intent, private constraint, fixed business choice, or authority | ask only when it is material and needed before dependent work |
+| External or source-backed fact that can be discovered or verified | retrieve it when material; do not offload ordinary research to the user |
+| A choice the user asked the agent to recommend or make | analyze and decide within the delegated scope |
+| A low-impact execution detail with a safe reversible default | infer conservatively or provide useful variants |
+
+Then apply the narrower task conditions:
+
 | Missing information | Good default |
 | --- | --- |
-| The detail is low-impact, conventional, reversible, and does not change a claim or strategic decision | infer conservatively if needed |
 | A useful answer remains valid across the plausible interpretations | proceed with a bounded answer and flag the uncertainty if material |
 | The uncertainty does not block useful work | continue; surface it when needed for the recipient's decision or truthful interpretation |
 | A factual claim/specification is unsupported | do not invent it; retrieve support when appropriate or give a bounded version with the material gap identified |
-| The missing fact is external, current, and researchable, and outside research is allowed or expected | research it and distinguish external evidence from supplied evidence |
-| A user-owned input or materially different interpretation remains unresolved after using available context, and a useful bounded answer cannot resolve it | ask the smallest question that unlocks the work and continue independent parts |
-| The user delegated a choice within a clear scope | make the supported choice and carry it forward; ask only if a material dependency remains unresolved |
+| A user-owned input remains unresolved after using available context, and a useful bounded answer cannot avoid the dependency | ask the smallest question that unlocks the work and continue independent parts |
+| Several plausible low-cost interpretations are all useful for exploration | represent them as bounded variants instead of forcing a clarification turn |
 | An action needs authorization that has not been supplied | obtain the missing authorization before that action; do not ask again for authorization already established in scope |
 
 The question is not “Is anything missing?” Almost every real task is incomplete in some way.
@@ -591,7 +600,7 @@ The goal is information completeness and resolvability, not imagined optimizatio
 | `PROMPT WORDING = USER INTENT` | Wording is only a representation of intent. State the actual job when multiple interpretations matter. Prompt sensitivity exists, but its magnitude varies by model, task, and evaluation [TS02][TS03]. |
 | `LONGER PROMPT = BETTER PROMPT` | Add requirements only when they can change the result [TS01]. |
 | `MORE CONTEXT = BETTER CONTEXT` | Prefer relevant, authoritative, decision-changing context [TS04][TS05][TS06]. |
-| `MISSING TASK-DEFINING INFORMATION = PERMISSION TO SILENTLY GUESS` | Ask, research, flag, or bound the answer when the missing value could materially change the job or claim [TS07][TS08][TS09]. |
+| `MISSING TASK-DEFINING INFORMATION = PERMISSION TO SILENTLY GUESS` | Resolve the uncertainty according to its role: clarify user-owned dependencies, retrieve discoverable facts, decide delegated choices, infer/diversify low-impact details, or bound the result when necessary [TS07][TS08][TS09]. |
 | `EXAMPLE = RULE` | Say which property of the example matters; examples can introduce unintended patterns [TS10]. |
 | `OUTPUT FORMAT = DECISION CRITERIA` | Distinguish what answer is justified from how it must be delivered, and meet both when required. |
 | `RESOLVED INPUT = INVITATION TO REDECIDE IT` | Mark fixed upstream decisions when reopening them would change the current job. |
