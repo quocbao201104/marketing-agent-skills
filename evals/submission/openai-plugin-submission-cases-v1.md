@@ -10,6 +10,25 @@ prompts freeze public facts into self-contained fixtures so a reviewer can run
 them without browsing. Provenance remains outside the prompt so current web
 changes do not silently change the test.
 
+## Test protocol
+
+Default submission-routing run:
+
+1. start a clean conversation with Marketing Practitioner installed and available;
+2. do not explicitly invoke `/marketing-practitioner` or otherwise force-select the skill;
+3. send only the case prompt;
+4. record whether Marketing Practitioner was selected;
+5. judge the task behavior separately from activation.
+
+For a positive case, expected activation is **YES** under this default auto-routing
+run. For a negative case, expected activation is **NO**.
+
+If a reviewer instead runs a case with the plugin already explicitly selected,
+activation is no longer a valid pass/fail signal. In that regime, judge ownership
+behavior instead: an in-scope task should be handled by the skill, while an
+out-of-scope task should be bounded or handed off without applying Marketing
+Practitioner as the task-solving framework.
+
 ## Case design rules
 
 - Use public, inspectable facts or public user reports.
@@ -32,6 +51,7 @@ changes do not silently change the test.
 **Job:** RESEARCH / UNDERSTAND  
 **Primary owner:** Chapter 01 — customer research and evidence  
 **Secondary dependency:** Chapter 04 only if communication implications are used  
+**Expected activation (default auto-routing run):** YES  
 **Activation shape:** explicit evidence synthesis with product-adoption symptoms
 
 ### Public provenance
@@ -88,7 +108,7 @@ and do not turn this into a product-roadmap prioritization.
 
 ### Expected behavior
 
-- Activates Marketing Practitioner.
+- Under the default auto-routing run, selects Marketing Practitioner.
 - Preserves each report as a bounded observation.
 - Groups plausible mechanisms without implying independent prevalence.
 - Distinguishes hosted, self-hosted, embedded, attribution, and implementation
@@ -120,6 +140,7 @@ the product-roadmap handoff.
 **Primary routes:** `commercial-design.configuration`,
 `commercial-design.payment`, `commercial-design.modifiers-representation`,
 `commercial-design.decision`  
+**Expected activation (default auto-routing run):** YES  
 **Activation shape:** published offer structure with an unresolved commercial
 communication/design question
 
@@ -174,7 +195,7 @@ available.
 
 ### Expected behavior
 
-- Activates commercial design rather than generic copywriting.
+- Under the default auto-routing run, selects Marketing Practitioner and enters commercial design rather than generic copywriting.
 - Separates package entitlement, pricing metric, annual discount, and volume
   modifier.
 - Does not infer that per-channel pricing is good/bad from first principles.
@@ -197,6 +218,7 @@ available.
 **Job:** DIAGNOSE  
 **Primary owner:** Chapter 05 — diagnosis / causality / experimentation  
 **Conditional routes:** `etsy.diagnosis`, `paid-media.observation`  
+**Expected activation (default auto-routing run):** YES  
 **Activation shape:** apparently good aggregate growth with mixed underlying
 drivers and an intervention temptation
 
@@ -248,6 +270,7 @@ and what should be checked before changing paid-search allocation or creative?
 
 ### Expected behavior
 
+- Under the default auto-routing run, selects Marketing Practitioner.
 - Diagnoses before prescribing.
 - Separates GMS growth, buyer count, frequency, AOV, app mix, and management
   attribution.
@@ -275,6 +298,7 @@ and what should be checked before changing paid-search allocation or creative?
 `founder-sales.proof`, `founder-sales.decision`  
 **Conditional dependency:** `commercial-design` only for the buyer's requested
 pricing structure  
+**Expected activation (default auto-routing run):** YES  
 **Activation shape:** buyer opportunity with a mix of confirmed fit, unknowns,
 and likely gaps
 
@@ -344,7 +368,7 @@ disqualifier.
 
 ### Expected behavior
 
-- Activates founder-sales rather than producing generic RFP copy.
+- Under the default auto-routing run, selects Marketing Practitioner and enters founder-sales rather than producing generic RFP copy.
 - Distinguishes confirmed fit, material unknowns, and evidenced gaps.
 - Avoids hallucinating Buffer features.
 - Treats an RFI as an information-gathering buying state, not a won/lost deal.
@@ -369,6 +393,7 @@ disqualifier.
 **Primary routes:** Chapter 04, `landing-page.core`,
 `landing-page.sequence`, `landing-page.proof-risk`,
 `landing-page.action-form`  
+**Expected activation (default auto-routing run):** YES  
 **Activation shape:** approved strategy and product facts; execution should not
 reopen positioning
 
@@ -425,6 +450,7 @@ product capabilities.
 
 ### Expected behavior
 
+- Under the default auto-routing run, selects Marketing Practitioner.
 - Preserves the approved positioning and audience.
 - Uses supplied proof/facts without upgrading them into guarantees.
 - Allocates information according to reader decision needs.
@@ -447,6 +473,7 @@ product capabilities.
 
 **ID:** SUB-NEG-001  
 **Boundary:** unrelated technical work / product-roadmap implementation  
+**Expected activation (default auto-routing run):** NO  
 **Source:** https://github.com/plausible/analytics/issues/5612
 
 ### Submission prompt
@@ -459,11 +486,16 @@ code, add validation, and write the regression test for this bug.
 
 ### Expected behavior
 
-Marketing Practitioner should not activate as the task owner. The request is a
-software implementation/debugging task. If the host has a coding capability,
-route to that capability; otherwise explain the boundary. Marketing Practitioner
-may only become relevant later if the user separately asks how to communicate
-the change or learn from customer evidence.
+Under the default auto-routing run, Marketing Practitioner should not be
+selected. The request is a software implementation/debugging task. If the host
+has a coding capability, route to that capability; otherwise explain the
+boundary.
+
+If the plugin was already explicitly selected before the prompt, do not use
+Marketing Practitioner as the task-solving framework. Bound or hand off the
+technical implementation instead. Marketing Practitioner may only become
+relevant later if the user separately asks how to communicate the change or
+learn from customer evidence.
 
 ---
 
@@ -471,6 +503,7 @@ the change or learn from customer evidence.
 
 **ID:** SUB-NEG-002  
 **Boundary:** legal/compliance authority  
+**Expected activation (default auto-routing run):** NO  
 **Source:** University at Buffalo RFI #25AXB0165 public procurement materials
 
 ### Submission prompt
@@ -485,10 +518,13 @@ language we should rely on.
 
 ### Expected behavior
 
-Marketing Practitioner should not act as legal authority or give a definitive
-legal conclusion. It can identify that the question materially depends on legal
-review and preserve the commercial/sales work that does not require that legal
-answer.
+Under the default auto-routing run, Marketing Practitioner should not be
+selected as the task owner. The requested judgment is legal.
+
+If the plugin was already explicitly selected before the prompt, it should not
+give a definitive legal conclusion or use marketing guidance as a substitute for
+legal analysis. It can identify the legal dependency and preserve any separate
+commercial/sales work that does not require that legal answer.
 
 ---
 
@@ -496,6 +532,7 @@ answer.
 
 **ID:** SUB-NEG-003  
 **Boundary:** finance/accounting  
+**Expected activation (default auto-routing run):** NO  
 **Source:** https://buffer.com/pricing
 
 ### Submission prompt
@@ -508,9 +545,14 @@ subscription, including deferred revenue and monthly recognition.
 
 ### Expected behavior
 
-Marketing Practitioner should not activate as the accounting owner. Pricing is
-mentioned, but the actual job is revenue recognition and journal-entry
-accounting. Route to an accounting/finance capability if available.
+Under the default auto-routing run, Marketing Practitioner should not be
+selected. Pricing is mentioned, but the actual job is revenue recognition and
+journal-entry accounting.
+
+If the plugin was already explicitly selected before the prompt, it should
+recognize that accounting owns the task and hand off or bound the work rather
+than applying commercial-design guidance. Route to an accounting/finance
+capability if available.
 
 ---
 
@@ -531,11 +573,14 @@ accounting. Route to an accounting/finance capability if available.
 
 Before these are copied into the OpenAI submission form:
 
-1. run the final package against all eight prompts;
-2. record actual output and whether the skill activated;
-3. compare actual behavior with the expectations above;
-4. repair the case wording only when the case is ambiguous; repair the skill
+1. run the final package against all eight prompts in a clean conversation with
+   the skill installed but not explicitly invoked;
+2. record actual output and whether the skill was selected;
+3. optionally rerun the three negative prompts with the plugin explicitly
+   selected to verify boundary/handoff behavior;
+4. compare actual activation and task behavior with the expectations above;
+5. repair the case wording only when the case is ambiguous; repair the skill
    only when the behavior exposes a real runtime defect;
-5. freeze the final prompt text and expected behavior used for submission.
+6. freeze the final prompt text and expected behavior used for submission.
 
 Do not represent this file as live behavioral evidence until that run exists.
