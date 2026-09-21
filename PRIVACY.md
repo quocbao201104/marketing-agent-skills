@@ -2,7 +2,7 @@
 
 **Effective date: September 19, 2026**
 
-Marketing Practitioner is an open-source, skills-only plugin maintained through the public GitHub repository at https://github.com/quocbao201104/marketing-practitioner.
+Marketing Practitioner is an open-source, skills-only plugin maintained through the public GitHub repository at https://github.com/quocbao201104/marketing-agent-skills.
 
 ## Data collection by the publisher
 
@@ -36,4 +36,4 @@ This policy may be updated when the plugin's data-handling behavior or distribut
 
 For privacy questions or support, open an issue at:
 
-https://github.com/quocbao201104/marketing-practitioner/issues
+https://github.com/quocbao201104/marketing-agent-skills/issues

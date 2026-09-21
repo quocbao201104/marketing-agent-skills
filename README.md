@@ -2,7 +2,7 @@
 
 <img src="assets/brand/banner.svg" alt="Marketing Practitioner banner" width="100%">
 
-# Marketing Practitioner
+# Marketing Agent Skills
 
 **From customer evidence to marketing decisions and execution.**
 
@@ -12,7 +12,7 @@ A reusable marketing skill for people working with AI: research customers, shape
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Language: English](https://img.shields.io/badge/language-English-4c1.svg)](#)
 [![Format: Agent Skill](https://img.shields.io/badge/format-Agent%20Skill-6f42c1.svg)](skills/marketing-practitioner/SKILL.md)
-[![skills.sh](https://skills.sh/b/quocbao201104/marketing-practitioner)](https://skills.sh/quocbao201104/marketing-practitioner)
+[![skills.sh](https://skills.sh/b/quocbao201104/marketing-agent-skills)](https://skills.sh/quocbao201104/marketing-agent-skills)
 
 **[What you can do](#what-you-can-do) · [Quick start](#quick-start) · [How it works](#how-it-works) · [Troubleshooting](#troubleshooting) · [Research](#research-and-verification) · [Contributing](#contributing)**
 
@@ -22,7 +22,7 @@ A reusable marketing skill for people working with AI: research customers, shape
 
 ---
 
-Marketing Practitioner gives marketers, founders, researchers, and content teams a shared foundation for AI-assisted customer research, positioning, commercial choices, communication, distribution, and result interpretation. Use it to turn interviews into a grounded account, compare positioning options, write a page from an adopted strategy, or investigate a performance change before choosing an intervention.
+Marketing Agent Skills is the repository for **Marketing Practitioner**, a reusable skill that gives marketers, founders, researchers, and content teams a shared foundation for AI-assisted customer research, positioning, commercial choices, communication, distribution, and result interpretation. Use it to turn interviews into a grounded account, compare positioning options, write a page from an adopted strategy, or investigate a performance change before choosing an intervention.
 
 The skill connects those jobs when the work requires it. A simple rewrite can stay simple; a larger assignment can carry evidence, selected choices, and remaining questions from research through to the requested artifacts.
 
@@ -55,7 +55,7 @@ Choose your environment. The skill and reference material are the same in every 
 | **CLI** | Run the command below, or use the [Claude Code plugin](docs/claude-code-plugin.md) / [Codex plugin](docs/plugin.md) instructions. |
 
 ```bash
-npx skills add quocbao201104/marketing-practitioner
+npx skills add quocbao201104/marketing-agent-skills
 ```
 
 <details>
@@ -65,7 +65,7 @@ Paste this into an app or CLI with installation tools:
 
 ```text
 Install Marketing Practitioner from
-https://github.com/quocbao201104/marketing-practitioner
+https://github.com/quocbao201104/marketing-agent-skills
 for this app, using its supported installation method.
 Preserve existing customizations and confirm the installation.
 ```
@@ -76,7 +76,7 @@ Preserve existing customizations and confirm the installation.
 
 | Use it in | Install manually |
 | --- | --- |
-| **Claude** | Add the [repository](https://github.com/quocbao201104/marketing-practitioner) as a marketplace, then install Marketing Practitioner. [Steps](docs/web-setup.md#claude-add-the-repository-marketplace) |
+| **Claude** | Add the [repository](https://github.com/quocbao201104/marketing-agent-skills) as a marketplace, then install Marketing Practitioner. [Steps](docs/web-setup.md#claude-add-the-repository-marketplace) |
 | **ChatGPT** | Plugins > Skills > Create > Upload from your computer. [Prepare files and upload](docs/web-setup.md#chatgpt-upload-a-personal-skill) |
 
 > **ChatGPT plans:** Skills are documented for eligible **Business, Enterprise, Healthcare, and Edu** accounts, subject to workspace settings. Do not assume Free, Plus, or Pro includes skill upload. [OpenAI guidance](https://help.openai.com/en/articles/20001066-skills-in-chatgpt).
@@ -104,7 +104,7 @@ No internal vocabulary is required. “Help me decide which customer group to fo
 Clone the full repository if you want to inspect or extend the skill:
 
 ```bash
-git clone https://github.com/quocbao201104/marketing-practitioner.git
+git clone https://github.com/quocbao201104/marketing-agent-skills.git
 ```
 
 The governing runtime contract is [`skills/marketing-practitioner/SKILL.md`](skills/marketing-practitioner/SKILL.md). Its compact decision table gives direct knowledge entry points; the [operating guide](skills/marketing-practitioner/references/operating-guide.md) holds detailed path and handoff guidance for questions that need it.
@@ -180,7 +180,7 @@ If Marketing Practitioner does not behave as expected, check the smallest releva
 - **The skill activates for an unrelated task:** preserve the original prompt and report the false positive. The skill is intentionally out of scope for generic writing, product-roadmap authority, legal work, finance/accounting, CRM administration, and unrelated technical implementation.
 - **A helper script cannot run:** the Python helpers are optional conveniences for exact route retrieval. Read the smallest relevant file or section directly through `routing-index.json` instead of treating helper execution as required.
 - **An update seems not to take effect:** verify the installed version, refresh/reload the plugin in the host, and start a new conversation before comparing behavior. Existing sessions may retain earlier context.
-- **The skill chooses a poor route or produces an unsupported conclusion:** open a [behavior report](https://github.com/quocbao201104/marketing-practitioner/issues/new?template=behavior-report.yml) with sanitized context, expected vs observed behavior, model/runtime, and skill version.
+- **The skill chooses a poor route or produces an unsupported conclusion:** open a [behavior report](https://github.com/quocbao201104/marketing-agent-skills/issues/new?template=behavior-report.yml) with sanitized context, expected vs observed behavior, model/runtime, and skill version.
 
 For installation-specific steps, see [local setup](docs/local-setup.md) and [web setup](docs/web-setup.md).
 
@@ -255,7 +255,7 @@ These are design reviews and static checks. They do not establish improved model
 
 The current design has not yet received live behavioral evaluation. No prior skill version's pass/fail result is used to assess it.
 
-If the skill makes a poor decision, overcomplicates a simple task, misses supplied evidence, reopens resolved state, chooses the wrong knowledge path, behaves inconsistently, or produces an unexpectedly useful result, [open a behavior report](https://github.com/quocbao201104/marketing-practitioner/issues/new?template=behavior-report.yml). Include sanitized context, expected vs observed behavior, model/runtime, skill version, and whether it reproduces.
+If the skill makes a poor decision, overcomplicates a simple task, misses supplied evidence, reopens resolved state, chooses the wrong knowledge path, behaves inconsistently, or produces an unexpectedly useful result, [open a behavior report](https://github.com/quocbao201104/marketing-agent-skills/issues/new?template=behavior-report.yml). Include sanitized context, expected vs observed behavior, model/runtime, skill version, and whether it reproduces.
 
 ## Status and scope
 

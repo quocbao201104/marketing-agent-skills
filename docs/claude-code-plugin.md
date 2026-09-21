@@ -5,7 +5,7 @@ The repository is both a Claude Code marketplace and its single plugin. The cata
 After these manifests are pushed to GitHub, run inside Claude Code:
 
 ```text
-/plugin marketplace add quocbao201104/marketing-practitioner
+/plugin marketplace add quocbao201104/marketing-agent-skills
 /plugin install marketing-practitioner@marketing-practitioner
 ```
 
