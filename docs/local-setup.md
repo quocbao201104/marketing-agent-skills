@@ -4,11 +4,11 @@ Choose one installation method per host. All methods use the same `skills/market
 
 ## Codex app: install through the marketplace
 
-Add `https://github.com/quocbao201104/marketing-practitioner.git` in the app's marketplace controls, then install Marketing Practitioner. The repository includes its own Codex catalog; no separate catalog is required. See the [Codex plugin guide](plugin.md) for CLI commands and update checks.
+Add `https://github.com/quocbao201104/marketing-agent-skills.git` in the app's marketplace controls, then install Marketing Practitioner. The repository includes its own Codex catalog; no separate catalog is required. See the [Codex plugin guide](plugin.md) for CLI commands and update checks.
 
 ## Codex app: install manually with files
 
-1. On the [repository page](https://github.com/quocbao201104/marketing-practitioner), select **Code > Download ZIP**, then extract the download.
+1. On the [repository page](https://github.com/quocbao201104/marketing-agent-skills), select **Code > Download ZIP**, then extract the download.
 2. Open the extracted `skills` folder. Copy the entire `marketing-practitioner` folder, including its subfolders.
 3. Open your personal skills directory using File Explorer or Finder:
 
@@ -26,7 +26,7 @@ These are Codex's documented [user-level local skill locations](https://learn.ch
 
 1. Open **Customize > Plugins** (through Settings if that is where your app places Customize).
 2. Select **+ / Add plugin > Add marketplace**. Some interfaces show **Create plugin** before **Add marketplace**.
-3. Choose **Add from a Repository** and enter `https://github.com/quocbao201104/marketing-practitioner`.
+3. Choose **Add from a Repository** and enter `https://github.com/quocbao201104/marketing-agent-skills`.
 4. Select **Sync/Add**, open **Marketing Practitioner** in the added marketplace, and select **Install**.
 5. Complete any activation prompt and start a new task using the plugin.
 
@@ -37,13 +37,13 @@ Menu labels and availability depend on your account and app version. See [Claude
 For a compatible agent, run the skill installer and select the host and installation scope when prompted:
 
 ```bash
-npx skills add quocbao201104/marketing-practitioner
+npx skills add quocbao201104/marketing-agent-skills
 ```
 
 For Claude Code's plugin interface, run inside Claude Code:
 
 ```text
-/plugin marketplace add quocbao201104/marketing-practitioner
+/plugin marketplace add quocbao201104/marketing-agent-skills
 /plugin install marketing-practitioner@marketing-practitioner
 ```
 
@@ -55,7 +55,7 @@ If the host provides installation tools, paste:
 
 ```text
 Install Marketing Practitioner from
-https://github.com/quocbao201104/marketing-practitioner
+https://github.com/quocbao201104/marketing-agent-skills
 for this app. Use its supported installation method and confirm
 where it was installed. Preserve any existing customizations.
 ```
