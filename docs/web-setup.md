@@ -11,7 +11,7 @@ Instructions checked on **2026-09-08**. Account permissions and menu labels can 
 3. Choose **Add from a Repository** and paste:
 
    ```text
-   https://github.com/quocbao201104/marketing-practitioner
+   https://github.com/quocbao201104/marketing-agent-skills
    ```
 
 4. Select **Sync/Add** to load the repository's marketplace catalog.
@@ -39,7 +39,7 @@ There is no public Marketing Practitioner entry in the ChatGPT plugin directory 
 
 ## Prepare files for manual skill upload
 
-On the [repository page](https://github.com/quocbao201104/marketing-practitioner), choose **Code > Download ZIP** and extract it. Locate `skills/marketing-practitioner`. Keep that entire folder, including `SKILL.md`, the handbook, index, references, platforms, adaptations, and scripts.
+On the [repository page](https://github.com/quocbao201104/marketing-agent-skills), choose **Code > Download ZIP** and extract it. Locate `skills/marketing-practitioner`. Keep that entire folder, including `SKILL.md`, the handbook, index, references, platforms, adaptations, and scripts.
 
 For Claude's alternative custom-skill upload, compress that folder into a ZIP with `marketing-practitioner/SKILL.md` inside it, then upload through **Customize > Skills** and enable it. The outer repository and `skills/` folders should not wrap the skill in this ZIP. See [Claude's custom skill packaging instructions](https://support.claude.com/en/articles/12512198-how-to-create-custom-skills).
 
