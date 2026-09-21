@@ -27,12 +27,12 @@ The research reports and evaluation infrastructure remain in the repository for 
 
 The repository includes a native Codex catalog at [marketplace.json](../.agents/plugins/marketplace.json). Its local source `./` resolves from the repository root to the existing plugin. The separate Claude catalog remains available; both use the same skill files.
 
-In the Codex app's marketplace controls, add `https://github.com/quocbao201104/marketing-practitioner.git`, then install Marketing Practitioner from the catalog. Menu labels vary by app version. This adds a user-selected marketplace, not an official directory listing.
+In the Codex app's marketplace controls, add `https://github.com/quocbao201104/marketing-agent-skills.git`, then install Marketing Practitioner from the catalog. Menu labels vary by app version. This adds a user-selected marketplace, not an official directory listing.
 
 On a compatible Codex CLI:
 
 ```text
-codex plugin marketplace add https://github.com/quocbao201104/marketing-practitioner.git
+codex plugin marketplace add https://github.com/quocbao201104/marketing-agent-skills.git
 codex plugin add marketing-practitioner@marketing-practitioner
 ```
 
