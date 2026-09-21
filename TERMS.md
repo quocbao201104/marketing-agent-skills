@@ -2,7 +2,7 @@
 
 **Effective date: September 19, 2026**
 
-These Terms of Service apply to Marketing Practitioner, an open-source, skills-only plugin distributed through the public repository at https://github.com/quocbao201104/marketing-practitioner.
+These Terms of Service apply to Marketing Practitioner, an open-source, skills-only plugin distributed through the public repository at https://github.com/quocbao201104/marketing-agent-skills.
 
 By installing or using Marketing Practitioner, you agree to these terms.
 
@@ -61,4 +61,4 @@ These terms may be updated as the plugin or its distribution model changes. Upda
 
 For questions, bug reports, or support, open an issue at:
 
-https://github.com/quocbao201104/marketing-practitioner/issues
+https://github.com/quocbao201104/marketing-agent-skills/issues
