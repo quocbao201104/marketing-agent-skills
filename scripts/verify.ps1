@@ -12,7 +12,7 @@ Set-StrictMode -Version 2.0
 
 $RepositoryRoot = (Resolve-Path -LiteralPath (Join-Path $PSScriptRoot '..')).Path
 if (-not $SkillPath) {
-    $SkillPath = Join-Path $RepositoryRoot 'skills\marketing-practitioner'
+    $SkillPath = Join-Path $RepositoryRoot 'skills\marketing-agent-skills'
 }
 $ResolvedSkillPath = (Resolve-Path -LiteralPath $SkillPath).Path
 $Python = (Get-Command python -ErrorAction Stop).Source

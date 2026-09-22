@@ -4,7 +4,7 @@ Date: 2026-09-09. Baseline: `a5a5876` plus preserved Amazon working-tree changes
 
 ## Scope and evidence access
 
-Read the [TikTok Shop module](../../skills/marketing-practitioner/platforms/commerce/tiktok-shop.md), its [ledger](../../skills/marketing-practitioner/references/commerce/tiktok-shop-evidence.md), and baseline `tiktok-shop.status`, `tiktok-shop.relinking`, and `tiktok-shop.content-product-identity` output. The existing product/SKU, content/target, representation, and attribution distinctions remain useful. This pass concerns the evidence and conditions needed to apply those distinctions.
+Read the [TikTok Shop module](../../skills/marketing-agent-skills/platforms/commerce/tiktok-shop.md), its [ledger](../../skills/marketing-agent-skills/references/commerce/tiktok-shop-evidence.md), and baseline `tiktok-shop.status`, `tiktok-shop.relinking`, and `tiktok-shop.content-product-identity` output. The existing product/SKU, content/target, representation, and attribution distinctions remain useful. This pass concerns the evidence and conditions needed to apply those distinctions.
 
 | Binding | Source and inspected material | Access and scope |
 | --- | --- | --- |

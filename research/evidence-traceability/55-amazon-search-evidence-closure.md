@@ -4,7 +4,7 @@ Date: 2026-09-09. Follows [review 54](54-amazon-search-evidence-review.md); pres
 
 ## Result
 
-Updated the [Amazon module](../../skills/marketing-practitioner/platforms/commerce/amazon.md) and [A04-A08 evidence records](../../skills/marketing-practitioner/references/commerce/amazon-evidence.md).
+Updated the [Amazon module](../../skills/marketing-agent-skills/platforms/commerce/amazon.md) and [A04-A08 evidence records](../../skills/marketing-agent-skills/references/commerce/amazon-evidence.md).
 
 - **AM6:** corrected the A06 summary and carried its component-versus-aggregate qualification into `amazon.search`. The retrieval diagram remains conceptual.
 - **AM7:** identified the A05 example domain and separated the two A07 research settings, methods, and evidence limits. Existing anti-folklore guidance remains sufficient.

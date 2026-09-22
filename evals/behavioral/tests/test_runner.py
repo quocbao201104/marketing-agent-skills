@@ -115,7 +115,7 @@ class RunnerTests(unittest.TestCase):
 
     def test_skill_run_without_activation_evidence_is_unverified(self) -> None:
         skill_profile = profile(True)
-        skill_root = self.root / ".agents" / "skills" / "marketing-practitioner"
+        skill_root = self.root / ".agents" / "skills" / "marketing-agent-skills"
         skill_root.mkdir(parents=True)
         (skill_root / "SKILL.md").write_text("skill", encoding="utf-8")
         from evals.behavioral.behavioral_eval.workspace import hash_tree

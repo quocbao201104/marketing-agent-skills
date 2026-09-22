@@ -6,7 +6,7 @@ Status: bounded content review completed; two local clarification candidates. No
 
 ## Scope and conclusion
 
-Read [Chapter 07](../../skills/marketing-practitioner/handbook/07-international-marketing-and-ethics.md) and inspected related scope/realization guidance in [localization adaptations](../../skills/marketing-practitioner/adaptations/localization.md). Source identifiers come from the [bibliography](../../skills/marketing-practitioner/references/bibliography.md).
+Read [Chapter 07](../../skills/marketing-agent-skills/handbook/07-international-marketing-and-ethics.md) and inspected related scope/realization guidance in [localization adaptations](../../skills/marketing-agent-skills/adaptations/localization.md). Source identifiers come from the [bibliography](../../skills/marketing-agent-skills/references/bibliography.md).
 
 The strongest parts already address the main design risks: country is not language, market or jurisdiction; national averages do not determine an individual's psychology; existing identity and authority constrain wording; more specific local material is not automatically stronger; and localization does not acquire ownership of product, platform or commercial decisions.
 

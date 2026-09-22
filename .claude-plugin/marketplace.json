@@ -1,5 +1,5 @@
 {
-  "name": "marketing-practitioner",
+  "name": "marketing-agent-skills",
   "owner": {
     "name": "quocbao201104"
   },
@@ -8,7 +8,7 @@
   },
   "plugins": [
     {
-      "name": "marketing-practitioner",
+      "name": "marketing-agent-skills",
       "source": "./",
       "description": "Research customers, shape strategy, create marketing content, and interpret results."
     }

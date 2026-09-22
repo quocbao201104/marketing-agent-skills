@@ -29,7 +29,7 @@ This chain is a static design rationale, not a report of an observed agent failu
 
 ## Implementation and boundaries
 
-The new `Coordinating subagents when useful` section in [SKILL.md](../../skills/marketing-practitioner/SKILL.md) covers:
+The new `Coordinating subagents when useful` section in [SKILL.md](../../skills/marketing-agent-skills/SKILL.md) covers:
 
 - conditional use based on availability, permission, useful decomposition and coordination cost;
 - assignment context, dependencies, evidence status, action/edit scope and bounded work;

@@ -6,7 +6,7 @@ Status: bounded source and design review completed. Three local correction candi
 
 ## Scope
 
-Inspected actual `google-commerce.conversational-attributes`, `google-commerce.resolvability`, and `google-commerce.ai-shopping` excerpts, source records G09/G11, and sections 5.4-5.5 in [the Google module](../../skills/marketing-practitioner/platforms/commerce/google-shopping.md). The governing controller, diagnosis, and cross-step rules retain their previously reviewed context. [The ledger](../../skills/marketing-practitioner/references/commerce/google-shopping-evidence.md) correctly rejects fixed ranking weights, fabricated product facts, and equating merchant declarations with observed behavior.
+Inspected actual `google-commerce.conversational-attributes`, `google-commerce.resolvability`, and `google-commerce.ai-shopping` excerpts, source records G09/G11, and sections 5.4-5.5 in [the Google module](../../skills/marketing-agent-skills/platforms/commerce/google-shopping.md). The governing controller, diagnosis, and cross-step rules retain their previously reviewed context. [The ledger](../../skills/marketing-agent-skills/references/commerce/google-shopping-evidence.md) correctly rejects fixed ranking weights, fabricated product facts, and equating merchant declarations with observed behavior.
 
 This review asks whether the operational advice preserves current report semantics and field-specific conditions. It does not validate hidden ranking systems, product outcomes, a real account, or the original research provenance.
 

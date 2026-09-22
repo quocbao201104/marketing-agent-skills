@@ -42,7 +42,7 @@ class TraceReconstructionTests(unittest.TestCase):
         command = (
             r'"C:\pwsh.exe" -Command "Get-Content -LiteralPath '
             r"'C:\Temp\BEH-FAST-001\current-skill\repeat-1"
-            r"\.agents\skills\marketing-practitioner\SKILL.md' -Raw\""
+            r"\.agents\skills\marketing-agent-skills\SKILL.md' -Raw\""
         )
 
         self.assertEqual(("skill.md",), extract_skill_paths(command))
@@ -50,7 +50,7 @@ class TraceReconstructionTests(unittest.TestCase):
     def test_extracts_adaptation_skill_path(self) -> None:
         command = (
             "Get-Content -LiteralPath "
-            "'.agents\\skills\\marketing-practitioner\\adaptations\\localization.md' -Raw"
+            "'.agents\\skills\\marketing-agent-skills\\adaptations\\localization.md' -Raw"
         )
 
         self.assertEqual(
@@ -60,7 +60,7 @@ class TraceReconstructionTests(unittest.TestCase):
 
     def test_extracts_helper_route_from_failed_python_invocation(self) -> None:
         command = (
-            "python '.agents\\skills\\marketing-practitioner\\scripts\\"
+            "python '.agents\\skills\\marketing-agent-skills\\scripts\\"
             "get-knowledge.py' paid-media.observation"
         )
 
@@ -77,7 +77,7 @@ class TraceReconstructionTests(unittest.TestCase):
             (
                 command_event(
                     "Get-Content -LiteralPath "
-                    "'.agents\\skills\\marketing-practitioner\\SKILL.md' -Raw"
+                    "'.agents\\skills\\marketing-agent-skills\\SKILL.md' -Raw"
                 ),
             )
         )
@@ -93,11 +93,11 @@ class TraceReconstructionTests(unittest.TestCase):
             (
                 command_event(
                     "Get-Content -LiteralPath "
-                    "'.agents\\skills\\marketing-practitioner\\SKILL.md' -Raw"
+                    "'.agents\\skills\\marketing-agent-skills\\SKILL.md' -Raw"
                 ),
                 command_event(
                     "Get-Content -LiteralPath "
-                    "'.agents\\skills\\marketing-practitioner\\handbook\\"
+                    "'.agents\\skills\\marketing-agent-skills\\handbook\\"
                     "08-content-environments-and-distribution.md' -Raw"
                 ),
             )
@@ -113,7 +113,7 @@ class TraceReconstructionTests(unittest.TestCase):
             (
                 command_event(
                     "Get-Content -LiteralPath "
-                    "'.agents\\skills\\marketing-practitioner\\SKILL.md' -Raw"
+                    "'.agents\\skills\\marketing-agent-skills\\SKILL.md' -Raw"
                 ),
             )
         )
@@ -136,7 +136,7 @@ class TraceReconstructionTests(unittest.TestCase):
             (
                 command_event(
                     "Get-Content -LiteralPath "
-                    "'.agents\\skills\\marketing-practitioner\\SKILL.md' -Raw"
+                    "'.agents\\skills\\marketing-agent-skills\\SKILL.md' -Raw"
                 ),
             )
         )
@@ -161,10 +161,10 @@ class TraceReconstructionTests(unittest.TestCase):
             (
                 command_event(
                     "Get-Content -LiteralPath "
-                    "'.agents\\skills\\marketing-practitioner\\SKILL.md' -Raw"
+                    "'.agents\\skills\\marketing-agent-skills\\SKILL.md' -Raw"
                 ),
                 command_event(
-                    "python '.agents\\skills\\marketing-practitioner\\scripts\\"
+                    "python '.agents\\skills\\marketing-agent-skills\\scripts\\"
                     "get-knowledge.py' alpha"
                 ),
             )
@@ -191,14 +191,14 @@ class TraceReconstructionTests(unittest.TestCase):
             (
                 command_event(
                     "Get-Content -LiteralPath "
-                    "'.agents\\skills\\marketing-practitioner\\SKILL.md' -Raw"
+                    "'.agents\\skills\\marketing-agent-skills\\SKILL.md' -Raw"
                 ),
                 command_event(
-                    "python '.agents\\skills\\marketing-practitioner\\scripts\\"
+                    "python '.agents\\skills\\marketing-agent-skills\\scripts\\"
                     "get-knowledge.py' alpha"
                 ),
                 command_event(
-                    "python '.agents\\skills\\marketing-practitioner\\scripts\\"
+                    "python '.agents\\skills\\marketing-agent-skills\\scripts\\"
                     "get-knowledge.py' beta"
                 ),
             )
@@ -224,10 +224,10 @@ class TraceReconstructionTests(unittest.TestCase):
             (
                 command_event(
                     "Get-Content -LiteralPath "
-                    "'.agents\\skills\\marketing-practitioner\\SKILL.md' -Raw"
+                    "'.agents\\skills\\marketing-agent-skills\\SKILL.md' -Raw"
                 ),
                 command_event(
-                    "python '.agents\\skills\\marketing-practitioner\\scripts\\"
+                    "python '.agents\\skills\\marketing-agent-skills\\scripts\\"
                     "get-knowledge.py' alpha"
                 ),
             )
@@ -257,10 +257,10 @@ class TraceReconstructionTests(unittest.TestCase):
             raw_events=(
                 command_event(
                     "Get-Content -LiteralPath "
-                    "'.agents\\skills\\marketing-practitioner\\SKILL.md' -Raw"
+                    "'.agents\\skills\\marketing-agent-skills\\SKILL.md' -Raw"
                 ),
                 command_event(
-                    "python '.agents\\skills\\marketing-practitioner\\scripts\\"
+                    "python '.agents\\skills\\marketing-agent-skills\\scripts\\"
                     "get-knowledge.py' alpha"
                 ),
             ),
@@ -284,11 +284,11 @@ class TraceReconstructionTests(unittest.TestCase):
             (
                 command_event(
                     "Get-Content -LiteralPath "
-                    "'.agents\\skills\\marketing-practitioner\\SKILL.md' -Raw"
+                    "'.agents\\skills\\marketing-agent-skills\\SKILL.md' -Raw"
                 ),
                 command_event(
                     "Select-String -LiteralPath "
-                    "'.agents\\skills\\marketing-practitioner\\handbook\\"
+                    "'.agents\\skills\\marketing-agent-skills\\handbook\\"
                     "01-customer-research-and-evidence.md' -Pattern prevalence",
                     exit_code=-1,
                 ),
@@ -306,10 +306,10 @@ class TraceReconstructionTests(unittest.TestCase):
             (
                 command_event(
                     "Get-Content -LiteralPath "
-                    "'.agents\\skills\\marketing-practitioner\\SKILL.md' -Raw"
+                    "'.agents\\skills\\marketing-agent-skills\\SKILL.md' -Raw"
                 ),
                 command_event(
-                    "python '.agents\\skills\\marketing-practitioner\\scripts\\"
+                    "python '.agents\\skills\\marketing-agent-skills\\scripts\\"
                     "get-knowledge.py' paid-media.observation",
                     exit_code=-1,
                 ),
@@ -389,7 +389,7 @@ class TraceCliTests(unittest.TestCase):
             raw_events=(
                 command_event(
                     "Get-Content -LiteralPath "
-                    "'.agents\\skills\\marketing-practitioner\\SKILL.md' -Raw"
+                    "'.agents\\skills\\marketing-agent-skills\\SKILL.md' -Raw"
                 ),
             ),
         )
@@ -425,7 +425,7 @@ class TraceCliTests(unittest.TestCase):
                 "--oracle",
                 str(ORACLE),
                 "--skill-root",
-                str(ROOT / "skills" / "marketing-practitioner"),
+                str(ROOT / "skills" / "marketing-agent-skills"),
                 "--output",
                 str(output),
             ]

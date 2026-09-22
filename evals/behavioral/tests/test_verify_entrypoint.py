@@ -8,7 +8,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[3]
 VERIFY = ROOT / "scripts" / "verify.ps1"
-VALID_SKILL = ROOT / "skills" / "marketing-practitioner"
+VALID_SKILL = ROOT / "skills" / "marketing-agent-skills"
 
 
 class VerificationEntrypointTests(unittest.TestCase):

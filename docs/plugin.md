@@ -8,13 +8,13 @@ The plugin packages instructions and knowledge. It does not include an MCP serve
 
 ## Package contents
 
-Distribute a folder named `marketing-practitioner` containing:
+Distribute a folder named `marketing-agent-skills` containing:
 
 ```text
-marketing-practitioner/
+marketing-agent-skills/
   .codex-plugin/plugin.json
   assets/brand/                  # Referenced plugin logos and README banner
-  skills/marketing-practitioner/   # Entire directory, including resources and scripts
+  skills/marketing-agent-skills/   # Entire directory, including resources and scripts
   LICENSE
   THIRD_PARTY_NOTICES.md
 ```
@@ -33,7 +33,7 @@ On a compatible Codex CLI:
 
 ```text
 codex plugin marketplace add https://github.com/quocbao201104/marketing-agent-skills.git
-codex plugin add marketing-practitioner@marketing-practitioner
+codex plugin add marketing-agent-skills@marketing-agent-skills
 ```
 
 Refresh or upgrade the marketplace and apply the plugin update when offered. An existing installation may still display the Claude-compatible catalog path until its marketplace registration is refreshed. Confirm the installed skill's `metadata.version` is `2.2.1`, then start a new task. Updating Git or downloading a release ZIP does not update the installed plugin cache.

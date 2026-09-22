@@ -6,7 +6,7 @@ Status: bounded conceptual and source-scope review completed. One bibliographic 
 
 ## Scope and assessment
 
-Read all nine sections of [Chapter 15](../../skills/marketing-practitioner/handbook/15-brand-identity-and-visual-systems.md), its eight-entry [evidence ledger](../../skills/marketing-practitioner/references/brand-identity-evidence.md), and the identity activation and handoff passages in the [operating guide](../../skills/marketing-practitioner/references/operating-guide.md), with [SKILL.md](../../skills/marketing-practitioner/SKILL.md) as governing context.
+Read all nine sections of [Chapter 15](../../skills/marketing-agent-skills/handbook/15-brand-identity-and-visual-systems.md), its eight-entry [evidence ledger](../../skills/marketing-agent-skills/references/brand-identity-evidence.md), and the identity activation and handoff passages in the [operating guide](../../skills/marketing-agent-skills/references/operating-guide.md), with [SKILL.md](../../skills/marketing-agent-skills/SKILL.md) as governing context.
 
 The chapter governs persistent identifying cues and their stewardship. It is deliberately narrower than a design curriculum or a complete theory of brand growth. Most academic support concerns logos or learned brand-element associations; listing typography, imagery and motion as possible system components does not establish equivalent empirical support for each medium.
 

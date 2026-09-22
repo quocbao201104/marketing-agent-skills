@@ -15,7 +15,7 @@ This review evaluates the bounded candidate implementation produced from the des
 Runtime:
 
 ```text
-skills/marketing-practitioner/SKILL.md
+skills/marketing-agent-skills/SKILL.md
 ```
 
 Evaluation/runtime instrumentation:

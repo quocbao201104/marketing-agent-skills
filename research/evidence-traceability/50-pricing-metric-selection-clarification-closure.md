@@ -6,7 +6,7 @@ Scope: the user-authorized corrections from [review 49](49-pricing-metric-select
 
 ## PM-R1: concurrent roles and constraint authority
 
-The [Chapter 10 payment section](../../skills/marketing-practitioner/handbook/10-commercial-design-pricing-and-terms.md) now treats Q/R/A/C as distinct functions that can coexist in one commercial design. A binding cap does not lose its authority when used in a tariff formula, and one customer class can both gate eligibility and determine the rate. The instruction preserves constraint source, scope, and authority when comparing formulas. Economic importance and modeled estimates still do not create authority.
+The [Chapter 10 payment section](../../skills/marketing-agent-skills/handbook/10-commercial-design-pricing-and-terms.md) now treats Q/R/A/C as distinct functions that can coexist in one commercial design. A binding cap does not lose its authority when used in a tariff formula, and one customer class can both gate eligibility and determine the rate. The instruction preserves constraint source, scope, and authority when comparing formulas. Economic importance and modeled estimates still do not create authority.
 
 The [theory freeze](../commercial-design/03-pricing-metric-selection-theory-freeze.md) definitions and examples are aligned with this correction. The [research ledger](../commercial-design/04-pricing-metric-selection-evidence-ledger.md) identifies concurrent-role treatment as project synthesis. The earlier post-review repair record remains a historical account; its exclusive R/C wording is superseded by this correction, not retrospectively certified.
 

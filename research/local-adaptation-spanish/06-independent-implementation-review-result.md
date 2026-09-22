@@ -241,8 +241,8 @@ No spelling, punctuation, general conjugation, lexical, gender-agreement, or bro
 The implementation delta from the post-review Spanish research repair to the frozen runtime target is confined to:
 
 ```text
-skills/marketing-practitioner/adaptations/localization.md
-skills/marketing-practitioner/references/local-adaptation-spanish-evidence.md
+skills/marketing-agent-skills/adaptations/localization.md
+skills/marketing-agent-skills/references/local-adaptation-spanish-evidence.md
 evals/local-adaptation-spanish-v0.md
 ```
 
@@ -300,7 +300,7 @@ The runtime implementation introduces no justification for reopening `SKILL.md`,
 
 **Frozen location**
 
-`skills/marketing-practitioner/adaptations/localization.md` → `ES-LANG-ADDR-01` → `REVIEW STATE`.
+`skills/marketing-agent-skills/adaptations/localization.md` → `ES-LANG-ADDR-01` → `REVIEW STATE`.
 
 Frozen runtime target value:
 

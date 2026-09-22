@@ -1,25 +1,25 @@
 # Claude Code marketplace
 
-The repository is both a Claude Code marketplace and its single plugin. The catalog at [marketplace.json](../.claude-plugin/marketplace.json) points to the repository root, where [plugin.json](../.claude-plugin/plugin.json) declares the plugin. Claude Code discovers the existing `skills/marketing-practitioner/SKILL.md` through its default `skills/` directory. The Codex and Claude Code packages share the same runtime files.
+The repository is both a Claude Code marketplace and its single plugin. The catalog at [marketplace.json](../.claude-plugin/marketplace.json) points to the repository root, where [plugin.json](../.claude-plugin/plugin.json) declares the plugin. Claude Code discovers the existing `skills/marketing-agent-skills/SKILL.md` through its default `skills/` directory. The Codex and Claude Code packages share the same runtime files.
 
 After these manifests are pushed to GitHub, run inside Claude Code:
 
 ```text
 /plugin marketplace add quocbao201104/marketing-agent-skills
-/plugin install marketing-practitioner@marketing-practitioner
+/plugin install marketing-agent-skills@marketing-agent-skills
 ```
 
 Follow the installation prompt and reload plugins or restart the session if requested. Invoke the skill with:
 
 ```text
-/marketing-practitioner:marketing-practitioner
+/marketing-agent-skills:marketing-agent-skills
 ```
 
 For an existing marketplace installation, refresh the catalog before updating the plugin:
 
 ```text
-/plugin marketplace update marketing-practitioner
-/plugin update marketing-practitioner@marketing-practitioner
+/plugin marketplace update marketing-agent-skills
+/plugin update marketing-agent-skills@marketing-agent-skills
 ```
 
 For testing unpushed files, add the local checkout path instead of the GitHub repository. Use the repository root, not the raw URL of `marketplace.json`: the catalog's relative source depends on the repository being available.

@@ -6,7 +6,7 @@ Status: bounded conceptual and source-scope review completed. One evidence quali
 
 ## Scope and assessment
 
-Read all fourteen sections of [Chapter 10](../../skills/marketing-practitioner/handbook/10-commercial-design-pricing-and-terms.md), its [evidence ledger](../../skills/marketing-practitioner/references/commercial-design-evidence.md), and the commercial-design path and relevant handoffs in [operating guidance](../../skills/marketing-practitioner/references/operating-guide.md), with [SKILL.md](../../skills/marketing-practitioner/SKILL.md) as the governing context. Inspected actual indexed excerpts, including their local evidence qualifications and dependencies.
+Read all fourteen sections of [Chapter 10](../../skills/marketing-agent-skills/handbook/10-commercial-design-pricing-and-terms.md), its [evidence ledger](../../skills/marketing-agent-skills/references/commercial-design-evidence.md), and the commercial-design path and relevant handoffs in [operating guidance](../../skills/marketing-agent-skills/references/operating-guide.md), with [SKILL.md](../../skills/marketing-agent-skills/SKILL.md) as the governing context. Inspected actual indexed excerpts, including their local evidence qualifications and dependencies.
 
 The historical theory-freeze adjudication was read for provenance, not accepted as proof that the current content is correct. Old behavioral pilots were not used. This pass does not certify all pricing research or establish that agents execute the guidance successfully.
 

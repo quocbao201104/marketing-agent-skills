@@ -79,7 +79,7 @@ class ValidationTests(unittest.TestCase):
                 "model": "required-at-run",
                 "reasoning_effort": "required-at-run",
                 "skill_mode": "workspace-copy",
-                "skill_source": "skills/marketing-practitioner",
+                "skill_source": "skills/marketing-agent-skills",
                 "expected_skill_sha256": "computed-at-run-bind",
             }
         )

@@ -6,7 +6,7 @@ Status: source and design review completed. Two minor guide wording findings; no
 
 ## Scope and conclusion
 
-Reviewed the canonical [task guide](../../skills/marketing-practitioner/TASK-SPECIFICATION-GUIDE.md), its [evidence ledger](../../skills/marketing-practitioner/references/task-specification-evidence.md), the uncertainty, continuity, and completion rules in [SKILL.md](../../skills/marketing-practitioner/SKILL.md), and the introduction and section 10 of [quality rubrics](../../skills/marketing-practitioner/frameworks/quality-rubrics.md#10-completion-and-decision-usefulness). The root task guide is only a pointer to the packaged canonical guide.
+Reviewed the canonical [task guide](../../skills/marketing-agent-skills/TASK-SPECIFICATION-GUIDE.md), its [evidence ledger](../../skills/marketing-agent-skills/references/task-specification-evidence.md), the uncertainty, continuity, and completion rules in [SKILL.md](../../skills/marketing-agent-skills/SKILL.md), and the introduction and section 10 of [quality rubrics](../../skills/marketing-agent-skills/frameworks/quality-rubrics.md#10-completion-and-decision-usefulness). The root task guide is only a pointer to the packaged canonical guide.
 
 The current design distinguishes a consequential missing input from an empty framework field, permits useful bounded work, and preserves requested outputs across dependencies. The reviewed research gives reasons for those choices, but does not validate the complete controller, its stopping judgment, or long-session execution. The ledger already explicitly limits its purpose to the user-facing guide; it must not acquire a stronger role by association.
 

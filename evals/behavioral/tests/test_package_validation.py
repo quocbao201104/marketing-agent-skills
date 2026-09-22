@@ -68,7 +68,7 @@ class PackageValidationTests(unittest.TestCase):
         )
 
     def test_repository_skill_has_valid_frontmatter_and_ui_metadata(self) -> None:
-        skill_root = REPO_ROOT / "skills" / "marketing-practitioner"
+        skill_root = REPO_ROOT / "skills" / "marketing-agent-skills"
         openai_yaml = skill_root / "agents" / "openai.yaml"
 
         errors = validate_skill(skill_root)

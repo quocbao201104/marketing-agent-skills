@@ -13,7 +13,7 @@ def main():
     parser.add_argument("output", type=Path, help="New ZIP path (never overwritten)")
     args = parser.parse_args()
     root = Path(__file__).resolve().parent.parent
-    skill = root / "skills" / "marketing-practitioner"
+    skill = root / "skills" / "marketing-agent-skills"
     output = args.output.resolve()
     if output.suffix.lower() != ".zip":
         parser.error("output must have a .zip extension")
@@ -24,18 +24,18 @@ def main():
         check=True,
     )
     tracked = subprocess.check_output(
-        ["git", "ls-files", "-z", "--", "skills/marketing-practitioner"], cwd=root
+        ["git", "ls-files", "-z", "--", "skills/marketing-agent-skills"], cwd=root
     ).decode("utf-8").split("\0")
     entries = {}
     for name in sorted(filter(None, tracked)):
         source = root / name
         if source.is_symlink() or not source.resolve().is_relative_to(skill):
             raise ValueError(f"Runtime file is outside the skill: {name}")
-        archive_name = "marketing-practitioner/" + source.relative_to(skill).as_posix()
+        archive_name = "marketing-agent-skills/" + source.relative_to(skill).as_posix()
         entries[archive_name] = source.read_bytes()
     for name in ("LICENSE", "THIRD_PARTY_NOTICES.md"):
-        entries["marketing-practitioner/" + name] = (root / name).read_bytes()
-    if "marketing-practitioner/SKILL.md" not in entries:
+        entries["marketing-agent-skills/" + name] = (root / name).read_bytes()
+    if "marketing-agent-skills/SKILL.md" not in entries:
         raise ValueError("Tracked skill entrypoint is missing")
     output.parent.mkdir(parents=True, exist_ok=True)
     with zipfile.ZipFile(output, "x", compression=zipfile.ZIP_DEFLATED) as archive:

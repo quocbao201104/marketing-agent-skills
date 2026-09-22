@@ -6,8 +6,8 @@ Date: 2026-09-09. Follows [review 68](68-google-reporting-regime-review.md).
 
 The bounded Google reporting-regime defect is closed in:
 
-- `skills/marketing-practitioner/platforms/commerce/google-shopping.md`
-- `skills/marketing-practitioner/references/commerce/google-reporting-evidence.md`
+- `skills/marketing-agent-skills/platforms/commerce/google-shopping.md`
+- `skills/marketing-agent-skills/references/commerce/google-reporting-evidence.md`
 
 `GR01` records the 2026-08-24 Merchant Center reporting-definition changes and the late-June Popular products coverage change with explicit non-causal boundaries.
 

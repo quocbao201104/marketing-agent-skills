@@ -4,7 +4,7 @@ Date: 2026-09-09. Continues [closure 57](57-tiktok-shop-state-and-link-closure.m
 
 ## Sources and scope
 
-Read the [module](../../skills/marketing-practitioner/platforms/commerce/tiktok-shop.md), [TTS03-TTS06](../../skills/marketing-practitioner/references/commerce/tiktok-shop-evidence.md), and baseline discovery/measurement extracts. Inspected these official sources:
+Read the [module](../../skills/marketing-agent-skills/platforms/commerce/tiktok-shop.md), [TTS03-TTS06](../../skills/marketing-agent-skills/references/commerce/tiktok-shop-evidence.md), and baseline discovery/measurement extracts. Inspected these official sources:
 
 - TTS03: [pricing](https://partner.tiktokshop.com/docv2/page/product-pricing), currency and seller-mode scope; [Update Inventory v202309](https://partner.tiktokshop.com/docv2/page/update-inventory-202309), SKU/warehouse fields and errors; [Edit Product v202309](https://partner.tiktokshop.com/docv2/page/edit-product-202309), audit and omission rules. Only indexed official text was accessible; direct extraction returned JavaScript shells. No integration was tested.
 - TTS04: [Search terms and Product highlights](https://seller-us.tiktok.com/university/essay?knowledge_id=240361624880910), full public body, U.S., dated June 12, 2026.

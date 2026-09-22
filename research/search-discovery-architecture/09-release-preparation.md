@@ -50,7 +50,7 @@ The independent-review implementation/evaluation target remains `ccac14d214ad8a7
 
 Compared with pre-release-preparation head `e7532e5990aba98ae41ee2ded8179cd46ed9e2c6`, release preparation changed only:
 
-- `skills/marketing-practitioner/SKILL.md` — one metadata version line;
+- `skills/marketing-agent-skills/SKILL.md` — one metadata version line;
 - `README.md` — public capability/status/routing documentation;
 - `CHANGELOG.md` — `0.8.0` release entry;
 - this release-preparation record.

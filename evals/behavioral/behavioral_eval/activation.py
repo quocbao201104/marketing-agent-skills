@@ -103,7 +103,7 @@ def activation_observed(events: tuple[dict[str, Any], ...]) -> bool:
         if (
             "skill" in event_type
             and "activat" in event_type
-            and "marketing-practitioner" in values
+            and "marketing-agent-skills" in values
         ):
             return True
 

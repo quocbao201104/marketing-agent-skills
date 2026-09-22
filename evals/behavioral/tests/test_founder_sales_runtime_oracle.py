@@ -10,7 +10,7 @@ from evals.behavioral.behavioral_eval.trace import load_oracle
 REPO_ROOT = Path(__file__).resolve().parents[3]
 CASES_PATH = REPO_ROOT / "evals" / "behavioral" / "cases" / "founder-led-sales-runtime-v1.json"
 ORACLE_PATH = REPO_ROOT / "evals" / "behavioral" / "oracles" / "founder-led-sales-runtime-v1.route-oracle.json"
-ROUTING_INDEX = REPO_ROOT / "skills" / "marketing-practitioner" / "routing-index.json"
+ROUTING_INDEX = REPO_ROOT / "skills" / "marketing-agent-skills" / "routing-index.json"
 REPAIRED_CANDIDATE = "3968aff927731e0dc8fb1ce6524cc2282f89333a"
 EXPECTED_IDENTITIES = {
     "BEH-FLS-RUNTIME-001@1.0.0",

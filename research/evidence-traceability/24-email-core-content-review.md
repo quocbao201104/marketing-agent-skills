@@ -6,7 +6,7 @@ Status: bounded conceptual and source-scope review completed. One substantive so
 
 ## Scope and assessment
 
-Read all nine sections and the evidence boundary of [Chapter 12](../../skills/marketing-practitioner/handbook/12-email-communication-architecture.md), its eight-entry [evidence ledger](../../skills/marketing-practitioner/references/email-communication-evidence.md), and the email routes and handoffs in the [operating guide](../../skills/marketing-practitioner/references/operating-guide.md), with [SKILL.md](../../skills/marketing-practitioner/SKILL.md) as governing context. Inspected the historical theory-freeze conclusion for provenance only.
+Read all nine sections and the evidence boundary of [Chapter 12](../../skills/marketing-agent-skills/handbook/12-email-communication-architecture.md), its eight-entry [evidence ledger](../../skills/marketing-agent-skills/references/email-communication-evidence.md), and the email routes and handoffs in the [operating guide](../../skills/marketing-agent-skills/references/operating-guide.md), with [SKILL.md](../../skills/marketing-agent-skills/SKILL.md) as governing context. Inspected the historical theory-freeze conclusion for provenance only.
 
 The model's central distinctions remain coherent: communication need, authority and feasibility differ; sequences are repeated state-dependent decisions; permission to send does not establish standing to demand; observation labels do not establish human attention or causality. No additional controller job, global eligibility flag or lifecycle model is justified by this review.
 

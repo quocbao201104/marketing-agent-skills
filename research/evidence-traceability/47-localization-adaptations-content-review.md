@@ -1,6 +1,6 @@
 # Localization Adaptations: Source and Design Review
 
-Date: 2026-09-08. Requested specifically for [localization.md](../../skills/marketing-practitioner/adaptations/localization.md).
+Date: 2026-09-08. Requested specifically for [localization.md](../../skills/marketing-agent-skills/adaptations/localization.md).
 
 Status: bounded review completed. One minor source-description correction candidate; no demonstrated controller or routing defect in the inspected decisions. Vietnamese primary-text access remains incomplete. No runtime edits.
 
@@ -8,7 +8,7 @@ Status: bounded review completed. One minor source-description correction candid
 
 [Review 10](10-localization-ethics-content-review.md) inspected this file's scope and composition alongside Chapter 07, but explicitly did not revalidate all Vietnamese and Japanese original sources. Earlier [Vietnamese](../local-adaptation-vietnam/01-post-repair-review-result.md) and [Japanese](../local-adaptation-japan/04-independent-review-result.md) design reviews also exist. Their historical judgments are provenance, not evidence that the current content is automatically correct or that a model reliably executes it. Old trial results are not used here.
 
-This pass reads all three contributions, both local-language ledgers, the [adaptation contract](../../skills/marketing-practitioner/adaptations/README.md), and Chapter 07's realization/lookup rules. It also retrieves the actual `adapt-localization.relationship-realization` excerpt. The scope is the three existing realization mechanisms, not complete Vietnamese/Japanese usage, general localization, or marketing efficacy.
+This pass reads all three contributions, both local-language ledgers, the [adaptation contract](../../skills/marketing-agent-skills/adaptations/README.md), and Chapter 07's realization/lookup rules. It also retrieves the actual `adapt-localization.relationship-realization` excerpt. The scope is the three existing realization mechanisms, not complete Vietnamese/Japanese usage, general localization, or marketing efficacy.
 
 ## Source access and claim assessment
 

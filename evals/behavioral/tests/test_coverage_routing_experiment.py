@@ -17,7 +17,7 @@ ORACLE = (
     / "oracles"
     / "coverage-routing-v1.route-oracle.json"
 )
-SKILL = ROOT / "skills" / "marketing-practitioner" / "SKILL.md"
+SKILL = ROOT / "skills" / "marketing-agent-skills" / "SKILL.md"
 
 
 class CoverageRoutingExperimentContractTests(unittest.TestCase):

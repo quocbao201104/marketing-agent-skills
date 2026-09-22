@@ -4,7 +4,7 @@ Date: 2026-09-09. Follows [review 56](56-tiktok-shop-state-and-link-review.md).
 
 ## Changes
 
-Updated the [TikTok Shop module](../../skills/marketing-practitioner/platforms/commerce/tiktok-shop.md) and [evidence ledger](../../skills/marketing-practitioner/references/commerce/tiktok-shop-evidence.md).
+Updated the [TikTok Shop module](../../skills/marketing-agent-skills/platforms/commerce/tiktok-shop.md) and [evidence ledger](../../skills/marketing-agent-skills/references/commerce/tiktok-shop-evidence.md).
 
 - **TTS-R1:** the status excerpt now distinguishes requested product versions before interpreting a data discrepancy.
 - **TTS-R2:** it also carries a scoped prerequisite example rather than treating product/audit labels as interchangeable.

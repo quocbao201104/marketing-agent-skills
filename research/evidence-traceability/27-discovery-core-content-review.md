@@ -6,7 +6,7 @@ Status: bounded conceptual and source-scope review completed. One traceability c
 
 ## Scope and assessment
 
-Read all nine sections of [Chapter 13](../../skills/marketing-practitioner/handbook/13-search-and-discovery-architecture.md), its fourteen-entry [evidence ledger](../../skills/marketing-practitioner/references/search-discovery-evidence.md), and the discovery entry and handoff guidance in the [operating guide](../../skills/marketing-practitioner/references/operating-guide.md), with [SKILL.md](../../skills/marketing-practitioner/SKILL.md) as governing context. Historical research material was searched for more precise SD13-SD14 attribution; the searched discovery research did not supply it.
+Read all nine sections of [Chapter 13](../../skills/marketing-agent-skills/handbook/13-search-and-discovery-architecture.md), its fourteen-entry [evidence ledger](../../skills/marketing-agent-skills/references/search-discovery-evidence.md), and the discovery entry and handoff guidance in the [operating guide](../../skills/marketing-agent-skills/references/operating-guide.md), with [SKILL.md](../../skills/marketing-agent-skills/SKILL.md) as governing context. Historical research material was searched for more precise SD13-SD14 attribution; the searched discovery research did not supply it.
 
 The model remains coherent within the inspected scope. It separates availability, retrieval, selection, representation, answer support and observation without asserting one universal platform pipeline. Search is one mode of discovery; commerce identity and causal inference retain their existing owners. No new primitive, controller job or ranking formula is justified.
 

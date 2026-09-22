@@ -26,7 +26,7 @@ This sequence incorporates the maintainer's reported interface path. Anthropic d
 
 **Plan and workspace requirement:** OpenAI lists Skills for eligible **Business, Enterprise, Healthcare, and Edu** users, subject to product availability and workspace settings. Do not assume a Free, Plus, or Pro account has personal skill upload simply because it has ChatGPT or Codex access. Administrators can separately control skill creation, uploading, and installation.
 
-1. Prepare the complete `marketing-practitioner` skill folder as described below.
+1. Prepare the complete `marketing-agent-skills` skill folder as described below.
 2. In the ChatGPT sidebar, open **Plugins**.
 3. Select the **Skills** tab.
 4. Select **Create > Upload from your computer**.
@@ -39,9 +39,9 @@ There is no public Marketing Practitioner entry in the ChatGPT plugin directory 
 
 ## Prepare files for manual skill upload
 
-On the [repository page](https://github.com/quocbao201104/marketing-agent-skills), choose **Code > Download ZIP** and extract it. Locate `skills/marketing-practitioner`. Keep that entire folder, including `SKILL.md`, the handbook, index, references, platforms, adaptations, and scripts.
+On the [repository page](https://github.com/quocbao201104/marketing-agent-skills), choose **Code > Download ZIP** and extract it. Locate `skills/marketing-agent-skills`. Keep that entire folder, including `SKILL.md`, the handbook, index, references, platforms, adaptations, and scripts.
 
-For Claude's alternative custom-skill upload, compress that folder into a ZIP with `marketing-practitioner/SKILL.md` inside it, then upload through **Customize > Skills** and enable it. The outer repository and `skills/` folders should not wrap the skill in this ZIP. See [Claude's custom skill packaging instructions](https://support.claude.com/en/articles/12512198-how-to-create-custom-skills).
+For Claude's alternative custom-skill upload, compress that folder into a ZIP with `marketing-agent-skills/SKILL.md` inside it, then upload through **Customize > Skills** and enable it. The outer repository and `skills/` folders should not wrap the skill in this ZIP. See [Claude's custom skill packaging instructions](https://support.claude.com/en/articles/12512198-how-to-create-custom-skills).
 
 Maintainers can also use the [skill package builder](skill-package.md). The Codex plugin manifest and the full repository ZIP are different from this skill upload package. For ChatGPT, follow the uploader's accepted format rather than assuming Claude's ZIP layout is guaranteed to work.
 

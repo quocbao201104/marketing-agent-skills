@@ -30,7 +30,7 @@ The review brief itself is intentionally committed **after** the frozen target. 
 Start with the governing controller:
 
 ```text
-skills/marketing-practitioner/SKILL.md
+skills/marketing-agent-skills/SKILL.md
 ```
 
 Then inspect only the material candidate files needed for the review:
@@ -41,12 +41,12 @@ research/search-discovery-architecture/02-implementation-self-review.md
 research/search-discovery-architecture/03-mechanical-verification.md
 research/search-discovery-architecture/04-targeted-evaluation-adjudication.md
 
-skills/marketing-practitioner/handbook/13-search-and-discovery-architecture.md
-skills/marketing-practitioner/references/search-discovery-evidence.md
-skills/marketing-practitioner/routing-index.json
-skills/marketing-practitioner/handbook/README.md
-skills/marketing-practitioner/scripts/get-knowledge.py
-skills/marketing-practitioner/scripts/test-knowledge-routing.py
+skills/marketing-agent-skills/handbook/13-search-and-discovery-architecture.md
+skills/marketing-agent-skills/references/search-discovery-evidence.md
+skills/marketing-agent-skills/routing-index.json
+skills/marketing-agent-skills/handbook/README.md
+skills/marketing-agent-skills/scripts/get-knowledge.py
+skills/marketing-agent-skills/scripts/test-knowledge-routing.py
 
 evals/search-discovery-architecture-adversarial-cases.md
 evals/search-discovery-architecture-runtime-smoke.md

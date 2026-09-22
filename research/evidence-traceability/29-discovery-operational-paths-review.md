@@ -6,7 +6,7 @@ Status: ten constructed work chains reviewed. No additional decision-changing de
 
 ## Scope and method
 
-Reviewed [Chapter 13](../../skills/marketing-practitioner/handbook/13-search-and-discovery-architecture.md) with [SKILL.md](../../skills/marketing-practitioner/SKILL.md) and the discovery observation handoff in the [operating guide](../../skills/marketing-practitioner/references/operating-guide.md). Re-read the diagnosis and commitment guidance against the core's dependency-first, uncertainty, completion and continuity rules.
+Reviewed [Chapter 13](../../skills/marketing-agent-skills/handbook/13-search-and-discovery-architecture.md) with [SKILL.md](../../skills/marketing-agent-skills/SKILL.md) and the discovery observation handoff in the [operating guide](../../skills/marketing-agent-skills/references/operating-guide.md). Re-read the diagnosis and commitment guidance against the core's dependency-first, uncertainty, completion and continuity rules.
 
 Extracted all nine actual discovery routes and compared them with the pre-edit snapshot: core (105 lines), need (90), availability (145), selection (86), commitment (94), observation (152), decision-record (40), invariants (82), diagnosis (85). They are unchanged by the source clarification. Actual SD13-SD14 lookups retain their new provenance and scope qualifications.
 

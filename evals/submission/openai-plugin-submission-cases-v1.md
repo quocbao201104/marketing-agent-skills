@@ -15,7 +15,7 @@ changes do not silently change the test.
 Default submission-routing run:
 
 1. start a clean conversation with Marketing Practitioner installed and available;
-2. do not explicitly invoke `/marketing-practitioner` or otherwise force-select the skill;
+2. do not explicitly invoke `/marketing-agent-skills` or otherwise force-select the skill;
 3. send only the case prompt;
 4. record whether Marketing Practitioner was selected;
 5. judge the task behavior separately from activation.

@@ -6,7 +6,7 @@ Merged Portuguese track: `aa80ab21813f070ce302c21226943454bb920794`
 
 ## Defect
 
-`skills/marketing-practitioner/references/local-adaptation-portuguese-evidence.md` used headings of the form:
+`skills/marketing-agent-skills/references/local-adaptation-portuguese-evidence.md` used headings of the form:
 
 ```text
 ## PTLA01 — ...

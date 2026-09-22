@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "experiment_id": "skill-activation-description-v1",
-  "base_skill": "skills/marketing-practitioner",
+  "base_skill": "skills/marketing-agent-skills",
   "base_commit": "c12a7e2760636bed76551e897c0419273296a684",
   "constraint": "Only SKILL.md frontmatter description may differ. Body and all bundled resources must remain byte-identical to the selected base skill.",
   "variants": {

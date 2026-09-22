@@ -50,7 +50,7 @@ class CodexCliTests(unittest.TestCase):
             },
         )
         canonical_spelling = (
-            self.root / "canonical" / "marketing-practitioner" / "SKILL.md"
+            self.root / "canonical" / "marketing-agent-skills" / "SKILL.md"
         )
 
         with mock.patch.object(Path, "resolve", return_value=canonical_spelling):
@@ -228,7 +228,7 @@ class CodexCliTests(unittest.TestCase):
                     "command": (
                         f"$skillPath = '{skill_file}'; "
                         "Get-Content -LiteralPath "
-                        "$skillPath.Replace('marketing-practitioner', 'other')"
+                        "$skillPath.Replace('marketing-agent-skills', 'other')"
                     ),
                     "exit_code": 0,
                 },
@@ -246,7 +246,7 @@ class CodexCliTests(unittest.TestCase):
                     "type": "command_execution",
                     "command": (
                         f"Get-Content -LiteralPath '{skill_file}'.Replace("
-                        "'marketing-practitioner', 'other')"
+                        "'marketing-agent-skills', 'other')"
                     ),
                     "exit_code": 0,
                 },
@@ -264,7 +264,7 @@ class CodexCliTests(unittest.TestCase):
                     "type": "command_execution",
                     "command": (
                         f"[System.IO.File]::ReadAllText('{skill_file}'.Replace("
-                        "'marketing-practitioner', 'other'))"
+                        "'marketing-agent-skills', 'other'))"
                     ),
                     "exit_code": 0,
                 },
@@ -297,7 +297,7 @@ class CodexCliTests(unittest.TestCase):
             profile_id="current-skill",
             skill_mode="workspace-copy",
             skill_path=(
-                self.root / "semi;colon" / ".agents" / "skills" / "marketing-practitioner"
+                self.root / "semi;colon" / ".agents" / "skills" / "marketing-agent-skills"
             ),
             expected_skill_sha256="e" * 64,
         )
@@ -380,7 +380,7 @@ class CodexCliTests(unittest.TestCase):
 
     def test_activation_accepts_resolved_spelling_when_lexical_differs(self) -> None:
         canonical_spelling = (
-            self.root / "canonical" / "marketing-practitioner" / "SKILL.md"
+            self.root / "canonical" / "marketing-agent-skills" / "SKILL.md"
         )
         events = (
             {
@@ -430,7 +430,7 @@ class CodexCliTests(unittest.TestCase):
             root=self.root,
             profile_id="current-skill",
             skill_mode="workspace-copy",
-            skill_path=self.root / ".agents" / "skills" / "marketing-practitioner",
+            skill_path=self.root / ".agents" / "skills" / "marketing-agent-skills",
             expected_skill_sha256="e" * 64,
         )
         self.request = ExecutorRequest(
@@ -463,7 +463,7 @@ class CodexCliTests(unittest.TestCase):
                 if "MALFORMED" in prompt:
                     print("not-json")
                 else:
-                    print(json.dumps({"type": "skill_activated", "skill": "marketing-practitioner"}))
+                    print(json.dumps({"type": "skill_activated", "skill": "marketing-agent-skills"}))
                     print(json.dumps({"type": "future_event", "payload": {"value": 9}}))
                 output.write_text("bounded answer", encoding="utf-8")
                 """
@@ -480,7 +480,7 @@ class CodexCliTests(unittest.TestCase):
                 "model": "gpt-test",
                 "reasoning_effort": "medium",
                 "skill_mode": "workspace-copy",
-                "skill_source": "skills/marketing-practitioner",
+                "skill_source": "skills/marketing-agent-skills",
                 "expected_skill_sha256": "e" * 64,
                 "timeout_seconds": timeout,
                 "repetitions": 1,

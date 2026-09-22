@@ -206,11 +206,11 @@ Any green repository check establishes package, retrieval, and harness integrity
 
 ## References
 
-- [Controller](../skills/marketing-practitioner/SKILL.md)
-- [Positioning output](../skills/marketing-practitioner/handbook/03-positioning-and-value.md#10-positioning-output)
-- [Expression and role steering](../skills/marketing-practitioner/handbook/04-messaging-proof-and-copy.md#5-copy-as-an-expression-layer)
-- [Whole-artifact review](../skills/marketing-practitioner/handbook/04-messaging-proof-and-copy.md#10-copy-quality-is-multidimensional)
-- [Editing slice](../skills/marketing-practitioner/handbook/04-messaging-proof-and-copy.md#17-editing-and-voice-repair)
-- [State handoffs](../skills/marketing-practitioner/references/operating-guide.md#state-handoffs)
+- [Controller](../skills/marketing-agent-skills/SKILL.md)
+- [Positioning output](../skills/marketing-agent-skills/handbook/03-positioning-and-value.md#10-positioning-output)
+- [Expression and role steering](../skills/marketing-agent-skills/handbook/04-messaging-proof-and-copy.md#5-copy-as-an-expression-layer)
+- [Whole-artifact review](../skills/marketing-agent-skills/handbook/04-messaging-proof-and-copy.md#10-copy-quality-is-multidimensional)
+- [Editing slice](../skills/marketing-agent-skills/handbook/04-messaging-proof-and-copy.md#17-editing-and-voice-repair)
+- [State handoffs](../skills/marketing-agent-skills/references/operating-guide.md#state-handoffs)
 - [Role-steering regressions](decision-local-role-steering-regressions.md)
 - [Cross-layer regressions](cross-layer-promotion-regressions.md)

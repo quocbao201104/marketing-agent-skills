@@ -340,7 +340,7 @@ If we drop our X post link there and everyone opens it directly and Likes it, wi
 For each smoke run:
 
 1. use a fresh chat/context;
-2. load the target branch's `skills/marketing-practitioner/SKILL.md` as governing skill instructions;
+2. load the target branch's `skills/marketing-agent-skills/SKILL.md` as governing skill instructions;
 3. read supporting handbook/platform files only when routed by the skill;
 4. return exactly the user-facing answer;
 5. save the output before looking at the pass criteria;

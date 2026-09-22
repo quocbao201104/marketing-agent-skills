@@ -6,7 +6,7 @@ Status: bounded conceptual and source-scope review completed. No substantive cor
 
 ## Scope and assessment
 
-Read all eight sections of [Chapter 14](../../skills/marketing-practitioner/handbook/14-paid-media-architecture.md), its fourteen-entry [evidence ledger](../../skills/marketing-practitioner/references/paid-media-evidence.md), and paid-media activation and observation handoffs in the [operating guide](../../skills/marketing-practitioner/references/operating-guide.md), with [SKILL.md](../../skills/marketing-practitioner/SKILL.md) as governing context.
+Read all eight sections of [Chapter 14](../../skills/marketing-agent-skills/handbook/14-paid-media-architecture.md), its fourteen-entry [evidence ledger](../../skills/marketing-agent-skills/references/paid-media-evidence.md), and paid-media activation and observation handoffs in the [operating guide](../../skills/marketing-agent-skills/references/operating-guide.md), with [SKILL.md](../../skills/marketing-agent-skills/SKILL.md) as governing context.
 
 The core is principally a model for identifying the right paid-delivery decision and interpreting system state. It does not claim to be a complete media optimizer or an independently validated theory of advertising effectiveness. Its evidence is predominantly provider documentation, engineering explanation and industry measurement/taxonomy guidance. Those sources are appropriate for the documented mechanics, but do not by themselves establish incremental business returns.
 

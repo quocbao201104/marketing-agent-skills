@@ -107,7 +107,7 @@ for variant in M["palette"]:
 favimgs=[raster(document("favicon","color"),n,n) for n in (16,32,48)]
 favimgs[-1].save(ROOT/"favicon"/"favicon.ico",format="ICO",sizes=[(16,16),(32,32),(48,48)],append_images=favimgs[:-1])
 
-pdf_path=ROOT/"pdf"/"marketing-practitioner-vector.pdf"
+pdf_path=ROOT/"pdf"/"marketing-agent-skills-vector.pdf"
 c=canvas.Canvas(str(pdf_path))
 c.setTitle("Marketing Practitioner — Vector logo kit")
 c.setAuthor("Marketing Practitioner")

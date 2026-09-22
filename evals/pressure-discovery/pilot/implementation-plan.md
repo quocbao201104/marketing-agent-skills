@@ -458,7 +458,7 @@ Expected: exit 0 and deterministic report files written under `results/`.
 
 - [ ] **Step 6: Re-run the existing repository test**
 
-Run: `rtk proxy python skills/marketing-practitioner/scripts/test-knowledge-routing.py`
+Run: `rtk proxy python skills/marketing-agent-skills/scripts/test-knowledge-routing.py`
 
 Expected: `PASS` with 30 routing-mechanics smoke checks.
 

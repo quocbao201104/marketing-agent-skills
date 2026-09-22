@@ -534,14 +534,14 @@ If the freeze survives independent review, the first implementation should remai
 Candidate surfaces:
 
 ```text
-skills/marketing-practitioner/
+skills/marketing-agent-skills/
   adaptations/
     README.md
 
-skills/marketing-practitioner/handbook/
+skills/marketing-agent-skills/handbook/
   07-international-marketing-and-ethics.md
 
-skills/marketing-practitioner/SKILL.md
+skills/marketing-agent-skills/SKILL.md
 
 CONTRIBUTING.md
 ```

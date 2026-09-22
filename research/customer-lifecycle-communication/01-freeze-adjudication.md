@@ -162,12 +162,12 @@ Representative external sources reviewed included Customer.io lifecycle guidance
 
 The closure is consistent with the frozen repository architecture:
 
-- `skills/marketing-practitioner/handbook/02-segmentation-icp-and-jtbd.md` can represent behavioral, usage, maturity, value, role, channel, and contextual distinctions when they change treatment.
-- `skills/marketing-practitioner/handbook/04-messaging-proof-and-copy.md` preserves reader/current-task state, prior contact, suppression/holdout, blocker, authority/permission, eligibility, and relationship state for owned-channel next-message decisions.
-- `skills/marketing-practitioner/handbook/05-diagnosis-causality-and-experimentation.md` owns causal/treatment-response questions.
-- `skills/marketing-practitioner/handbook/08-content-environments-and-distribution.md` already represents audience state, typed relationship/delivery/permission edges, history/state transition, observation, recipient burden, and cross-environment transfer.
-- `skills/marketing-practitioner/handbook/10-commercial-design-pricing-and-terms.md` treats acquisition, trial conversion, renewal, expansion, downgrade, churn, and win-back as recurring transition patterns rather than a separate commercial grammar.
-- `skills/marketing-practitioner/handbook/12-email-communication-architecture.md` models sequences as repeated communication decisions conditioned on state, history, time, and observations, with SEND / WAIT / EXIT / SUPPRESS / DO NOTHING / OTHER CHANNEL decisions.
+- `skills/marketing-agent-skills/handbook/02-segmentation-icp-and-jtbd.md` can represent behavioral, usage, maturity, value, role, channel, and contextual distinctions when they change treatment.
+- `skills/marketing-agent-skills/handbook/04-messaging-proof-and-copy.md` preserves reader/current-task state, prior contact, suppression/holdout, blocker, authority/permission, eligibility, and relationship state for owned-channel next-message decisions.
+- `skills/marketing-agent-skills/handbook/05-diagnosis-causality-and-experimentation.md` owns causal/treatment-response questions.
+- `skills/marketing-agent-skills/handbook/08-content-environments-and-distribution.md` already represents audience state, typed relationship/delivery/permission edges, history/state transition, observation, recipient burden, and cross-environment transfer.
+- `skills/marketing-agent-skills/handbook/10-commercial-design-pricing-and-terms.md` treats acquisition, trial conversion, renewal, expansion, downgrade, churn, and win-back as recurring transition patterns rather than a separate commercial grammar.
+- `skills/marketing-agent-skills/handbook/12-email-communication-architecture.md` models sequences as repeated communication decisions conditioned on state, history, time, and observations, with SEND / WAIT / EXIT / SUPPRESS / DO NOTHING / OTHER CHANNEL decisions.
 - the core controller already preserves multiple requested outcomes and their real dependencies rather than requiring a lifecycle wrapper.
 
 ---

@@ -12,7 +12,7 @@ From a Git checkout, run:
 python -B scripts/package_skill.py <new-output-path.zip>
 ```
 
-The builder validates the skill and packages current bytes of Git-tracked files under `skills/marketing-practitioner`, plus the root license and third-party notices. It preserves one `marketing-practitioner/` directory with `SKILL.md` immediately inside it. Existing output files are never overwritten. Stage any newly added runtime files before packaging; untracked files are not included. No Codex plugin manifest, local configuration, research reports, or evaluation results are bundled.
+The builder validates the skill and packages current bytes of Git-tracked files under `skills/marketing-agent-skills`, plus the root license and third-party notices. It preserves one `marketing-agent-skills/` directory with `SKILL.md` immediately inside it. Existing output files are never overwritten. Stage any newly added runtime files before packaging; untracked files are not included. No Codex plugin manifest, local configuration, research reports, or evaluation results are bundled.
 
 This layout follows Claude's [custom skill ZIP instructions](https://support.claude.com/en/articles/12512198-how-to-create-custom-skills). Upload the resulting ZIP through Claude's custom Skills controls and enable it.
 

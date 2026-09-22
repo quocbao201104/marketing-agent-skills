@@ -6,7 +6,7 @@ Status: twelve constructed work chains reviewed. No additional decision-changing
 
 ## Scope and method
 
-Reviewed [Chapter 15](../../skills/marketing-practitioner/handbook/15-brand-identity-and-visual-systems.md) with [SKILL.md](../../skills/marketing-practitioner/SKILL.md), identity routing/handoffs in the operating guide, and the applicable creative-comparison criteria. Revisited Chapter 01's sampling and evidence-scope guidance, Chapter 05's causal interpretation and reversibility guidance, and Chapter 07's localization and measurement-comparability boundaries.
+Reviewed [Chapter 15](../../skills/marketing-agent-skills/handbook/15-brand-identity-and-visual-systems.md) with [SKILL.md](../../skills/marketing-agent-skills/SKILL.md), identity routing/handoffs in the operating guide, and the applicable creative-comparison criteria. Revisited Chapter 01's sampling and evidence-scope guidance, Chapter 05's causal interpretation and reversibility guidance, and Chapter 07's localization and measurement-comparability boundaries.
 
 All nine actual identity routes resolve, with unchanged content after the citation correction. Re-read the equity, exploration, refinement, handoffs and decision-record outputs directly through the loader, and evaluation/system passages in their chapter context. Core and invariant context was retained from review 32.
 

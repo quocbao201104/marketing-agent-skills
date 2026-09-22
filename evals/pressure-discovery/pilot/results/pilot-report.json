@@ -251,12 +251,12 @@
             "payload": {
               "activation_error_reference": null,
               "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-              "active_skill_id": "marketing-practitioner",
+              "active_skill_id": "marketing-agent-skills",
               "active_skill_version": "0.5.1",
               "intended_condition": "with_skill",
               "outcome": "activated",
               "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-              "requested_skill_id": "marketing-practitioner",
+              "requested_skill_id": "marketing-agent-skills",
               "requested_skill_version": "0.5.1"
             },
             "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -480,12 +480,12 @@
             "payload": {
               "activation_error_reference": null,
               "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-              "active_skill_id": "marketing-practitioner",
+              "active_skill_id": "marketing-agent-skills",
               "active_skill_version": "0.5.1",
               "intended_condition": "with_skill",
               "outcome": "activated",
               "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-              "requested_skill_id": "marketing-practitioner",
+              "requested_skill_id": "marketing-agent-skills",
               "requested_skill_version": "0.5.1"
             },
             "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -691,12 +691,12 @@
             "payload": {
               "activation_error_reference": null,
               "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-              "active_skill_id": "marketing-practitioner",
+              "active_skill_id": "marketing-agent-skills",
               "active_skill_version": "0.5.1",
               "intended_condition": "with_skill",
               "outcome": "activated",
               "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-              "requested_skill_id": "marketing-practitioner",
+              "requested_skill_id": "marketing-agent-skills",
               "requested_skill_version": "0.5.1"
             },
             "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -921,7 +921,7 @@
               "intended_condition": "with_skill",
               "outcome": "not-activated",
               "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-              "requested_skill_id": "marketing-practitioner",
+              "requested_skill_id": "marketing-agent-skills",
               "requested_skill_version": "0.5.1"
             },
             "payload_digest": "sha256:e3408346e980de1386dff5c6b2e547251b94cd8cf6a5fc51acff548b05fd673f",
@@ -1224,12 +1224,12 @@
                       "payload": {
                         "activation_error_reference": null,
                         "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "active_skill_id": "marketing-practitioner",
+                        "active_skill_id": "marketing-agent-skills",
                         "active_skill_version": "0.5.1",
                         "intended_condition": "with_skill",
                         "outcome": "activated",
                         "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "requested_skill_id": "marketing-practitioner",
+                        "requested_skill_id": "marketing-agent-skills",
                         "requested_skill_version": "0.5.1"
                       },
                       "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -1456,12 +1456,12 @@
                       "payload": {
                         "activation_error_reference": null,
                         "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "active_skill_id": "marketing-practitioner",
+                        "active_skill_id": "marketing-agent-skills",
                         "active_skill_version": "0.5.1",
                         "intended_condition": "with_skill",
                         "outcome": "activated",
                         "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "requested_skill_id": "marketing-practitioner",
+                        "requested_skill_id": "marketing-agent-skills",
                         "requested_skill_version": "0.5.1"
                       },
                       "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -1581,12 +1581,12 @@
                   "payload": {
                     "activation_error_reference": null,
                     "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "active_skill_id": "marketing-practitioner",
+                    "active_skill_id": "marketing-agent-skills",
                     "active_skill_version": "0.5.1",
                     "intended_condition": "with_skill",
                     "outcome": "activated",
                     "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "requested_skill_id": "marketing-practitioner",
+                    "requested_skill_id": "marketing-agent-skills",
                     "requested_skill_version": "0.5.1"
                   },
                   "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -1899,12 +1899,12 @@
                       "payload": {
                         "activation_error_reference": null,
                         "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "active_skill_id": "marketing-practitioner",
+                        "active_skill_id": "marketing-agent-skills",
                         "active_skill_version": "0.5.1",
                         "intended_condition": "with_skill",
                         "outcome": "activated",
                         "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "requested_skill_id": "marketing-practitioner",
+                        "requested_skill_id": "marketing-agent-skills",
                         "requested_skill_version": "0.5.1"
                       },
                       "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -2119,12 +2119,12 @@
                       "payload": {
                         "activation_error_reference": null,
                         "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "active_skill_id": "marketing-practitioner",
+                        "active_skill_id": "marketing-agent-skills",
                         "active_skill_version": "0.5.1",
                         "intended_condition": "with_skill",
                         "outcome": "activated",
                         "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "requested_skill_id": "marketing-practitioner",
+                        "requested_skill_id": "marketing-agent-skills",
                         "requested_skill_version": "0.5.1"
                       },
                       "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -2244,12 +2244,12 @@
                   "payload": {
                     "activation_error_reference": null,
                     "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "active_skill_id": "marketing-practitioner",
+                    "active_skill_id": "marketing-agent-skills",
                     "active_skill_version": "0.5.1",
                     "intended_condition": "with_skill",
                     "outcome": "activated",
                     "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "requested_skill_id": "marketing-practitioner",
+                    "requested_skill_id": "marketing-agent-skills",
                     "requested_skill_version": "0.5.1"
                   },
                   "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -2486,12 +2486,12 @@
             "payload": {
               "activation_error_reference": null,
               "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-              "active_skill_id": "marketing-practitioner",
+              "active_skill_id": "marketing-agent-skills",
               "active_skill_version": "0.5.1",
               "intended_condition": "with_skill",
               "outcome": "activated",
               "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-              "requested_skill_id": "marketing-practitioner",
+              "requested_skill_id": "marketing-agent-skills",
               "requested_skill_version": "0.5.1"
             },
             "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -2833,12 +2833,12 @@
                       "payload": {
                         "activation_error_reference": null,
                         "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "active_skill_id": "marketing-practitioner",
+                        "active_skill_id": "marketing-agent-skills",
                         "active_skill_version": "0.5.1",
                         "intended_condition": "with_skill",
                         "outcome": "activated",
                         "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "requested_skill_id": "marketing-practitioner",
+                        "requested_skill_id": "marketing-agent-skills",
                         "requested_skill_version": "0.5.1"
                       },
                       "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -3066,12 +3066,12 @@
                       "payload": {
                         "activation_error_reference": null,
                         "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "active_skill_id": "marketing-practitioner",
+                        "active_skill_id": "marketing-agent-skills",
                         "active_skill_version": "0.5.1",
                         "intended_condition": "with_skill",
                         "outcome": "activated",
                         "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "requested_skill_id": "marketing-practitioner",
+                        "requested_skill_id": "marketing-agent-skills",
                         "requested_skill_version": "0.5.1"
                       },
                       "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -3192,12 +3192,12 @@
                   "payload": {
                     "activation_error_reference": null,
                     "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "active_skill_id": "marketing-practitioner",
+                    "active_skill_id": "marketing-agent-skills",
                     "active_skill_version": "0.5.1",
                     "intended_condition": "with_skill",
                     "outcome": "activated",
                     "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "requested_skill_id": "marketing-practitioner",
+                    "requested_skill_id": "marketing-agent-skills",
                     "requested_skill_version": "0.5.1"
                   },
                   "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -3511,12 +3511,12 @@
                       "payload": {
                         "activation_error_reference": null,
                         "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "active_skill_id": "marketing-practitioner",
+                        "active_skill_id": "marketing-agent-skills",
                         "active_skill_version": "0.5.1",
                         "intended_condition": "with_skill",
                         "outcome": "activated",
                         "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "requested_skill_id": "marketing-practitioner",
+                        "requested_skill_id": "marketing-agent-skills",
                         "requested_skill_version": "0.5.1"
                       },
                       "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -3732,12 +3732,12 @@
                       "payload": {
                         "activation_error_reference": null,
                         "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "active_skill_id": "marketing-practitioner",
+                        "active_skill_id": "marketing-agent-skills",
                         "active_skill_version": "0.5.1",
                         "intended_condition": "with_skill",
                         "outcome": "activated",
                         "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "requested_skill_id": "marketing-practitioner",
+                        "requested_skill_id": "marketing-agent-skills",
                         "requested_skill_version": "0.5.1"
                       },
                       "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -3858,12 +3858,12 @@
                   "payload": {
                     "activation_error_reference": null,
                     "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "active_skill_id": "marketing-practitioner",
+                    "active_skill_id": "marketing-agent-skills",
                     "active_skill_version": "0.5.1",
                     "intended_condition": "with_skill",
                     "outcome": "activated",
                     "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "requested_skill_id": "marketing-practitioner",
+                    "requested_skill_id": "marketing-agent-skills",
                     "requested_skill_version": "0.5.1"
                   },
                   "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -4135,12 +4135,12 @@
             "payload": {
               "activation_error_reference": null,
               "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-              "active_skill_id": "marketing-practitioner",
+              "active_skill_id": "marketing-agent-skills",
               "active_skill_version": "0.5.1",
               "intended_condition": "with_skill",
               "outcome": "activated",
               "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-              "requested_skill_id": "marketing-practitioner",
+              "requested_skill_id": "marketing-agent-skills",
               "requested_skill_version": "0.5.1"
             },
             "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -4522,12 +4522,12 @@
                       "payload": {
                         "activation_error_reference": null,
                         "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "active_skill_id": "marketing-practitioner",
+                        "active_skill_id": "marketing-agent-skills",
                         "active_skill_version": "0.5.1",
                         "intended_condition": "with_skill",
                         "outcome": "activated",
                         "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "requested_skill_id": "marketing-practitioner",
+                        "requested_skill_id": "marketing-agent-skills",
                         "requested_skill_version": "0.5.1"
                       },
                       "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -4774,12 +4774,12 @@
                       "payload": {
                         "activation_error_reference": null,
                         "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "active_skill_id": "marketing-practitioner",
+                        "active_skill_id": "marketing-agent-skills",
                         "active_skill_version": "0.5.1",
                         "intended_condition": "with_skill",
                         "outcome": "activated",
                         "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "requested_skill_id": "marketing-practitioner",
+                        "requested_skill_id": "marketing-agent-skills",
                         "requested_skill_version": "0.5.1"
                       },
                       "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -4919,12 +4919,12 @@
                   "payload": {
                     "activation_error_reference": null,
                     "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "active_skill_id": "marketing-practitioner",
+                    "active_skill_id": "marketing-agent-skills",
                     "active_skill_version": "0.5.1",
                     "intended_condition": "with_skill",
                     "outcome": "activated",
                     "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "requested_skill_id": "marketing-practitioner",
+                    "requested_skill_id": "marketing-agent-skills",
                     "requested_skill_version": "0.5.1"
                   },
                   "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -5257,12 +5257,12 @@
                       "payload": {
                         "activation_error_reference": null,
                         "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "active_skill_id": "marketing-practitioner",
+                        "active_skill_id": "marketing-agent-skills",
                         "active_skill_version": "0.5.1",
                         "intended_condition": "with_skill",
                         "outcome": "activated",
                         "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "requested_skill_id": "marketing-practitioner",
+                        "requested_skill_id": "marketing-agent-skills",
                         "requested_skill_version": "0.5.1"
                       },
                       "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -5497,12 +5497,12 @@
                       "payload": {
                         "activation_error_reference": null,
                         "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "active_skill_id": "marketing-practitioner",
+                        "active_skill_id": "marketing-agent-skills",
                         "active_skill_version": "0.5.1",
                         "intended_condition": "with_skill",
                         "outcome": "activated",
                         "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "requested_skill_id": "marketing-practitioner",
+                        "requested_skill_id": "marketing-agent-skills",
                         "requested_skill_version": "0.5.1"
                       },
                       "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -5642,12 +5642,12 @@
                   "payload": {
                     "activation_error_reference": null,
                     "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "active_skill_id": "marketing-practitioner",
+                    "active_skill_id": "marketing-agent-skills",
                     "active_skill_version": "0.5.1",
                     "intended_condition": "with_skill",
                     "outcome": "activated",
                     "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "requested_skill_id": "marketing-practitioner",
+                    "requested_skill_id": "marketing-agent-skills",
                     "requested_skill_version": "0.5.1"
                   },
                   "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -5910,12 +5910,12 @@
             "payload": {
               "activation_error_reference": null,
               "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-              "active_skill_id": "marketing-practitioner",
+              "active_skill_id": "marketing-agent-skills",
               "active_skill_version": "0.5.1",
               "intended_condition": "with_skill",
               "outcome": "activated",
               "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-              "requested_skill_id": "marketing-practitioner",
+              "requested_skill_id": "marketing-agent-skills",
               "requested_skill_version": "0.5.1"
             },
             "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -6156,12 +6156,12 @@
             "payload": {
               "activation_error_reference": null,
               "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-              "active_skill_id": "marketing-practitioner",
+              "active_skill_id": "marketing-agent-skills",
               "active_skill_version": "0.5.1",
               "intended_condition": "with_skill",
               "outcome": "activated",
               "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-              "requested_skill_id": "marketing-practitioner",
+              "requested_skill_id": "marketing-agent-skills",
               "requested_skill_version": "0.5.1"
             },
             "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -6383,12 +6383,12 @@
             "payload": {
               "activation_error_reference": null,
               "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-              "active_skill_id": "marketing-practitioner",
+              "active_skill_id": "marketing-agent-skills",
               "active_skill_version": "0.5.1",
               "intended_condition": "with_skill",
               "outcome": "activated",
               "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-              "requested_skill_id": "marketing-practitioner",
+              "requested_skill_id": "marketing-agent-skills",
               "requested_skill_version": "0.5.1"
             },
             "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -7204,12 +7204,12 @@
                   "payload": {
                     "activation_error_reference": null,
                     "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "active_skill_id": "marketing-practitioner",
+                    "active_skill_id": "marketing-agent-skills",
                     "active_skill_version": "0.5.1",
                     "intended_condition": "with_skill",
                     "outcome": "activated",
                     "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "requested_skill_id": "marketing-practitioner",
+                    "requested_skill_id": "marketing-agent-skills",
                     "requested_skill_version": "0.5.1"
                   },
                   "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -7413,12 +7413,12 @@
                   "payload": {
                     "activation_error_reference": null,
                     "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "active_skill_id": "marketing-practitioner",
+                    "active_skill_id": "marketing-agent-skills",
                     "active_skill_version": "0.5.1",
                     "intended_condition": "with_skill",
                     "outcome": "activated",
                     "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "requested_skill_id": "marketing-practitioner",
+                    "requested_skill_id": "marketing-agent-skills",
                     "requested_skill_version": "0.5.1"
                   },
                   "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -7610,12 +7610,12 @@
                   "payload": {
                     "activation_error_reference": null,
                     "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "active_skill_id": "marketing-practitioner",
+                    "active_skill_id": "marketing-agent-skills",
                     "active_skill_version": "0.5.1",
                     "intended_condition": "with_skill",
                     "outcome": "activated",
                     "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "requested_skill_id": "marketing-practitioner",
+                    "requested_skill_id": "marketing-agent-skills",
                     "requested_skill_version": "0.5.1"
                   },
                   "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -7817,12 +7817,12 @@
             "payload": {
               "activation_error_reference": null,
               "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-              "active_skill_id": "marketing-practitioner",
+              "active_skill_id": "marketing-agent-skills",
               "active_skill_version": "0.5.1",
               "intended_condition": "with_skill",
               "outcome": "activated",
               "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-              "requested_skill_id": "marketing-practitioner",
+              "requested_skill_id": "marketing-agent-skills",
               "requested_skill_version": "0.5.1"
             },
             "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -8044,12 +8044,12 @@
             "payload": {
               "activation_error_reference": null,
               "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-              "active_skill_id": "marketing-practitioner",
+              "active_skill_id": "marketing-agent-skills",
               "active_skill_version": "0.5.1",
               "intended_condition": "with_skill",
               "outcome": "activated",
               "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-              "requested_skill_id": "marketing-practitioner",
+              "requested_skill_id": "marketing-agent-skills",
               "requested_skill_version": "0.5.1"
             },
             "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -8255,12 +8255,12 @@
             "payload": {
               "activation_error_reference": null,
               "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-              "active_skill_id": "marketing-practitioner",
+              "active_skill_id": "marketing-agent-skills",
               "active_skill_version": "0.5.1",
               "intended_condition": "with_skill",
               "outcome": "activated",
               "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-              "requested_skill_id": "marketing-practitioner",
+              "requested_skill_id": "marketing-agent-skills",
               "requested_skill_version": "0.5.1"
             },
             "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -8466,12 +8466,12 @@
             "payload": {
               "activation_error_reference": null,
               "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-              "active_skill_id": "marketing-practitioner",
+              "active_skill_id": "marketing-agent-skills",
               "active_skill_version": "0.5.1",
               "intended_condition": "with_skill",
               "outcome": "activated",
               "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-              "requested_skill_id": "marketing-practitioner",
+              "requested_skill_id": "marketing-agent-skills",
               "requested_skill_version": "0.5.1"
             },
             "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -9311,12 +9311,12 @@
                   "payload": {
                     "activation_error_reference": null,
                     "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "active_skill_id": "marketing-practitioner",
+                    "active_skill_id": "marketing-agent-skills",
                     "active_skill_version": "0.5.1",
                     "intended_condition": "with_skill",
                     "outcome": "activated",
                     "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "requested_skill_id": "marketing-practitioner",
+                    "requested_skill_id": "marketing-agent-skills",
                     "requested_skill_version": "0.5.1"
                   },
                   "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -9508,12 +9508,12 @@
                   "payload": {
                     "activation_error_reference": null,
                     "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "active_skill_id": "marketing-practitioner",
+                    "active_skill_id": "marketing-agent-skills",
                     "active_skill_version": "0.5.1",
                     "intended_condition": "with_skill",
                     "outcome": "activated",
                     "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "requested_skill_id": "marketing-practitioner",
+                    "requested_skill_id": "marketing-agent-skills",
                     "requested_skill_version": "0.5.1"
                   },
                   "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -9717,12 +9717,12 @@
                   "payload": {
                     "activation_error_reference": null,
                     "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "active_skill_id": "marketing-practitioner",
+                    "active_skill_id": "marketing-agent-skills",
                     "active_skill_version": "0.5.1",
                     "intended_condition": "with_skill",
                     "outcome": "activated",
                     "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "requested_skill_id": "marketing-practitioner",
+                    "requested_skill_id": "marketing-agent-skills",
                     "requested_skill_version": "0.5.1"
                   },
                   "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -9924,12 +9924,12 @@
             "payload": {
               "activation_error_reference": null,
               "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-              "active_skill_id": "marketing-practitioner",
+              "active_skill_id": "marketing-agent-skills",
               "active_skill_version": "0.5.1",
               "intended_condition": "with_skill",
               "outcome": "activated",
               "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-              "requested_skill_id": "marketing-practitioner",
+              "requested_skill_id": "marketing-agent-skills",
               "requested_skill_version": "0.5.1"
             },
             "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -10151,12 +10151,12 @@
             "payload": {
               "activation_error_reference": null,
               "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-              "active_skill_id": "marketing-practitioner",
+              "active_skill_id": "marketing-agent-skills",
               "active_skill_version": "0.5.1",
               "intended_condition": "with_skill",
               "outcome": "activated",
               "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-              "requested_skill_id": "marketing-practitioner",
+              "requested_skill_id": "marketing-agent-skills",
               "requested_skill_version": "0.5.1"
             },
             "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -10387,12 +10387,12 @@
             "payload": {
               "activation_error_reference": null,
               "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-              "active_skill_id": "marketing-practitioner",
+              "active_skill_id": "marketing-agent-skills",
               "active_skill_version": "0.5.1",
               "intended_condition": "with_skill",
               "outcome": "activated",
               "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-              "requested_skill_id": "marketing-practitioner",
+              "requested_skill_id": "marketing-agent-skills",
               "requested_skill_version": "0.5.1"
             },
             "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -10734,12 +10734,12 @@
                       "payload": {
                         "activation_error_reference": null,
                         "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "active_skill_id": "marketing-practitioner",
+                        "active_skill_id": "marketing-agent-skills",
                         "active_skill_version": "0.5.1",
                         "intended_condition": "with_skill",
                         "outcome": "activated",
                         "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "requested_skill_id": "marketing-practitioner",
+                        "requested_skill_id": "marketing-agent-skills",
                         "requested_skill_version": "0.5.1"
                       },
                       "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -10967,12 +10967,12 @@
                       "payload": {
                         "activation_error_reference": null,
                         "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "active_skill_id": "marketing-practitioner",
+                        "active_skill_id": "marketing-agent-skills",
                         "active_skill_version": "0.5.1",
                         "intended_condition": "with_skill",
                         "outcome": "activated",
                         "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "requested_skill_id": "marketing-practitioner",
+                        "requested_skill_id": "marketing-agent-skills",
                         "requested_skill_version": "0.5.1"
                       },
                       "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -11093,12 +11093,12 @@
                   "payload": {
                     "activation_error_reference": null,
                     "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "active_skill_id": "marketing-practitioner",
+                    "active_skill_id": "marketing-agent-skills",
                     "active_skill_version": "0.5.1",
                     "intended_condition": "with_skill",
                     "outcome": "activated",
                     "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "requested_skill_id": "marketing-practitioner",
+                    "requested_skill_id": "marketing-agent-skills",
                     "requested_skill_version": "0.5.1"
                   },
                   "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -11412,12 +11412,12 @@
                       "payload": {
                         "activation_error_reference": null,
                         "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "active_skill_id": "marketing-practitioner",
+                        "active_skill_id": "marketing-agent-skills",
                         "active_skill_version": "0.5.1",
                         "intended_condition": "with_skill",
                         "outcome": "activated",
                         "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "requested_skill_id": "marketing-practitioner",
+                        "requested_skill_id": "marketing-agent-skills",
                         "requested_skill_version": "0.5.1"
                       },
                       "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -11633,12 +11633,12 @@
                       "payload": {
                         "activation_error_reference": null,
                         "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "active_skill_id": "marketing-practitioner",
+                        "active_skill_id": "marketing-agent-skills",
                         "active_skill_version": "0.5.1",
                         "intended_condition": "with_skill",
                         "outcome": "activated",
                         "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "requested_skill_id": "marketing-practitioner",
+                        "requested_skill_id": "marketing-agent-skills",
                         "requested_skill_version": "0.5.1"
                       },
                       "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -11759,12 +11759,12 @@
                   "payload": {
                     "activation_error_reference": null,
                     "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "active_skill_id": "marketing-practitioner",
+                    "active_skill_id": "marketing-agent-skills",
                     "active_skill_version": "0.5.1",
                     "intended_condition": "with_skill",
                     "outcome": "activated",
                     "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "requested_skill_id": "marketing-practitioner",
+                    "requested_skill_id": "marketing-agent-skills",
                     "requested_skill_version": "0.5.1"
                   },
                   "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -12036,12 +12036,12 @@
             "payload": {
               "activation_error_reference": null,
               "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-              "active_skill_id": "marketing-practitioner",
+              "active_skill_id": "marketing-agent-skills",
               "active_skill_version": "0.5.1",
               "intended_condition": "with_skill",
               "outcome": "activated",
               "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-              "requested_skill_id": "marketing-practitioner",
+              "requested_skill_id": "marketing-agent-skills",
               "requested_skill_version": "0.5.1"
             },
             "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -12422,12 +12422,12 @@
                       "payload": {
                         "activation_error_reference": null,
                         "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "active_skill_id": "marketing-practitioner",
+                        "active_skill_id": "marketing-agent-skills",
                         "active_skill_version": "0.5.1",
                         "intended_condition": "with_skill",
                         "outcome": "activated",
                         "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "requested_skill_id": "marketing-practitioner",
+                        "requested_skill_id": "marketing-agent-skills",
                         "requested_skill_version": "0.5.1"
                       },
                       "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -12674,12 +12674,12 @@
                       "payload": {
                         "activation_error_reference": null,
                         "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "active_skill_id": "marketing-practitioner",
+                        "active_skill_id": "marketing-agent-skills",
                         "active_skill_version": "0.5.1",
                         "intended_condition": "with_skill",
                         "outcome": "activated",
                         "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "requested_skill_id": "marketing-practitioner",
+                        "requested_skill_id": "marketing-agent-skills",
                         "requested_skill_version": "0.5.1"
                       },
                       "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -12819,12 +12819,12 @@
                   "payload": {
                     "activation_error_reference": null,
                     "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "active_skill_id": "marketing-practitioner",
+                    "active_skill_id": "marketing-agent-skills",
                     "active_skill_version": "0.5.1",
                     "intended_condition": "with_skill",
                     "outcome": "activated",
                     "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "requested_skill_id": "marketing-practitioner",
+                    "requested_skill_id": "marketing-agent-skills",
                     "requested_skill_version": "0.5.1"
                   },
                   "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -13157,12 +13157,12 @@
                       "payload": {
                         "activation_error_reference": null,
                         "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "active_skill_id": "marketing-practitioner",
+                        "active_skill_id": "marketing-agent-skills",
                         "active_skill_version": "0.5.1",
                         "intended_condition": "with_skill",
                         "outcome": "activated",
                         "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "requested_skill_id": "marketing-practitioner",
+                        "requested_skill_id": "marketing-agent-skills",
                         "requested_skill_version": "0.5.1"
                       },
                       "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -13397,12 +13397,12 @@
                       "payload": {
                         "activation_error_reference": null,
                         "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "active_skill_id": "marketing-practitioner",
+                        "active_skill_id": "marketing-agent-skills",
                         "active_skill_version": "0.5.1",
                         "intended_condition": "with_skill",
                         "outcome": "activated",
                         "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "requested_skill_id": "marketing-practitioner",
+                        "requested_skill_id": "marketing-agent-skills",
                         "requested_skill_version": "0.5.1"
                       },
                       "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -13542,12 +13542,12 @@
                   "payload": {
                     "activation_error_reference": null,
                     "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "active_skill_id": "marketing-practitioner",
+                    "active_skill_id": "marketing-agent-skills",
                     "active_skill_version": "0.5.1",
                     "intended_condition": "with_skill",
                     "outcome": "activated",
                     "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "requested_skill_id": "marketing-practitioner",
+                    "requested_skill_id": "marketing-agent-skills",
                     "requested_skill_version": "0.5.1"
                   },
                   "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -13808,12 +13808,12 @@
             "payload": {
               "activation_error_reference": null,
               "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-              "active_skill_id": "marketing-practitioner",
+              "active_skill_id": "marketing-agent-skills",
               "active_skill_version": "0.5.1",
               "intended_condition": "with_skill",
               "outcome": "activated",
               "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-              "requested_skill_id": "marketing-practitioner",
+              "requested_skill_id": "marketing-agent-skills",
               "requested_skill_version": "0.5.1"
             },
             "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -14052,12 +14052,12 @@
             "payload": {
               "activation_error_reference": null,
               "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-              "active_skill_id": "marketing-practitioner",
+              "active_skill_id": "marketing-agent-skills",
               "active_skill_version": "0.5.1",
               "intended_condition": "with_skill",
               "outcome": "activated",
               "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-              "requested_skill_id": "marketing-practitioner",
+              "requested_skill_id": "marketing-agent-skills",
               "requested_skill_version": "0.5.1"
             },
             "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -14425,12 +14425,12 @@
             "payload": {
               "activation_error_reference": null,
               "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-              "active_skill_id": "marketing-practitioner",
+              "active_skill_id": "marketing-agent-skills",
               "active_skill_version": "0.5.1",
               "intended_condition": "with_skill",
               "outcome": "activated",
               "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-              "requested_skill_id": "marketing-practitioner",
+              "requested_skill_id": "marketing-agent-skills",
               "requested_skill_version": "0.5.1"
             },
             "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -14762,12 +14762,12 @@
             "payload": {
               "activation_error_reference": null,
               "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-              "active_skill_id": "marketing-practitioner",
+              "active_skill_id": "marketing-agent-skills",
               "active_skill_version": "0.5.1",
               "intended_condition": "with_skill",
               "outcome": "activated",
               "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-              "requested_skill_id": "marketing-practitioner",
+              "requested_skill_id": "marketing-agent-skills",
               "requested_skill_version": "0.5.1"
             },
             "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -15314,12 +15314,12 @@
           "payload": {
             "activation_error_reference": null,
             "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "active_skill_id": "marketing-practitioner",
+            "active_skill_id": "marketing-agent-skills",
             "active_skill_version": "0.5.1",
             "intended_condition": "with_skill",
             "outcome": "activated",
             "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "requested_skill_id": "marketing-practitioner",
+            "requested_skill_id": "marketing-agent-skills",
             "requested_skill_version": "0.5.1"
           },
           "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -15584,12 +15584,12 @@
           "payload": {
             "activation_error_reference": null,
             "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "active_skill_id": "marketing-practitioner",
+            "active_skill_id": "marketing-agent-skills",
             "active_skill_version": "0.5.1",
             "intended_condition": "with_skill",
             "outcome": "activated",
             "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "requested_skill_id": "marketing-practitioner",
+            "requested_skill_id": "marketing-agent-skills",
             "requested_skill_version": "0.5.1"
           },
           "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -15674,12 +15674,12 @@
           "payload": {
             "activation_error_reference": null,
             "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "active_skill_id": "marketing-practitioner",
+            "active_skill_id": "marketing-agent-skills",
             "active_skill_version": "0.5.1",
             "intended_condition": "with_skill",
             "outcome": "activated",
             "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "requested_skill_id": "marketing-practitioner",
+            "requested_skill_id": "marketing-agent-skills",
             "requested_skill_version": "0.5.1"
           },
           "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -15980,12 +15980,12 @@
           "payload": {
             "activation_error_reference": null,
             "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "active_skill_id": "marketing-practitioner",
+            "active_skill_id": "marketing-agent-skills",
             "active_skill_version": "0.5.1",
             "intended_condition": "with_skill",
             "outcome": "activated",
             "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "requested_skill_id": "marketing-practitioner",
+            "requested_skill_id": "marketing-agent-skills",
             "requested_skill_version": "0.5.1"
           },
           "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -16070,12 +16070,12 @@
           "payload": {
             "activation_error_reference": null,
             "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "active_skill_id": "marketing-practitioner",
+            "active_skill_id": "marketing-agent-skills",
             "active_skill_version": "0.5.1",
             "intended_condition": "with_skill",
             "outcome": "activated",
             "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "requested_skill_id": "marketing-practitioner",
+            "requested_skill_id": "marketing-agent-skills",
             "requested_skill_version": "0.5.1"
           },
           "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -16340,12 +16340,12 @@
           "payload": {
             "activation_error_reference": null,
             "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "active_skill_id": "marketing-practitioner",
+            "active_skill_id": "marketing-agent-skills",
             "active_skill_version": "0.5.1",
             "intended_condition": "with_skill",
             "outcome": "activated",
             "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "requested_skill_id": "marketing-practitioner",
+            "requested_skill_id": "marketing-agent-skills",
             "requested_skill_version": "0.5.1"
           },
           "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -16435,7 +16435,7 @@
             "intended_condition": "with_skill",
             "outcome": "not-activated",
             "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "requested_skill_id": "marketing-practitioner",
+            "requested_skill_id": "marketing-agent-skills",
             "requested_skill_version": "0.5.1"
           },
           "payload_digest": "sha256:e3408346e980de1386dff5c6b2e547251b94cd8cf6a5fc51acff548b05fd673f",
@@ -16686,7 +16686,7 @@
             "intended_condition": "with_skill",
             "outcome": "not-activated",
             "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "requested_skill_id": "marketing-practitioner",
+            "requested_skill_id": "marketing-agent-skills",
             "requested_skill_version": "0.5.1"
           },
           "payload_digest": "sha256:e3408346e980de1386dff5c6b2e547251b94cd8cf6a5fc51acff548b05fd673f",
@@ -16739,12 +16739,12 @@
           "payload": {
             "activation_error_reference": null,
             "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "active_skill_id": "marketing-practitioner",
+            "active_skill_id": "marketing-agent-skills",
             "active_skill_version": "0.5.1",
             "intended_condition": "with_skill",
             "outcome": "activated",
             "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "requested_skill_id": "marketing-practitioner",
+            "requested_skill_id": "marketing-agent-skills",
             "requested_skill_version": "0.5.1"
           },
           "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -17067,12 +17067,12 @@
                     "payload": {
                       "activation_error_reference": null,
                       "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                      "active_skill_id": "marketing-practitioner",
+                      "active_skill_id": "marketing-agent-skills",
                       "active_skill_version": "0.5.1",
                       "intended_condition": "with_skill",
                       "outcome": "activated",
                       "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                      "requested_skill_id": "marketing-practitioner",
+                      "requested_skill_id": "marketing-agent-skills",
                       "requested_skill_version": "0.5.1"
                     },
                     "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -17299,12 +17299,12 @@
                     "payload": {
                       "activation_error_reference": null,
                       "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                      "active_skill_id": "marketing-practitioner",
+                      "active_skill_id": "marketing-agent-skills",
                       "active_skill_version": "0.5.1",
                       "intended_condition": "with_skill",
                       "outcome": "activated",
                       "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                      "requested_skill_id": "marketing-practitioner",
+                      "requested_skill_id": "marketing-agent-skills",
                       "requested_skill_version": "0.5.1"
                     },
                     "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -17424,12 +17424,12 @@
                 "payload": {
                   "activation_error_reference": null,
                   "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                  "active_skill_id": "marketing-practitioner",
+                  "active_skill_id": "marketing-agent-skills",
                   "active_skill_version": "0.5.1",
                   "intended_condition": "with_skill",
                   "outcome": "activated",
                   "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                  "requested_skill_id": "marketing-practitioner",
+                  "requested_skill_id": "marketing-agent-skills",
                   "requested_skill_version": "0.5.1"
                 },
                 "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -17742,12 +17742,12 @@
                     "payload": {
                       "activation_error_reference": null,
                       "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                      "active_skill_id": "marketing-practitioner",
+                      "active_skill_id": "marketing-agent-skills",
                       "active_skill_version": "0.5.1",
                       "intended_condition": "with_skill",
                       "outcome": "activated",
                       "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                      "requested_skill_id": "marketing-practitioner",
+                      "requested_skill_id": "marketing-agent-skills",
                       "requested_skill_version": "0.5.1"
                     },
                     "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -17962,12 +17962,12 @@
                     "payload": {
                       "activation_error_reference": null,
                       "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                      "active_skill_id": "marketing-practitioner",
+                      "active_skill_id": "marketing-agent-skills",
                       "active_skill_version": "0.5.1",
                       "intended_condition": "with_skill",
                       "outcome": "activated",
                       "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                      "requested_skill_id": "marketing-practitioner",
+                      "requested_skill_id": "marketing-agent-skills",
                       "requested_skill_version": "0.5.1"
                     },
                     "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -18087,12 +18087,12 @@
                 "payload": {
                   "activation_error_reference": null,
                   "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                  "active_skill_id": "marketing-practitioner",
+                  "active_skill_id": "marketing-agent-skills",
                   "active_skill_version": "0.5.1",
                   "intended_condition": "with_skill",
                   "outcome": "activated",
                   "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                  "requested_skill_id": "marketing-practitioner",
+                  "requested_skill_id": "marketing-agent-skills",
                   "requested_skill_version": "0.5.1"
                 },
                 "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -18443,12 +18443,12 @@
                       "payload": {
                         "activation_error_reference": null,
                         "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "active_skill_id": "marketing-practitioner",
+                        "active_skill_id": "marketing-agent-skills",
                         "active_skill_version": "0.5.1",
                         "intended_condition": "with_skill",
                         "outcome": "activated",
                         "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "requested_skill_id": "marketing-practitioner",
+                        "requested_skill_id": "marketing-agent-skills",
                         "requested_skill_version": "0.5.1"
                       },
                       "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -18675,12 +18675,12 @@
                       "payload": {
                         "activation_error_reference": null,
                         "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "active_skill_id": "marketing-practitioner",
+                        "active_skill_id": "marketing-agent-skills",
                         "active_skill_version": "0.5.1",
                         "intended_condition": "with_skill",
                         "outcome": "activated",
                         "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "requested_skill_id": "marketing-practitioner",
+                        "requested_skill_id": "marketing-agent-skills",
                         "requested_skill_version": "0.5.1"
                       },
                       "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -18800,12 +18800,12 @@
                   "payload": {
                     "activation_error_reference": null,
                     "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "active_skill_id": "marketing-practitioner",
+                    "active_skill_id": "marketing-agent-skills",
                     "active_skill_version": "0.5.1",
                     "intended_condition": "with_skill",
                     "outcome": "activated",
                     "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "requested_skill_id": "marketing-practitioner",
+                    "requested_skill_id": "marketing-agent-skills",
                     "requested_skill_version": "0.5.1"
                   },
                   "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -19118,12 +19118,12 @@
                       "payload": {
                         "activation_error_reference": null,
                         "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "active_skill_id": "marketing-practitioner",
+                        "active_skill_id": "marketing-agent-skills",
                         "active_skill_version": "0.5.1",
                         "intended_condition": "with_skill",
                         "outcome": "activated",
                         "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "requested_skill_id": "marketing-practitioner",
+                        "requested_skill_id": "marketing-agent-skills",
                         "requested_skill_version": "0.5.1"
                       },
                       "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -19338,12 +19338,12 @@
                       "payload": {
                         "activation_error_reference": null,
                         "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "active_skill_id": "marketing-practitioner",
+                        "active_skill_id": "marketing-agent-skills",
                         "active_skill_version": "0.5.1",
                         "intended_condition": "with_skill",
                         "outcome": "activated",
                         "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "requested_skill_id": "marketing-practitioner",
+                        "requested_skill_id": "marketing-agent-skills",
                         "requested_skill_version": "0.5.1"
                       },
                       "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -19463,12 +19463,12 @@
                   "payload": {
                     "activation_error_reference": null,
                     "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "active_skill_id": "marketing-practitioner",
+                    "active_skill_id": "marketing-agent-skills",
                     "active_skill_version": "0.5.1",
                     "intended_condition": "with_skill",
                     "outcome": "activated",
                     "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "requested_skill_id": "marketing-practitioner",
+                    "requested_skill_id": "marketing-agent-skills",
                     "requested_skill_version": "0.5.1"
                   },
                   "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -19779,12 +19779,12 @@
           "payload": {
             "activation_error_reference": null,
             "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "active_skill_id": "marketing-practitioner",
+            "active_skill_id": "marketing-agent-skills",
             "active_skill_version": "0.5.1",
             "intended_condition": "with_skill",
             "outcome": "activated",
             "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "requested_skill_id": "marketing-practitioner",
+            "requested_skill_id": "marketing-agent-skills",
             "requested_skill_version": "0.5.1"
           },
           "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -19872,12 +19872,12 @@
           "payload": {
             "activation_error_reference": null,
             "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "active_skill_id": "marketing-practitioner",
+            "active_skill_id": "marketing-agent-skills",
             "active_skill_version": "0.5.1",
             "intended_condition": "with_skill",
             "outcome": "activated",
             "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "requested_skill_id": "marketing-practitioner",
+            "requested_skill_id": "marketing-agent-skills",
             "requested_skill_version": "0.5.1"
           },
           "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -20204,12 +20204,12 @@
                     "payload": {
                       "activation_error_reference": null,
                       "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                      "active_skill_id": "marketing-practitioner",
+                      "active_skill_id": "marketing-agent-skills",
                       "active_skill_version": "0.5.1",
                       "intended_condition": "with_skill",
                       "outcome": "activated",
                       "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                      "requested_skill_id": "marketing-practitioner",
+                      "requested_skill_id": "marketing-agent-skills",
                       "requested_skill_version": "0.5.1"
                     },
                     "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -20437,12 +20437,12 @@
                     "payload": {
                       "activation_error_reference": null,
                       "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                      "active_skill_id": "marketing-practitioner",
+                      "active_skill_id": "marketing-agent-skills",
                       "active_skill_version": "0.5.1",
                       "intended_condition": "with_skill",
                       "outcome": "activated",
                       "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                      "requested_skill_id": "marketing-practitioner",
+                      "requested_skill_id": "marketing-agent-skills",
                       "requested_skill_version": "0.5.1"
                     },
                     "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -20563,12 +20563,12 @@
                 "payload": {
                   "activation_error_reference": null,
                   "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                  "active_skill_id": "marketing-practitioner",
+                  "active_skill_id": "marketing-agent-skills",
                   "active_skill_version": "0.5.1",
                   "intended_condition": "with_skill",
                   "outcome": "activated",
                   "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                  "requested_skill_id": "marketing-practitioner",
+                  "requested_skill_id": "marketing-agent-skills",
                   "requested_skill_version": "0.5.1"
                 },
                 "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -20882,12 +20882,12 @@
                     "payload": {
                       "activation_error_reference": null,
                       "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                      "active_skill_id": "marketing-practitioner",
+                      "active_skill_id": "marketing-agent-skills",
                       "active_skill_version": "0.5.1",
                       "intended_condition": "with_skill",
                       "outcome": "activated",
                       "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                      "requested_skill_id": "marketing-practitioner",
+                      "requested_skill_id": "marketing-agent-skills",
                       "requested_skill_version": "0.5.1"
                     },
                     "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -21103,12 +21103,12 @@
                     "payload": {
                       "activation_error_reference": null,
                       "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                      "active_skill_id": "marketing-practitioner",
+                      "active_skill_id": "marketing-agent-skills",
                       "active_skill_version": "0.5.1",
                       "intended_condition": "with_skill",
                       "outcome": "activated",
                       "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                      "requested_skill_id": "marketing-practitioner",
+                      "requested_skill_id": "marketing-agent-skills",
                       "requested_skill_version": "0.5.1"
                     },
                     "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -21229,12 +21229,12 @@
                 "payload": {
                   "activation_error_reference": null,
                   "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                  "active_skill_id": "marketing-practitioner",
+                  "active_skill_id": "marketing-agent-skills",
                   "active_skill_version": "0.5.1",
                   "intended_condition": "with_skill",
                   "outcome": "activated",
                   "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                  "requested_skill_id": "marketing-practitioner",
+                  "requested_skill_id": "marketing-agent-skills",
                   "requested_skill_version": "0.5.1"
                 },
                 "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -21622,12 +21622,12 @@
                       "payload": {
                         "activation_error_reference": null,
                         "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "active_skill_id": "marketing-practitioner",
+                        "active_skill_id": "marketing-agent-skills",
                         "active_skill_version": "0.5.1",
                         "intended_condition": "with_skill",
                         "outcome": "activated",
                         "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "requested_skill_id": "marketing-practitioner",
+                        "requested_skill_id": "marketing-agent-skills",
                         "requested_skill_version": "0.5.1"
                       },
                       "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -21855,12 +21855,12 @@
                       "payload": {
                         "activation_error_reference": null,
                         "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "active_skill_id": "marketing-practitioner",
+                        "active_skill_id": "marketing-agent-skills",
                         "active_skill_version": "0.5.1",
                         "intended_condition": "with_skill",
                         "outcome": "activated",
                         "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "requested_skill_id": "marketing-practitioner",
+                        "requested_skill_id": "marketing-agent-skills",
                         "requested_skill_version": "0.5.1"
                       },
                       "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -21981,12 +21981,12 @@
                   "payload": {
                     "activation_error_reference": null,
                     "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "active_skill_id": "marketing-practitioner",
+                    "active_skill_id": "marketing-agent-skills",
                     "active_skill_version": "0.5.1",
                     "intended_condition": "with_skill",
                     "outcome": "activated",
                     "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "requested_skill_id": "marketing-practitioner",
+                    "requested_skill_id": "marketing-agent-skills",
                     "requested_skill_version": "0.5.1"
                   },
                   "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -22300,12 +22300,12 @@
                       "payload": {
                         "activation_error_reference": null,
                         "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "active_skill_id": "marketing-practitioner",
+                        "active_skill_id": "marketing-agent-skills",
                         "active_skill_version": "0.5.1",
                         "intended_condition": "with_skill",
                         "outcome": "activated",
                         "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "requested_skill_id": "marketing-practitioner",
+                        "requested_skill_id": "marketing-agent-skills",
                         "requested_skill_version": "0.5.1"
                       },
                       "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -22521,12 +22521,12 @@
                       "payload": {
                         "activation_error_reference": null,
                         "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "active_skill_id": "marketing-practitioner",
+                        "active_skill_id": "marketing-agent-skills",
                         "active_skill_version": "0.5.1",
                         "intended_condition": "with_skill",
                         "outcome": "activated",
                         "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "requested_skill_id": "marketing-practitioner",
+                        "requested_skill_id": "marketing-agent-skills",
                         "requested_skill_version": "0.5.1"
                       },
                       "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -22647,12 +22647,12 @@
                   "payload": {
                     "activation_error_reference": null,
                     "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "active_skill_id": "marketing-practitioner",
+                    "active_skill_id": "marketing-agent-skills",
                     "active_skill_version": "0.5.1",
                     "intended_condition": "with_skill",
                     "outcome": "activated",
                     "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "requested_skill_id": "marketing-practitioner",
+                    "requested_skill_id": "marketing-agent-skills",
                     "requested_skill_version": "0.5.1"
                   },
                   "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -22998,12 +22998,12 @@
           "payload": {
             "activation_error_reference": null,
             "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "active_skill_id": "marketing-practitioner",
+            "active_skill_id": "marketing-agent-skills",
             "active_skill_version": "0.5.1",
             "intended_condition": "with_skill",
             "outcome": "activated",
             "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "requested_skill_id": "marketing-practitioner",
+            "requested_skill_id": "marketing-agent-skills",
             "requested_skill_version": "0.5.1"
           },
           "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -23091,12 +23091,12 @@
           "payload": {
             "activation_error_reference": null,
             "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "active_skill_id": "marketing-practitioner",
+            "active_skill_id": "marketing-agent-skills",
             "active_skill_version": "0.5.1",
             "intended_condition": "with_skill",
             "outcome": "activated",
             "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "requested_skill_id": "marketing-practitioner",
+            "requested_skill_id": "marketing-agent-skills",
             "requested_skill_version": "0.5.1"
           },
           "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -23463,12 +23463,12 @@
                     "payload": {
                       "activation_error_reference": null,
                       "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                      "active_skill_id": "marketing-practitioner",
+                      "active_skill_id": "marketing-agent-skills",
                       "active_skill_version": "0.5.1",
                       "intended_condition": "with_skill",
                       "outcome": "activated",
                       "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                      "requested_skill_id": "marketing-practitioner",
+                      "requested_skill_id": "marketing-agent-skills",
                       "requested_skill_version": "0.5.1"
                     },
                     "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -23715,12 +23715,12 @@
                     "payload": {
                       "activation_error_reference": null,
                       "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                      "active_skill_id": "marketing-practitioner",
+                      "active_skill_id": "marketing-agent-skills",
                       "active_skill_version": "0.5.1",
                       "intended_condition": "with_skill",
                       "outcome": "activated",
                       "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                      "requested_skill_id": "marketing-practitioner",
+                      "requested_skill_id": "marketing-agent-skills",
                       "requested_skill_version": "0.5.1"
                     },
                     "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -23860,12 +23860,12 @@
                 "payload": {
                   "activation_error_reference": null,
                   "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                  "active_skill_id": "marketing-practitioner",
+                  "active_skill_id": "marketing-agent-skills",
                   "active_skill_version": "0.5.1",
                   "intended_condition": "with_skill",
                   "outcome": "activated",
                   "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                  "requested_skill_id": "marketing-practitioner",
+                  "requested_skill_id": "marketing-agent-skills",
                   "requested_skill_version": "0.5.1"
                 },
                 "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -24198,12 +24198,12 @@
                     "payload": {
                       "activation_error_reference": null,
                       "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                      "active_skill_id": "marketing-practitioner",
+                      "active_skill_id": "marketing-agent-skills",
                       "active_skill_version": "0.5.1",
                       "intended_condition": "with_skill",
                       "outcome": "activated",
                       "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                      "requested_skill_id": "marketing-practitioner",
+                      "requested_skill_id": "marketing-agent-skills",
                       "requested_skill_version": "0.5.1"
                     },
                     "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -24438,12 +24438,12 @@
                     "payload": {
                       "activation_error_reference": null,
                       "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                      "active_skill_id": "marketing-practitioner",
+                      "active_skill_id": "marketing-agent-skills",
                       "active_skill_version": "0.5.1",
                       "intended_condition": "with_skill",
                       "outcome": "activated",
                       "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                      "requested_skill_id": "marketing-practitioner",
+                      "requested_skill_id": "marketing-agent-skills",
                       "requested_skill_version": "0.5.1"
                     },
                     "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -24583,12 +24583,12 @@
                 "payload": {
                   "activation_error_reference": null,
                   "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                  "active_skill_id": "marketing-practitioner",
+                  "active_skill_id": "marketing-agent-skills",
                   "active_skill_version": "0.5.1",
                   "intended_condition": "with_skill",
                   "outcome": "activated",
                   "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                  "requested_skill_id": "marketing-practitioner",
+                  "requested_skill_id": "marketing-agent-skills",
                   "requested_skill_version": "0.5.1"
                 },
                 "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -25009,12 +25009,12 @@
                       "payload": {
                         "activation_error_reference": null,
                         "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "active_skill_id": "marketing-practitioner",
+                        "active_skill_id": "marketing-agent-skills",
                         "active_skill_version": "0.5.1",
                         "intended_condition": "with_skill",
                         "outcome": "activated",
                         "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "requested_skill_id": "marketing-practitioner",
+                        "requested_skill_id": "marketing-agent-skills",
                         "requested_skill_version": "0.5.1"
                       },
                       "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -25261,12 +25261,12 @@
                       "payload": {
                         "activation_error_reference": null,
                         "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "active_skill_id": "marketing-practitioner",
+                        "active_skill_id": "marketing-agent-skills",
                         "active_skill_version": "0.5.1",
                         "intended_condition": "with_skill",
                         "outcome": "activated",
                         "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "requested_skill_id": "marketing-practitioner",
+                        "requested_skill_id": "marketing-agent-skills",
                         "requested_skill_version": "0.5.1"
                       },
                       "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -25406,12 +25406,12 @@
                   "payload": {
                     "activation_error_reference": null,
                     "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "active_skill_id": "marketing-practitioner",
+                    "active_skill_id": "marketing-agent-skills",
                     "active_skill_version": "0.5.1",
                     "intended_condition": "with_skill",
                     "outcome": "activated",
                     "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "requested_skill_id": "marketing-practitioner",
+                    "requested_skill_id": "marketing-agent-skills",
                     "requested_skill_version": "0.5.1"
                   },
                   "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -25744,12 +25744,12 @@
                       "payload": {
                         "activation_error_reference": null,
                         "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "active_skill_id": "marketing-practitioner",
+                        "active_skill_id": "marketing-agent-skills",
                         "active_skill_version": "0.5.1",
                         "intended_condition": "with_skill",
                         "outcome": "activated",
                         "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "requested_skill_id": "marketing-practitioner",
+                        "requested_skill_id": "marketing-agent-skills",
                         "requested_skill_version": "0.5.1"
                       },
                       "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -25984,12 +25984,12 @@
                       "payload": {
                         "activation_error_reference": null,
                         "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "active_skill_id": "marketing-practitioner",
+                        "active_skill_id": "marketing-agent-skills",
                         "active_skill_version": "0.5.1",
                         "intended_condition": "with_skill",
                         "outcome": "activated",
                         "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "requested_skill_id": "marketing-practitioner",
+                        "requested_skill_id": "marketing-agent-skills",
                         "requested_skill_version": "0.5.1"
                       },
                       "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -26129,12 +26129,12 @@
                   "payload": {
                     "activation_error_reference": null,
                     "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "active_skill_id": "marketing-practitioner",
+                    "active_skill_id": "marketing-agent-skills",
                     "active_skill_version": "0.5.1",
                     "intended_condition": "with_skill",
                     "outcome": "activated",
                     "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "requested_skill_id": "marketing-practitioner",
+                    "requested_skill_id": "marketing-agent-skills",
                     "requested_skill_version": "0.5.1"
                   },
                   "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -26471,12 +26471,12 @@
           "payload": {
             "activation_error_reference": null,
             "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "active_skill_id": "marketing-practitioner",
+            "active_skill_id": "marketing-agent-skills",
             "active_skill_version": "0.5.1",
             "intended_condition": "with_skill",
             "outcome": "activated",
             "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "requested_skill_id": "marketing-practitioner",
+            "requested_skill_id": "marketing-agent-skills",
             "requested_skill_version": "0.5.1"
           },
           "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -26583,12 +26583,12 @@
           "payload": {
             "activation_error_reference": null,
             "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "active_skill_id": "marketing-practitioner",
+            "active_skill_id": "marketing-agent-skills",
             "active_skill_version": "0.5.1",
             "intended_condition": "with_skill",
             "outcome": "activated",
             "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "requested_skill_id": "marketing-practitioner",
+            "requested_skill_id": "marketing-agent-skills",
             "requested_skill_version": "0.5.1"
           },
           "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -26873,12 +26873,12 @@
           "payload": {
             "activation_error_reference": null,
             "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "active_skill_id": "marketing-practitioner",
+            "active_skill_id": "marketing-agent-skills",
             "active_skill_version": "0.5.1",
             "intended_condition": "with_skill",
             "outcome": "activated",
             "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "requested_skill_id": "marketing-practitioner",
+            "requested_skill_id": "marketing-agent-skills",
             "requested_skill_version": "0.5.1"
           },
           "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -26966,12 +26966,12 @@
           "payload": {
             "activation_error_reference": null,
             "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "active_skill_id": "marketing-practitioner",
+            "active_skill_id": "marketing-agent-skills",
             "active_skill_version": "0.5.1",
             "intended_condition": "with_skill",
             "outcome": "activated",
             "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "requested_skill_id": "marketing-practitioner",
+            "requested_skill_id": "marketing-agent-skills",
             "requested_skill_version": "0.5.1"
           },
           "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -27256,12 +27256,12 @@
           "payload": {
             "activation_error_reference": null,
             "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "active_skill_id": "marketing-practitioner",
+            "active_skill_id": "marketing-agent-skills",
             "active_skill_version": "0.5.1",
             "intended_condition": "with_skill",
             "outcome": "activated",
             "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "requested_skill_id": "marketing-practitioner",
+            "requested_skill_id": "marketing-agent-skills",
             "requested_skill_version": "0.5.1"
           },
           "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -27349,12 +27349,12 @@
           "payload": {
             "activation_error_reference": null,
             "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "active_skill_id": "marketing-practitioner",
+            "active_skill_id": "marketing-agent-skills",
             "active_skill_version": "0.5.1",
             "intended_condition": "with_skill",
             "outcome": "activated",
             "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "requested_skill_id": "marketing-practitioner",
+            "requested_skill_id": "marketing-agent-skills",
             "requested_skill_version": "0.5.1"
           },
           "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -28155,12 +28155,12 @@
                 "payload": {
                   "activation_error_reference": null,
                   "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                  "active_skill_id": "marketing-practitioner",
+                  "active_skill_id": "marketing-agent-skills",
                   "active_skill_version": "0.5.1",
                   "intended_condition": "with_skill",
                   "outcome": "activated",
                   "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                  "requested_skill_id": "marketing-practitioner",
+                  "requested_skill_id": "marketing-agent-skills",
                   "requested_skill_version": "0.5.1"
                 },
                 "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -28364,12 +28364,12 @@
                 "payload": {
                   "activation_error_reference": null,
                   "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                  "active_skill_id": "marketing-practitioner",
+                  "active_skill_id": "marketing-agent-skills",
                   "active_skill_version": "0.5.1",
                   "intended_condition": "with_skill",
                   "outcome": "activated",
                   "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                  "requested_skill_id": "marketing-practitioner",
+                  "requested_skill_id": "marketing-agent-skills",
                   "requested_skill_version": "0.5.1"
                 },
                 "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -28561,12 +28561,12 @@
                 "payload": {
                   "activation_error_reference": null,
                   "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                  "active_skill_id": "marketing-practitioner",
+                  "active_skill_id": "marketing-agent-skills",
                   "active_skill_version": "0.5.1",
                   "intended_condition": "with_skill",
                   "outcome": "activated",
                   "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                  "requested_skill_id": "marketing-practitioner",
+                  "requested_skill_id": "marketing-agent-skills",
                   "requested_skill_version": "0.5.1"
                 },
                 "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -29366,12 +29366,12 @@
                   "payload": {
                     "activation_error_reference": null,
                     "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "active_skill_id": "marketing-practitioner",
+                    "active_skill_id": "marketing-agent-skills",
                     "active_skill_version": "0.5.1",
                     "intended_condition": "with_skill",
                     "outcome": "activated",
                     "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "requested_skill_id": "marketing-practitioner",
+                    "requested_skill_id": "marketing-agent-skills",
                     "requested_skill_version": "0.5.1"
                   },
                   "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -29575,12 +29575,12 @@
                   "payload": {
                     "activation_error_reference": null,
                     "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "active_skill_id": "marketing-practitioner",
+                    "active_skill_id": "marketing-agent-skills",
                     "active_skill_version": "0.5.1",
                     "intended_condition": "with_skill",
                     "outcome": "activated",
                     "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "requested_skill_id": "marketing-practitioner",
+                    "requested_skill_id": "marketing-agent-skills",
                     "requested_skill_version": "0.5.1"
                   },
                   "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -29772,12 +29772,12 @@
                   "payload": {
                     "activation_error_reference": null,
                     "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "active_skill_id": "marketing-practitioner",
+                    "active_skill_id": "marketing-agent-skills",
                     "active_skill_version": "0.5.1",
                     "intended_condition": "with_skill",
                     "outcome": "activated",
                     "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "requested_skill_id": "marketing-practitioner",
+                    "requested_skill_id": "marketing-agent-skills",
                     "requested_skill_version": "0.5.1"
                   },
                   "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -30053,12 +30053,12 @@
           "payload": {
             "activation_error_reference": null,
             "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "active_skill_id": "marketing-practitioner",
+            "active_skill_id": "marketing-agent-skills",
             "active_skill_version": "0.5.1",
             "intended_condition": "with_skill",
             "outcome": "activated",
             "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "requested_skill_id": "marketing-practitioner",
+            "requested_skill_id": "marketing-agent-skills",
             "requested_skill_version": "0.5.1"
           },
           "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -30146,12 +30146,12 @@
           "payload": {
             "activation_error_reference": null,
             "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "active_skill_id": "marketing-practitioner",
+            "active_skill_id": "marketing-agent-skills",
             "active_skill_version": "0.5.1",
             "intended_condition": "with_skill",
             "outcome": "activated",
             "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "requested_skill_id": "marketing-practitioner",
+            "requested_skill_id": "marketing-agent-skills",
             "requested_skill_version": "0.5.1"
           },
           "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -30436,12 +30436,12 @@
           "payload": {
             "activation_error_reference": null,
             "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "active_skill_id": "marketing-practitioner",
+            "active_skill_id": "marketing-agent-skills",
             "active_skill_version": "0.5.1",
             "intended_condition": "with_skill",
             "outcome": "activated",
             "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "requested_skill_id": "marketing-practitioner",
+            "requested_skill_id": "marketing-agent-skills",
             "requested_skill_version": "0.5.1"
           },
           "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -30529,12 +30529,12 @@
           "payload": {
             "activation_error_reference": null,
             "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "active_skill_id": "marketing-practitioner",
+            "active_skill_id": "marketing-agent-skills",
             "active_skill_version": "0.5.1",
             "intended_condition": "with_skill",
             "outcome": "activated",
             "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "requested_skill_id": "marketing-practitioner",
+            "requested_skill_id": "marketing-agent-skills",
             "requested_skill_version": "0.5.1"
           },
           "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -30799,12 +30799,12 @@
           "payload": {
             "activation_error_reference": null,
             "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "active_skill_id": "marketing-practitioner",
+            "active_skill_id": "marketing-agent-skills",
             "active_skill_version": "0.5.1",
             "intended_condition": "with_skill",
             "outcome": "activated",
             "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "requested_skill_id": "marketing-practitioner",
+            "requested_skill_id": "marketing-agent-skills",
             "requested_skill_version": "0.5.1"
           },
           "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -30889,12 +30889,12 @@
           "payload": {
             "activation_error_reference": null,
             "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "active_skill_id": "marketing-practitioner",
+            "active_skill_id": "marketing-agent-skills",
             "active_skill_version": "0.5.1",
             "intended_condition": "with_skill",
             "outcome": "activated",
             "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "requested_skill_id": "marketing-practitioner",
+            "requested_skill_id": "marketing-agent-skills",
             "requested_skill_version": "0.5.1"
           },
           "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -31159,12 +31159,12 @@
           "payload": {
             "activation_error_reference": null,
             "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "active_skill_id": "marketing-practitioner",
+            "active_skill_id": "marketing-agent-skills",
             "active_skill_version": "0.5.1",
             "intended_condition": "with_skill",
             "outcome": "activated",
             "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "requested_skill_id": "marketing-practitioner",
+            "requested_skill_id": "marketing-agent-skills",
             "requested_skill_version": "0.5.1"
           },
           "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -31249,12 +31249,12 @@
           "payload": {
             "activation_error_reference": null,
             "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "active_skill_id": "marketing-practitioner",
+            "active_skill_id": "marketing-agent-skills",
             "active_skill_version": "0.5.1",
             "intended_condition": "with_skill",
             "outcome": "activated",
             "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "requested_skill_id": "marketing-practitioner",
+            "requested_skill_id": "marketing-agent-skills",
             "requested_skill_version": "0.5.1"
           },
           "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -32079,12 +32079,12 @@
                 "payload": {
                   "activation_error_reference": null,
                   "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                  "active_skill_id": "marketing-practitioner",
+                  "active_skill_id": "marketing-agent-skills",
                   "active_skill_version": "0.5.1",
                   "intended_condition": "with_skill",
                   "outcome": "activated",
                   "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                  "requested_skill_id": "marketing-practitioner",
+                  "requested_skill_id": "marketing-agent-skills",
                   "requested_skill_version": "0.5.1"
                 },
                 "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -32276,12 +32276,12 @@
                 "payload": {
                   "activation_error_reference": null,
                   "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                  "active_skill_id": "marketing-practitioner",
+                  "active_skill_id": "marketing-agent-skills",
                   "active_skill_version": "0.5.1",
                   "intended_condition": "with_skill",
                   "outcome": "activated",
                   "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                  "requested_skill_id": "marketing-practitioner",
+                  "requested_skill_id": "marketing-agent-skills",
                   "requested_skill_version": "0.5.1"
                 },
                 "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -32485,12 +32485,12 @@
                 "payload": {
                   "activation_error_reference": null,
                   "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                  "active_skill_id": "marketing-practitioner",
+                  "active_skill_id": "marketing-agent-skills",
                   "active_skill_version": "0.5.1",
                   "intended_condition": "with_skill",
                   "outcome": "activated",
                   "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                  "requested_skill_id": "marketing-practitioner",
+                  "requested_skill_id": "marketing-agent-skills",
                   "requested_skill_version": "0.5.1"
                 },
                 "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -33314,12 +33314,12 @@
                   "payload": {
                     "activation_error_reference": null,
                     "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "active_skill_id": "marketing-practitioner",
+                    "active_skill_id": "marketing-agent-skills",
                     "active_skill_version": "0.5.1",
                     "intended_condition": "with_skill",
                     "outcome": "activated",
                     "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "requested_skill_id": "marketing-practitioner",
+                    "requested_skill_id": "marketing-agent-skills",
                     "requested_skill_version": "0.5.1"
                   },
                   "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -33511,12 +33511,12 @@
                   "payload": {
                     "activation_error_reference": null,
                     "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "active_skill_id": "marketing-practitioner",
+                    "active_skill_id": "marketing-agent-skills",
                     "active_skill_version": "0.5.1",
                     "intended_condition": "with_skill",
                     "outcome": "activated",
                     "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "requested_skill_id": "marketing-practitioner",
+                    "requested_skill_id": "marketing-agent-skills",
                     "requested_skill_version": "0.5.1"
                   },
                   "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -33720,12 +33720,12 @@
                   "payload": {
                     "activation_error_reference": null,
                     "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "active_skill_id": "marketing-practitioner",
+                    "active_skill_id": "marketing-agent-skills",
                     "active_skill_version": "0.5.1",
                     "intended_condition": "with_skill",
                     "outcome": "activated",
                     "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "requested_skill_id": "marketing-practitioner",
+                    "requested_skill_id": "marketing-agent-skills",
                     "requested_skill_version": "0.5.1"
                   },
                   "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -34001,12 +34001,12 @@
           "payload": {
             "activation_error_reference": null,
             "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "active_skill_id": "marketing-practitioner",
+            "active_skill_id": "marketing-agent-skills",
             "active_skill_version": "0.5.1",
             "intended_condition": "with_skill",
             "outcome": "activated",
             "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "requested_skill_id": "marketing-practitioner",
+            "requested_skill_id": "marketing-agent-skills",
             "requested_skill_version": "0.5.1"
           },
           "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -34094,12 +34094,12 @@
           "payload": {
             "activation_error_reference": null,
             "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "active_skill_id": "marketing-practitioner",
+            "active_skill_id": "marketing-agent-skills",
             "active_skill_version": "0.5.1",
             "intended_condition": "with_skill",
             "outcome": "activated",
             "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "requested_skill_id": "marketing-practitioner",
+            "requested_skill_id": "marketing-agent-skills",
             "requested_skill_version": "0.5.1"
           },
           "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -34384,12 +34384,12 @@
           "payload": {
             "activation_error_reference": null,
             "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "active_skill_id": "marketing-practitioner",
+            "active_skill_id": "marketing-agent-skills",
             "active_skill_version": "0.5.1",
             "intended_condition": "with_skill",
             "outcome": "activated",
             "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "requested_skill_id": "marketing-practitioner",
+            "requested_skill_id": "marketing-agent-skills",
             "requested_skill_version": "0.5.1"
           },
           "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -34477,12 +34477,12 @@
           "payload": {
             "activation_error_reference": null,
             "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "active_skill_id": "marketing-practitioner",
+            "active_skill_id": "marketing-agent-skills",
             "active_skill_version": "0.5.1",
             "intended_condition": "with_skill",
             "outcome": "activated",
             "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "requested_skill_id": "marketing-practitioner",
+            "requested_skill_id": "marketing-agent-skills",
             "requested_skill_version": "0.5.1"
           },
           "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -34785,12 +34785,12 @@
           "payload": {
             "activation_error_reference": null,
             "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "active_skill_id": "marketing-practitioner",
+            "active_skill_id": "marketing-agent-skills",
             "active_skill_version": "0.5.1",
             "intended_condition": "with_skill",
             "outcome": "activated",
             "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "requested_skill_id": "marketing-practitioner",
+            "requested_skill_id": "marketing-agent-skills",
             "requested_skill_version": "0.5.1"
           },
           "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -34878,12 +34878,12 @@
           "payload": {
             "activation_error_reference": null,
             "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "active_skill_id": "marketing-practitioner",
+            "active_skill_id": "marketing-agent-skills",
             "active_skill_version": "0.5.1",
             "intended_condition": "with_skill",
             "outcome": "activated",
             "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "requested_skill_id": "marketing-practitioner",
+            "requested_skill_id": "marketing-agent-skills",
             "requested_skill_version": "0.5.1"
           },
           "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -35210,12 +35210,12 @@
                     "payload": {
                       "activation_error_reference": null,
                       "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                      "active_skill_id": "marketing-practitioner",
+                      "active_skill_id": "marketing-agent-skills",
                       "active_skill_version": "0.5.1",
                       "intended_condition": "with_skill",
                       "outcome": "activated",
                       "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                      "requested_skill_id": "marketing-practitioner",
+                      "requested_skill_id": "marketing-agent-skills",
                       "requested_skill_version": "0.5.1"
                     },
                     "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -35443,12 +35443,12 @@
                     "payload": {
                       "activation_error_reference": null,
                       "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                      "active_skill_id": "marketing-practitioner",
+                      "active_skill_id": "marketing-agent-skills",
                       "active_skill_version": "0.5.1",
                       "intended_condition": "with_skill",
                       "outcome": "activated",
                       "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                      "requested_skill_id": "marketing-practitioner",
+                      "requested_skill_id": "marketing-agent-skills",
                       "requested_skill_version": "0.5.1"
                     },
                     "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -35569,12 +35569,12 @@
                 "payload": {
                   "activation_error_reference": null,
                   "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                  "active_skill_id": "marketing-practitioner",
+                  "active_skill_id": "marketing-agent-skills",
                   "active_skill_version": "0.5.1",
                   "intended_condition": "with_skill",
                   "outcome": "activated",
                   "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                  "requested_skill_id": "marketing-practitioner",
+                  "requested_skill_id": "marketing-agent-skills",
                   "requested_skill_version": "0.5.1"
                 },
                 "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -35888,12 +35888,12 @@
                     "payload": {
                       "activation_error_reference": null,
                       "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                      "active_skill_id": "marketing-practitioner",
+                      "active_skill_id": "marketing-agent-skills",
                       "active_skill_version": "0.5.1",
                       "intended_condition": "with_skill",
                       "outcome": "activated",
                       "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                      "requested_skill_id": "marketing-practitioner",
+                      "requested_skill_id": "marketing-agent-skills",
                       "requested_skill_version": "0.5.1"
                     },
                     "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -36109,12 +36109,12 @@
                     "payload": {
                       "activation_error_reference": null,
                       "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                      "active_skill_id": "marketing-practitioner",
+                      "active_skill_id": "marketing-agent-skills",
                       "active_skill_version": "0.5.1",
                       "intended_condition": "with_skill",
                       "outcome": "activated",
                       "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                      "requested_skill_id": "marketing-practitioner",
+                      "requested_skill_id": "marketing-agent-skills",
                       "requested_skill_version": "0.5.1"
                     },
                     "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -36235,12 +36235,12 @@
                 "payload": {
                   "activation_error_reference": null,
                   "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                  "active_skill_id": "marketing-practitioner",
+                  "active_skill_id": "marketing-agent-skills",
                   "active_skill_version": "0.5.1",
                   "intended_condition": "with_skill",
                   "outcome": "activated",
                   "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                  "requested_skill_id": "marketing-practitioner",
+                  "requested_skill_id": "marketing-agent-skills",
                   "requested_skill_version": "0.5.1"
                 },
                 "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -36628,12 +36628,12 @@
                       "payload": {
                         "activation_error_reference": null,
                         "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "active_skill_id": "marketing-practitioner",
+                        "active_skill_id": "marketing-agent-skills",
                         "active_skill_version": "0.5.1",
                         "intended_condition": "with_skill",
                         "outcome": "activated",
                         "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "requested_skill_id": "marketing-practitioner",
+                        "requested_skill_id": "marketing-agent-skills",
                         "requested_skill_version": "0.5.1"
                       },
                       "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -36861,12 +36861,12 @@
                       "payload": {
                         "activation_error_reference": null,
                         "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "active_skill_id": "marketing-practitioner",
+                        "active_skill_id": "marketing-agent-skills",
                         "active_skill_version": "0.5.1",
                         "intended_condition": "with_skill",
                         "outcome": "activated",
                         "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "requested_skill_id": "marketing-practitioner",
+                        "requested_skill_id": "marketing-agent-skills",
                         "requested_skill_version": "0.5.1"
                       },
                       "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -36987,12 +36987,12 @@
                   "payload": {
                     "activation_error_reference": null,
                     "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "active_skill_id": "marketing-practitioner",
+                    "active_skill_id": "marketing-agent-skills",
                     "active_skill_version": "0.5.1",
                     "intended_condition": "with_skill",
                     "outcome": "activated",
                     "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "requested_skill_id": "marketing-practitioner",
+                    "requested_skill_id": "marketing-agent-skills",
                     "requested_skill_version": "0.5.1"
                   },
                   "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -37306,12 +37306,12 @@
                       "payload": {
                         "activation_error_reference": null,
                         "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "active_skill_id": "marketing-practitioner",
+                        "active_skill_id": "marketing-agent-skills",
                         "active_skill_version": "0.5.1",
                         "intended_condition": "with_skill",
                         "outcome": "activated",
                         "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "requested_skill_id": "marketing-practitioner",
+                        "requested_skill_id": "marketing-agent-skills",
                         "requested_skill_version": "0.5.1"
                       },
                       "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -37527,12 +37527,12 @@
                       "payload": {
                         "activation_error_reference": null,
                         "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "active_skill_id": "marketing-practitioner",
+                        "active_skill_id": "marketing-agent-skills",
                         "active_skill_version": "0.5.1",
                         "intended_condition": "with_skill",
                         "outcome": "activated",
                         "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "requested_skill_id": "marketing-practitioner",
+                        "requested_skill_id": "marketing-agent-skills",
                         "requested_skill_version": "0.5.1"
                       },
                       "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -37653,12 +37653,12 @@
                   "payload": {
                     "activation_error_reference": null,
                     "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "active_skill_id": "marketing-practitioner",
+                    "active_skill_id": "marketing-agent-skills",
                     "active_skill_version": "0.5.1",
                     "intended_condition": "with_skill",
                     "outcome": "activated",
                     "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "requested_skill_id": "marketing-practitioner",
+                    "requested_skill_id": "marketing-agent-skills",
                     "requested_skill_version": "0.5.1"
                   },
                   "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -38004,12 +38004,12 @@
           "payload": {
             "activation_error_reference": null,
             "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "active_skill_id": "marketing-practitioner",
+            "active_skill_id": "marketing-agent-skills",
             "active_skill_version": "0.5.1",
             "intended_condition": "with_skill",
             "outcome": "activated",
             "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "requested_skill_id": "marketing-practitioner",
+            "requested_skill_id": "marketing-agent-skills",
             "requested_skill_version": "0.5.1"
           },
           "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -38097,12 +38097,12 @@
           "payload": {
             "activation_error_reference": null,
             "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "active_skill_id": "marketing-practitioner",
+            "active_skill_id": "marketing-agent-skills",
             "active_skill_version": "0.5.1",
             "intended_condition": "with_skill",
             "outcome": "activated",
             "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "requested_skill_id": "marketing-practitioner",
+            "requested_skill_id": "marketing-agent-skills",
             "requested_skill_version": "0.5.1"
           },
           "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -38468,12 +38468,12 @@
                     "payload": {
                       "activation_error_reference": null,
                       "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                      "active_skill_id": "marketing-practitioner",
+                      "active_skill_id": "marketing-agent-skills",
                       "active_skill_version": "0.5.1",
                       "intended_condition": "with_skill",
                       "outcome": "activated",
                       "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                      "requested_skill_id": "marketing-practitioner",
+                      "requested_skill_id": "marketing-agent-skills",
                       "requested_skill_version": "0.5.1"
                     },
                     "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -38720,12 +38720,12 @@
                     "payload": {
                       "activation_error_reference": null,
                       "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                      "active_skill_id": "marketing-practitioner",
+                      "active_skill_id": "marketing-agent-skills",
                       "active_skill_version": "0.5.1",
                       "intended_condition": "with_skill",
                       "outcome": "activated",
                       "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                      "requested_skill_id": "marketing-practitioner",
+                      "requested_skill_id": "marketing-agent-skills",
                       "requested_skill_version": "0.5.1"
                     },
                     "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -38865,12 +38865,12 @@
                 "payload": {
                   "activation_error_reference": null,
                   "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                  "active_skill_id": "marketing-practitioner",
+                  "active_skill_id": "marketing-agent-skills",
                   "active_skill_version": "0.5.1",
                   "intended_condition": "with_skill",
                   "outcome": "activated",
                   "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                  "requested_skill_id": "marketing-practitioner",
+                  "requested_skill_id": "marketing-agent-skills",
                   "requested_skill_version": "0.5.1"
                 },
                 "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -39203,12 +39203,12 @@
                     "payload": {
                       "activation_error_reference": null,
                       "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                      "active_skill_id": "marketing-practitioner",
+                      "active_skill_id": "marketing-agent-skills",
                       "active_skill_version": "0.5.1",
                       "intended_condition": "with_skill",
                       "outcome": "activated",
                       "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                      "requested_skill_id": "marketing-practitioner",
+                      "requested_skill_id": "marketing-agent-skills",
                       "requested_skill_version": "0.5.1"
                     },
                     "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -39443,12 +39443,12 @@
                     "payload": {
                       "activation_error_reference": null,
                       "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                      "active_skill_id": "marketing-practitioner",
+                      "active_skill_id": "marketing-agent-skills",
                       "active_skill_version": "0.5.1",
                       "intended_condition": "with_skill",
                       "outcome": "activated",
                       "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                      "requested_skill_id": "marketing-practitioner",
+                      "requested_skill_id": "marketing-agent-skills",
                       "requested_skill_version": "0.5.1"
                     },
                     "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -39588,12 +39588,12 @@
                 "payload": {
                   "activation_error_reference": null,
                   "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                  "active_skill_id": "marketing-practitioner",
+                  "active_skill_id": "marketing-agent-skills",
                   "active_skill_version": "0.5.1",
                   "intended_condition": "with_skill",
                   "outcome": "activated",
                   "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                  "requested_skill_id": "marketing-practitioner",
+                  "requested_skill_id": "marketing-agent-skills",
                   "requested_skill_version": "0.5.1"
                 },
                 "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -40011,12 +40011,12 @@
                       "payload": {
                         "activation_error_reference": null,
                         "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "active_skill_id": "marketing-practitioner",
+                        "active_skill_id": "marketing-agent-skills",
                         "active_skill_version": "0.5.1",
                         "intended_condition": "with_skill",
                         "outcome": "activated",
                         "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "requested_skill_id": "marketing-practitioner",
+                        "requested_skill_id": "marketing-agent-skills",
                         "requested_skill_version": "0.5.1"
                       },
                       "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -40263,12 +40263,12 @@
                       "payload": {
                         "activation_error_reference": null,
                         "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "active_skill_id": "marketing-practitioner",
+                        "active_skill_id": "marketing-agent-skills",
                         "active_skill_version": "0.5.1",
                         "intended_condition": "with_skill",
                         "outcome": "activated",
                         "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "requested_skill_id": "marketing-practitioner",
+                        "requested_skill_id": "marketing-agent-skills",
                         "requested_skill_version": "0.5.1"
                       },
                       "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -40408,12 +40408,12 @@
                   "payload": {
                     "activation_error_reference": null,
                     "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "active_skill_id": "marketing-practitioner",
+                    "active_skill_id": "marketing-agent-skills",
                     "active_skill_version": "0.5.1",
                     "intended_condition": "with_skill",
                     "outcome": "activated",
                     "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "requested_skill_id": "marketing-practitioner",
+                    "requested_skill_id": "marketing-agent-skills",
                     "requested_skill_version": "0.5.1"
                   },
                   "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -40746,12 +40746,12 @@
                       "payload": {
                         "activation_error_reference": null,
                         "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "active_skill_id": "marketing-practitioner",
+                        "active_skill_id": "marketing-agent-skills",
                         "active_skill_version": "0.5.1",
                         "intended_condition": "with_skill",
                         "outcome": "activated",
                         "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "requested_skill_id": "marketing-practitioner",
+                        "requested_skill_id": "marketing-agent-skills",
                         "requested_skill_version": "0.5.1"
                       },
                       "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -40986,12 +40986,12 @@
                       "payload": {
                         "activation_error_reference": null,
                         "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "active_skill_id": "marketing-practitioner",
+                        "active_skill_id": "marketing-agent-skills",
                         "active_skill_version": "0.5.1",
                         "intended_condition": "with_skill",
                         "outcome": "activated",
                         "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                        "requested_skill_id": "marketing-practitioner",
+                        "requested_skill_id": "marketing-agent-skills",
                         "requested_skill_version": "0.5.1"
                       },
                       "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -41131,12 +41131,12 @@
                   "payload": {
                     "activation_error_reference": null,
                     "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "active_skill_id": "marketing-practitioner",
+                    "active_skill_id": "marketing-agent-skills",
                     "active_skill_version": "0.5.1",
                     "intended_condition": "with_skill",
                     "outcome": "activated",
                     "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-                    "requested_skill_id": "marketing-practitioner",
+                    "requested_skill_id": "marketing-agent-skills",
                     "requested_skill_version": "0.5.1"
                   },
                   "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -41471,12 +41471,12 @@
           "payload": {
             "activation_error_reference": null,
             "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "active_skill_id": "marketing-practitioner",
+            "active_skill_id": "marketing-agent-skills",
             "active_skill_version": "0.5.1",
             "intended_condition": "with_skill",
             "outcome": "activated",
             "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "requested_skill_id": "marketing-practitioner",
+            "requested_skill_id": "marketing-agent-skills",
             "requested_skill_version": "0.5.1"
           },
           "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -41583,12 +41583,12 @@
           "payload": {
             "activation_error_reference": null,
             "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "active_skill_id": "marketing-practitioner",
+            "active_skill_id": "marketing-agent-skills",
             "active_skill_version": "0.5.1",
             "intended_condition": "with_skill",
             "outcome": "activated",
             "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "requested_skill_id": "marketing-practitioner",
+            "requested_skill_id": "marketing-agent-skills",
             "requested_skill_version": "0.5.1"
           },
           "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -41869,12 +41869,12 @@
           "payload": {
             "activation_error_reference": null,
             "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "active_skill_id": "marketing-practitioner",
+            "active_skill_id": "marketing-agent-skills",
             "active_skill_version": "0.5.1",
             "intended_condition": "with_skill",
             "outcome": "activated",
             "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "requested_skill_id": "marketing-practitioner",
+            "requested_skill_id": "marketing-agent-skills",
             "requested_skill_version": "0.5.1"
           },
           "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -41962,12 +41962,12 @@
           "payload": {
             "activation_error_reference": null,
             "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "active_skill_id": "marketing-practitioner",
+            "active_skill_id": "marketing-agent-skills",
             "active_skill_version": "0.5.1",
             "intended_condition": "with_skill",
             "outcome": "activated",
             "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "requested_skill_id": "marketing-practitioner",
+            "requested_skill_id": "marketing-agent-skills",
             "requested_skill_version": "0.5.1"
           },
           "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -42522,12 +42522,12 @@
           "payload": {
             "activation_error_reference": null,
             "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "active_skill_id": "marketing-practitioner",
+            "active_skill_id": "marketing-agent-skills",
             "active_skill_version": "0.5.1",
             "intended_condition": "with_skill",
             "outcome": "activated",
             "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "requested_skill_id": "marketing-practitioner",
+            "requested_skill_id": "marketing-agent-skills",
             "requested_skill_version": "0.5.1"
           },
           "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -42612,12 +42612,12 @@
           "payload": {
             "activation_error_reference": null,
             "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "active_skill_id": "marketing-practitioner",
+            "active_skill_id": "marketing-agent-skills",
             "active_skill_version": "0.5.1",
             "intended_condition": "with_skill",
             "outcome": "activated",
             "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "requested_skill_id": "marketing-practitioner",
+            "requested_skill_id": "marketing-agent-skills",
             "requested_skill_version": "0.5.1"
           },
           "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -43104,12 +43104,12 @@
           "payload": {
             "activation_error_reference": null,
             "active_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "active_skill_id": "marketing-practitioner",
+            "active_skill_id": "marketing-agent-skills",
             "active_skill_version": "0.5.1",
             "intended_condition": "with_skill",
             "outcome": "activated",
             "requested_skill_hash": "sha256:dc92db1a32ce2e67d88a7d3732a76e2ff297a87b6dc59dd7fe720d606030d114",
-            "requested_skill_id": "marketing-practitioner",
+            "requested_skill_id": "marketing-agent-skills",
             "requested_skill_version": "0.5.1"
           },
           "payload_digest": "sha256:8b61693260b869b769510b53f1586f7cd01128b84b984fd070fd0701bafc0c43",
@@ -43395,7 +43395,7 @@
   ],
   "target": {
     "commit": "4278758a9bd31bde4278f634f58e3dcff3187fea",
-    "skill_id": "marketing-practitioner",
+    "skill_id": "marketing-agent-skills",
     "version": "0.5.1"
   },
   "taxonomy_recovery": {

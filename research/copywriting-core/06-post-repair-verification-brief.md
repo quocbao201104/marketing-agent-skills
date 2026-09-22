@@ -96,7 +96,7 @@ Do not reward the repair merely because the requested text appears. Try to const
 Inspect:
 
 ```text
-skills/marketing-practitioner/references/operating-guide.md
+skills/marketing-agent-skills/references/operating-guide.md
 ## Message strategy / copywriting
 ```
 
@@ -239,7 +239,7 @@ a57ffc5d972cc9cad3f882df2cc5dad4c6647d1a
 That bounded repair diff should contain only:
 
 ```text
-skills/marketing-practitioner/references/operating-guide.md
+skills/marketing-agent-skills/references/operating-guide.md
 evals/behavioral/cases/copywriting-core-v1.json
 research/copywriting-core/05-post-review-repair.md
 ```

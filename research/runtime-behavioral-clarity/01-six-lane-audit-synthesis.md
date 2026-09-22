@@ -83,7 +83,7 @@ Reader B → skip because it is not "consequential enough"
 
 **Class:** behavioral interpretation / executable boolean realization  
 **Severity:** P1 controller-level wording defect  
-**Scope:** `skills/marketing-practitioner/SKILL.md` evidence-and-claim safeguard
+**Scope:** `skills/marketing-agent-skills/SKILL.md` evidence-and-claim safeguard
 
 Frozen wording:
 

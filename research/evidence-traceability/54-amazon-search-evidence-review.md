@@ -4,7 +4,7 @@ Date: 2026-09-09. Continues [closure 53](53-amazon-operational-evidence-closure.
 
 ## Scope and access
 
-Reviewed A04-A08 in the [Amazon evidence ledger](../../skills/marketing-practitioner/references/commerce/amazon-evidence.md), their claims in the [module](../../skills/marketing-practitioner/platforms/commerce/amazon.md), and baseline `amazon.search` / `--source A06` loader output. This pass recovers research methods and result boundaries rather than assuming that an abstract or staff post validates every downstream recommendation.
+Reviewed A04-A08 in the [Amazon evidence ledger](../../skills/marketing-agent-skills/references/commerce/amazon-evidence.md), their claims in the [module](../../skills/marketing-agent-skills/platforms/commerce/amazon.md), and baseline `amazon.search` / `--source A06` loader output. This pass recovers research methods and result boundaries rather than assuming that an abstract or staff post validates every downstream recommendation.
 
 | Binding | Material actually inspected | Scope retained |
 | --- | --- | --- |

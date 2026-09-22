@@ -14,7 +14,7 @@ from evals.behavioral.materialize_activation_variants import (
 def skill_text(description: str) -> str:
     return (
         "---\n"
-        "name: marketing-practitioner\n"
+        "name: marketing-agent-skills\n"
         f"description: {json.dumps(description)}\n"
         "---\n"
         "\n"
@@ -29,7 +29,7 @@ class ActivationVariantMaterializerTests(unittest.TestCase):
         temporary = tempfile.TemporaryDirectory()
         self.addCleanup(temporary.cleanup)
         self.root = Path(temporary.name)
-        self.skill = self.root / "skills" / "marketing-practitioner"
+        self.skill = self.root / "skills" / "marketing-agent-skills"
         self.skill.mkdir(parents=True)
         (self.skill / "SKILL.md").write_text(
             skill_text("current description"),
@@ -50,7 +50,7 @@ class ActivationVariantMaterializerTests(unittest.TestCase):
                 {
                     "schema_version": 1,
                     "experiment_id": "fixture",
-                    "base_skill": "skills/marketing-practitioner",
+                    "base_skill": "skills/marketing-agent-skills",
                     "base_commit": "a" * 40,
                     "constraint": "description only",
                     "variants": {
@@ -82,8 +82,8 @@ class ActivationVariantMaterializerTests(unittest.TestCase):
         )
 
         self.assertEqual(2, len(receipt["variants"]))
-        d0 = output / "D0" / "marketing-practitioner"
-        d1 = output / "D1" / "marketing-practitioner"
+        d0 = output / "D0" / "marketing-agent-skills"
+        d1 = output / "D1" / "marketing-agent-skills"
         self.assertIn(
             'description: "current description"',
             (d0 / "SKILL.md").read_text(encoding="utf-8"),
@@ -115,7 +115,7 @@ class ActivationVariantMaterializerTests(unittest.TestCase):
             self.root
             / "generated"
             / "D0"
-            / "marketing-practitioner"
+            / "marketing-agent-skills"
             / "SKILL.md"
         ).read_text(encoding="utf-8")
         self.assertIn(

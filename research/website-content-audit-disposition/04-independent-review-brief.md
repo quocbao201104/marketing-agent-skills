@@ -39,14 +39,14 @@ research/website-content-audit-disposition/02-evidence-ledger.md
 research/website-content-audit-disposition/03-adversarial-cases.md
 research/website-content-audit-disposition/04-independent-review-brief.md
 
-skills/marketing-practitioner/SKILL.md
-skills/marketing-practitioner/handbook/01-customer-research-and-evidence.md
-skills/marketing-practitioner/handbook/03-segmentation-and-positioning.md
-skills/marketing-practitioner/handbook/04-messaging-proof-and-copy.md
-skills/marketing-practitioner/handbook/05-diagnosis-causality-and-experimentation.md
-skills/marketing-practitioner/handbook/06-organizational-learning.md
-skills/marketing-practitioner/handbook/11-landing-page-architecture.md
-skills/marketing-practitioner/handbook/13-search-and-discovery-architecture.md
+skills/marketing-agent-skills/SKILL.md
+skills/marketing-agent-skills/handbook/01-customer-research-and-evidence.md
+skills/marketing-agent-skills/handbook/03-segmentation-and-positioning.md
+skills/marketing-agent-skills/handbook/04-messaging-proof-and-copy.md
+skills/marketing-agent-skills/handbook/05-diagnosis-causality-and-experimentation.md
+skills/marketing-agent-skills/handbook/06-organizational-learning.md
+skills/marketing-agent-skills/handbook/11-landing-page-architecture.md
+skills/marketing-agent-skills/handbook/13-search-and-discovery-architecture.md
 ```
 
 Read additional repository material only where needed to adjudicate a concrete owner, ontology, composition, or evidence claim. Do not broaden into a general repo review.

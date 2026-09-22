@@ -33,8 +33,8 @@ The broad generic-visual-design capability remains rejected.
 The integrated runtime uses:
 
 ```text
-skills/marketing-practitioner/handbook/15-brand-identity-and-visual-systems.md
-skills/marketing-practitioner/references/brand-identity-evidence.md
+skills/marketing-agent-skills/handbook/15-brand-identity-and-visual-systems.md
+skills/marketing-agent-skills/references/brand-identity-evidence.md
 brand-identity.* JIT routes
 minimal SKILL activation / hard-stop / handoff guidance
 ```

@@ -4,7 +4,7 @@
 
 Thiết kế logo cho skill/plugin giúp marketer, founder, researcher và content team nghiên cứu khách hàng, quyết định, triển khai nội dung và diễn giải kết quả dựa trên bằng chứng. Tên cố định: **Marketing Practitioner**. Tagline cố định: “From customer evidence to marketing decisions and execution.”
 
-Đầu vào do người dùng cung cấp là căn cứ cho chức năng, đối tượng và nơi sử dụng. File .codex-plugin/plugin.json trong repository xác nhận tên và tagline. Banner assets/marketing-practitioner-banner.webp hiện có xanh mực, xanh ngọc, nền kem. Việc tiếp nối nhóm màu này là lựa chọn thiết kế; chưa đo được mức độ ghi nhớ hay giá trị nhận diện của banner.
+Đầu vào do người dùng cung cấp là căn cứ cho chức năng, đối tượng và nơi sử dụng. File .codex-plugin/plugin.json trong repository xác nhận tên và tagline. Banner assets/marketing-agent-skills-banner.webp hiện có xanh mực, xanh ngọc, nền kem. Việc tiếp nối nhóm màu này là lựa chọn thiết kế; chưa đo được mức độ ghi nhớ hay giá trị nhận diện của banner.
 
 Đã dùng plugin Marketing Practitioner đã cài, phiên bản 1.6.0: SKILL.md, routing-index.json và hướng dẫn brand-identity trong handbook/15-brand-identity-and-visual-systems.md, tập trung vào khám phá, tinh chỉnh, đánh giá và quan hệ bản gốc/biến thể.
 

@@ -88,14 +88,14 @@ All IDs satisfy the current helper route grammar:
 ^[a-z0-9]+(?:[.-][a-z0-9]+)*$
 ```
 
-The evidence IDs `CD01` through `CD16` satisfy the helper source grammar and live under `skills/marketing-practitioner/references/`, the helper's scanned evidence root.
+The evidence IDs `CD01` through `CD16` satisfy the helper source grammar and live under `skills/marketing-agent-skills/references/`, the helper's scanned evidence root.
 
 Direct repository inspection confirmed that `routing-index.json` points the Commercial Design namespace to `handbook/10-commercial-design-pricing-and-terms.md` and binds the 14 logical routes to the corresponding exact headings. The independent implementation review also found no selector or helper-grammar defect.
 
 Important execution boundary: this environment cannot obtain a normal GitHub checkout, and GitHub Actions were intentionally not used for this smoke. Therefore the repository-binding command:
 
 ```bash
-python skills/marketing-practitioner/scripts/get-knowledge.py --validate
+python skills/marketing-agent-skills/scripts/get-knowledge.py --validate
 ```
 
 was **not executed as a local subprocess in this session**. This matches the repository's existing knowledge-routing smoke convention: static route/selector inspection is not converted into a claim that full checked-out-branch validation was executed.

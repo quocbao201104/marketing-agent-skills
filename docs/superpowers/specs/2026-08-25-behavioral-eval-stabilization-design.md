@@ -90,13 +90,13 @@ Generated evidence is written under `evals/behavioral/results/`, which is ignore
 
 The `SKILL.md` frontmatter description will be rewritten as a concise, discriminating activation description under 1,024 characters. It will name the major decision families and the evidence/causality boundary without enumerating every artifact or platform.
 
-`skills/marketing-practitioner/agents/openai.yaml` will contain only UI metadata:
+`skills/marketing-agent-skills/agents/openai.yaml` will contain only UI metadata:
 
 ```yaml
 interface:
   display_name: "Marketing Practitioner"
   short_description: "Evidence-informed marketing decisions"
-  default_prompt: "Use $marketing-practitioner to make a bounded marketing decision from the evidence and constraints I provide."
+  default_prompt: "Use $marketing-agent-skills to make a bounded marketing decision from the evidence and constraints I provide."
 ```
 
 Implicit invocation remains at its default. No MCP dependency is declared because the skill can operate without one.
@@ -159,7 +159,7 @@ An arm profile identifies the executor configuration and skill package:
   "model": "required-at-run",
   "reasoning_effort": "required-at-run",
   "skill_mode": "workspace-copy",
-  "skill_source": "skills/marketing-practitioner",
+  "skill_source": "skills/marketing-agent-skills",
   "expected_skill_sha256": "computed-at-run-bind"
 }
 ```
@@ -167,7 +167,7 @@ An arm profile identifies the executor configuration and skill package:
 For every run, the harness creates a new temporary Git workspace containing only the case package and the files needed by that arm. Live profiles must resolve `model` and `reasoning_effort` to explicit values before the first run; all compared arms use the same resolved pair.
 
 - Baseline workspace contains no Marketing Practitioner skill and runs with user configuration ignored while retaining Codex authentication.
-- Current-skill workspace contains an exact copy of the frozen installable skill at `.agents/skills/marketing-practitioner/`.
+- Current-skill workspace contains an exact copy of the frozen installable skill at `.agents/skills/marketing-agent-skills/`.
 - Challenger workspace later contains the compact candidate and records a different content hash.
 
 Preflight rejects a run if the baseline contains the skill, the skill arm lacks it, the computed content hash differs from the bound hash, or the workspace contains unexpected case-answer material.

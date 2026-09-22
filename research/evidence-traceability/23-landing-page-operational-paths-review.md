@@ -6,7 +6,7 @@ Status: ten constructed work chains reviewed. No additional decision-changing de
 
 ## Method and scope
 
-Read [Chapter 11](../../skills/marketing-practitioner/handbook/11-landing-page-architecture.md) with [SKILL.md](../../skills/marketing-practitioner/SKILL.md), the landing-page entry boundary and relevant state handoffs in the [operating guide](../../skills/marketing-practitioner/references/operating-guide.md). Inspected Chapter 04's proof distinctions and landing-page boundary, and Chapter 05's measurement, selection, causal and guardrail guidance where the cases cross those boundaries.
+Read [Chapter 11](../../skills/marketing-agent-skills/handbook/11-landing-page-architecture.md) with [SKILL.md](../../skills/marketing-agent-skills/SKILL.md), the landing-page entry boundary and relevant state handoffs in the [operating guide](../../skills/marketing-agent-skills/references/operating-guide.md). Inspected Chapter 04's proof distinctions and landing-page boundary, and Chapter 05's measurement, selection, causal and guardrail guidance where the cases cross those boundaries.
 
 Resolved the actual manifest routes rather than inventing a fast-path route. Extracted all eleven landing-page sections: core (28 lines), entry-action (54), sequence (62), proof-risk (60), visual (60), action-form (65), responsive (55), commercial-comparison (38), diagnosis (40), decision-record (24), and invariants (26). Re-read the responsive/comparison excerpts together with the core's completion and content-selection rules. Actual LP04 and LP08 source lookups retained their corrected qualifications.
 

@@ -8,14 +8,14 @@ from evals.behavioral.behavioral_eval.challenger import controller_metrics
 
 
 ROOT = Path(__file__).resolve().parents[3]
-CURRENT = ROOT / "skills" / "marketing-practitioner"
+CURRENT = ROOT / "skills" / "marketing-agent-skills"
 CHALLENGER = (
     ROOT
     / "evals"
     / "behavioral"
     / "challengers"
     / "compact-controller"
-    / "marketing-practitioner"
+    / "marketing-agent-skills"
 )
 
 

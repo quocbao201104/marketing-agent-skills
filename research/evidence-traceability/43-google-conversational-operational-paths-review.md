@@ -6,7 +6,7 @@ Status: eight constructed work chains reviewed. No additional decision-changing 
 
 ## Method and scope
 
-Read actual `google-commerce.resolvability`, `google-commerce.conversational-attributes`, `google-commerce.diagnosis`, and `google-commerce.fast-paths` outputs in [the Google module](../../skills/marketing-practitioner/platforms/commerce/google-shopping.md), with [SKILL.md](../../skills/marketing-practitioner/SKILL.md) continuity, uncertainty, and completion guidance. Retain the previously reviewed Chapter 05/06 diagnosis-to-learning boundaries. Source verification remains bounded by report 41; no new platform fact is established here.
+Read actual `google-commerce.resolvability`, `google-commerce.conversational-attributes`, `google-commerce.diagnosis`, and `google-commerce.fast-paths` outputs in [the Google module](../../skills/marketing-agent-skills/platforms/commerce/google-shopping.md), with [SKILL.md](../../skills/marketing-agent-skills/SKILL.md) continuity, uncertainty, and completion guidance. Retain the previously reviewed Chapter 05/06 diagnosis-to-learning boundaries. Source verification remains bounded by report 41; no new platform fact is established here.
 
 These are static author reviews of constructed requests and available instructions. They are not executed agent tests, account-data analyses, submitted feeds, or measured performance improvements. Route names identify conditional dependencies, not compulsory pipelines.
 

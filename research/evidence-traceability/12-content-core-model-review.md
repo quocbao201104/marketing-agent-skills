@@ -6,7 +6,7 @@ Status: bounded review of the shared model completed; two local correction candi
 
 ## Scope and conclusion
 
-Read [Chapter 08](../../skills/marketing-practitioner/handbook/08-content-environments-and-distribution.md) §§1–10, with §§11–12 as a check that the model can enter actual work without requiring a universal pipeline. Later writing, measurement-by-job and diagnostic paths are reserved for the next pass.
+Read [Chapter 08](../../skills/marketing-agent-skills/handbook/08-content-environments-and-distribution.md) §§1–10, with §§11–12 as a check that the model can enter actual work without requiring a universal pipeline. Later writing, measurement-by-job and diagnostic paths are reserved for the next pass.
 
 The model is explicitly practitioner synthesis, not a literal platform schema or unified scientific theory. It distinguishes object identity, representations, audience state, access and delivery, governance, system mediation and observed evidence. The layers are explicitly non-sequential, and the performance decomposition is explicitly not a causal equation. Those boundaries substantially reduce the risk of scientific overclaiming.
 

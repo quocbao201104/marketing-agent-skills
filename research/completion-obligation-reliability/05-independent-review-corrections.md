@@ -136,8 +136,8 @@ The full corpus remains diagnostic and repository-seeded. These repairs improve 
 
 No independent-review finding required changing:
 
-- `skills/marketing-practitioner/SKILL.md`;
-- `skills/marketing-practitioner/frameworks/quality-rubrics.md`;
+- `skills/marketing-agent-skills/SKILL.md`;
+- `skills/marketing-agent-skills/frameworks/quality-rubrics.md`;
 - routing;
 - work-coordination ownership;
 - seven job definitions;

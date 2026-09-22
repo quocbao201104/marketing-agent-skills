@@ -4,7 +4,7 @@ Date: 2026-09-07. Implements B1 from the [core review](32-brand-identity-core-co
 
 ## Changes
 
-Three targeted replacements in the [evidence ledger](../../skills/marketing-practitioner/references/brand-identity-evidence.md):
+Three targeted replacements in the [evidence ledger](../../skills/marketing-agent-skills/references/brand-identity-evidence.md):
 
 - BV04 now names its four authors without implying additional colleagues. It distinguishes the 2026 issue from first online publication on 7 June 2025.
 - BV05's heading now attributes the study to van der Lans et al. Its citation adds the correct first author, year, volume, issue and page range.

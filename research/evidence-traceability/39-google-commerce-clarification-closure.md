@@ -6,13 +6,13 @@ Status: GC1 and GC2 implemented and checked at the content/retrieval level. No l
 
 ## Changes
 
-In [the Google module](../../skills/marketing-practitioner/platforms/commerce/google-shopping.md):
+In [the Google module](../../skills/marketing-agent-skills/platforms/commerce/google-shopping.md):
 
 - Section 2 now separates submission success from completed processing, scopes approval and issues to the target destination/reporting context and country, and preserves visibility controls and measured exposure as separate evidence. It states the maintenance and coverage limits of automatic updates without imposing a universal waiting period.
 - Section 3.3 connects variant identity to the submitted URL's initially selected variant, actual price/availability, and corresponding markup where present. It rejects substituting a cheaper sibling's price while preserving supported single-page variant URLs and the distinction between consistency and exposure.
 - Section 10 carries short processing and variant checks inside the diagnosis excerpt, with precise routes to the fuller explanation. A diagnosis-only read retains the essential conditions.
 
-In [the Google evidence ledger](../../skills/marketing-practitioner/references/commerce/google-shopping-evidence.md), G01, G02, and G05 now include the recovered official locators, selected passages inspected, verification date, and limits described in report 38. Existing source IDs are retained. Historical review dates were not advanced to imply a complete new platform audit.
+In [the Google evidence ledger](../../skills/marketing-agent-skills/references/commerce/google-shopping-evidence.md), G01, G02, and G05 now include the recovered official locators, selected passages inspected, verification date, and limits described in report 38. Existing source IDs are retained. Historical review dates were not advanced to imply a complete new platform audit.
 
 The controller, index, retrieval code, shared handbook, and narrow writing fast path are unchanged. Report 38 was already untracked when this correction began and was preserved.
 

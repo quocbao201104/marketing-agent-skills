@@ -11,7 +11,7 @@ A reusable marketing skill for people working with AI: research customers, shape
 [![Version: v2.2.1](https://img.shields.io/badge/version-v2.2.1-0a7.svg)](#status-and-scope)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Language: English](https://img.shields.io/badge/language-English-4c1.svg)](#)
-[![Format: Agent Skill](https://img.shields.io/badge/format-Agent%20Skill-6f42c1.svg)](skills/marketing-practitioner/SKILL.md)
+[![Format: Agent Skill](https://img.shields.io/badge/format-Agent%20Skill-6f42c1.svg)](skills/marketing-agent-skills/SKILL.md)
 [![skills.sh](https://skills.sh/b/quocbao201104/marketing-agent-skills)](https://skills.sh/quocbao201104/marketing-agent-skills)
 
 **[What you can do](#what-you-can-do) · [Quick start](#quick-start) · [How it works](#how-it-works) · [Troubleshooting](#troubleshooting) · [Research](#research-and-verification) · [Contributing](#contributing)**
@@ -107,7 +107,7 @@ Clone the full repository if you want to inspect or extend the skill:
 git clone https://github.com/quocbao201104/marketing-agent-skills.git
 ```
 
-The governing runtime contract is [`skills/marketing-practitioner/SKILL.md`](skills/marketing-practitioner/SKILL.md). Its compact decision table gives direct knowledge entry points; the [operating guide](skills/marketing-practitioner/references/operating-guide.md) holds detailed path and handoff guidance for questions that need it.
+The governing runtime contract is [`skills/marketing-agent-skills/SKILL.md`](skills/marketing-agent-skills/SKILL.md). Its compact decision table gives direct knowledge entry points; the [operating guide](skills/marketing-agent-skills/references/operating-guide.md) holds detailed path and handoff guidance for questions that need it.
 
 ## Why it exists
 
@@ -159,7 +159,7 @@ Seven runtime jobs are recognized:
 
 A topic, artifact type, or platform name is not a job. A caption with an approved message stays a writing task. A price already fixed at `$29` stays frozen while the page is written. Paying a creator to publish is not automatically paid media. A CPA rise after a bidding change starts as diagnosis, not as a creative rewrite.
 
-Specialist knowledge is loaded only when it can change the current result. The [handbook map](skills/marketing-practitioner/handbook/README.md), [platform modules](skills/marketing-practitioner/platforms/README.md), and [local-adaptation resources](skills/marketing-practitioner/adaptations/) help you explore the coverage; they are not a required reading sequence.
+Specialist knowledge is loaded only when it can change the current result. The [handbook map](skills/marketing-agent-skills/handbook/README.md), [platform modules](skills/marketing-agent-skills/platforms/README.md), and [local-adaptation resources](skills/marketing-agent-skills/adaptations/) help you explore the coverage; they are not a required reading sequence.
 
 ## Host compatibility
 
@@ -175,7 +175,7 @@ The host controls skill activation, available tools, and how much context surviv
 
 If Marketing Practitioner does not behave as expected, check the smallest relevant layer before changing the skill itself.
 
-- **The skill does not appear after installation:** confirm the plugin or skill package is enabled in the host, then reload or restart the host if it requires an explicit refresh. In Claude Code, keep `.claude-plugin/plugin.json` at the plugin root and `skills/marketing-practitioner/SKILL.md` under the root-level `skills/` directory.
+- **The skill does not appear after installation:** confirm the plugin or skill package is enabled in the host, then reload or restart the host if it requires an explicit refresh. In Claude Code, keep `.claude-plugin/plugin.json` at the plugin root and `skills/marketing-agent-skills/SKILL.md` under the root-level `skills/` directory.
 - **The skill does not activate for a marketing request:** try the request in a clean conversation without explicitly invoking the skill. Activation is controlled by the host and the skill description. If a clear in-scope request consistently misses, report the exact prompt and host/model rather than adding broad trigger keywords immediately.
 - **The skill activates for an unrelated task:** preserve the original prompt and report the false positive. The skill is intentionally out of scope for generic writing, product-roadmap authority, legal work, finance/accounting, CRM administration, and unrelated technical implementation.
 - **A helper script cannot run:** the Python helpers are optional conveniences for exact route retrieval. Read the smallest relevant file or section directly through `routing-index.json` instead of treating helper execution as required.
@@ -188,17 +188,17 @@ For installation-specific steps, see [local setup](docs/local-setup.md) and [web
 
 ![Inside Marketing Practitioner v2: SKILL.md is the compact core. Direct chapter entry and indexed lookup locate relevant knowledge; the index also resolves evidence IDs. Independent conditional supports use direct file and heading links for work coordination, operating guidance, report planning, rubrics, and records. Evidence references preserve source scope and provenance.](assets/diagrams/inside-the-skill.png)
 
-For complex reports, [report planning and presentation](skills/marketing-practitioner/references/report-planning-and-presentation.md) connects reader questions, section purposes, evidence, and useful visual forms across formats, with additional HTML delivery guidance.
+For complex reports, [report planning and presentation](skills/marketing-agent-skills/references/report-planning-and-presentation.md) connects reader questions, section purposes, evidence, and useful visual forms across formats, with additional HTML delivery guidance.
 
-Large knowledge is addressed by logical IDs in [`routing-index.json`](skills/marketing-practitioner/routing-index.json). The index owns physical bindings for indexed knowledge. Conditional supports use direct file and heading links from the core; they are independent reads for specific unresolved needs.
+Large knowledge is addressed by logical IDs in [`routing-index.json`](skills/marketing-agent-skills/routing-index.json). The index owns physical bindings for indexed knowledge. Conditional supports use direct file and heading links from the core; they are independent reads for specific unresolved needs.
 
-When the host can run helpers, [`get-knowledge.py`](skills/marketing-practitioner/scripts/get-knowledge.py) resolves one route or one evidence source without reading the rest of the ledger:
+When the host can run helpers, [`get-knowledge.py`](skills/marketing-agent-skills/scripts/get-knowledge.py) resolves one route or one evidence source without reading the rest of the ledger:
 
 ```bash
-python skills/marketing-practitioner/scripts/get-knowledge.py email.send-decision
-python skills/marketing-practitioner/scripts/get-knowledge.py brand-identity.equity
-python skills/marketing-practitioner/scripts/get-knowledge.py adapt-localization.relationship-realization
-python skills/marketing-practitioner/scripts/get-knowledge.py --source PM01
+python skills/marketing-agent-skills/scripts/get-knowledge.py email.send-decision
+python skills/marketing-agent-skills/scripts/get-knowledge.py brand-identity.equity
+python skills/marketing-agent-skills/scripts/get-knowledge.py adapt-localization.relationship-realization
+python skills/marketing-agent-skills/scripts/get-knowledge.py --source PM01
 ```
 
 If helper execution is unavailable, the same index remains the address table: read the smallest feasible section, or degrade to the smallest target file, rather than loading an entire chapter.
@@ -209,14 +209,14 @@ Shared architecture expands only when a decision-relevant failure cannot be repa
 
 ### Scoped local adaptation
 
-Local adaptation follows the same rule. [`adaptations/`](skills/marketing-practitioner/adaptations/) contains scoped evidence that can specialize an **already-open decision owned elsewhere**; it is not a country-profile layer, cultural encyclopedia, or precedence engine.
+Local adaptation follows the same rule. [`adaptations/`](skills/marketing-agent-skills/adaptations/) contains scoped evidence that can specialize an **already-open decision owned elsewhere**; it is not a country-profile layer, cultural encyclopedia, or precedence engine.
 
-Current reference units address scoped Vietnamese, Japanese, Spanish, Korean, and Portuguese relationship-sensitive wording choices where self-reference, recipient address, honorific/deference targets, speech level, permission, or benefit can change the relationship expressed. They do not infer behavior from nationality or require a localization detour for every translated sentence. See the [contribution contract](skills/marketing-practitioner/adaptations/README.md) and [reference units](skills/marketing-practitioner/adaptations/localization.md).
+Current reference units address scoped Vietnamese, Japanese, Spanish, Korean, and Portuguese relationship-sensitive wording choices where self-reference, recipient address, honorific/deference targets, speech level, permission, or benefit can change the relationship expressed. They do not infer behavior from nationality or require a localization detour for every translated sentence. See the [contribution contract](skills/marketing-agent-skills/adaptations/README.md) and [reference units](skills/marketing-agent-skills/adaptations/localization.md).
 
 ## Repository map
 
 ```text
-skills/marketing-practitioner/
+skills/marketing-agent-skills/
   SKILL.md                  governing runtime controller
   agents/openai.yaml        optional UI metadata and explicit invocation starter
   routing-index.json        logical knowledge address table
@@ -271,13 +271,13 @@ The skill supports marketing decisions and execution. Product-roadmap authority,
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). Change the smallest surface that can correct a demonstrated problem. Do not add a platform, primitive, chapter, or country pack merely for coverage completeness.
 
-For local/cultural/market adaptation contributions, start with the [scoped local-adaptation contract](skills/marketing-practitioner/adaptations/README.md): local evidence alone is not enough; the contribution must change an existing open decision through a bounded local-specific mechanism.
+For local/cultural/market adaptation contributions, start with the [scoped local-adaptation contract](skills/marketing-agent-skills/adaptations/README.md): local evidence alone is not enough; the contribution must change an existing open decision through a bounded local-specific mechanism.
 
 ## Attribution
 
 The repository synthesizes marketing research, methodological literature, current provider documentation, information-retrieval and recommender research, pricing/commercial-design research, usability research, local linguistic/applied-linguistic evidence, and practical writing methods.
 
-See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md), the [bibliography](skills/marketing-practitioner/references/bibliography.md), and scoped [evidence references](skills/marketing-practitioner/references/).
+See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md), the [bibliography](skills/marketing-agent-skills/references/bibliography.md), and scoped [evidence references](skills/marketing-agent-skills/references/).
 
 ## License
 

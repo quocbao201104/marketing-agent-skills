@@ -19,7 +19,7 @@ Two runtime failures are under test:
 
 ### RQ-A — top-level skill discovery / activation
 
-When a user presents a marketing or founder-led-sales problem without naming the relevant marketing framework, artifact, or capability, does the host reliably recognize that `marketing-practitioner` should be activated?
+When a user presents a marketing or founder-led-sales problem without naming the relevant marketing framework, artifact, or capability, does the host reliably recognize that `marketing-agent-skills` should be activated?
 
 The failure of interest is:
 
@@ -47,7 +47,7 @@ FALSE ACTIVATION
 
 ### RQ-B — internal multi-route coverage
 
-After `marketing-practitioner` has activated, can the controller distinguish a bounded open question from a broad unresolved problem whose materially decision-changing owners have not yet been localized?
+After `marketing-agent-skills` has activated, can the controller distinguish a bounded open question from a broad unresolved problem whose materially decision-changing owners have not yet been localized?
 
 The failure of interest is:
 
@@ -169,7 +169,7 @@ The current repository is not a flat set of independent top-level skills.
 The relevant runtime shape is:
 
 ```text
-marketing-practitioner
+marketing-agent-skills
         ↓
 SKILL.md controller
         ↓
@@ -345,11 +345,11 @@ find one plausible route
 The first implementation experiment must **not** modify:
 
 ```text
-skills/marketing-practitioner/routing-index.json
-skills/marketing-practitioner/scripts/get-knowledge.py
-skills/marketing-practitioner/handbook/*
-skills/marketing-practitioner/platforms/*
-skills/marketing-practitioner/adaptations/*
+skills/marketing-agent-skills/routing-index.json
+skills/marketing-agent-skills/scripts/get-knowledge.py
+skills/marketing-agent-skills/handbook/*
+skills/marketing-agent-skills/platforms/*
+skills/marketing-agent-skills/adaptations/*
 evals/behavioral/behavioral_eval/runner.py
 existing owner boundaries
 existing logical route IDs
@@ -394,7 +394,7 @@ Use existing host telemetry:
 ```text
 explicit skill activation event
 OR
-successful read of marketing-practitioner/SKILL.md
+successful read of marketing-agent-skills/SKILL.md
 → activation observed
 ```
 
@@ -914,7 +914,7 @@ This table is the frozen mental model for the track.
 If implementation begins after this freeze, the first candidate should be limited to:
 
 ```text
-skills/marketing-practitioner/SKILL.md
+skills/marketing-agent-skills/SKILL.md
   - description variant
   - bounded scope-localization / coverage-stop refinement
 

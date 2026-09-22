@@ -12,7 +12,7 @@ The implementation matches the frozen theory and stays within the authorized bou
 
 ## Runtime changes
 
-### `skills/marketing-practitioner/SKILL.md`
+### `skills/marketing-agent-skills/SKILL.md`
 
 Two existing controller surfaces were sharpened:
 
@@ -31,7 +31,7 @@ Two existing controller surfaces were sharpened:
 
 No job, route, owner, state schema, output schema, mandatory checklist, or user-facing status machine was added.
 
-### `skills/marketing-practitioner/frameworks/quality-rubrics.md`
+### `skills/marketing-agent-skills/frameworks/quality-rubrics.md`
 
 One proportional-review guard was added:
 

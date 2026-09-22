@@ -6,7 +6,7 @@ Status: bounded shared-model review completed; one local clarification candidate
 
 ## Scope and conclusion
 
-Read the shared reasoning in [Chapter 09](../../skills/marketing-practitioner/handbook/09-commerce-environments-and-product-discovery.md) §§1–15 and cross-checked §§16–21 for fast-path and ownership constraints. Inspected relevant routing guidance and actual retrieved sections. External source checks focused on identity, variants, source processing and representation. Individual marketplace facts and the full agentic-commerce protocol landscape remain outside the completed audit.
+Read the shared reasoning in [Chapter 09](../../skills/marketing-agent-skills/handbook/09-commerce-environments-and-product-discovery.md) §§1–15 and cross-checked §§16–21 for fast-path and ownership constraints. Inspected relevant routing guidance and actual retrieved sections. External source checks focused on identity, variants, source processing and representation. Individual marketplace facts and the full agentic-commerce protocol landscape remain outside the completed audit.
 
 The chapter preserves useful distinctions between product/configuration identity, seller and platform records, commercial conditions, shopper-facing representations, observations and transaction stages. It explicitly avoids universal entity classes, hidden ranking formulas, automatic authority from capability, and guaranteed exposure from complete data. No new ontology or controller changes are justified.
 

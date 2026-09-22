@@ -20,14 +20,14 @@ The implementation diff contains exactly eight files:
 ADDED
 - evals/paid-media-architecture-adversarial-cases.md
 - research/paid-media-architecture/02-implementation-design.md
-- skills/marketing-practitioner/handbook/14-paid-media-architecture.md
-- skills/marketing-practitioner/references/paid-media-evidence.md
+- skills/marketing-agent-skills/handbook/14-paid-media-architecture.md
+- skills/marketing-agent-skills/references/paid-media-evidence.md
 
 MODIFIED
-- skills/marketing-practitioner/SKILL.md
-- skills/marketing-practitioner/handbook/README.md
-- skills/marketing-practitioner/routing-index.json
-- skills/marketing-practitioner/scripts/test-knowledge-routing.py
+- skills/marketing-agent-skills/SKILL.md
+- skills/marketing-agent-skills/handbook/README.md
+- skills/marketing-agent-skills/routing-index.json
+- skills/marketing-agent-skills/scripts/test-knowledge-routing.py
 ```
 
 No Chapter 08 shared-grammar file, existing specialist chapter, platform module, commerce module, framework, or release document was modified.

@@ -239,7 +239,7 @@
             "condition_id": "COND-005",
             "ordinary_trace_profile": "activation_failed",
             "activation_receipt": {
-                "requested_skill_id": "marketing-practitioner",
+                "requested_skill_id": "marketing-agent-skills",
                 "active_skill_id": null,
                 "outcome": "not-activated",
                 "error_ref": "ACTIVATION-COND-005",

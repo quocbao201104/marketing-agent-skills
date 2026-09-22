@@ -60,11 +60,11 @@ state + history + time + observations
 Inspect at the frozen review head:
 
 ```text
-skills/marketing-practitioner/SKILL.md
-skills/marketing-practitioner/routing-index.json
-skills/marketing-practitioner/handbook/12-email-communication-architecture.md
-skills/marketing-practitioner/references/email-communication-evidence.md
-skills/marketing-practitioner/scripts/test-knowledge-routing.py
+skills/marketing-agent-skills/SKILL.md
+skills/marketing-agent-skills/routing-index.json
+skills/marketing-agent-skills/handbook/12-email-communication-architecture.md
+skills/marketing-agent-skills/references/email-communication-evidence.md
+skills/marketing-agent-skills/scripts/test-knowledge-routing.py
 
 evals/email-communication-architecture-adversarial-cases.md
 evals/email-communication-architecture-runtime-smoke.md

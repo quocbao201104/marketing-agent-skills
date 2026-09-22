@@ -1,6 +1,6 @@
 # Local setup: apps and CLI
 
-Choose one installation method per host. All methods use the same `skills/marketing-practitioner` directory. Installing through both a plugin and a standalone folder can create duplicate entries.
+Choose one installation method per host. All methods use the same `skills/marketing-agent-skills` directory. Installing through both a plugin and a standalone folder can create duplicate entries.
 
 ## Codex app: install through the marketplace
 
@@ -9,7 +9,7 @@ Add `https://github.com/quocbao201104/marketing-agent-skills.git` in the app's m
 ## Codex app: install manually with files
 
 1. On the [repository page](https://github.com/quocbao201104/marketing-agent-skills), select **Code > Download ZIP**, then extract the download.
-2. Open the extracted `skills` folder. Copy the entire `marketing-practitioner` folder, including its subfolders.
+2. Open the extracted `skills` folder. Copy the entire `marketing-agent-skills` folder, including its subfolders.
 3. Open your personal skills directory using File Explorer or Finder:
 
    | System | Directory |
@@ -17,7 +17,7 @@ Add `https://github.com/quocbao201104/marketing-agent-skills.git` in the app's m
    | Windows | Paste `%USERPROFILE%\.agents\skills` into File Explorer's address bar |
    | macOS / Linux | Open `~/.agents/skills` in your file manager; on macOS use **Go > Go to Folder** |
 
-4. Create `.agents` and `skills` if they do not exist, then paste the skill folder inside `skills`. The final file should be `.agents/skills/marketing-practitioner/SKILL.md` under your home directory, with the handbook and other resources beside it.
+4. Create `.agents` and `skills` if they do not exist, then paste the skill folder inside `skills`. The final file should be `.agents/skills/marketing-agent-skills/SKILL.md` under your home directory, with the handbook and other resources beside it.
 5. Start a new Codex task. If the skill does not appear in the skill picker, restart the app. Select Marketing Practitioner and give it your task.
 
 These are Codex's documented [user-level local skill locations](https://learn.chatgpt.com/docs/build-skills#where-codex-loads-local-skills). This installs the skill directly; no marketplace setup or terminal is needed. For the plugin variant, use the separate [Codex catalog instructions](plugin.md).
@@ -44,7 +44,7 @@ For Claude Code's plugin interface, run inside Claude Code:
 
 ```text
 /plugin marketplace add quocbao201104/marketing-agent-skills
-/plugin install marketing-practitioner@marketing-practitioner
+/plugin install marketing-agent-skills@marketing-agent-skills
 ```
 
 See [Claude Code activation and updates](claude-code-plugin.md). Codex plugin installation uses its own [local catalog](plugin.md).
@@ -68,7 +68,7 @@ Check for updates periodically and before starting a major project. A monthly ch
 
 | Installed through | Update action |
 | --- | --- |
-| Codex manual folder copy | Download the newer source, back up your existing skill if customized, then replace only its `marketing-practitioner` folder with the complete new folder |
+| Codex manual folder copy | Download the newer source, back up your existing skill if customized, then replace only its `marketing-agent-skills` folder with the complete new folder |
 | Claude app marketplace | Sync/refresh the marketplace, then apply the plugin update when offered |
 | Claude Code marketplace | Run the marketplace and plugin update commands in the [Claude Code guide](claude-code-plugin.md) |
 | Codex marketplace | Refresh/upgrade the marketplace and apply the plugin update; verify the installed version as described in the [catalog guide](plugin.md) |

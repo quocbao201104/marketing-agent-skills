@@ -9,7 +9,7 @@ Bản dựng lại ngày 08-09-2026. Thư mục PNG tham chiếu `../logo-202609
 - `png/symbol-{color,black,white}-{32,64,128,256,512,1024}.png`: 18 PNG RGBA trong suốt, xuất trực tiếp từ SVG.
 - `favicon/favicon.ico`: chứa đủ 16, 32, 48 px, trong suốt. Dùng hình học favicon điều chỉnh riêng.
 - `favicon/favicon-optical-{color,black,white}.svg`: bản vector nguồn của favicon, trong suốt.
-- `pdf/marketing-practitioner-vector.pdf`: PDF vector 6 trang; lần lượt biểu tượng/bản có tên màu, đen, trắng. Hai trang trắng có nền xanh mực vector để xem được hình. Nền này thuộc bản trình bày PDF; SVG và PNG không có nền.
+- `pdf/marketing-agent-skills-vector.pdf`: PDF vector 6 trang; lần lượt biểu tượng/bản có tên màu, đen, trắng. Hai trang trắng có nền xanh mực vector để xem được hình. Nền này thuộc bản trình bày PDF; SVG và PNG không có nền.
 - `source/master.json`: nguồn hình học, bố cục, màu và các mục tiêu hiệu chỉnh chữ.
 - `source/lockup-editable.svg`: giữ chữ có thể sửa; cần font Montserrat. Bản phân phối trong `svg/` không cần font.
 - `source/rebuild.py`: dựng lại tất cả bản phân phối từ master.json và font kèm theo.

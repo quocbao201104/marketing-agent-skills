@@ -52,12 +52,12 @@ research/local-adaptation-spanish/02-evidence-ledger.md
 Then read only current runtime surfaces materially required to test composition:
 
 ```text
-skills/marketing-practitioner/SKILL.md
-skills/marketing-practitioner/handbook/07-international-marketing-and-ethics.md
-skills/marketing-practitioner/adaptations/README.md
-skills/marketing-practitioner/adaptations/localization.md
-skills/marketing-practitioner/routing-index.json
-skills/marketing-practitioner/scripts/get-knowledge.py
+skills/marketing-agent-skills/SKILL.md
+skills/marketing-agent-skills/handbook/07-international-marketing-and-ethics.md
+skills/marketing-agent-skills/adaptations/README.md
+skills/marketing-agent-skills/adaptations/localization.md
+skills/marketing-agent-skills/routing-index.json
+skills/marketing-agent-skills/scripts/get-knowledge.py
 ```
 
 Read other handbook chapters only when a concrete adversarial case requires their owner/state semantics.

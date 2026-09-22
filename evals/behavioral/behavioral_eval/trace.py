@@ -22,7 +22,7 @@ ORACLE_SCHEMA_VERSION = 1
 TRACE_SCHEMA_VERSION = 3
 HELPER_ROUTE_RE = re.compile(r"^[a-z0-9]+(?:[.-][a-z0-9]+)*$")
 SKILL_ROOT_RE = re.compile(
-    r"marketing-practitioner/(?P<rel>(?:skill\.md|routing-index\.json|"
+    r"marketing-agent-skills/(?P<rel>(?:skill\.md|routing-index\.json|"
     r"handbook/|platforms/|references/|scripts/|frameworks/|agents/|adaptations/)[^\s'\"|<>]*)",
     re.I,
 )
@@ -180,7 +180,7 @@ def load_namespace_index(skill_root: Path) -> dict[str, str]:
 def _strip_relative(path: str) -> str:
     normalized = _normalize_path_text(path)
     normalized = re.sub(r"[.,;:]+$", "", normalized)
-    marker = "marketing-practitioner/"
+    marker = "marketing-agent-skills/"
     if marker in normalized:
         normalized = normalized.split(marker, 1)[1]
     return normalized.strip("/")

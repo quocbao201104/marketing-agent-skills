@@ -7,7 +7,7 @@
       "model": "gpt-5.6-terra",
       "reasoning_effort": "medium",
       "skill_mode": "workspace-copy",
-      "skill_source": "evals/behavioral/.generated/skill-activation-description-v1/D0/marketing-practitioner",
+      "skill_source": "evals/behavioral/.generated/skill-activation-description-v1/D0/marketing-agent-skills",
       "expected_skill_sha256": "computed-at-run-bind",
       "timeout_seconds": 180,
       "repetitions": 2
@@ -18,7 +18,7 @@
       "model": "gpt-5.6-terra",
       "reasoning_effort": "medium",
       "skill_mode": "workspace-copy",
-      "skill_source": "evals/behavioral/.generated/skill-activation-description-v1/D1/marketing-practitioner",
+      "skill_source": "evals/behavioral/.generated/skill-activation-description-v1/D1/marketing-agent-skills",
       "expected_skill_sha256": "computed-at-run-bind",
       "timeout_seconds": 180,
       "repetitions": 2
@@ -29,7 +29,7 @@
       "model": "gpt-5.6-terra",
       "reasoning_effort": "medium",
       "skill_mode": "workspace-copy",
-      "skill_source": "evals/behavioral/.generated/skill-activation-description-v1/D2/marketing-practitioner",
+      "skill_source": "evals/behavioral/.generated/skill-activation-description-v1/D2/marketing-agent-skills",
       "expected_skill_sha256": "computed-at-run-bind",
       "timeout_seconds": 180,
       "repetitions": 2
@@ -40,7 +40,7 @@
       "model": "gpt-5.6-terra",
       "reasoning_effort": "medium",
       "skill_mode": "workspace-copy",
-      "skill_source": "evals/behavioral/.generated/skill-activation-description-v1/D3/marketing-practitioner",
+      "skill_source": "evals/behavioral/.generated/skill-activation-description-v1/D3/marketing-agent-skills",
       "expected_skill_sha256": "computed-at-run-bind",
       "timeout_seconds": 180,
       "repetitions": 2

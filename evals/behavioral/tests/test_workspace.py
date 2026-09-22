@@ -43,7 +43,7 @@ def make_profile(skill_mode: str = "none") -> ArmProfile:
             "reasoning_effort": "medium",
             "skill_mode": skill_mode,
             "skill_source": (
-                None if skill_mode == "none" else "skills/marketing-practitioner"
+                None if skill_mode == "none" else "skills/marketing-agent-skills"
             ),
             "expected_skill_sha256": (
                 None if skill_mode == "none" else "computed-at-run-bind"
@@ -83,17 +83,17 @@ class WorkspaceTests(unittest.TestCase):
             make_case(), make_profile(), self.repo, self.root / "baseline"
         )
         contaminated = (
-            binding.root / ".agents" / "skills" / "marketing-practitioner"
+            binding.root / ".agents" / "skills" / "marketing-agent-skills"
         )
         contaminated.mkdir(parents=True)
         (contaminated / "SKILL.md").write_text("contaminated", encoding="utf-8")
 
         errors = preflight_workspace(binding)
 
-        self.assertIn("baseline contains marketing-practitioner", errors)
+        self.assertIn("baseline contains marketing-agent-skills", errors)
 
     def test_skill_workspace_binds_exact_copied_hash(self) -> None:
-        source = self.repo / "skills" / "marketing-practitioner"
+        source = self.repo / "skills" / "marketing-agent-skills"
         source.mkdir(parents=True)
         (source / "SKILL.md").write_text("skill bytes", encoding="utf-8")
 

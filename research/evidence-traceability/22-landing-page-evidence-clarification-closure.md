@@ -6,8 +6,8 @@ Date: 2026-09-07. Implements A1-A2 from the [core review](21-landing-page-core-c
 
 Four targeted replacements affect two runtime files:
 
-- [Chapter 11, section 9](../../skills/marketing-practitioner/handbook/11-landing-page-architecture.md): removed LP04 from the citation group for case-study lifts. Section 3 retains LP04 as explicitly qualified practitioner guidance.
-- [Landing-page evidence](../../skills/marketing-practitioner/references/landing-page-evidence.md), LP04: describes proposed sequencing and placement hypotheses; explicitly states that the article does not report an outcome for its proposed rearrangement. It no longer presents that analysis as empirical counterevidence or test lineage.
+- [Chapter 11, section 9](../../skills/marketing-agent-skills/handbook/11-landing-page-architecture.md): removed LP04 from the citation group for case-study lifts. Section 3 retains LP04 as explicitly qualified practitioner guidance.
+- [Landing-page evidence](../../skills/marketing-agent-skills/references/landing-page-evidence.md), LP04: describes proposed sequencing and placement hypotheses; explicitly states that the article does not report an outcome for its proposed rearrangement. It no longer presents that analysis as empirical counterevidence or test lineage.
 - The same ledger, LP08: identifies the inconsistent Case Study 1 table in Optimizing Offer Page. Its direction and magnitude remain unresolved pending corrected primary results. The case can describe the reported treatment but cannot establish its effect; other cases are not rejected by association.
 
 The source passages and direct HTML check are recorded in review 21. This closure adds no source, guessed correction to the published numbers, conversion claim, controller instruction or route.

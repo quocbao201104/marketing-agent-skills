@@ -4,7 +4,7 @@ Date: 2026-09-07. Review of the current worktree, including the already-approved
 
 ## Scope and conclusion
 
-Read [Chapter 02](../../skills/marketing-practitioner/handbook/02-segmentation-icp-and-jtbd.md) and [Chapter 03](../../skills/marketing-practitioner/handbook/03-positioning-and-value.md), checking the shared decision/uncertainty rules in [Chapter 00](../../skills/marketing-practitioner/handbook/00-foundations-and-method.md). This extends the earlier [customer-to-message review](02-customer-to-message-content-review.md).
+Read [Chapter 02](../../skills/marketing-agent-skills/handbook/02-segmentation-icp-and-jtbd.md) and [Chapter 03](../../skills/marketing-agent-skills/handbook/03-positioning-and-value.md), checking the shared decision/uncertainty rules in [Chapter 00](../../skills/marketing-agent-skills/handbook/00-foundations-and-method.md). This extends the earlier [customer-to-message review](02-customer-to-message-content-review.md).
 
 Two bounded clarifications are justified: make the role of binding constraints explicit in target comparison, and distinguish a customer reason to choose from meaningful differentiation. The existing positioning candidate-comparison process is already useful; no new decision framework is warranted.
 

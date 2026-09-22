@@ -257,7 +257,7 @@ Specialist knowledge should preserve four evidence classes:
 3. **Authoritative constraints** — current provider, legal, regulatory, security, or transport requirements; retrieve/update when material rather than freezing them as timeless marketing theory.
 4. **Exemplars / patterns** — welcome, abandonment, renewal, newsletter, win-back, etc.; useful navigation labels, not ontology.
 
-The supporting runtime ledger is `skills/marketing-practitioner/references/email-communication-evidence.md`.
+The supporting runtime ledger is `skills/marketing-agent-skills/references/email-communication-evidence.md`.
 
 ## 8. Architecture non-goals
 

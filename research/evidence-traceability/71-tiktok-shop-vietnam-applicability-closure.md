@@ -6,8 +6,8 @@ Date: 2026-09-09. Follows [review 70](70-tiktok-shop-vietnam-applicability-revie
 
 The bounded Vietnam applicability question is closed in:
 
-- `skills/marketing-practitioner/platforms/commerce/tiktok-shop.md`
-- `skills/marketing-practitioner/references/commerce/tiktok-shop-vietnam-evidence.md`
+- `skills/marketing-agent-skills/platforms/commerce/tiktok-shop.md`
+- `skills/marketing-agent-skills/references/commerce/tiktok-shop-vietnam-evidence.md`
 
 `TV01–TV03` add Vietnam first-party support for Product Traffic, Product Optimizer, and the scoped Link Products flow without creating a Vietnam-specific TikTok Shop module.
 

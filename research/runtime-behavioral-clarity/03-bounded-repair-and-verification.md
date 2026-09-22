@@ -148,7 +148,7 @@ Compare against the frozen target after the bounded repair:
 ## Runtime changes
 
 ```text
-skills/marketing-practitioner/SKILL.md
+skills/marketing-agent-skills/SKILL.md
 ```
 
 Only two controller sentences changed:

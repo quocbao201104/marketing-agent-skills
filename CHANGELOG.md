@@ -318,7 +318,7 @@ The project uses semantic versioning for published skill revisions. v1.0.0 marks
 
 ### Scoped local adaptation
 
-- Added a thin local-adaptation extension contract under `skills/marketing-practitioner/adaptations/` for community-maintained local knowledge that can specialize an already-open decision without becoming a new decision owner.
+- Added a thin local-adaptation extension contract under `skills/marketing-agent-skills/adaptations/` for community-maintained local knowledge that can specialize an already-open decision without becoming a new decision owner.
 - Kept route and applicability separate: owner-aligned logical routes locate decision-relevant adaptation families, while each contribution carries its own scope, claim, evidence, decision impact, load/do-not-use conditions, invariants, review state, and usage state.
 - Explicitly rejected country/locale packs, automatic broader-scope inheritance, private-over-upstream precedence, specificity scoring, confidence scoring, and a global adaptation registry/resolver absent a concrete irreducible failure.
 - Added the first canonical reference contribution, `VN-LANG-REL-01`, for Vietnamese relationship-sensitive self-reference / recipient-address realization. The unit is language-scoped rather than Vietnam-market-scoped and preserves already-resolved identity, relationship, authority, history, organizational/community norms, and partial-pair state.
@@ -507,7 +507,7 @@ The project uses semantic versioning for published skill revisions. v1.0.0 marks
 ### Validation status
 
 - Whole-system adversarial gap audit found `0` true shared representational gaps and recommended local hardening rather than architecture expansion.
-- `python skills/marketing-practitioner/scripts/get-knowledge.py --validate` passed with `213 routes / 159 evidence sources`.
+- `python skills/marketing-agent-skills/scripts/get-knowledge.py --validate` passed with `213 routes / 159 evidence sources`.
 - The routing-mechanics suite passed `30` checks after the cross-platform path correction and route additions.
 - Targeted regressions `R1–R15` all passed, covering routing, resolved-state freezing, market selection/localization, platform constraints, owned-channel composition, compound interventions, causal-learning handoffs, root-source independence, marginal allocation, and behavioral non-action.
 - Independent minimality review found no architecture expansion, route inflation, over-routing, handoff inflation, theory drift, unsupported evidence, broken fast paths, or Level 3 changes.
@@ -543,7 +543,7 @@ The project uses semantic versioning for published skill revisions. v1.0.0 marks
 - Independent adversarial implementation review found no architecture blocker after one targeted JIT routing correction and CD08 normalization.
 - The targeted Commercial Design runtime routing smoke records 10/10 bounded walkthroughs as PASS.
 - No new controller job, generic `OFFER` primitive, Chapter 09 semantic rewrite, platform expansion, pricing optimizer, or broad benchmark claim was introduced.
-- Full checked-out-branch `python skills/marketing-practitioner/scripts/get-knowledge.py --validate` was not executed during this release pass; route/helper compatibility was inspected statically and the helper itself was unchanged.
+- Full checked-out-branch `python skills/marketing-agent-skills/scripts/get-knowledge.py --validate` was not executed during this release pass; route/helper compatibility was inspected statically and the helper itself was unchanged.
 
 ## [0.4.0] - 2026-08-24
 
@@ -557,7 +557,7 @@ The project uses semantic versioning for published skill revisions. v1.0.0 marks
 
 ### Changed
 
-- Packaged the canonical Task Specification Guide inside `skills/marketing-practitioner/` so it travels with Skills CLI installations.
+- Packaged the canonical Task Specification Guide inside `skills/marketing-agent-skills/` so it travels with Skills CLI installations.
 - Kept the repository-root task-specification file as a pointer only, preventing duplicate guide content from drifting.
 - Expanded README onboarding with an optional compile-and-execute path for users who do not want to write a structured prompt themselves.
 
@@ -640,9 +640,9 @@ The project uses semantic versioning for published skill revisions. v1.0.0 marks
 
 ### Changed
 
-- Packaged the installable skill under `skills/marketing-practitioner/`.
+- Packaged the installable skill under `skills/marketing-agent-skills/`.
 - Moved `SKILL.md`, handbook, frameworks, and bibliography into the same skill directory so supporting resources travel with multi-file installations.
-- Aligned the skill directory name with the frontmatter name `marketing-practitioner`.
+- Aligned the skill directory name with the frontmatter name `marketing-agent-skills`.
 - Updated README, contribution guidance, and attribution links for the packaged layout.
 
 ## [0.1.1] - 2026-08-22

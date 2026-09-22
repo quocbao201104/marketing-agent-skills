@@ -24,7 +24,7 @@ Frozen runtime implementation target:
 
 The branch head at the start of implementation review was exactly the frozen runtime implementation target. No commit after `699bf9fa54eaa894dfd1ec6a293201fb8d6fc205` was used as evidence that an implementation defect had been repaired.
 
-The frozen runtime target adds the Portuguese contribution by appending to `skills/marketing-practitioner/adaptations/localization.md`; its parent-to-target diff does not modify the controller, Chapter 07, `routing-index.json`, `get-knowledge`, or an existing local-adaptation unit.
+The frozen runtime target adds the Portuguese contribution by appending to `skills/marketing-agent-skills/adaptations/localization.md`; its parent-to-target diff does not modify the controller, Chapter 07, `routing-index.json`, `get-knowledge`, or an existing local-adaptation unit.
 
 This review does not repair runtime and does not close lifecycle state.
 
@@ -231,7 +231,7 @@ adapt-localization.relationship-realization
 | routing-index changed? | NO |
 | get-knowledge changed? | NO |
 
-The parent-to-frozen-target diff contains only the Portuguese append to `skills/marketing-practitioner/adaptations/localization.md`. More importantly, the appended semantics themselves do not simulate a hidden resolver: country, variety, hierarchy, formality, full paradigm, and ordinary-grammar inference are all explicitly denied as decision authority.
+The parent-to-frozen-target diff contains only the Portuguese append to `skills/marketing-agent-skills/adaptations/localization.md`. More importantly, the appended semantics themselves do not simulate a hidden resolver: country, variety, hierarchy, formality, full paradigm, and ordinary-grammar inference are all explicitly denied as decision authority.
 
 **Architecture result:** PASS.
 

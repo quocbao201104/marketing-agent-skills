@@ -83,7 +83,7 @@ The implementation remains an input-consuming realization constraint. It does no
 
 # B. Runtime evidence-ledger adjudication — KOLA01–KOLA11
 
-This section checks whether `skills/marketing-practitioner/references/local-adaptation-korean-evidence.md` preserves the scope accepted by frozen research and independent research review. It does not reopen the completed research review or use later commits as repaired evidence.
+This section checks whether `skills/marketing-agent-skills/references/local-adaptation-korean-evidence.md` preserves the scope accepted by frozen research and independent research review. It does not reopen the completed research review or use later commits as repaired evidence.
 
 ## KOLA01 — PASS
 
@@ -471,8 +471,8 @@ From the independent research-review commit to the frozen implementation target,
 
 ```text
 evals/local-adaptation-korean-v0.md
-skills/marketing-practitioner/adaptations/localization.md
-skills/marketing-practitioner/references/local-adaptation-korean-evidence.md
+skills/marketing-agent-skills/adaptations/localization.md
+skills/marketing-agent-skills/references/local-adaptation-korean-evidence.md
 ```
 
 Within `adaptations/localization.md`, the Korean unit is appended under the existing `## Relationship realization` section. Existing VN/JP/ES contribution semantics are not rewritten by the Korean implementation.

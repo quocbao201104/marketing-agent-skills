@@ -4,7 +4,7 @@ Date: 2026-09-09. Follows [review 58](58-tiktok-shop-discovery-and-metrics-revie
 
 ## Result
 
-Updated the [module](../../skills/marketing-practitioner/platforms/commerce/tiktok-shop.md) and [evidence ledger](../../skills/marketing-practitioner/references/commerce/tiktok-shop-evidence.md) for TTS-R5-R8. Commercial-field processing, optional field guidance, reporting-category boundaries, and metric interpretation now retain the conditions identified in the review. Existing status/linking corrections remain intact.
+Updated the [module](../../skills/marketing-agent-skills/platforms/commerce/tiktok-shop.md) and [evidence ledger](../../skills/marketing-agent-skills/references/commerce/tiktok-shop-evidence.md) for TTS-R5-R8. Commercial-field processing, optional field guidance, reporting-category boundaries, and metric interpretation now retain the conditions identified in the review. Existing status/linking corrections remain intact.
 
 No controller, shared handbook, route/source ID, historical inventory, harness, or API implementation changed. The source ledger distinguishes official indexed API passages from directly accessible Academy articles. It records the inconsistent metric definition rather than claiming to resolve it.
 

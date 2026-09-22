@@ -595,11 +595,11 @@ Official guidance supports the mechanism and its normative/descriptive boundarie
 Smallest candidate implementation:
 
 ```text
-skills/marketing-practitioner/adaptations/localization.md
+skills/marketing-agent-skills/adaptations/localization.md
   + JP-LANG-HON-01
   + JP-LANG-PERM-01
 
-skills/marketing-practitioner/references/
+skills/marketing-agent-skills/references/
   + local-adaptation-japan-evidence.md
 
 evals/

@@ -6,13 +6,13 @@ Status: three local corrections implemented and checked at the content/retrieval
 
 ## Changes
 
-In [the Google module](../../skills/marketing-practitioner/platforms/commerce/google-shopping.md):
+In [the Google module](../../skills/marketing-agent-skills/platforms/commerce/google-shopping.md):
 
 - GC3: section 5.9 records the dated report scope, competitor-relative interpretation, special share-of-voice values, filters, and lag. Section 10 retains a compact diagnosis cue and a precise route to these conditions.
 - GC4: sections 5.4, 5.5, 5.8, and 5.9 require checking existing factual coverage before adding optional carriers. They preserve required dedicated attributes and necessary product identity; a submitted document is not proof of extraction or a reason to delete required data.
 - GC5: section 5.8 identifies the PDF, public crawlability, stable-link, and sharing-rights conditions for document_link. Section 5.9 retains these conditions beside its document option. An unsuitable document calls for another supported carrier or an identified dependency, not unauthorized publication.
 
-In [the evidence ledger](../../skills/marketing-practitioner/references/commerce/google-shopping-evidence.md), G09 gains selected verification and direct Q&A/document specifications; G11 replaces the stale pilot statement and records the inspected reporting and duplication rules. Scope and source limitations remain explicit. The controller, index, source IDs, and prior GC1/GC2 correction are preserved.
+In [the evidence ledger](../../skills/marketing-agent-skills/references/commerce/google-shopping-evidence.md), G09 gains selected verification and direct Q&A/document specifications; G11 replaces the stale pilot statement and records the inspected reporting and duplication rules. Scope and source limitations remain explicit. The controller, index, source IDs, and prior GC1/GC2 correction are preserved.
 
 ## Verification
 

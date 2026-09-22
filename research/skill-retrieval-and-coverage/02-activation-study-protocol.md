@@ -5,7 +5,7 @@ Parent freeze: `research/skill-retrieval-and-coverage/01-design-freeze.md`
 
 ## 1. Question under test
 
-Does reallocating top-level skill-description budget from post-activation process prose toward practitioner jobs, latent symptom classes, and sharper boundaries improve useful `marketing-practitioner` auto-activation without creating systematic false activation?
+Does reallocating top-level skill-description budget from post-activation process prose toward practitioner jobs, latent symptom classes, and sharper boundaries improve useful `marketing-agent-skills` auto-activation without creating systematic false activation?
 
 This study changes only the `description` field of the copied skill used by each experimental arm.
 
@@ -236,9 +236,9 @@ The candidate fails the activation study if a gain on latent positives is purcha
 Observed activation requires either:
 
 ```text
-an explicit marketing-practitioner activation event
+an explicit marketing-agent-skills activation event
 OR
-a successful read of marketing-practitioner/SKILL.md
+a successful read of marketing-agent-skills/SKILL.md
 ```
 
 For the first study:

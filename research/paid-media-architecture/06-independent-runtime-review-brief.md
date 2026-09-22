@@ -32,7 +32,7 @@ If a later commit corrects a problem you find, the problem still counts against 
 Start with the governing controller:
 
 ```text
-skills/marketing-practitioner/SKILL.md
+skills/marketing-agent-skills/SKILL.md
 ```
 
 Then inspect only the material candidate files needed for this review:
@@ -43,12 +43,12 @@ research/paid-media-architecture/02-implementation-design.md
 research/paid-media-architecture/03-implementation-self-review.md
 research/paid-media-architecture/04-mechanical-verification.md
 
-skills/marketing-practitioner/handbook/14-paid-media-architecture.md
-skills/marketing-practitioner/references/paid-media-evidence.md
-skills/marketing-practitioner/routing-index.json
-skills/marketing-practitioner/handbook/README.md
-skills/marketing-practitioner/scripts/get-knowledge.py
-skills/marketing-practitioner/scripts/test-knowledge-routing.py
+skills/marketing-agent-skills/handbook/14-paid-media-architecture.md
+skills/marketing-agent-skills/references/paid-media-evidence.md
+skills/marketing-agent-skills/routing-index.json
+skills/marketing-agent-skills/handbook/README.md
+skills/marketing-agent-skills/scripts/get-knowledge.py
+skills/marketing-agent-skills/scripts/test-knowledge-routing.py
 
 evals/paid-media-architecture-adversarial-cases.md
 evals/paid-media-architecture-runtime-smoke.md

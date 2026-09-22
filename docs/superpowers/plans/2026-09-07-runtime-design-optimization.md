@@ -16,7 +16,7 @@
 
 ## Task 1: Clarify the runtime contract
 
-File: `skills/marketing-practitioner/SKILL.md`.
+File: `skills/marketing-agent-skills/SKILL.md`.
 
 - [x] Revise the existing eight-step controller to distinguish fixed constraints from hypotheses, admit learning questions, and preserve compound requested deliverables.
 - [x] Add concise conditions for proceeding, retrieving, clarifying, and stopping under uncertainty; preserve the separate factual and authorization boundaries.

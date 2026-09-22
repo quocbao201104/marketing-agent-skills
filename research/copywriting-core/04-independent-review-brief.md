@@ -80,11 +80,11 @@ Do not recommend a new primitive, chapter family, workflow, ontology, or special
 Inspect the candidate diff, especially:
 
 ```text
-skills/marketing-practitioner/SKILL.md
-skills/marketing-practitioner/routing-index.json
-skills/marketing-practitioner/handbook/04-messaging-proof-and-copy.md
-skills/marketing-practitioner/handbook/11-landing-page-architecture.md
-skills/marketing-practitioner/handbook/README.md
+skills/marketing-agent-skills/SKILL.md
+skills/marketing-agent-skills/routing-index.json
+skills/marketing-agent-skills/handbook/04-messaging-proof-and-copy.md
+skills/marketing-agent-skills/handbook/11-landing-page-architecture.md
+skills/marketing-agent-skills/handbook/README.md
 evals/behavioral/cases/copywriting-core-v1.json
 research/copywriting-core/*
 ```

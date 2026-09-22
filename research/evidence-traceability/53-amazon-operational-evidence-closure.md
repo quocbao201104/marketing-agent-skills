@@ -4,7 +4,7 @@ Date: 2026-09-09. Follows [review 52](52-amazon-operational-evidence-review.md).
 
 ## Changes
 
-Closed AM1-AM5 in the [Amazon module](../../skills/marketing-practitioner/platforms/commerce/amazon.md) and its [evidence ledger](../../skills/marketing-practitioner/references/commerce/amazon-evidence.md):
+Closed AM1-AM5 in the [Amazon module](../../skills/marketing-agent-skills/platforms/commerce/amazon.md) and its [evidence ledger](../../skills/marketing-agent-skills/references/commerce/amazon-evidence.md):
 
 - **AM1-AM2:** section 3 now identifies the processing and response-data distinctions needed to interpret a reported listing discrepancy.
 - **AM3:** section 5 carries the reason-code check needed before acting on an absent estimate.

@@ -6,7 +6,7 @@ Status: eleven constructed work chains reviewed. No additional decision-changing
 
 ## Scope and method
 
-Reviewed [Chapter 14](../../skills/marketing-practitioner/handbook/14-paid-media-architecture.md) with [SKILL.md](../../skills/marketing-practitioner/SKILL.md), the paid observation handoff in the [operating guide](../../skills/marketing-practitioner/references/operating-guide.md), and Chapter 05 sections 5-11. The latter already distinguishes average attributed, average incremental and marginal incremental returns, including material saturation, carryover, substitution, interference and uncertainty.
+Reviewed [Chapter 14](../../skills/marketing-agent-skills/handbook/14-paid-media-architecture.md) with [SKILL.md](../../skills/marketing-agent-skills/SKILL.md), the paid observation handoff in the [operating guide](../../skills/marketing-agent-skills/references/operating-guide.md), and Chapter 05 sections 5-11. The latter already distinguishes average attributed, average incremental and marginal incremental returns, including material saturation, carryover, substitution, interference and uncertainty.
 
 Extracted all eight actual routes: paid-media.core (146 lines), objective (80), control (102), allocation (160), observation (136), handoffs (66), decision-record (52), invariants (66). Re-read control and allocation excerpts with the core's dependency-first and continuity rules.
 

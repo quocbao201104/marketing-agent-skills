@@ -2,7 +2,7 @@
 
 `research/` preserves the evidence, theory lineage, review history, rejected hypotheses, repairs, and evaluation records used to decide whether substantive knowledge or mechanisms should enter Marketing Practitioner.
 
-It is **not** an alternate runtime handbook. The installable skill under `skills/marketing-practitioner/` should contain only the operational guidance and machinery that survived the relevant research and review boundary.
+It is **not** an alternate runtime handbook. The installable skill under `skills/marketing-agent-skills/` should contain only the operational guidance and machinery that survived the relevant research and review boundary.
 
 ## Canonical methodology
 

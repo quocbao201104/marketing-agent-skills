@@ -60,7 +60,7 @@ class PilotCorpusTests(unittest.TestCase):
         self.assertIsNone(by_id["baseline"].skill_source)
         self.assertEqual("workspace-copy", by_id["current-skill"].skill_mode)
         self.assertEqual(
-            "skills/marketing-practitioner", by_id["current-skill"].skill_source
+            "skills/marketing-agent-skills", by_id["current-skill"].skill_source
         )
         self.assertEqual(
             "computed-at-run-bind", by_id["current-skill"].expected_skill_sha256

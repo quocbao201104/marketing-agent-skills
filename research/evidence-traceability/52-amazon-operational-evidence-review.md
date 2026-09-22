@@ -4,7 +4,7 @@ Date: 2026-09-09. Baseline: `a5a5876`.
 
 ## Scope and method
 
-This bounded review follows the selected Google work in reports 38-43. Read the complete [Amazon module](../../skills/marketing-practitioner/platforms/commerce/amazon.md), its [A01-A10 ledger](../../skills/marketing-practitioner/references/commerce/amazon-evidence.md), and actual baseline outputs for `amazon.catalog-pdp`, `amazon.offer-featured`, `amazon.product-info`, and `amazon.agentic-authority`. The work targets provider-specific evidence and excerpt completeness under the existing architecture.
+This bounded review follows the selected Google work in reports 38-43. Read the complete [Amazon module](../../skills/marketing-agent-skills/platforms/commerce/amazon.md), its [A01-A10 ledger](../../skills/marketing-agent-skills/references/commerce/amazon-evidence.md), and actual baseline outputs for `amazon.catalog-pdp`, `amazon.offer-featured`, `amazon.product-info`, and `amazon.agentic-authority`. The work targets provider-specific evidence and excerpt completeness under the existing architecture.
 
 The baseline already separates native and external-store commerce, catalog identity and seller offers, submission and representation, search and Featured Offer, and capability and purchase authority. Preserve these distinctions. The findings below are one factual clarification and four bounded operational clarifications, not observed agent failures. Their decision consequences are author inferences tested with constructed cases.
 

@@ -4,7 +4,7 @@ Date: 2026-09-08. Closes TS-A1 and TS-A2 from [review 45](45-core-task-decisions
 
 ## Changes
 
-Updated the canonical [Task Specification Guide](../../skills/marketing-practitioner/TASK-SPECIFICATION-GUIDE.md) and its [evidence ledger](../../skills/marketing-practitioner/references/task-specification-evidence.md).
+Updated the canonical [Task Specification Guide](../../skills/marketing-agent-skills/TASK-SPECIFICATION-GUIDE.md) and its [evidence ledger](../../skills/marketing-agent-skills/references/task-specification-evidence.md).
 
 - **TS-A1:** the optional field arrangement is identified as a practical design choice informed by research. The unsupported comparison with an earlier grammar is removed.
 - **TS-A2:** the ambiguity statement names the evaluated models rather than presenting a historical benchmark as a current capability assessment.

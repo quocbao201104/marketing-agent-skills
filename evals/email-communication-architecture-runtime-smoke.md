@@ -79,8 +79,8 @@ The source IDs `EM01` through `EM08` satisfy the existing evidence-ID grammar an
 Important execution boundary: this session did not obtain a normal checked-out repository subprocess, and GitHub Actions were intentionally not used. Therefore:
 
 ```bash
-python skills/marketing-practitioner/scripts/get-knowledge.py --validate
-python skills/marketing-practitioner/scripts/test-knowledge-routing.py
+python skills/marketing-agent-skills/scripts/get-knowledge.py --validate
+python skills/marketing-agent-skills/scripts/test-knowledge-routing.py
 ```
 
 were **not claimed as locally executed commands** here. Static repository binding plus the existing deterministic test implementation is not converted into an execution claim.

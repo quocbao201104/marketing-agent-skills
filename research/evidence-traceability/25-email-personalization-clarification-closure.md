@@ -4,7 +4,7 @@ Date: 2026-09-07. Implements E1 from the [email core review](24-email-core-conte
 
 ## Bounded correction
 
-Three targeted replacements affect [Chapter 12 section 5](../../skills/marketing-practitioner/handbook/12-email-communication-architecture.md) and [source EM08](../../skills/marketing-practitioner/references/email-communication-evidence.md).
+Three targeted replacements affect [Chapter 12 section 5](../../skills/marketing-agent-skills/handbook/12-email-communication-architecture.md) and [source EM08](../../skills/marketing-agent-skills/references/email-communication-evidence.md).
 
 The chapter and ledger now distinguish the first-name experiment with university students from the title-plus-surname experiment with politicians. They preserve the reported distinction between open and click results, the German-language setting, and the absence of a direct comparison of name forms in the same population. The chapter also identifies 2018 as publication timing for EM07.
 

@@ -142,7 +142,7 @@ d49d717ac4b8245fd31bd748be9867cacba1ecf2
 
 Release preparation is allowed to change only:
 
-- `skills/marketing-practitioner/SKILL.md` — metadata version only;
+- `skills/marketing-agent-skills/SKILL.md` — metadata version only;
 - `README.md` — public capability/status/routing documentation;
 - `CHANGELOG.md` — `0.9.0` release entry;
 - this release-preparation record.

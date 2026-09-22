@@ -48,13 +48,13 @@ No new controller job, durable identity primitive, visual-design ontology, resea
 Add one bounded specialist chapter:
 
 ```text
-skills/marketing-practitioner/handbook/15-brand-identity-and-visual-systems.md
+skills/marketing-agent-skills/handbook/15-brand-identity-and-visual-systems.md
 ```
 
 Add one scoped evidence ledger:
 
 ```text
-skills/marketing-practitioner/references/brand-identity-evidence.md
+skills/marketing-agent-skills/references/brand-identity-evidence.md
 ```
 
 Expose one JIT namespace:
@@ -401,7 +401,7 @@ Visual predictions such as `rounder may read warmer` or `this symbol may collide
 Create:
 
 ```text
-skills/marketing-practitioner/references/brand-identity-evidence.md
+skills/marketing-agent-skills/references/brand-identity-evidence.md
 ```
 
 Use source IDs:
@@ -563,12 +563,12 @@ Targeted adjudication should reject any implementation that:
 Candidate implementation should modify only the surfaces required to expose and validate the specialist capability:
 
 ```text
-skills/marketing-practitioner/handbook/15-brand-identity-and-visual-systems.md
-skills/marketing-practitioner/references/brand-identity-evidence.md
-skills/marketing-practitioner/routing-index.json
-skills/marketing-practitioner/handbook/README.md
-skills/marketing-practitioner/SKILL.md
-skills/marketing-practitioner/scripts/test-knowledge-routing.py
+skills/marketing-agent-skills/handbook/15-brand-identity-and-visual-systems.md
+skills/marketing-agent-skills/references/brand-identity-evidence.md
+skills/marketing-agent-skills/routing-index.json
+skills/marketing-agent-skills/handbook/README.md
+skills/marketing-agent-skills/SKILL.md
+skills/marketing-agent-skills/scripts/test-knowledge-routing.py
 evals/brand-identity-and-visual-systems-adversarial-cases.md
 ```
 

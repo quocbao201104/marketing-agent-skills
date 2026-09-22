@@ -30,7 +30,7 @@ from .validation import load_cases, load_profiles
 from .workspace import WorkspaceError, build_run_workspace, hash_tree
 
 DEFAULT_ORACLE = Path("evals/behavioral/oracles/pilot-v1.route-oracle.json")
-DEFAULT_SKILL = Path("skills/marketing-practitioner")
+DEFAULT_SKILL = Path("skills/marketing-agent-skills")
 
 
 DEFAULT_CASES = Path("evals/behavioral/cases/pilot-v1.json")
@@ -142,7 +142,7 @@ def _execution_regime() -> dict:
             "case_inputs": "case-only",
             "baseline_skill_presence": "absent",
             "skill_arm": {
-                "destination": ".agents/skills/marketing-practitioner",
+                "destination": ".agents/skills/marketing-agent-skills",
                 "integrity": "tree-sha256",
                 "mode": "workspace-copy-only",
             },

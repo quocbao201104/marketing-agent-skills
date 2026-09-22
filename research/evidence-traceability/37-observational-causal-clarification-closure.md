@@ -4,11 +4,11 @@ Date: 2026-09-07. Implements O1-O2 from [review 36](36-observational-causal-deci
 
 ## Bounded changes
 
-[Chapter 05 section 5](../../skills/marketing-practitioner/handbook/05-diagnosis-causality-and-experimentation.md) now connects observational identification to the intervention, comparator, population, outcome, adjustment rationale and available comparison support. A named estimator, observed balance or narrow interval alone does not establish identification. Alternative causal designs remain available, and section 11 still governs bounded decisions under uncertainty.
+[Chapter 05 section 5](../../skills/marketing-agent-skills/handbook/05-diagnosis-causality-and-experimentation.md) now connects observational identification to the intervention, comparator, population, outcome, adjustment rationale and available comparison support. A named estimator, observed balance or narrow interval alone does not establish identification. Alternative causal designs remain available, and section 11 still governs bounded decisions under uncertainty.
 
 The same section connects eligibility, strategy assignment and follow-up origin. Its constructed day-seven email example prevents attributing pre-receipt survival to treatment and distinguishes a later eligible-population question from a signup-level policy. Legitimate later initiation and time-varying strategies remain permitted under suitable designs.
 
-The [bibliography](../../skills/marketing-practitioner/references/bibliography.md) adds a scoped access/version note to R11 and a new R65 record for the timing-methodology paper. The source is supplementary verification; the marketing example is project application, not an observed email effect. Source inspection and its limits remain documented in review 36.
+The [bibliography](../../skills/marketing-agent-skills/references/bibliography.md) adds a scoped access/version note to R11 and a new R65 record for the timing-methodology paper. The source is supplementary verification; the marketing example is project application, not an observed email effect. Source inspection and its limits remain documented in review 36.
 
 No controller, index, platform, email or paid-media instructions changed. Existing D1-D4 corrections and all earlier work remain intact.
 

@@ -6,7 +6,7 @@ Status: bounded design and source review completed. Four correction candidates; 
 
 ## Scope
 
-Read all of [Chapter 05](../../skills/marketing-practitioner/handbook/05-diagnosis-causality-and-experimentation.md). Checked related language in [foundations](../../skills/marketing-practitioner/handbook/00-foundations-and-method.md), [quality rubrics](../../skills/marketing-practitioner/frameworks/quality-rubrics.md) and [operating guidance](../../skills/marketing-practitioner/references/operating-guide.md) before calling omissions local gaps. Source definitions are in the [bibliography](../../skills/marketing-practitioner/references/bibliography.md).
+Read all of [Chapter 05](../../skills/marketing-agent-skills/handbook/05-diagnosis-causality-and-experimentation.md). Checked related language in [foundations](../../skills/marketing-agent-skills/handbook/00-foundations-and-method.md), [quality rubrics](../../skills/marketing-agent-skills/frameworks/quality-rubrics.md) and [operating guidance](../../skills/marketing-agent-skills/references/operating-guide.md) before calling omissions local gaps. Source definitions are in the [bibliography](../../skills/marketing-agent-skills/references/bibliography.md).
 
 Review question: does the chain from metric to explanation to action preserve causal validity while giving enough guidance to decide? Cases below are constructed counterexamples, not agent runs, historical failures or estimates of error frequency.
 

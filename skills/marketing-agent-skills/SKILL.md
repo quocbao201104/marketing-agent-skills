@@ -1,5 +1,5 @@
 ---
-name: marketing-practitioner
+name: marketing-agent-skills
 description: "Evidence-informed marketing and founder-led sales decisions and execution. Use when the user needs to understand customers or markets; choose audiences, positioning, value, pricing, packaging or offers; diagnose weak or changing performance; create or critique marketing communication or brand identity; prioritize founder-led sales; plan or diagnose marketing channel execution across pages, email, social, paid media, search, or commerce; test, localize, or retain learning. Also use when symptoms imply these jobs, such as unclear differentiation, uncertain targeting, weak conversion, conflicting marketing signals, unclear commercial fit, or stalled buyer progress. Do not use for generic writing, mechanical content operations, product-roadmap, legal, finance/accounting, CRM administration, or unrelated technical work."
 license: MIT
 metadata:

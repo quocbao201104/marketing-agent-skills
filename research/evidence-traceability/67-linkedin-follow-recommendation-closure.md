@@ -6,8 +6,8 @@ Date: 2026-09-09. Follows [review 66](66-linkedin-follow-recommendation-review.m
 
 The bounded LinkedIn freshness gap is closed in:
 
-- `skills/marketing-practitioner/platforms/linkedin.md`
-- `skills/marketing-practitioner/references/linkedin-evidence.md`
+- `skills/marketing-agent-skills/platforms/linkedin.md`
+- `skills/marketing-agent-skills/references/linkedin-evidence.md`
 
 `LI01` records the 2026-08-24 LinkedIn Engineering source with implementation and experiment boundaries. The existing LinkedIn module now distinguishes creator/account recommendation from post recommendation without changing the shared content grammar or adding a route.
 

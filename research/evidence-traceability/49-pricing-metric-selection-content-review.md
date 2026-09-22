@@ -16,7 +16,7 @@ The section retains a material activation condition: candidate generation applie
 
 ## PM-R1 — preserve authoritative constraints when they also enter the formula
 
-**Priority: medium.** Location: [Chapter 10, Q/R/A/C definitions](../../skills/marketing-practitioner/handbook/10-commercial-design-pricing-and-terms.md), especially the definition of C at lines 233-235; [theory freeze](../commercial-design/03-pricing-metric-selection-theory-freeze.md), section 4; and the corresponding explanation in the [repair record](../commercial-design/05-pricing-metric-selection-post-review-repair.md).
+**Priority: medium.** Location: [Chapter 10, Q/R/A/C definitions](../../skills/marketing-agent-skills/handbook/10-commercial-design-pricing-and-terms.md), especially the definition of C at lines 233-235; [theory freeze](../commercial-design/03-pricing-metric-selection-theory-freeze.md), section 4; and the corresponding explanation in the [repair record](../commercial-design/05-pricing-metric-selection-post-review-repair.md).
 
 The current definition excludes a variable from C when it enters the customer-facing pricing function. The theory is more explicit: that use becomes R rather than C. Making roles contract-relative fixes the earlier problem of treating every important economic estimate as authoritative, but it does not justify mutually exclusive authority and formula roles within one design.
 

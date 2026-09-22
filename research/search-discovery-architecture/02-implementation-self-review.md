@@ -12,12 +12,12 @@ The implementation currently changes/adds:
 
 - `research/search-discovery-architecture/01-theory-freeze.md`
 - `research/search-discovery-architecture/02-implementation-self-review.md`
-- `skills/marketing-practitioner/references/search-discovery-evidence.md`
-- `skills/marketing-practitioner/handbook/13-search-and-discovery-architecture.md`
-- `skills/marketing-practitioner/routing-index.json`
-- `skills/marketing-practitioner/SKILL.md`
-- `skills/marketing-practitioner/handbook/README.md`
-- `skills/marketing-practitioner/scripts/test-knowledge-routing.py`
+- `skills/marketing-agent-skills/references/search-discovery-evidence.md`
+- `skills/marketing-agent-skills/handbook/13-search-and-discovery-architecture.md`
+- `skills/marketing-agent-skills/routing-index.json`
+- `skills/marketing-agent-skills/SKILL.md`
+- `skills/marketing-agent-skills/handbook/README.md`
+- `skills/marketing-agent-skills/scripts/test-knowledge-routing.py`
 - `evals/search-discovery-architecture-adversarial-cases.md`
 
 No shared Chapter 08 primitive was added. No new controller job was added. No release/version bump has been made.

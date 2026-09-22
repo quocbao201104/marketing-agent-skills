@@ -327,7 +327,7 @@ def activation_verified(
     for event in events:
         event_type = str(event.get("type", "")).lower()
         values = " ".join(_walk_strings(event)).lower()
-        if "skill" in event_type and "activat" in event_type and "marketing-practitioner" in values:
+        if "skill" in event_type and "activat" in event_type and "marketing-agent-skills" in values:
             return True
         item = event.get("item")
         if not isinstance(item, dict):

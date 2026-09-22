@@ -207,25 +207,25 @@ are now mutually exclusive modes;
 Semantic knowledge when the helper is available:
 
 ```bash
-python skills/marketing-practitioner/scripts/get-knowledge.py --namespaces
-python skills/marketing-practitioner/scripts/get-knowledge.py --list
-python skills/marketing-practitioner/scripts/get-knowledge.py --list --namespace shopee
-python skills/marketing-practitioner/scripts/get-knowledge.py commerce.resolvability
-python skills/marketing-practitioner/scripts/get-knowledge.py commerce.recommendation
-python skills/marketing-practitioner/scripts/get-knowledge.py shopee.commercial-state shopee.representation
+python skills/marketing-agent-skills/scripts/get-knowledge.py --namespaces
+python skills/marketing-agent-skills/scripts/get-knowledge.py --list
+python skills/marketing-agent-skills/scripts/get-knowledge.py --list --namespace shopee
+python skills/marketing-agent-skills/scripts/get-knowledge.py commerce.resolvability
+python skills/marketing-agent-skills/scripts/get-knowledge.py commerce.recommendation
+python skills/marketing-agent-skills/scripts/get-knowledge.py shopee.commercial-state shopee.representation
 ```
 
 Evidence records:
 
 ```bash
-python skills/marketing-practitioner/scripts/get-knowledge.py --source R23
-python skills/marketing-practitioner/scripts/get-knowledge.py --source C14 A03
+python skills/marketing-agent-skills/scripts/get-knowledge.py --source R23
+python skills/marketing-agent-skills/scripts/get-knowledge.py --source C14 A03
 ```
 
 Integrity:
 
 ```bash
-python skills/marketing-practitioner/scripts/get-knowledge.py --validate
+python skills/marketing-agent-skills/scripts/get-knowledge.py --validate
 ```
 
 Namespace-specific listing is the strongest context-economy path when helper execution is available: once the controller knows the relevant domain/platform, it does not need to expose all 191 route IDs to reasoning at once.
@@ -273,7 +273,7 @@ The printed count refers to assertions/checks in the script; the table groups re
 Repeatable command:
 
 ```bash
-python skills/marketing-practitioner/scripts/test-knowledge-routing.py
+python skills/marketing-agent-skills/scripts/test-knowledge-routing.py
 ```
 
 ## Manifest integrity command
@@ -281,7 +281,7 @@ python skills/marketing-practitioner/scripts/test-knowledge-routing.py
 The loader exposes repository-binding validation:
 
 ```bash
-python skills/marketing-practitioner/scripts/get-knowledge.py --validate
+python skills/marketing-agent-skills/scripts/get-knowledge.py --validate
 ```
 
 This checks every indexed route against the checked-out skill tree and fails when a path or selector cannot be resolved exactly. It also scans all evidence ledgers for duplicate intrinsic source IDs. JSON parsing rejects duplicate keys so a repeated namespace/section cannot silently overwrite an earlier route.

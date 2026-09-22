@@ -17,9 +17,9 @@ After implementation, does the Chapter 12 candidate survive targeted adversarial
 ## Evidence reviewed
 
 - `research/email-communication-architecture/01-theory-freeze.md`;
-- `skills/marketing-practitioner/SKILL.md` candidate routing/handoffs;
-- `skills/marketing-practitioner/handbook/12-email-communication-architecture.md`;
-- `skills/marketing-practitioner/references/email-communication-evidence.md`;
+- `skills/marketing-agent-skills/SKILL.md` candidate routing/handoffs;
+- `skills/marketing-agent-skills/handbook/12-email-communication-architecture.md`;
+- `skills/marketing-agent-skills/references/email-communication-evidence.md`;
 - the nine `email.*` bindings in `routing-index.json`;
 - deterministic route smoke coverage in `scripts/test-knowledge-routing.py`;
 - `evals/email-communication-architecture-adversarial-cases.md`;

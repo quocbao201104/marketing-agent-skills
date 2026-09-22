@@ -61,7 +61,7 @@ class ActivationObserverTests(unittest.TestCase):
         events = (
             command_event(
                 "Get-Content -LiteralPath "
-                "'.agents\\skills\\marketing-practitioner\\SKILL.md' -Raw"
+                "'.agents\\skills\\marketing-agent-skills\\SKILL.md' -Raw"
             ),
         )
         self.assertTrue(activation_observed(events))
@@ -70,7 +70,7 @@ class ActivationObserverTests(unittest.TestCase):
         events = (
             {
                 "type": "skill.activation.completed",
-                "skill": "marketing-practitioner",
+                "skill": "marketing-agent-skills",
             },
         )
         self.assertTrue(activation_observed(events))
@@ -79,7 +79,7 @@ class ActivationObserverTests(unittest.TestCase):
         events = (
             command_event(
                 "Get-Content -LiteralPath "
-                "'.agents\\skills\\marketing-practitioner\\SKILL.md' -Raw",
+                "'.agents\\skills\\marketing-agent-skills\\SKILL.md' -Raw",
                 exit_code=1,
             ),
         )
@@ -89,7 +89,7 @@ class ActivationObserverTests(unittest.TestCase):
         events = (
             command_event(
                 "Get-Content -LiteralPath "
-                "'.agents\\skills\\marketing-practitioner\\SKILL.md' -Raw"
+                "'.agents\\skills\\marketing-agent-skills\\SKILL.md' -Raw"
             ),
         )
         result = classify_activation(
@@ -115,7 +115,7 @@ class ActivationObserverTests(unittest.TestCase):
         events = (
             command_event(
                 "Get-Content -LiteralPath "
-                "'.agents\\skills\\marketing-practitioner\\SKILL.md' -Raw"
+                "'.agents\\skills\\marketing-agent-skills\\SKILL.md' -Raw"
             ),
         )
         result = classify_activation(
@@ -169,7 +169,7 @@ class ActivationObserverTests(unittest.TestCase):
         observed = (
             command_event(
                 "Get-Content -LiteralPath "
-                "'.agents\\skills\\marketing-practitioner\\SKILL.md' -Raw"
+                "'.agents\\skills\\marketing-agent-skills\\SKILL.md' -Raw"
             ),
         )
         report = build_activation_report(

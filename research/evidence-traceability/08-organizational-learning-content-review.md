@@ -6,7 +6,7 @@ Status: bounded design review completed; two local clarification candidates. Sou
 
 ## Scope and assessment
 
-Read all of [Chapter 06](../../skills/marketing-practitioner/handbook/06-organizational-learning.md), the postmortem path in [operating guidance](../../skills/marketing-practitioner/references/operating-guide.md), the learning checks in [quality rubrics](../../skills/marketing-practitioner/frameworks/quality-rubrics.md), and relevant [skill invariants](../../skills/marketing-practitioner/SKILL.md).
+Read all of [Chapter 06](../../skills/marketing-agent-skills/handbook/06-organizational-learning.md), the postmortem path in [operating guidance](../../skills/marketing-agent-skills/references/operating-guide.md), the learning checks in [quality rubrics](../../skills/marketing-agent-skills/frameworks/quality-rubrics.md), and relevant [skill invariants](../../skills/marketing-agent-skills/SKILL.md).
 
 The chapter already separates prior evidence, choice, outcome and interpretation; retains uncertainty, negative results and invalid tests; records context and freshness; and describes revision rather than timeless truths. There is no justification for adding another record schema or generic agent-memory subsystem.
 

@@ -93,9 +93,9 @@ If runtime guidance is later changed, inspect it together with the always-loaded
 
 ## Repository references
 
-- [Controller](../skills/marketing-practitioner/SKILL.md): decision-local role steering; missing information and uncertainty; multi-step state; source fidelity; final validation.
-- [Positioning](../skills/marketing-practitioner/handbook/03-positioning-and-value.md): Section 10, positioning output and selection authority.
-- [Messaging](../skills/marketing-practitioner/handbook/04-messaging-proof-and-copy.md): Sections 5, 10, 12, and 13, including local role steering and whole-artifact review.
-- [Email](../skills/marketing-practitioner/handbook/12-email-communication-architecture.md): Sections 2, 5, and 6, including local information jobs and continuity.
+- [Controller](../skills/marketing-agent-skills/SKILL.md): decision-local role steering; missing information and uncertainty; multi-step state; source fidelity; final validation.
+- [Positioning](../skills/marketing-agent-skills/handbook/03-positioning-and-value.md): Section 10, positioning output and selection authority.
+- [Messaging](../skills/marketing-agent-skills/handbook/04-messaging-proof-and-copy.md): Sections 5, 10, 12, and 13, including local role steering and whole-artifact review.
+- [Email](../skills/marketing-agent-skills/handbook/12-email-communication-architecture.md): Sections 2, 5, and 6, including local information jobs and continuity.
 - [Role-steering regression contract](decision-local-role-steering-regressions.md): S01-S05, including S03 wording and S04 continuation variants.
 - [Cross-layer regression contract](cross-layer-promotion-regressions.md): P01, P04, P07, and P08.

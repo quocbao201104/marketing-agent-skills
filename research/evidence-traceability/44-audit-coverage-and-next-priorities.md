@@ -39,7 +39,7 @@ The unchanged [initial inventory](01-evidence-traceability-map.md) describes 233
 
 **Review the evidence boundary for deciding whether to proceed, retrieve, clarify, or stop, and for judging whether a requested output is complete.** This is an editorial priority based on cross-task reach and an explicitly unreviewed source area, not measured user frequency or a demonstrated controller defect.
 
-Start with [the task-specification ledger](../../skills/marketing-practitioner/references/task-specification-evidence.md), the user-facing task guide it supports, the relevant SKILL.md paragraphs, and [quality rubrics section 10](../../skills/marketing-practitioner/frameworks/quality-rubrics.md#10-completion-and-decision-usefulness). The ledger explicitly supports the user guide; do not silently treat all its studies as direct validation of the runtime controller.
+Start with [the task-specification ledger](../../skills/marketing-agent-skills/references/task-specification-evidence.md), the user-facing task guide it supports, the relevant SKILL.md paragraphs, and [quality rubrics section 10](../../skills/marketing-agent-skills/frameworks/quality-rubrics.md#10-completion-and-decision-usefulness). The ledger explicitly supports the user guide; do not silently treat all its studies as direct validation of the runtime controller.
 
 Bound the research to three questions:
 

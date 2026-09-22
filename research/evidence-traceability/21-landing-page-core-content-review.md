@@ -6,7 +6,7 @@ Status: bounded conceptual and source-scope review completed. Two evidence corre
 
 ## Scope and assessment
 
-Read all eleven sections of [Chapter 11](../../skills/marketing-practitioner/handbook/11-landing-page-architecture.md), the eight entries in its [runtime evidence ledger](../../skills/marketing-practitioner/references/landing-page-evidence.md), and the landing-page activation boundary in the [operating guide](../../skills/marketing-practitioner/references/operating-guide.md), with [SKILL.md](../../skills/marketing-practitioner/SKILL.md) as governing context. Extracted all eleven actual landing-page routes; inspected the sequence, action/form and diagnosis excerpts explicitly against the chapter and source records.
+Read all eleven sections of [Chapter 11](../../skills/marketing-agent-skills/handbook/11-landing-page-architecture.md), the eight entries in its [runtime evidence ledger](../../skills/marketing-agent-skills/references/landing-page-evidence.md), and the landing-page activation boundary in the [operating guide](../../skills/marketing-agent-skills/references/operating-guide.md), with [SKILL.md](../../skills/marketing-agent-skills/SKILL.md) as governing context. Extracted all eleven actual landing-page routes; inspected the sequence, action/form and diagnosis excerpts explicitly against the chapter and source records.
 
 The historical landing-page evidence ledger and freeze adjudication were inspected for provenance, not accepted as independent validation. Old behavioral pilots were not used. This pass evaluates conceptual coherence and selected source support; it does not demonstrate agent execution or conversion performance.
 

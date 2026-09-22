@@ -6,7 +6,7 @@ Status: bounded content review completed; three local clarification candidates i
 
 ## Scope and method
 
-Reviewed the reasoning chain in [Chapter 01](../../skills/marketing-practitioner/handbook/01-customer-research-and-evidence.md), [Chapter 02](../../skills/marketing-practitioner/handbook/02-segmentation-icp-and-jtbd.md), [Chapter 03](../../skills/marketing-practitioner/handbook/03-positioning-and-value.md), and [Chapter 04](../../skills/marketing-practitioner/handbook/04-messaging-proof-and-copy.md), with their [bibliography](../../skills/marketing-practitioner/references/bibliography.md). Selected propositions because they change how evidence is interpreted, a target is chosen, or a public claim is worded.
+Reviewed the reasoning chain in [Chapter 01](../../skills/marketing-agent-skills/handbook/01-customer-research-and-evidence.md), [Chapter 02](../../skills/marketing-agent-skills/handbook/02-segmentation-icp-and-jtbd.md), [Chapter 03](../../skills/marketing-agent-skills/handbook/03-positioning-and-value.md), and [Chapter 04](../../skills/marketing-agent-skills/handbook/04-messaging-proof-and-copy.md), with their [bibliography](../../skills/marketing-agent-skills/references/bibliography.md). Selected propositions because they change how evidence is interpreted, a target is chosen, or a public claim is worded.
 
 First inspect internal logic and existing qualifications; then recover original sources. Distinguish source scope, the handbook's added inference, and the practical consequence. Examples below are constructed reasoning counterexamples, not observed agent failures or old pilot cases. Existing untracked inventory files were preserved.
 

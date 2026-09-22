@@ -125,7 +125,7 @@ def build_run_workspace(
             else profile.expected_skill_sha256
         )
         skill_path = (
-            destination / ".agents" / "skills" / "marketing-practitioner"
+            destination / ".agents" / "skills" / "marketing-agent-skills"
         )
         skill_path.parent.mkdir(parents=True, exist_ok=True)
         shutil.copytree(
@@ -146,13 +146,13 @@ def build_run_workspace(
 def preflight_workspace(binding: WorkspaceBinding) -> list[str]:
     errors: list[str] = []
     discovered_skill = (
-        binding.root / ".agents" / "skills" / "marketing-practitioner"
+        binding.root / ".agents" / "skills" / "marketing-agent-skills"
     )
     if binding.skill_mode == "none":
         if discovered_skill.exists():
-            errors.append("baseline contains marketing-practitioner")
+            errors.append("baseline contains marketing-agent-skills")
     elif not discovered_skill.is_dir():
-        errors.append("skill arm is missing marketing-practitioner")
+        errors.append("skill arm is missing marketing-agent-skills")
     elif binding.expected_skill_sha256 is None:
         errors.append("skill arm has no bound SHA-256")
     else:

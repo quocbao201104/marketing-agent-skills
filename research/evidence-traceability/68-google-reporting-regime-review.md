@@ -8,8 +8,8 @@ This is a bounded review of current Google Merchant Center reporting semantics t
 
 Existing owners remain:
 
-- `skills/marketing-practitioner/platforms/commerce/google-shopping.md`
-- `skills/marketing-practitioner/references/commerce/google-shopping-evidence.md`
+- `skills/marketing-agent-skills/platforms/commerce/google-shopping.md`
+- `skills/marketing-agent-skills/references/commerce/google-shopping-evidence.md`
 - current `google-commerce.*` routes
 
 ## New first-party evidence

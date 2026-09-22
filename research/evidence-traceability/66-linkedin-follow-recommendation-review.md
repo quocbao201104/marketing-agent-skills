@@ -8,7 +8,7 @@ This is a bounded source-to-guidance review of the existing LinkedIn platform mo
 
 Current owner remains:
 
-- `skills/marketing-practitioner/platforms/linkedin.md`
+- `skills/marketing-agent-skills/platforms/linkedin.md`
 - existing route family `linkedin.*`
 - existing evidence record `R28` for the broader LinkedIn environment
 

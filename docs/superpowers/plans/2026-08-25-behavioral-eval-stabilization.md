@@ -31,9 +31,9 @@
 - Create: `evals/behavioral/__init__.py`
 - Create: `evals/behavioral/tests/__init__.py`
 - Create: `evals/behavioral/tests/test_package_validation.py`
-- Create: `skills/marketing-practitioner/agents/openai.yaml`
+- Create: `skills/marketing-agent-skills/agents/openai.yaml`
 - Create: `.gitignore`
-- Modify: `skills/marketing-practitioner/SKILL.md:1-10`
+- Modify: `skills/marketing-agent-skills/SKILL.md:1-10`
 
 **Interfaces:**
 - Produces: `parse_frontmatter(text: str) -> dict[str, str]`
@@ -49,11 +49,11 @@ class PackageValidationTests(unittest.TestCase):
         self.assertIn("description exceeds 1024 characters", validate_skill(root))
 
     def test_repository_skill_has_valid_frontmatter_and_ui_metadata(self):
-        errors = validate_skill(REPO_ROOT / "skills" / "marketing-practitioner")
+        errors = validate_skill(REPO_ROOT / "skills" / "marketing-agent-skills")
         self.assertEqual([], errors)
-        ui = (REPO_ROOT / "skills" / "marketing-practitioner" / "agents" / "openai.yaml").read_text(encoding="utf-8")
+        ui = (REPO_ROOT / "skills" / "marketing-agent-skills" / "agents" / "openai.yaml").read_text(encoding="utf-8")
         self.assertIn('display_name: "Marketing Practitioner"', ui)
-        self.assertIn("$marketing-practitioner", ui)
+        self.assertIn("$marketing-agent-skills", ui)
 ```
 
 - [ ] **Step 2: Run the tests and verify RED**
@@ -64,7 +64,7 @@ Expected: import or assertion failure because `scripts/validate_skill.py`, compl
 
 - [ ] **Step 3: Implement the repository-owned validator**
 
-Implement strict UTF-8 reads, exactly one frontmatter block, required `name`/`description`, lowercase-hyphen name grammar, description length, matching directory name, optional UI metadata constraints, quoted values, 25-64 character short description, and `$marketing-practitioner` in `default_prompt`.
+Implement strict UTF-8 reads, exactly one frontmatter block, required `name`/`description`, lowercase-hyphen name grammar, description length, matching directory name, optional UI metadata constraints, quoted values, 25-64 character short description, and `$marketing-agent-skills` in `default_prompt`.
 
 The CLI accepts exactly one skill directory:
 
@@ -104,8 +104,8 @@ Run:
 
 ```powershell
 python -B -m unittest evals.behavioral.tests.test_package_validation -v
-python -B scripts\validate_skill.py skills\marketing-practitioner
-python -B C:\Users\Admin\.codex\skills\.system\skill-creator\scripts\quick_validate.py skills\marketing-practitioner
+python -B scripts\validate_skill.py skills\marketing-agent-skills
+python -B C:\Users\Admin\.codex\skills\.system\skill-creator\scripts\quick_validate.py skills\marketing-agent-skills
 ```
 
 Expected: all three commands exit `0`.
@@ -113,7 +113,7 @@ Expected: all three commands exit `0`.
 - [ ] **Step 6: Commit**
 
 ```powershell
-git add .gitignore scripts/validate_skill.py evals/behavioral skills/marketing-practitioner/SKILL.md skills/marketing-practitioner/agents/openai.yaml
+git add .gitignore scripts/validate_skill.py evals/behavioral skills/marketing-agent-skills/SKILL.md skills/marketing-agent-skills/agents/openai.yaml
 git commit -m "fix: stabilize skill package metadata"
 ```
 
@@ -203,10 +203,10 @@ def test_tree_hash_ignores_mtime_and_depends_on_relative_path_and_bytes(self):
 
 def test_baseline_preflight_rejects_marketing_skill_contamination(self):
     binding = self.build_baseline()
-    contaminated = binding.root / ".agents" / "skills" / "marketing-practitioner"
+    contaminated = binding.root / ".agents" / "skills" / "marketing-agent-skills"
     contaminated.mkdir(parents=True)
     (contaminated / "SKILL.md").write_text("x", encoding="utf-8")
-    self.assertIn("baseline contains marketing-practitioner", preflight_workspace(binding))
+    self.assertIn("baseline contains marketing-agent-skills", preflight_workspace(binding))
 ```
 
 - [ ] **Step 2: Write failing redaction tests**
@@ -229,7 +229,7 @@ Expected: module import failure.
 
 - [ ] **Step 4: Implement deterministic copying, hashing, preflight, and redaction**
 
-Initialize each temporary workspace with `git init`. Copy no repository file unless the case lists it. Copy the skill only for `workspace-copy` profiles at `.agents/skills/marketing-practitioner/`. Exclude cache files and reject symlinks that resolve outside the source skill.
+Initialize each temporary workspace with `git init`. Copy no repository file unless the case lists it. Copy the skill only for `workspace-copy` profiles at `.agents/skills/marketing-agent-skills/`. Exclude cache files and reject symlinks that resolve outside the source skill.
 
 Preflight checks the expected skill presence/absence, exact hash, absence of result/golden-answer material, and successful Git initialization.
 
@@ -593,12 +593,12 @@ git commit -m "eval: record current-skill behavioral pilot"
 ### Task 10: Compact Controller Challenger
 
 **Files:**
-- Create: `evals/behavioral/challengers/compact-controller/marketing-practitioner/SKILL.md`
-- Create: `evals/behavioral/challengers/compact-controller/marketing-practitioner/references/runtime-routing.md`
+- Create: `evals/behavioral/challengers/compact-controller/marketing-agent-skills/SKILL.md`
+- Create: `evals/behavioral/challengers/compact-controller/marketing-agent-skills/references/runtime-routing.md`
 - Create: `evals/behavioral/profiles/compact-challenger.json`
 - Create: `evals/behavioral/tests/test_compact_challenger.py`
-- Modify only after promotion: `skills/marketing-practitioner/SKILL.md`
-- Modify only after promotion: `skills/marketing-practitioner/references/runtime-routing.md`
+- Modify only after promotion: `skills/marketing-agent-skills/SKILL.md`
+- Modify only after promotion: `skills/marketing-agent-skills/references/runtime-routing.md`
 
 **Interfaces:**
 - Produces: a complete installable challenger copy with its own deterministic hash.

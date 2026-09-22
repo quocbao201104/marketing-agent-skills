@@ -206,10 +206,10 @@ def valid_unsealed_trace() -> list[dict]:
             "SKILL_ACTIVATION",
             {
                 "intended_condition": "with_skill",
-                "requested_skill_id": "marketing-practitioner",
+                "requested_skill_id": "marketing-agent-skills",
                 "requested_skill_version": "0.5.1",
                 "requested_skill_hash": "sha256:" + "8" * 64,
-                "active_skill_id": "marketing-practitioner",
+                "active_skill_id": "marketing-agent-skills",
                 "active_skill_version": "0.5.1",
                 "active_skill_hash": "sha256:" + "8" * 64,
                 "outcome": "activated",

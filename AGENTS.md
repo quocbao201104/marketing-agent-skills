@@ -4,7 +4,7 @@
 
 This repository maintains Marketing Practitioner, a research-first marketing decision skill for AI agents.
 
-- `skills/marketing-practitioner/` is the distributable runtime: `SKILL.md` controls behavior; `handbook/`, `platforms/`, `adaptations/`, and `frameworks/` hold guidance; `references/` records evidence; `routing-index.json` and `scripts/` support retrieval.
+- `skills/marketing-agent-skills/` is the distributable runtime: `SKILL.md` controls behavior; `handbook/`, `platforms/`, `adaptations/`, and `frameworks/` hold guidance; `references/` records evidence; `routing-index.json` and `scripts/` support retrieval.
 - Root `scripts/` contains validation, packaging, and asset tooling.
 - `evals/` contains smoke cases, audits, and Python evaluation harnesses; `research/` preserves provenance rather than runtime instructions.
 - `docs/` covers setup and design; `assets/` holds visual materials; `.codex-plugin/` and `.claude-plugin/` contain distribution metadata.
@@ -15,7 +15,7 @@ Run from the repository root with Python available. CI uses Python 3.13 and Wind
 
 - `.\scripts\verify.ps1` runs package validation, routing checks, both harness test suites, and UTF-8/generated-artifact checks.
 - `.\scripts\verify.ps1 -PackageOnly` runs package validation only.
-- `python -B skills/marketing-practitioner/scripts/test-knowledge-routing.py` checks retrieval mechanics.
+- `python -B skills/marketing-agent-skills/scripts/test-knowledge-routing.py` checks retrieval mechanics.
 - `python -B -m unittest discover -s evals/behavioral/tests -v` runs behavioral harness unit tests.
 - `python -B scripts/package_skill.py ../skill.zip` creates a new portable ZIP from tracked runtime files using current working-tree bytes; existing output is never overwritten.
 

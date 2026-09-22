@@ -15,12 +15,12 @@ The candidate changes exactly seven runtime/evaluation files relative to the res
 
 ```text
 evals/brand-identity-and-visual-systems-adversarial-cases.md
-skills/marketing-practitioner/SKILL.md
-skills/marketing-practitioner/handbook/README.md
-skills/marketing-practitioner/handbook/15-brand-identity-and-visual-systems.md
-skills/marketing-practitioner/references/brand-identity-evidence.md
-skills/marketing-practitioner/routing-index.json
-skills/marketing-practitioner/scripts/test-knowledge-routing.py
+skills/marketing-agent-skills/SKILL.md
+skills/marketing-agent-skills/handbook/README.md
+skills/marketing-agent-skills/handbook/15-brand-identity-and-visual-systems.md
+skills/marketing-agent-skills/references/brand-identity-evidence.md
+skills/marketing-agent-skills/routing-index.json
+skills/marketing-agent-skills/scripts/test-knowledge-routing.py
 ```
 
 No release/version metadata, `get-knowledge.py`, routing schema, platform module, adaptation file, shared primitive, or unrelated handbook chapter is changed.

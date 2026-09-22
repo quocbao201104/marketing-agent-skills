@@ -4,7 +4,7 @@ Date: 2026-09-07. Implements Q1 from the [core review](27-discovery-core-content
 
 ## Changes
 
-Two targeted replacements in the [discovery evidence ledger](../../skills/marketing-practitioner/references/search-discovery-evidence.md) replace broad references with identifiable supporting works:
+Two targeted replacements in the [discovery evidence ledger](../../skills/marketing-agent-skills/references/search-discovery-evidence.md) replace broad references with identifiable supporting works:
 
 - SD13 identifies the authors, year, title, SIGIR venue and author-hosted paper for the 2005 click-feedback study. Its scope distinguishes biased absolute interpretation from useful relative signals; it does not provide a universal CTR correction or current ranking claim.
 - SD14 identifies the authors, year, title, WWW venue and institutional paper for the 2016 mobile good-abandonment study. Its scope preserves direct-answer task design and prevents inferring satisfaction from missing clicks in arbitrary systems.

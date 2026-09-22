@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://marketing-practitioner.local/schemas/behavioral-case-v1.json",
+  "$id": "https://marketing-agent-skills.local/schemas/behavioral-case-v1.json",
   "type": "object",
   "required": ["schema_version", "cases"],
   "additionalProperties": false,

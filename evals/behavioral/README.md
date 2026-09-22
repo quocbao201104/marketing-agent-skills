@@ -1,6 +1,6 @@
 # Behavioral evaluation harness
 
-This harness compares an isolated no-skill baseline with an exact workspace copy of `marketing-practitioner`. It separates executor and isolation failures from answer quality, seals raw run records, and produces condition-blind review packets. It intentionally does not calculate a single quality score.
+This harness compares an isolated no-skill baseline with an exact workspace copy of `marketing-agent-skills`. It separates executor and isolation failures from answer quality, seals raw run records, and produces condition-blind review packets. It intentionally does not calculate a single quality score.
 
 ## Validate the frozen contracts
 
@@ -44,7 +44,7 @@ For a bounded preflight, add one or more `--case-id BEH-...` selectors and `--re
 python -B -m evals.behavioral.behavioral_eval.cli run --adapter codex-cli --profile-id baseline --profile-id current-skill --results evals\behavioral\results\pilot-v1
 ```
 
-Every case/profile/repetition runs in a fresh temporary Git workspace. The baseline workspace contains no `marketing-practitioner` skill. The skill arm copies the repository skill to `.agents/skills/marketing-practitioner` and binds its tree hash before execution. Existing result directories are never overwritten.
+Every case/profile/repetition runs in a fresh temporary Git workspace. The baseline workspace contains no `marketing-agent-skills` skill. The skill arm copies the repository skill to `.agents/skills/marketing-agent-skills` and binds its tree hash before execution. Existing result directories are never overwritten.
 
 Each sealed manifest declares the execution regime as `host-realistic/workspace-isolated`, not hermetic. It records the historical Codex CLI flags and read-only sandbox, categorical inherited host scope, and observed executor versions when available. `--ignore-user-config` suppresses `config.toml`; it does not assert rules isolation. Visibility of user/admin/system/plugin skill metadata and rules remains explicitly `unverified` because the harness does not use `--ignore-rules` or redirect host home/Codex directories.
 

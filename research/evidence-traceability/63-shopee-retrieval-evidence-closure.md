@@ -4,7 +4,7 @@ Date: 2026-09-09. Scope, sources and constructed cases: [review 62](62-shopee-re
 
 ## Changes and assessment
 
-Updated sections 6-7 of the [Shopee module](../../skills/marketing-practitioner/platforms/commerce/shopee.md) and S07/S08 in its [ledger](../../skills/marketing-practitioner/references/commerce/shopee-evidence.md). Existing commercial/visibility corrections remain intact.
+Updated sections 6-7 of the [Shopee module](../../skills/marketing-agent-skills/platforms/commerce/shopee.md) and S07/S08 in its [ledger](../../skills/marketing-agent-skills/references/commerce/shopee-evidence.md). Existing commercial/visibility corrections remain intact.
 
 | Cases | Static assessment |
 | --- | --- |

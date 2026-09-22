@@ -20,12 +20,12 @@ The candidate SHA above is the implementation under review. This self-review doc
 The candidate changes only the following implementation surfaces relative to the frozen research head:
 
 ```text
-skills/marketing-practitioner/SKILL.md
-skills/marketing-practitioner/handbook/16-founder-led-sales-decision-runtime.md
-skills/marketing-practitioner/handbook/README.md
-skills/marketing-practitioner/references/founder-led-sales-evidence.md
-skills/marketing-practitioner/routing-index.json
-skills/marketing-practitioner/scripts/test-knowledge-routing.py
+skills/marketing-agent-skills/SKILL.md
+skills/marketing-agent-skills/handbook/16-founder-led-sales-decision-runtime.md
+skills/marketing-agent-skills/handbook/README.md
+skills/marketing-agent-skills/references/founder-led-sales-evidence.md
+skills/marketing-agent-skills/routing-index.json
+skills/marketing-agent-skills/scripts/test-knowledge-routing.py
 .claude-plugin/plugin.json
 .codex-plugin/plugin.json
 docs/plugin.md

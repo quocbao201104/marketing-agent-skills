@@ -6,7 +6,7 @@ Status: bounded static review completed. No additional runtime correction is jus
 
 ## Scope and method
 
-Composed actual Chapter 10 excerpts with the controller, uncertainty, continuity and completion requirements in [SKILL.md](../../skills/marketing-practitioner/SKILL.md), the commercial-design path and handoffs in [operating guidance](../../skills/marketing-practitioner/references/operating-guide.md), and the relevant causal/learning boundaries in Chapters 05 and 06.
+Composed actual Chapter 10 excerpts with the controller, uncertainty, continuity and completion requirements in [SKILL.md](../../skills/marketing-agent-skills/SKILL.md), the commercial-design path and handoffs in [operating guidance](../../skills/marketing-agent-skills/references/operating-guide.md), and the relevant causal/learning boundaries in Chapters 05 and 06.
 
 The cases below are constructed inputs. Each identifies necessary dependencies, state that must survive and a useful stopping point. They are possible paths, not mandatory route sequences. No agent executed these tasks; no customer-facing drafts, pricing changes, experiments or external actions were run. Existing pilots and historical theory-freeze verdicts are not performance evidence.
 

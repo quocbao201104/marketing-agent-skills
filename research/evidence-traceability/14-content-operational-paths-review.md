@@ -6,7 +6,7 @@ Status: bounded static review completed. No additional runtime correction is jus
 
 ## Scope and method
 
-Read [Chapter 08](../../skills/marketing-practitioner/handbook/08-content-environments-and-distribution.md) §§11–18, composing with its earlier meaning/representation guidance, [SKILL.md](../../skills/marketing-practitioner/SKILL.md) content-selection and completion requirements, and the content path in [operating guidance](../../skills/marketing-practitioner/references/operating-guide.md).
+Read [Chapter 08](../../skills/marketing-agent-skills/handbook/08-content-environments-and-distribution.md) §§11–18, composing with its earlier meaning/representation guidance, [SKILL.md](../../skills/marketing-agent-skills/SKILL.md) content-selection and completion requirements, and the content path in [operating guidance](../../skills/marketing-agent-skills/references/operating-guide.md).
 
 Inspect actual retrieved sections rather than assuming the index preserves useful context. Use constructed tasks to check whether the available guidance can reach a useful deliverable or decision while retaining the relevant constraints. The paths below are plausible compositions, not mandatory read sequences or an oracle demanding identical agent behavior. No drafts, publication actions or live behavioral probes were run.
 

@@ -112,7 +112,7 @@ class CliTests(unittest.TestCase):
                     "case_inputs": "case-only",
                     "baseline_skill_presence": "absent",
                     "skill_arm": {
-                        "destination": ".agents/skills/marketing-practitioner",
+                        "destination": ".agents/skills/marketing-agent-skills",
                         "integrity": "tree-sha256",
                         "mode": "workspace-copy-only",
                     },

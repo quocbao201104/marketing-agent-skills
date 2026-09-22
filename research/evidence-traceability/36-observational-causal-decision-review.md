@@ -6,7 +6,7 @@ Status: bounded theoretical and static design review completed. Two local clarif
 
 ## Scope and existing strengths
 
-Read [Chapter 05](../../skills/marketing-practitioner/handbook/05-diagnosis-causality-and-experimentation.md), its relevant bibliography records, and the observation/causal handoffs in Chapters 08, 12 and 14, with [SKILL.md](../../skills/marketing-practitioner/SKILL.md) as governing context. Reconciled the proposed gaps with [the earlier causality review](04-diagnosis-causality-content-review.md) and [its closure](05-causality-clarification-closure.md).
+Read [Chapter 05](../../skills/marketing-agent-skills/handbook/05-diagnosis-causality-and-experimentation.md), its relevant bibliography records, and the observation/causal handoffs in Chapters 08, 12 and 14, with [SKILL.md](../../skills/marketing-agent-skills/SKILL.md) as governing context. Reconciled the proposed gaps with [the earlier causality review](04-diagnosis-causality-content-review.md) and [its closure](05-causality-clarification-closure.md).
 
 The current chapter already separates description, prediction and causation; preserves competing explanations, outcome definitions, randomized assignment/inclusion integrity, cohort state, maturation and censoring; distinguishes intervention effects from mechanisms; and supports action, waiting or further information under uncertainty. Its marginal-return paragraph already addresses saturation, carryover and interference. Those are strengths to retain.
 

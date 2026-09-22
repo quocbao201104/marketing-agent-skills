@@ -1,11 +1,11 @@
 {
-  "name": "marketing-practitioner",
+  "name": "marketing-agent-skills",
   "interface": {
     "displayName": "Marketing Practitioner"
   },
   "plugins": [
     {
-      "name": "marketing-practitioner",
+      "name": "marketing-agent-skills",
       "source": {
         "source": "local",
         "path": "./"

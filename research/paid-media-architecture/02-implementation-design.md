@@ -29,13 +29,13 @@ and the four-question model:
 Add one bounded specialist chapter:
 
 ```text
-skills/marketing-practitioner/handbook/14-paid-media-architecture.md
+skills/marketing-agent-skills/handbook/14-paid-media-architecture.md
 ```
 
 Add one scoped evidence ledger:
 
 ```text
-skills/marketing-practitioner/references/paid-media-evidence.md
+skills/marketing-agent-skills/references/paid-media-evidence.md
 ```
 
 Expose one JIT namespace:

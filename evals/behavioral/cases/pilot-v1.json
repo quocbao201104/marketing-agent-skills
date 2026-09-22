@@ -63,7 +63,7 @@
       ],
       "forbidden_disclosures": ["evidence-control", "Chapter 01", "prevalence boundary"],
       "expected_relation": "skill_not_worse",
-      "provenance": {"source": "skills/marketing-practitioner/handbook/01-customer-research-and-evidence.md#2", "frozen_at_commit": "bb53cadce87546ae8c7cd9eab1aa1985a32cd9df"}
+      "provenance": {"source": "skills/marketing-agent-skills/handbook/01-customer-research-and-evidence.md#2", "frozen_at_commit": "bb53cadce87546ae8c7cd9eab1aa1985a32cd9df"}
     },
     {
       "case_id": "BEH-CAUSE-001",

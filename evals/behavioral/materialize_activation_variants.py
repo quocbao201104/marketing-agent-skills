@@ -126,7 +126,7 @@ def materialize(
 
     for variant_id in requested:
         spec = variants[variant_id]
-        destination = output_root / variant_id / "marketing-practitioner"
+        destination = output_root / variant_id / "marketing-agent-skills"
         if destination.exists():
             raise MaterializationError(
                 f"refusing to overwrite activation variant: {destination}"

@@ -4,7 +4,7 @@ Date: 2026-09-09. Sources and static cases: [review 64](64-shopee-buyer-context-
 
 ## Changes and assessment
 
-Updated the [Shopee module](../../skills/marketing-practitioner/platforms/commerce/shopee.md), sections 3, 5 and 6, and its [evidence ledger](../../skills/marketing-practitioner/references/commerce/shopee-evidence.md), S01/S03/S05/S06/S10.
+Updated the [Shopee module](../../skills/marketing-agent-skills/platforms/commerce/shopee.md), sections 3, 5 and 6, and its [evidence ledger](../../skills/marketing-agent-skills/references/commerce/shopee-evidence.md), S01/S03/S05/S06/S10.
 
 | Cases | Static assessment |
 | --- | --- |

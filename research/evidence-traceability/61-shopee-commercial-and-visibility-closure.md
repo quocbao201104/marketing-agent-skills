@@ -4,7 +4,7 @@ Date: 2026-09-09. Scope and primary sources: [review 60](60-shopee-commercial-an
 
 ## Corrections
 
-Updated only the [Shopee module](../../skills/marketing-practitioner/platforms/commerce/shopee.md) and [existing evidence ledger](../../skills/marketing-practitioner/references/commerce/shopee-evidence.md), plus these research reports.
+Updated only the [Shopee module](../../skills/marketing-agent-skills/platforms/commerce/shopee.md) and [existing evidence ledger](../../skills/marketing-agent-skills/references/commerce/shopee-evidence.md), plus these research reports.
 
 - SP-R1: commercial-state now requires selecting the requested configuration and inspecting its price breakdown before deciding budget fit.
 - SP-R2: product-info, diagnosis and the rank-drop fast path now distinguish confirmed listing/account restrictions from lower exposure; product identity remains protected against review manipulation.

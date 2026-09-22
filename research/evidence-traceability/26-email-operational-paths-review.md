@@ -6,7 +6,7 @@ Status: eleven constructed work chains reviewed. No additional decision-changing
 
 ## Scope and method
 
-Read the current [email chapter](../../skills/marketing-practitioner/handbook/12-email-communication-architecture.md) with [SKILL.md](../../skills/marketing-practitioner/SKILL.md), the email-specific handoffs in the [operating guide](../../skills/marketing-practitioner/references/operating-guide.md), and Chapter 05's causal comparison and treatment-scope guidance where needed. Revisited the distinction between current outputs, resolved state, provisional choices and evidence when work resumes.
+Read the current [email chapter](../../skills/marketing-agent-skills/handbook/12-email-communication-architecture.md) with [SKILL.md](../../skills/marketing-agent-skills/SKILL.md), the email-specific handoffs in the [operating guide](../../skills/marketing-agent-skills/references/operating-guide.md), and Chapter 05's causal comparison and treatment-scope guidance where needed. Revisited the distinction between current outputs, resolved state, provisional choices and evidence when work resumes.
 
 Inspected the manifest namespace and extracted all nine actual routes: email.core (44 lines), send-decision (69), send-state (70), sequence (76), allocation (85), continuity (58), observation (69), decision-record (28), and invariants (68). Re-read allocation, continuity and observation excerpts with the core; source EM08 retained the corrected treatment and outcome distinctions.
 

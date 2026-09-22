@@ -32,7 +32,7 @@ PROFILES = (
     / "skill-activation-v1"
     / "profiles.json"
 )
-SKILL = ROOT / "skills" / "marketing-practitioner" / "SKILL.md"
+SKILL = ROOT / "skills" / "marketing-agent-skills" / "SKILL.md"
 SPLITS = (
     ROOT
     / "evals"

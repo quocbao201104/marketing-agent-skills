@@ -136,7 +136,7 @@ A larger architecture is not a contribution by itself.
 
 Some files have a much larger blast radius than others.
 
-### `skills/marketing-practitioner/SKILL.md`
+### `skills/marketing-agent-skills/SKILL.md`
 
 This is the runtime controller and universal behavioral contract.
 
@@ -210,7 +210,7 @@ COMMERCIAL DESIGN
 
 ### Local adaptation extensions
 
-Local adaptation is a bounded extension mechanism, not a country-profile or culture-pack layer. Start with [`skills/marketing-practitioner/adaptations/README.md`](skills/marketing-practitioner/adaptations/README.md) and preserve the existing decision owner.
+Local adaptation is a bounded extension mechanism, not a country-profile or culture-pack layer. Start with [`skills/marketing-agent-skills/adaptations/README.md`](skills/marketing-agent-skills/adaptations/README.md) and preserve the existing decision owner.
 
 A proposed local contribution should pass this promotion test:
 
@@ -308,17 +308,17 @@ When updating Facebook, Instagram, LinkedIn, TikTok, X, Google commerce, Amazon,
 
 A platform-local finding should stay local unless a concrete cross-platform counterexample shows the shared model is insufficient.
 
-Use [`skills/marketing-practitioner/platforms/README.md`](skills/marketing-practitioner/platforms/README.md) and [`skills/marketing-practitioner/platforms/commerce/README.md`](skills/marketing-practitioner/platforms/commerce/README.md) as human navigation only. Runtime route bindings remain in `routing-index.json`.
+Use [`skills/marketing-agent-skills/platforms/README.md`](skills/marketing-agent-skills/platforms/README.md) and [`skills/marketing-agent-skills/platforms/commerce/README.md`](skills/marketing-agent-skills/platforms/commerce/README.md) as human navigation only. Runtime route bindings remain in `routing-index.json`.
 
 ---
 
 ## Updating the agent skill
 
-`skills/marketing-practitioner/SKILL.md` should remain operational and comparatively compact. Extended conceptual discussion belongs in the handbook or platform modules.
+`skills/marketing-agent-skills/SKILL.md` should remain operational and comparatively compact. Extended conceptual discussion belongs in the handbook or platform modules.
 
 When a knowledge change truly alters how the agent should behave, update `SKILL.md` in the same change. Otherwise leave the controller alone.
 
-Keep runtime resources required by the skill inside `skills/marketing-practitioner/` so they travel with the installed package. Keep evaluation artifacts outside the installable skill under `evals/` and deep pre-implementation research lineage outside runtime under `research/`.
+Keep runtime resources required by the skill inside `skills/marketing-agent-skills/` so they travel with the installed package. Keep evaluation artifacts outside the installable skill under `evals/` and deep pre-implementation research lineage outside runtime under `research/`.
 
 For large indexed knowledge, preserve stable logical route IDs where possible. A heading or physical file may move without requiring the runtime-facing knowledge ID to change.
 

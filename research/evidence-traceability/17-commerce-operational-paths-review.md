@@ -6,7 +6,7 @@ Status: bounded static review completed. No additional runtime correction is jus
 
 ## Scope and method
 
-Read [Chapter 09](../../skills/marketing-practitioner/handbook/09-commerce-environments-and-product-discovery.md) sections 16-21 with relevant earlier sections, the commerce path and state handoffs in [operating guidance](../../skills/marketing-practitioner/references/operating-guide.md), and the controller, continuity, uncertainty, content-selection and completion requirements in [SKILL.md](../../skills/marketing-practitioner/SKILL.md). Inspected actual loader output for the routes listed below.
+Read [Chapter 09](../../skills/marketing-agent-skills/handbook/09-commerce-environments-and-product-discovery.md) sections 16-21 with relevant earlier sections, the commerce path and state handoffs in [operating guidance](../../skills/marketing-agent-skills/references/operating-guide.md), and the controller, continuity, uncertainty, content-selection and completion requirements in [SKILL.md](../../skills/marketing-agent-skills/SKILL.md). Inspected actual loader output for the routes listed below.
 
 The constructed tasks check whether available guidance preserves consequential state, resolves only necessary dependencies and returns to a useful requested output. The paths are possible compositions, not mandatory reading sequences. These cases were assessed against text; no agent was asked to execute them and no products, feeds or transactions were submitted.
 
