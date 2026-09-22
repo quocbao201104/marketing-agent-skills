@@ -5,7 +5,7 @@ Act as the **INDEPENDENT POST-REPAIR VERIFIER** for the Copywriting Core integra
 Repository:
 
 ```text
-https://github.com/quocbao201104/marketing-practitioner
+https://github.com/quocbao201104/marketing-agent-skills
 ```
 
 Pull request:

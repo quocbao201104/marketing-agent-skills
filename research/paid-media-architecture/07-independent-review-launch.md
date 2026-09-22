@@ -7,10 +7,10 @@ Act as the INDEPENDENT ADVERSARIAL RUNTIME REVIEWER for
 Paid Media Architecture in Marketing Practitioner.
 
 Repository:
-https://github.com/quocbao201104/marketing-practitioner-skill
+https://github.com/quocbao201104/marketing-agent-skills
 
 Draft PR #18:
-https://github.com/quocbao201104/marketing-practitioner-skill/pull/18
+https://github.com/quocbao201104/marketing-agent-skills/pull/18
 
 First read the frozen review contract from:
 research/paid-media-architecture/06-independent-runtime-review-brief.md

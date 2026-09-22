@@ -1,7 +1,7 @@
 # Search & Discovery Architecture — Independent Adversarial Runtime Review Brief
 
 Status: **FROZEN REVIEW CONTRACT**  
-Repository: `https://github.com/quocbao201104/marketing-practitioner-skill`  
+Repository: `https://github.com/quocbao201104/marketing-agent-skills`  
 Candidate branch: `candidate/search-discovery-architecture`  
 Frozen implementation/evaluation target: `ccac14d214ad8a77fcec8199dedb7fc78a840cc7`
 

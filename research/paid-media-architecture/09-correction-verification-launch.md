@@ -6,10 +6,10 @@ Use this prompt in the independent-review session that returned `PROCEED AFTER L
 Verify only the local correction requested in your Paid Media Architecture review.
 
 Repository:
-https://github.com/quocbao201104/marketing-practitioner-skill
+https://github.com/quocbao201104/marketing-agent-skills
 
 PR #18:
-https://github.com/quocbao201104/marketing-practitioner-skill/pull/18
+https://github.com/quocbao201104/marketing-agent-skills/pull/18
 
 Original frozen target you reviewed:
 bf81ec779dc43a94a72f9752209c6b82ef47e437

@@ -3,7 +3,7 @@
 Act as the INDEPENDENT ADVERSARIAL RUNTIME REVIEWER for Search & Discovery Architecture in Marketing Practitioner.
 
 Repository:
-https://github.com/quocbao201104/marketing-practitioner-skill
+https://github.com/quocbao201104/marketing-agent-skills
 
 Candidate branch:
 candidate/search-discovery-architecture

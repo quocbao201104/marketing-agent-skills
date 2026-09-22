@@ -2,7 +2,7 @@
 
 Status: **FROZEN REVIEW CONTRACT — PRE-IMPLEMENTATION THEORY REVIEW**
 
-Repository: `https://github.com/quocbao201104/marketing-practitioner`
+Repository: `https://github.com/quocbao201104/marketing-agent-skills`
 
 Review target: the exact candidate commit supplied with the review request. Do not use later commits as candidate evidence.
 

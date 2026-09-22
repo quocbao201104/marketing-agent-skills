@@ -11,13 +11,13 @@ ca44ca096e3d38156611f9fef7b3ea17139e2772
 Repository:
 
 ```text
-https://github.com/quocbao201104/marketing-practitioner-skill
+https://github.com/quocbao201104/marketing-agent-skills
 ```
 
 Draft PR:
 
 ```text
-https://github.com/quocbao201104/marketing-practitioner-skill/pull/15
+https://github.com/quocbao201104/marketing-agent-skills/pull/15
 ```
 
 ## Role

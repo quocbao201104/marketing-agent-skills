@@ -1,7 +1,7 @@
 # Paid Media Architecture — Independent Adversarial Runtime Review Brief
 
 Status: **FROZEN REVIEW CONTRACT**  
-Repository: `https://github.com/quocbao201104/marketing-practitioner-skill`  
+Repository: `https://github.com/quocbao201104/marketing-agent-skills`  
 Candidate branch: `candidate/paid-media-architecture`  
 Frozen implementation/evaluation target: `bf81ec779dc43a94a72f9752209c6b82ef47e437`
 

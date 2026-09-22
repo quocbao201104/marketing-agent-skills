@@ -2,7 +2,7 @@
 
 ## Review target
 
-Repository: `quocbao201104/marketing-practitioner`
+Repository: `quocbao201104/marketing-agent-skills`
 
 Implementation PR: `#29`
 

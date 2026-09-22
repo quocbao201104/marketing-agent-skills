@@ -5,7 +5,7 @@ Act as the **INDEPENDENT POST-REPAIR VERIFIER** for Founder-led Sales in Marketi
 Repository:
 
 ```text
-https://github.com/quocbao201104/marketing-practitioner
+https://github.com/quocbao201104/marketing-agent-skills
 ```
 
 Original independent-review candidate:

@@ -4,7 +4,7 @@ Act as the **INDEPENDENT CLOSURE VERIFIER** for the final remaining Episode 01 i
 
 Repository:
 
-`https://github.com/quocbao201104/marketing-practitioner`
+`https://github.com/quocbao201104/marketing-agent-skills`
 
 Review exactly:
 

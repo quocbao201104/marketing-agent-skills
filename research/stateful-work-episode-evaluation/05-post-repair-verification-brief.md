@@ -4,7 +4,7 @@ Status: **CLOSURE-ONLY REVIEW CONTRACT**
 
 ## Repository
 
-https://github.com/quocbao201104/marketing-practitioner
+https://github.com/quocbao201104/marketing-agent-skills
 
 ## Repaired candidate target
 

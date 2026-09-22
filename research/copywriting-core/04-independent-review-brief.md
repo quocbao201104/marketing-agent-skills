@@ -5,7 +5,7 @@ Act as the **INDEPENDENT ADVERSARIAL IMPLEMENTATION REVIEWER** for the Copywriti
 Repository:
 
 ```text
-https://github.com/quocbao201104/marketing-practitioner
+https://github.com/quocbao201104/marketing-agent-skills
 ```
 
 Review exactly this candidate:

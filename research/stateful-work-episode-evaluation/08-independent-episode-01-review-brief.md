@@ -11,7 +11,7 @@ db139ae134fb95f4eb259c7ff40e6bcd0a7fd557
 Repository:
 
 ```text
-https://github.com/quocbao201104/marketing-practitioner
+https://github.com/quocbao201104/marketing-agent-skills
 ```
 
 Branch:
