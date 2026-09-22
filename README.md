@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="assets/brand/banner.svg" alt="Marketing Practitioner banner" width="100%">
-
 # Marketing Agent Skills
 
 **From customer evidence to marketing decisions and execution.**
