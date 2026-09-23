@@ -7,6 +7,15 @@ The project uses semantic versioning for published skill revisions. v1.0.0 marks
 
 ## [Unreleased]
 
+## [2.2.2] - 2026-09-23
+
+### Distribution and activation
+
+- Renamed the runtime skill directory and package identifiers to `marketing-agent-skills`, matching the repository name. The user-facing name remains Marketing Practitioner.
+- Tightened channel activation so planning or diagnosing channel execution across pages, email, social, paid media, search, or commerce is in scope, without treating a platform name as a job.
+- Added a Claude plugin display name and public privacy, terms, and support links for plugin distribution.
+- Added plugin troubleshooting guidance, a GitHub Sponsors link, and submission evaluation cases. Those cases are not live behavioral evidence.
+
 ## [2.2.1] - 2026-09-18
 
 ### Skill activation and decision coverage
