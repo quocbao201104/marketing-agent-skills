@@ -1,6 +1,6 @@
 # Task Specification Guide
 
-You do not need to learn prompt engineering to use Marketing Practitioner well.
+You do not need to learn prompt engineering to use Marketing Agent Skills well.
 
 The useful question is not:
 

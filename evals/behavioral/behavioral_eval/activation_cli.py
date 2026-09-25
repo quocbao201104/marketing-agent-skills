@@ -41,7 +41,7 @@ def _write_json(path: Path, payload: Any) -> None:
 
 def _parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
-        description="Evaluate top-level Marketing Practitioner activation"
+        description="Evaluate top-level Marketing Agent Skills activation"
     )
     parser.add_argument("--cases", type=Path, required=True)
     parser.add_argument("--oracle", type=Path, required=True)

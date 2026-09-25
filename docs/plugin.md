@@ -1,6 +1,6 @@
 # Codex plugin
 
-Marketing Practitioner can be distributed as a Codex plugin containing the existing agent skill. The repository root is the plugin root: [plugin.json](../.codex-plugin/plugin.json) points directly to `./skills/`. The standalone skill installation remains supported.
+Marketing Agent Skills can be distributed as a Codex plugin containing the existing agent skill. The repository root is the plugin root: [plugin.json](../.codex-plugin/plugin.json) points directly to `./skills/`. The standalone skill installation remains supported.
 
 For browser use in Claude or ChatGPT, see the [web setup guide](web-setup.md). A successful local Codex installation does not establish web installation or account eligibility.
 
@@ -27,7 +27,7 @@ The research reports and evaluation infrastructure remain in the repository for 
 
 The repository includes a native Codex catalog at [marketplace.json](../.agents/plugins/marketplace.json). Its local source `./` resolves from the repository root to the existing plugin. The separate Claude catalog remains available; both use the same skill files.
 
-In the Codex app's marketplace controls, add `https://github.com/quocbao201104/marketing-agent-skills.git`, then install Marketing Practitioner from the catalog. Menu labels vary by app version. This adds a user-selected marketplace, not an official directory listing.
+In the Codex app's marketplace controls, add `https://github.com/quocbao201104/marketing-agent-skills.git`, then install Marketing Agent Skills from the catalog. Menu labels vary by app version. This adds a user-selected marketplace, not an official directory listing.
 
 On a compatible Codex CLI:
 
@@ -45,7 +45,7 @@ See the [OpenAI marketplace format reference](https://learn.chatgpt.com/docs/ent
 1. Validate the plugin manifest with the current `plugin-creator/scripts/validate_plugin.py` from a Codex installation that includes that skill.
 2. Run the repository's `scripts/verify.ps1 -PackageOnly` against the packaged skill using `-SkillPath`.
 3. Run the packaged `scripts/get-knowledge.py --validate` to check route and source targets after relocation.
-4. Confirm the host discovers Marketing Practitioner in a new task and can read a referenced handbook section. Use an approved-positioning writing request to check that the plugin leads to the existing skill.
+4. Confirm the host discovers Marketing Agent Skills in a new task and can read a referenced handbook section. Use an approved-positioning writing request to check that the plugin leads to the existing skill.
 
 Manifest validation, installation, resource integrity, and live agent behavior are separate checks. A successful install is not evidence that a model followed the marketing instructions correctly. Avoid enabling duplicate standalone and plugin installations of the same skill during a behavior check.
 

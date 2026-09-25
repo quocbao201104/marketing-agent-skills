@@ -18,7 +18,7 @@ def skill_text(description: str) -> str:
         f"description: {json.dumps(description)}\n"
         "---\n"
         "\n"
-        "# Marketing Practitioner\n"
+        "# Marketing Agent Skills\n"
         "\n"
         "Body stays fixed.\n"
     )

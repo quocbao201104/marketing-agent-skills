@@ -4,7 +4,7 @@ Edit target: `inside-the-skill.png` from v2.0.0, before this illustration refres
 
 Redraw the supplied "Inside the skill" diagram to reflect a compact core and conditional supporting guidance. Preserve its refined dark navy chalkboard style, ivory handwritten English lettering, teal and gold main outlines, lavender support accents and simple line icons. One high-resolution landscape 16:9 image, large legible text, generous margins, precise filenames, sparse lines. Recompose as needed. This is a file-role diagram, not autonomous software services.
 Title: Inside the skill
-Subtitle: Marketing Practitioner
+Subtitle: Marketing Agent Skills
 Main middle band: three panels, left compact core, center indexed retrieval, right knowledge.
 LEFT teal panel:
 SKILL.md

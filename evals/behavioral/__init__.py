@@ -1,1 +1,1 @@
-"""Behavioral evaluation package for Marketing Practitioner."""
+"""Behavioral evaluation package for Marketing Agent Skills."""

@@ -46,7 +46,7 @@ OBSERVATION RECORD
   grounding-query telemetry / other surface-defined observation
 ```
 
-Do not instantiate every implementation noun as a durable thing. A crawler, index shard, embedding, query rewrite, ranking feature, answer component, or internal model is not automatically a new Marketing Practitioner primitive.
+Do not instantiate every implementation noun as a durable thing. A crawler, index shard, embedding, query rewrite, ranking feature, answer component, or internal model is not automatically a new Marketing Agent Skills primitive.
 
 The central thesis is:
 

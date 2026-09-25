@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "corpus_id": "skill-activation-v1",
-  "description": "Top-level Marketing Practitioner activation expectations. This sidecar is intentionally separate from behavioral answer and route oracles.",
+  "description": "Top-level Marketing Agent Skills activation expectations. This sidecar is intentionally separate from behavioral answer and route oracles.",
   "cases": {
     "BEH-ACT-DIR-001@1.0.0": {
       "activation": "required"

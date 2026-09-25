@@ -1,4 +1,4 @@
-"""Structured behavioral evaluation for Marketing Practitioner."""
+"""Structured behavioral evaluation for Marketing Agent Skills."""
 
 from .models import ArmProfile, CaseContract, RunRecord, RunState
 

@@ -5,7 +5,7 @@ Edit target: `from-brief-to-marketing-decision.png` from v2.0.0, before this ill
 Edit the supplied workflow illustration. Keep its refined dark navy chalkboard style, ivory handwritten English lettering, teal rounded boxes, gold circled numbers, icons, title, subtitle and 16:9 landscape composition. Preserve the five-box main flow and optional lower guidance branch. Produce one crisp high-resolution image with very readable text and generous spacing.
 Use this exact text:
 Title: From brief to marketing decision
-Subtitle: Marketing Practitioner
+Subtitle: Marketing Agent Skills
 Box 1 title: Your task
 Body: Goal, context / and evidence
 Box 2 title: Frame the work

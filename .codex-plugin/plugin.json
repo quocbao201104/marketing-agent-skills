@@ -12,7 +12,7 @@
   "keywords": ["marketing", "research", "positioning", "copywriting", "pricing"],
   "skills": "./skills/",
   "interface": {
-    "displayName": "Marketing Practitioner",
+    "displayName": "Marketing Agent Skills",
     "shortDescription": "From customer evidence to marketing decisions and execution.",
     "longDescription": "Research customers, shape strategy, create marketing content, interpret results, and support evidence-grounded founder-led sales decisions. Includes a shared skill, specialist handbook, routing index, source references, and optional Python retrieval helpers.",
     "developerName": "quocbao201104",

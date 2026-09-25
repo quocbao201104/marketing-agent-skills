@@ -8,7 +8,7 @@ metadata:
   domain: "marketing"
 ---
 
-# Marketing Practitioner
+# Marketing Agent Skills
 
 ## Purpose and scope
 

@@ -1,11 +1,11 @@
 name: Real-world behavior report
-description: Report a useful, surprising, incorrect, or unstable Marketing Practitioner behavior from a real task.
+description: Report a useful, surprising, incorrect, or unstable Marketing Agent Skills behavior from a real task.
 title: "[Behavior] "
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for helping improve Marketing Practitioner with real-world evidence.
+        Thanks for helping improve Marketing Agent Skills with real-world evidence.
 
         Please remove confidential customer, company, credential, or personal data before submitting. Reports may be converted into anonymized behavioral evaluation cases or regression tests when they reveal a generalizable failure.
 
@@ -55,7 +55,7 @@ body:
   - type: input
     id: version
     attributes:
-      label: Marketing Practitioner version
+      label: Marketing Agent Skills version
       description: Release, commit, or branch if known.
       placeholder: v1.4.0
     validations:

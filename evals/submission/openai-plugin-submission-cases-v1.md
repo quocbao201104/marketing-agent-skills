@@ -5,7 +5,7 @@ Status: research-grounded candidate set; not yet live-run.
 Captured: 2026-09-19.
 
 Purpose: provide five positive and three negative submission cases for the public
-Marketing Practitioner plugin without inventing arbitrary business metrics. The
+Marketing Agent Skills plugin without inventing arbitrary business metrics. The
 prompts freeze public facts into self-contained fixtures so a reviewer can run
 them without browsing. Provenance remains outside the prompt so current web
 changes do not silently change the test.
@@ -14,10 +14,10 @@ changes do not silently change the test.
 
 Default submission-routing run:
 
-1. start a clean conversation with Marketing Practitioner installed and available;
+1. start a clean conversation with Marketing Agent Skills installed and available;
 2. do not explicitly invoke `/marketing-agent-skills` or otherwise force-select the skill;
 3. send only the case prompt;
-4. record whether Marketing Practitioner was selected;
+4. record whether Marketing Agent Skills was selected;
 5. judge the task behavior separately from activation.
 
 These activation labels are **internal auto-routing expectations**, not OpenAI's
@@ -26,7 +26,7 @@ public definition of positive and negative submission cases.
 - Positive submission cases still need the expected skill/workflow behavior,
   expected result shape, and any fixture or test-account requirements.
 - Negative submission cases need the expected refusal, clarification, or safe
-  fallback plus the reason Marketing Practitioner should not complete the
+  fallback plus the reason Marketing Agent Skills should not complete the
   requested action.
 
 For the internal routing regression, positive cases expect selection and negative
@@ -118,7 +118,7 @@ and do not turn this into a product-roadmap prioritization.
 
 ### Expected behavior
 
-- Under the default auto-routing run, selects Marketing Practitioner.
+- Under the default auto-routing run, selects Marketing Agent Skills.
 - Preserves each report as a bounded observation.
 - Groups plausible mechanisms without implying independent prevalence.
 - Distinguishes hosted, self-hosted, embedded, attribution, and implementation
@@ -206,7 +206,7 @@ available.
 
 ### Expected behavior
 
-- Under the default auto-routing run, selects Marketing Practitioner and enters commercial design rather than generic copywriting.
+- Under the default auto-routing run, selects Marketing Agent Skills and enters commercial design rather than generic copywriting.
 - Separates package entitlement, pricing metric, annual discount, and volume
   modifier.
 - Does not infer that per-channel pricing is good/bad from first principles.
@@ -282,7 +282,7 @@ and what should be checked before changing paid-search allocation or creative?
 
 ### Expected behavior
 
-- Under the default auto-routing run, selects Marketing Practitioner.
+- Under the default auto-routing run, selects Marketing Agent Skills.
 - Diagnoses before prescribing.
 - Separates GMS growth, buyer count, frequency, AOV, app mix, and management
   attribution.
@@ -383,7 +383,7 @@ disqualifier.
 
 ### Expected behavior
 
-- Under the default auto-routing run, selects Marketing Practitioner and enters founder-sales rather than producing generic RFP copy.
+- Under the default auto-routing run, selects Marketing Agent Skills and enters founder-sales rather than producing generic RFP copy.
 - Distinguishes confirmed fit, material unknowns, and evidenced gaps.
 - Avoids hallucinating Buffer features.
 - Treats an RFI as an information-gathering buying state, not a won/lost deal.
@@ -466,7 +466,7 @@ product capabilities.
 
 ### Expected behavior
 
-- Under the default auto-routing run, selects Marketing Practitioner.
+- Under the default auto-routing run, selects Marketing Agent Skills.
 - Preserves the approved positioning and audience.
 - Uses supplied proof/facts without upgrading them into guarantees.
 - Allocates information according to reader decision needs.
@@ -502,7 +502,7 @@ code, add validation, and write the regression test for this bug.
 
 ### Internal auto-routing expectation
 
-Marketing Practitioner should not be selected in the clean auto-routing run.
+Marketing Agent Skills should not be selected in the clean auto-routing run.
 
 ### Expected submission behavior
 
@@ -511,10 +511,10 @@ plugin was already explicitly selected before the prompt, do not use Marketing
 Practitioner as the task-solving framework; bound or hand off the technical
 implementation instead.
 
-### Why Marketing Practitioner should not complete this task
+### Why Marketing Agent Skills should not complete this task
 
 The requested action is software implementation/debugging, which is outside the
-skill's ownership. Marketing Practitioner may only become relevant later if the
+skill's ownership. Marketing Agent Skills may only become relevant later if the
 user separately asks how to communicate the change or learn from customer
 evidence.
 
@@ -539,17 +539,17 @@ language we should rely on.
 
 ### Internal auto-routing expectation
 
-Marketing Practitioner should not be selected as the task owner in the clean
+Marketing Agent Skills should not be selected as the task owner in the clean
 auto-routing run.
 
 ### Expected submission behavior
 
-Refuse to provide a definitive legal determination as Marketing Practitioner, or
+Refuse to provide a definitive legal determination as Marketing Agent Skills, or
 hand off to an appropriate legal capability if one is available. If the plugin
 was already explicitly selected, identify the legal dependency and preserve any
 separate commercial/sales work that does not require the legal answer.
 
-### Why Marketing Practitioner should not complete this task
+### Why Marketing Agent Skills should not complete this task
 
 The requested judgment depends on legal authority and interpretation. Marketing
 guidance must not substitute for legal analysis merely because the scenario
@@ -574,7 +574,7 @@ subscription, including deferred revenue and monthly recognition.
 
 ### Internal auto-routing expectation
 
-Marketing Practitioner should not be selected in the clean auto-routing run.
+Marketing Agent Skills should not be selected in the clean auto-routing run.
 
 ### Expected submission behavior
 
@@ -582,10 +582,10 @@ Use a safe fallback or handoff to an accounting/finance capability if available.
 If the plugin was already explicitly selected, recognize that accounting owns
 the task and do not apply commercial-design guidance as a substitute.
 
-### Why Marketing Practitioner should not complete this task
+### Why Marketing Agent Skills should not complete this task
 
 Pricing is mentioned, but the requested work is revenue recognition and
-journal-entry accounting, which is outside Marketing Practitioner's ownership.
+journal-entry accounting, which is outside Marketing Agent Skills's ownership.
 
 ---
 

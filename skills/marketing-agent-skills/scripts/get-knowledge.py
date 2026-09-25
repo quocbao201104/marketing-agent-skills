@@ -307,7 +307,7 @@ def select_mode(args) -> str:
 
 def main() -> int:
     parser = argparse.ArgumentParser(
-        description="Resolve Marketing Practitioner knowledge IDs to exact Markdown sections."
+        description="Resolve Marketing Agent Skills knowledge IDs to exact Markdown sections."
     )
     parser.add_argument("route_ids", nargs="*", help="one or more logical knowledge IDs")
     parser.add_argument("--list", action="store_true", help="list logical knowledge IDs")

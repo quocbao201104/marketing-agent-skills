@@ -1,6 +1,6 @@
 # Local Adaptation Extensions
 
-This directory is reserved for **scoped local adaptation knowledge** that can materially change an already-valid Marketing Practitioner decision without becoming a new decision owner.
+This directory is reserved for **scoped local adaptation knowledge** that can materially change an already-valid Marketing Agent Skills decision without becoming a new decision owner.
 
 The global framework is the default for all locales. The absence of a local adaptation does not mean a locale is unsupported; it means no additional scoped exception has been demonstrated as necessary.
 

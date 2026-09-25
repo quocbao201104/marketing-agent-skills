@@ -1,6 +1,6 @@
 # Task Specification Guide
 
-You do not need to learn prompt engineering to use Marketing Practitioner well.
+You do not need to learn prompt engineering to use Marketing Agent Skills well.
 
 Use this optional guide to state or refine a request in ordinary language. The agent should recover relevant details from the conversation and supplied material; you do not need to repeat them or fill a template before work can begin. [SKILL.md](SKILL.md) governs execution. This guide helps communicate the task and does not add another required workflow.
 

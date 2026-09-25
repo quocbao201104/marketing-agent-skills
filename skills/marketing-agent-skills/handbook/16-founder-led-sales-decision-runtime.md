@@ -4,7 +4,7 @@
 
 Use this chapter when the open question concerns **a specific buying situation** and the next decision depends on seller resource allocation, account/stakeholder selection, access, diagnosis, solution proof, buying-system risk/consensus, commercial commitment, or evidence-backed deal progression.
 
-This chapter does not turn Marketing Practitioner into a generic sales playbook. It is a bounded decision runtime for the gap between resolved market/message/commercial strategy and a buyer-specific commitment.
+This chapter does not turn Marketing Agent Skills into a generic sales playbook. It is a bounded decision runtime for the gap between resolved market/message/commercial strategy and a buyer-specific commitment.
 
 Freeze the boundary:
 

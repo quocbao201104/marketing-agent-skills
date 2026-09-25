@@ -48,7 +48,7 @@ semantic_judge_adapter_validated = false
 live_trials_permitted = false
 ```
 
-This is still only a deterministic reference implementation and planted-fixture preflight. It does not establish arbitrary-output semantic-judge validity, Marketing Practitioner efficacy, treatment isolation, mechanism causality, or real-world marketing impact.
+This is still only a deterministic reference implementation and planted-fixture preflight. It does not establish arbitrary-output semantic-judge validity, Marketing Agent Skills efficacy, treatment isolation, mechanism causality, or real-world marketing impact.
 
 No live no-skill / skill-present model execution has been performed or authorized.
 

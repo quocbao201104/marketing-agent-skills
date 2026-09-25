@@ -28,7 +28,7 @@ It deliberately does **not**:
 - infer semantic judgments from hidden chain-of-thought;
 - treat fixture-supplied semantic assessments as a validated live semantic judge;
 - treat route/read traces as the work verdict;
-- establish Marketing Practitioner efficacy;
+- establish Marketing Agent Skills efficacy;
 - establish causal mechanism attribution.
 
 ## Run

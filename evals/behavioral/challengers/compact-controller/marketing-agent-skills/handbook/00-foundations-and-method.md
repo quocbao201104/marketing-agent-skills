@@ -114,4 +114,4 @@ The remainder of the handbook follows eight commitments:
 7. measurement is separated from causal storytelling;
 8. learning is preserved with boundary conditions and failure states.
 
-Together these commitments define the intellectual center of Marketing Practitioner: **marketing is the disciplined conversion of market evidence into bounded decisions and revisable learning**.
+Together these commitments define the intellectual center of Marketing Agent Skills: **marketing is the disciplined conversion of market evidence into bounded decisions and revisable learning**.

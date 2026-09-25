@@ -2,19 +2,19 @@
 
 **Effective date: September 19, 2026**
 
-Marketing Practitioner is an open-source, skills-only plugin maintained through the public GitHub repository at https://github.com/quocbao201104/marketing-agent-skills.
+Marketing Agent Skills is an open-source, skills-only plugin maintained through the public GitHub repository at https://github.com/quocbao201104/marketing-agent-skills.
 
 ## Data collection by the publisher
 
-Marketing Practitioner does not operate a publisher-controlled server, account system, analytics service, advertising service, or payment system. The plugin itself does not send prompts, uploaded files, conversation content, or other user data to the publisher.
+Marketing Agent Skills does not operate a publisher-controlled server, account system, analytics service, advertising service, or payment system. The plugin itself does not send prompts, uploaded files, conversation content, or other user data to the publisher.
 
 Because this is a skills-only plugin, its instructions and bundled reference files run within the host environment in which the user installs or invokes it.
 
 ## Data processed by host platforms and external services
 
-The host application may process prompts, files, conversation content, tool calls, and other data according to that platform's own terms and privacy practices. If a user or host invokes external tools, websites, APIs, connected apps, or other services while using Marketing Practitioner, those third parties may process data under their own policies.
+The host application may process prompts, files, conversation content, tool calls, and other data according to that platform's own terms and privacy practices. If a user or host invokes external tools, websites, APIs, connected apps, or other services while using Marketing Agent Skills, those third parties may process data under their own policies.
 
-Marketing Practitioner does not control those services and does not change the privacy terms that already apply to them.
+Marketing Agent Skills does not control those services and does not change the privacy terms that already apply to them.
 
 ## Information voluntarily provided through GitHub
 

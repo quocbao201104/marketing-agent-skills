@@ -1,6 +1,6 @@
 # Contributing
 
-Contributions are welcome when they improve the conceptual accuracy, practical usefulness, evidence quality, runtime reliability, or clarity of Marketing Practitioner **without expanding the project by accident**.
+Contributions are welcome when they improve the conceptual accuracy, practical usefulness, evidence quality, runtime reliability, or clarity of Marketing Agent Skills **without expanding the project by accident**.
 
 This repository is a research-first marketing decision system for AI agents. It is not intended to become a general marketing wiki, a collection of platform hacks, or a generic agent-framework project.
 
@@ -120,7 +120,7 @@ Examples:
 - physical restructuring of large knowledge modules;
 - a new platform family with shared architectural consequences;
 - a new runtime subsystem;
-- a change that materially redefines what Marketing Practitioner is.
+- a change that materially redefines what Marketing Agent Skills is.
 
 Do not begin with implementation.
 

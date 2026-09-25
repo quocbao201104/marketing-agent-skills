@@ -1,4 +1,4 @@
 interface:
-  display_name: "Marketing Practitioner"
+  display_name: "Marketing Agent Skills"
   short_description: "Evidence-informed marketing decisions"
   default_prompt: "Use $marketing-agent-skills to make a bounded marketing decision from the evidence and constraints I provide."

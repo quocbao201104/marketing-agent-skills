@@ -15,7 +15,7 @@ Instructions checked on **2026-09-08**. Account permissions and menu labels can 
    ```
 
 4. Select **Sync/Add** to load the repository's marketplace catalog.
-5. Select **Marketing Practitioner** from that marketplace and choose **Install (+)**. Follow any review or activation prompt.
+5. Select **Marketing Agent Skills** from that marketplace and choose **Install (+)**. Follow any review or activation prompt.
 6. Start a conversation with the first-task example in the README.
 
 The repository includes `.claude-plugin/marketplace.json` and `.claude-plugin/plugin.json`; you do not need to create a plugin or edit JSON yourself. Adding a marketplace makes its catalog available; select and install the plugin afterward.
@@ -35,7 +35,7 @@ This sequence incorporates the maintainer's reported interface path. Anthropic d
 
 OpenAI documents these controls in [Skills in ChatGPT](https://help.openai.com/en/articles/20001066-skills-in-chatgpt). That page does not specify an archive layout; acceptance of this repository's ZIP still needs confirmation in an eligible account. If the uploader rejects it, retain the exact error before changing the package.
 
-There is no public Marketing Practitioner entry in the ChatGPT plugin directory from this project yet. This personal-skill upload path does not require such a listing. Adding a GitHub link to a conversation or connecting GitHub is not the same as installing the skill.
+There is no public Marketing Agent Skills entry in the ChatGPT plugin directory from this project yet. This personal-skill upload path does not require such a listing. Adding a GitHub link to a conversation or connecting GitHub is not the same as installing the skill.
 
 ## Prepare files for manual skill upload
 

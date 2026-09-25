@@ -20,7 +20,7 @@ A reusable marketing skill for people working with AI: research customers, shape
 
 ---
 
-Marketing Agent Skills is the repository for **Marketing Practitioner**, a reusable skill that gives marketers, founders, researchers, and content teams a shared foundation for AI-assisted customer research, positioning, commercial choices, communication, distribution, and result interpretation. Use it to turn interviews into a grounded account, compare positioning options, write a page from an adopted strategy, or investigate a performance change before choosing an intervention.
+**Marketing Agent Skills** is a reusable skill that gives marketers, founders, researchers, and content teams a shared foundation for AI-assisted customer research, positioning, commercial choices, communication, distribution, and result interpretation. Use it to turn interviews into a grounded account, compare positioning options, write a page from an adopted strategy, or investigate a performance change before choosing an intervention.
 
 The skill connects those jobs when the work requires it. A simple rewrite can stay simple; a larger assignment can carry evidence, selected choices, and remaining questions from research through to the requested artifacts.
 
@@ -48,7 +48,7 @@ Choose your environment. The skill and reference material are the same in every 
 
 | Use it in | Install manually |
 | --- | --- |
-| **Codex app** | Add this repository as a marketplace, then install Marketing Practitioner. [Marketplace and manual setup](docs/local-setup.md#codex-app-install-through-the-marketplace) |
+| **Codex app** | Add this repository as a marketplace, then install Marketing Agent Skills. [Marketplace and manual setup](docs/local-setup.md#codex-app-install-through-the-marketplace) |
 | **Claude desktop** | Customize > Plugins > Add marketplace > Add from a Repository, then Install. [Step-by-step](docs/local-setup.md#claude-desktop-install-through-the-app) |
 | **CLI** | Run the command below, or use the [Claude Code plugin](docs/claude-code-plugin.md) / [Codex plugin](docs/plugin.md) instructions. |
 
@@ -62,7 +62,7 @@ npx skills add quocbao201104/marketing-agent-skills
 Paste this into an app or CLI with installation tools:
 
 ```text
-Install Marketing Practitioner from
+Install Marketing Agent Skills from
 https://github.com/quocbao201104/marketing-agent-skills
 for this app, using its supported installation method.
 Preserve existing customizations and confirm the installation.
@@ -74,7 +74,7 @@ Preserve existing customizations and confirm the installation.
 
 | Use it in | Install manually |
 | --- | --- |
-| **Claude** | Add the [repository](https://github.com/quocbao201104/marketing-agent-skills) as a marketplace, then install Marketing Practitioner. [Steps](docs/web-setup.md#claude-add-the-repository-marketplace) |
+| **Claude** | Add the [repository](https://github.com/quocbao201104/marketing-agent-skills) as a marketplace, then install Marketing Agent Skills. [Steps](docs/web-setup.md#claude-add-the-repository-marketplace) |
 | **ChatGPT** | Plugins > Skills > Create > Upload from your computer. [Prepare files and upload](docs/web-setup.md#chatgpt-upload-a-personal-skill) |
 
 > **ChatGPT plans:** Skills are documented for eligible **Business, Enterprise, Healthcare, and Edu** accounts, subject to workspace settings. Do not assume Free, Plus, or Pro includes skill upload. [OpenAI guidance](https://help.openai.com/en/articles/20001066-skills-in-chatgpt).
@@ -90,7 +90,7 @@ Once the skill or reference files are available in your workspace, start with an
 3. where the result will be used, if that changes the answer.
 
 ```text
-Use Marketing Practitioner.
+Use Marketing Agent Skills.
 Using the attached product facts and approved positioning,
 write a landing-page outline and a launch email.
 Keep the price and product claims fixed.
@@ -141,7 +141,7 @@ It has no authority to invent product, financial, legal, operational, sales, pla
 
 The skill starts from the current job, not from a predefined marketing funnel.
 
-![Marketing Practitioner workflow: frame the task and proceed directly when inputs are sufficient; read relevant guidance when knowledge is needed to resolve an open question. Check evidence, reader fit, message and role fidelity, and completion. Revisit material gaps; a user checkpoint applies when a material choice remains unresolved and user input or authority is needed.](assets/diagrams/from-brief-to-marketing-decision.png)
+![Marketing Agent Skills workflow: frame the task and proceed directly when inputs are sufficient; read relevant guidance when knowledge is needed to resolve an open question. Check evidence, reader fit, message and role fidelity, and completion. Revisit material gaps; a user checkpoint applies when a material choice remains unresolved and user input or authority is needed.](assets/diagrams/from-brief-to-marketing-decision.png)
 
 Complex work can start with a brief working plan without waiting for approval. The agent distinguishes unresolved user-owned inputs, externally recoverable facts, delegated decisions, and low-impact execution details. It asks when a material user-owned dependency must be resolved; for material private or otherwise unavailable facts, it may request the source instead of asking the user to perform the research. It makes delegated choices within scope and handles low-impact reversible details directly. Independent work can continue while a blocking dependency is resolved. Task size or HTML output alone does not create an approval gate.
 
@@ -171,7 +171,7 @@ The host controls skill activation, available tools, and how much context surviv
 
 ## Troubleshooting
 
-If Marketing Practitioner does not behave as expected, check the smallest relevant layer before changing the skill itself.
+If Marketing Agent Skills does not behave as expected, check the smallest relevant layer before changing the skill itself.
 
 - **The skill does not appear after installation:** confirm the plugin or skill package is enabled in the host, then reload or restart the host if it requires an explicit refresh. In Claude Code, keep `.claude-plugin/plugin.json` at the plugin root and `skills/marketing-agent-skills/SKILL.md` under the root-level `skills/` directory.
 - **The skill does not activate for a marketing request:** try the request in a clean conversation without explicitly invoking the skill. Activation is controlled by the host and the skill description. If a clear in-scope request consistently misses, report the exact prompt and host/model rather than adding broad trigger keywords immediately.
@@ -184,7 +184,7 @@ For installation-specific steps, see [local setup](docs/local-setup.md) and [web
 
 ## Under the hood
 
-![Inside Marketing Practitioner v2: SKILL.md is the compact core. Direct chapter entry and indexed lookup locate relevant knowledge; the index also resolves evidence IDs. Independent conditional supports use direct file and heading links for work coordination, operating guidance, report planning, rubrics, and records. Evidence references preserve source scope and provenance.](assets/diagrams/inside-the-skill.png)
+![Inside Marketing Agent Skills v2: SKILL.md is the compact core. Direct chapter entry and indexed lookup locate relevant knowledge; the index also resolves evidence IDs. Independent conditional supports use direct file and heading links for work coordination, operating guidance, report planning, rubrics, and records. Evidence references preserve source scope and provenance.](assets/diagrams/inside-the-skill.png)
 
 For complex reports, [report planning and presentation](skills/marketing-agent-skills/references/report-planning-and-presentation.md) connects reader questions, section purposes, evidence, and useful visual forms across formats, with additional HTML delivery guidance.
 

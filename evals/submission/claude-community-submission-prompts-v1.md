@@ -5,10 +5,10 @@ Status: submission-ready examples; not behavioral evidence until executed.
 Captured: 2026-09-19.
 
 Purpose: provide three self-contained working prompt/use-case examples that
-demonstrate core Marketing Practitioner functionality for Anthropic directory
+demonstrate core Marketing Agent Skills functionality for Anthropic directory
 review.
 
-**Test account / authentication:** None required. Marketing Practitioner is a
+**Test account / authentication:** None required. Marketing Agent Skills is a
 skills-only plugin with no publisher-operated backend or login. All material
 fixture data needed for these examples is included inline.
 

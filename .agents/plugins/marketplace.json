@@ -1,7 +1,7 @@
 {
   "name": "marketing-agent-skills",
   "interface": {
-    "displayName": "Marketing Practitioner"
+    "displayName": "Marketing Agent Skills"
   },
   "plugins": [
     {

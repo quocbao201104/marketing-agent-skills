@@ -1,4 +1,4 @@
-"""Evaluate top-level Marketing Practitioner activation from sealed run events.
+"""Evaluate top-level Marketing Agent Skills activation from sealed run events.
 
 This lane is intentionally separate from answer and internal-route evaluation.
 It observes whether the host activated the skill; it does not judge answer quality.

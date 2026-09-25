@@ -1,6 +1,6 @@
 # Third-Party Notices
 
-Marketing Practitioner is an original synthesis of academic marketing literature, methodological sources, practitioner material, and prior research notes. The copywriting and human-writing portions were also informed by the MIT-licensed **AI Copywriter / humanizer** lineage and later cross-checked against the contemporary **blader/humanizer** implementation.
+Marketing Agent Skills is an original synthesis of academic marketing literature, methodological sources, practitioner material, and prior research notes. The copywriting and human-writing portions were also informed by the MIT-licensed **AI Copywriter / humanizer** lineage and later cross-checked against the contemporary **blader/humanizer** implementation.
 
 The repository does not intentionally reproduce either source skill as a substitute for that work. It reorganizes and rewrites relevant ideas inside a broader evidence-informed marketing framework. The following notices are retained because these sources materially informed the practical writing component.
 
@@ -19,7 +19,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## blader/humanizer reference
 
-The current human-writing review was additionally cross-checked against `blader/humanizer` (reviewed at v2.11.2), an MIT-licensed humanization skill based on Wikipedia's "Signs of AI writing" / WikiProject AI Cleanup material. Marketing Practitioner uses that source as a practitioner reference for failure-mode coverage, voice-preservation safeguards, false-positive control, and post-rewrite fidelity checking rather than adopting its rules as universal prohibitions.
+The current human-writing review was additionally cross-checked against `blader/humanizer` (reviewed at v2.11.2), an MIT-licensed humanization skill based on Wikipedia's "Signs of AI writing" / WikiProject AI Cleanup material. Marketing Agent Skills uses that source as a practitioner reference for failure-mode coverage, voice-preservation safeguards, false-positive control, and post-rewrite fidelity checking rather than adopting its rules as universal prohibitions.
 
 The referenced repository's MIT license carries:
 

@@ -4,7 +4,7 @@ Choose one installation method per host. All methods use the same `skills/market
 
 ## Codex app: install through the marketplace
 
-Add `https://github.com/quocbao201104/marketing-agent-skills.git` in the app's marketplace controls, then install Marketing Practitioner. The repository includes its own Codex catalog; no separate catalog is required. See the [Codex plugin guide](plugin.md) for CLI commands and update checks.
+Add `https://github.com/quocbao201104/marketing-agent-skills.git` in the app's marketplace controls, then install Marketing Agent Skills. The repository includes its own Codex catalog; no separate catalog is required. See the [Codex plugin guide](plugin.md) for CLI commands and update checks.
 
 ## Codex app: install manually with files
 
@@ -18,7 +18,7 @@ Add `https://github.com/quocbao201104/marketing-agent-skills.git` in the app's m
    | macOS / Linux | Open `~/.agents/skills` in your file manager; on macOS use **Go > Go to Folder** |
 
 4. Create `.agents` and `skills` if they do not exist, then paste the skill folder inside `skills`. The final file should be `.agents/skills/marketing-agent-skills/SKILL.md` under your home directory, with the handbook and other resources beside it.
-5. Start a new Codex task. If the skill does not appear in the skill picker, restart the app. Select Marketing Practitioner and give it your task.
+5. Start a new Codex task. If the skill does not appear in the skill picker, restart the app. Select Marketing Agent Skills and give it your task.
 
 These are Codex's documented [user-level local skill locations](https://learn.chatgpt.com/docs/build-skills#where-codex-loads-local-skills). This installs the skill directly; no marketplace setup or terminal is needed. For the plugin variant, use the separate [Codex catalog instructions](plugin.md).
 
@@ -27,7 +27,7 @@ These are Codex's documented [user-level local skill locations](https://learn.ch
 1. Open **Customize > Plugins** (through Settings if that is where your app places Customize).
 2. Select **+ / Add plugin > Add marketplace**. Some interfaces show **Create plugin** before **Add marketplace**.
 3. Choose **Add from a Repository** and enter `https://github.com/quocbao201104/marketing-agent-skills`.
-4. Select **Sync/Add**, open **Marketing Practitioner** in the added marketplace, and select **Install**.
+4. Select **Sync/Add**, open **Marketing Agent Skills** in the added marketplace, and select **Install**.
 5. Complete any activation prompt and start a new task using the plugin.
 
 Menu labels and availability depend on your account and app version. See [Claude's plugin instructions](https://support.claude.com/en/articles/13837440-use-plugins-in-claude). Adding the repository to chat context alone does not install it.
@@ -54,7 +54,7 @@ See [Claude Code activation and updates](claude-code-plugin.md). Codex plugin in
 If the host provides installation tools, paste:
 
 ```text
-Install Marketing Practitioner from
+Install Marketing Agent Skills from
 https://github.com/quocbao201104/marketing-agent-skills
 for this app. Use its supported installation method and confirm
 where it was installed. Preserve any existing customizations.

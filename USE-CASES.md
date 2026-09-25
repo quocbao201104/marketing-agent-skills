@@ -1,8 +1,8 @@
 # Use Cases
 
-Marketing Practitioner can help carry a marketing assignment from evidence and decisions through to usable content, revisions, and learning. Bring the part you need done now: a focused copy edit can stay focused, while a larger brief can connect several kinds of work.
+Marketing Agent Skills can help carry a marketing assignment from evidence and decisions through to usable content, revisions, and learning. Bring the part you need done now: a focused copy edit can stay focused, while a larger brief can connect several kinds of work.
 
-These use cases apply existing Marketing Practitioner guidance; they do not introduce separate modules. Coverage describes available knowledge and how it can be combined, not demonstrated runtime performance.
+These use cases apply existing Marketing Agent Skills guidance; they do not introduce separate modules. Coverage describes available knowledge and how it can be combined, not demonstrated runtime performance.
 
 The briefs are illustrative, informed by public job descriptions and the project's recent research. They are not completed client projects or measured success claims. The [inventory and evidence](docs/use-case-inventory.md) maps the assignments to existing capabilities, sources, and boundaries, distinguishing directly requested work from derived examples.
 
@@ -129,7 +129,7 @@ These examples show how several decisions and outputs can fit together. Start fr
 
 An ad attracts more clicks but fewer qualified enquiries. An email's tracked opens fall. A page appears to convert worse after a release. These assignments need both interpretation and a decision about what to do next.
 
-Use Marketing Practitioner to connect:
+Use Marketing Agent Skills to connect:
 
 1. **The observation:** what changed, for which audience, version, period, and measurement conditions?
 2. **The decision:** does the evidence support a content repair, a delivery or measurement check, a test, waiting, or keeping the current version?
@@ -170,7 +170,7 @@ CRM configuration, trigger implementation, message scheduling, and campaign exec
 
 ## 4. Write interface copy that reflects product behavior
 
-Supply the screen context, supported system state, actual action effects, and any known recovery path. Marketing Practitioner can turn those inputs into labels, field guidance, errors, confirmations, empty states, and status messages.
+Supply the screen context, supported system state, actual action effects, and any known recovery path. Marketing Agent Skills can turn those inputs into labels, field guidance, errors, confirmations, empty states, and status messages.
 
 Small state differences can require different wording:
 
@@ -201,7 +201,7 @@ Ask for updated assets and a compact change record showing what changed, what wa
 
 A page can be available, retrieved, selected, and represented differently across discovery surfaces. Low traffic or missing AI citations does not by itself identify which part needs work.
 
-With page content and scoped search evidence, Marketing Practitioner can investigate whether the issue concerns access or availability, retrieval and selection, the representation shown to readers, or the meaning of the reported metric. When the evidence identifies a content problem, the work can continue into a title or description candidate, clearer supported explanation, page restructuring, or a recommendation about related pages. When the problem is technical or still unresolved, the useful result is a precise handoff or next check.
+With page content and scoped search evidence, Marketing Agent Skills can investigate whether the issue concerns access or availability, retrieval and selection, the representation shown to readers, or the meaning of the reported metric. When the evidence identifies a content problem, the work can continue into a title or description candidate, clearer supported explanation, page restructuring, or a recommendation about related pages. When the problem is technical or still unresolved, the useful result is a precise handoff or next check.
 
 **Example request:** “Review these query/page reports and current pages. Decide whether a content change is justified. Draft any supported changes without altering our approved positioning or inventing claims to match search terms. Identify technical questions separately.”
 
@@ -219,7 +219,7 @@ You can receive a source-linked synthesis, comparable positioning options with t
 
 ## 8. Compare pricing and packaging, then explain the offer
 
-Use Marketing Practitioner when the open question concerns what customers receive, what they pay for, applicable terms, eligibility, or a transition between plans. Supply customer/value evidence and the relevant product, cost, operational, and commercial constraints.
+Use Marketing Agent Skills when the open question concerns what customers receive, what they pay for, applicable terms, eligibility, or a transition between plans. Supply customer/value evidence and the relevant product, cost, operational, and commercial constraints.
 
 The result can compare feasible package and charging options, recommend a bounded choice, identify what would change that recommendation, and explain the chosen offer through pricing-page copy or a migration email. Existing-customer terms and new-customer offers can be treated separately where the policy requires it.
 

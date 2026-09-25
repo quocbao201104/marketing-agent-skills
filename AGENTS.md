@@ -2,7 +2,7 @@
 
 ## Project Structure & Module Organization
 
-This repository maintains Marketing Practitioner, a research-first marketing decision skill for AI agents.
+This repository maintains Marketing Agent Skills, a research-first marketing decision skill for AI agents.
 
 - `skills/marketing-agent-skills/` is the distributable runtime: `SKILL.md` controls behavior; `handbook/`, `platforms/`, `adaptations/`, and `frameworks/` hold guidance; `references/` records evidence; `routing-index.json` and `scripts/` support retrieval.
 - Root `scripts/` contains validation, packaging, and asset tooling.

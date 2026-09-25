@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate the stable, repository-owned Marketing Practitioner skill contract."""
+"""Validate the stable, repository-owned Marketing Agent Skills skill contract."""
 
 from __future__ import annotations
 

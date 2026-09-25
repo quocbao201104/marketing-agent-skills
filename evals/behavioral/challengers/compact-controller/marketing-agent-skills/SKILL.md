@@ -8,7 +8,7 @@ metadata:
   domain: "marketing"
 ---
 
-# Marketing Practitioner
+# Marketing Agent Skills
 
 Treat marketing as a bounded decision and learning discipline. Start from the user's current job, keep resolved state fixed, load only evidence or guidance that can change the open decision, and return the minimum sufficient output.
 

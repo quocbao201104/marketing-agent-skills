@@ -1,6 +1,6 @@
 # Handbook
 
-The handbook contains the shared marketing knowledge used by Marketing Practitioner.
+The handbook contains the shared marketing knowledge used by Marketing Agent Skills.
 
 It is **not a mandatory linear curriculum** and the runtime should not read it front to back for every task. `../SKILL.md` starts from the current job, freezes resolved state, identifies the open decision, and loads only the smallest chapter or addressable section that can change that decision.
 
