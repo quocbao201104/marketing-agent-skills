@@ -26,6 +26,11 @@ python -B scripts/validate_skill.py skills/marketing-agent-skills
 python -B skills/marketing-agent-skills/scripts/test-knowledge-routing.py
 python -B skills/marketing-agent-skills/scripts/get-knowledge.py --validate
 
+# Audit and sync routing index against heading changes
+python -B skills/marketing-agent-skills/scripts/test-sync-routing-index.py
+python -B skills/marketing-agent-skills/scripts/sync-routing-index.py --check
+python -B scripts/sync_routing_index.py --sync
+
 # Unit-test suites
 python -B -m unittest discover -s evals/behavioral/tests -v
 python -B -m unittest discover -s evals/pressure-discovery/pilot/tests -v
@@ -42,7 +47,7 @@ python -B evals/work-episodes/episode-01/preflight.py
 python -B scripts/package_skill.py ../skill.zip
 ```
 
-There is no separate formatter or linter. `verify.ps1` is the authoritative gate: it runs package and routing validation, corpus validation, all harness test suites, Episode 01 preflight, UTF-8 checks, and generated-artifact checks. `-PackageOnly` stops after package validators.
+There is no separate formatter or linter. `verify.ps1` is the authoritative gate: it runs package and routing validation, route synchronizer and drift checks, corpus validation, all harness test suites, Episode 01 preflight, UTF-8 checks, and generated-artifact checks. `-PackageOnly` stops after package validators.
 
 To inspect one logical knowledge route or evidence source:
 
