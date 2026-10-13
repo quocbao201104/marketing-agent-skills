@@ -16,7 +16,7 @@ The theory's section 15 now labels the AI-service handoff example as hypothetica
 
 ## Static cases and retrieval assessment
 
-The [bounded case contract](../../evals/pricing-metric-selection-bounded-cases.md) adds PM-I13 through PM-I15:
+The [bounded case contract](../historical-audits/pricing-metric-selection-bounded-cases.md) adds PM-I13 through PM-I15:
 
 | Case | Required distinction checked against the revised text |
 |---|---|

@@ -43,7 +43,7 @@ The whole instruction fits in the existing entrypoint. No supporting runtime fil
 
 ## Static assessment and verification
 
-[Eight bounded cases](../../evals/subagent-coordination-bounded-cases.md) cover independent work, coupled outputs, narrow/unavailable delegation, missing context and authority, shared-source agreement, shared edits and late results, budget/failure handling, and artifact validation.
+[Eight bounded cases](../historical-audits/subagent-coordination-bounded-cases.md) cover independent work, coupled outputs, narrow/unavailable delegation, missing context and authority, shared-source agreement, shared edits and late results, budget/failure handling, and artifact validation.
 
 The design review checks those cases against the added section and the existing controller. In particular, parallelism does not settle upstream positioning, source agreement does not create independent evidence, and an assignment's completion does not establish final artifact quality. Failure or missing tools uses the existing uncertainty policy rather than creating a new blocker.
 

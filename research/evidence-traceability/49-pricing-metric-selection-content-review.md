@@ -74,7 +74,7 @@ No retrieved primary passage demonstrated that the core distinctions are false. 
 
 ## Behavioral design and case coverage
 
-The [twelve bounded cases](../../evals/pricing-metric-selection-bounded-cases.md) cover useful category errors, including multiple bases, billing increments, economic credits, outcome attribution, tariff/basis confounding, and unknown costs. They are prompts and expected properties, not executed agent results. The additional causal variant correctly avoids attributing a before/after usage change to either the unchanged basis or the changed tariff without identification.
+The [twelve bounded cases](../historical-audits/pricing-metric-selection-bounded-cases.md) cover useful category errors, including multiple bases, billing increments, economic credits, outcome attribution, tariff/basis confounding, and unknown costs. They are prompts and expected properties, not executed agent results. The additional causal variant correctly avoids attributing a before/after usage change to either the unchanged basis or the changed tariff without identification.
 
 Two coverage cautions should guide later static additions:
 
