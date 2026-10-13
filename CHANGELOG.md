@@ -7,6 +7,32 @@ The project uses semantic versioning for published skill revisions. v1.0.0 marks
 
 ## [Unreleased]
 
+## [2.3.0] - 2026-10-14
+
+### Tooling and route drift synchronization
+
+- Added AST-based route drift detector and synchronizer (`sync-routing-index.py` and root wrapper `scripts/sync_routing_index.py`) using CommonMark fence-aware scanning, prefix extraction, and multi-stage similarity heuristics to automatically audit and repair heading drift in `routing-index.json`.
+- Added automated unit test suite `test-sync-routing-index.py` covering clean baseline verification, heading rename and renumbering repairs, explicit marker matching, ambiguity rejection, and grouped JSON serialization.
+- Integrated `sync-routing-index.py --check` and `test-sync-routing-index.py` directly into the authoritative `verify.ps1` verification gate.
+
+### Web and constrained runtime support
+
+- Added high-density reference guide `references/condensed-abstracts.md` covering all 22 routing namespaces across 5 core discipline parts, specifying core decision mechanisms, negative boundaries (`≠`), and completion criteria for token-constrained web environments.
+- Added minimal Level-2 pointers in `SKILL.md` directing browser-based agents to condensed abstracts without bloating base prompt context.
+
+### Platform verification and durable invariants
+
+- Standardized JIT verification protocols and durable behavioral invariants across social and commerce platform modules.
+- Refined `SKILL.md` controller prose for formal technical writing standards and deterministic agent orchestration.
+
+### Research provenance and directory indexation
+
+- Reorganized `research/README.md` into 6 logical clusters indexing all 28 research tracks with status descriptors, governing questions, and dispositions.
+- Authored standardized 5-point schema `README.md` files across 26 subdirectories, ensuring uniform discoverability and explicit invariant boundaries.
+- Disambiguated `03-` sequence collision in `commercial-design/` and transitioned `runtime-behavioral-clarity/` to standard README indexing.
+- Established master cross-reference matrix in `research/historical-audits/README.md` mapping all 39 archived audit artifacts to governing tracks and runtime chapters.
+- Repaired historical relative markdown link paths, achieving 100% link resolution across the research layer.
+
 ## [2.2.2] - 2026-09-23
 
 ### Distribution and activation
