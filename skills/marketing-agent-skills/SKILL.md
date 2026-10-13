@@ -137,7 +137,7 @@ If the helper is unavailable or denied, use the index and an allowed bounded rea
 - A heading selector starts at the exact unfenced heading and ends before the next equal or higher heading.
 - A marker selector reads between its exact pair.
 - A source lookup reads the smallest section at its exact bracketed source heading.
-Keep indexed physical paths and headings in the index, not duplicate controller bindings.
+Keep indexed physical paths and headings in the index, not duplicate controller bindings. In constrained web or no-code environments where execution tools and fine-grained heading reading are unavailable, consult [condensed abstracts](references/condensed-abstracts.md) for the relevant namespace before attempting full-chapter reads.
 
 Rely only on content actually delivered. Recover a missing material section or qualification from a truncated response with a smaller bounded read before using it; irrelevant truncation needs no reread. Try another allowed bounded method after a failed read, degrading to the smallest target file only when bounded reading is unavailable. Helper failure does not end the task. Retain the result and return to the pending job.
 
@@ -147,6 +147,7 @@ Read only the indicated section when its condition holds; these are independent 
 
 | Need | Read |
 | --- | --- |
+| Constrained web/no-code execution where helper is unavailable and full chapter reads would cause token explosion | Relevant namespace in [condensed abstracts](references/condensed-abstracts.md) |
 | How to order dependent work or update affected scope remains unresolved | [Planning and scope changes](references/work-coordination.md#planning-and-scope-changes) |
 | What state to retain or how to recover the return point remains unclear | [Continuation and recovery](references/work-coordination.md#continuation-and-recovery) |
 | Delegation is chosen within available capabilities and permission because its value justifies coordination cost | Before assignments, [Coordinating subagents when useful](references/work-coordination.md#coordinating-subagents-when-useful); otherwise continue locally |

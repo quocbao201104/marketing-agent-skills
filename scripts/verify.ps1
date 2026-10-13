@@ -84,6 +84,17 @@ try {
         (Join-Path $ResolvedSkillPath 'scripts\get-knowledge.py'),
         '--validate'
     )
+    Invoke-Checked -Label 'route synchronizer mechanics' -Arguments @(
+        $Python,
+        '-B',
+        (Join-Path $ResolvedSkillPath 'scripts\test-sync-routing-index.py')
+    )
+    Invoke-Checked -Label 'route drift check' -Arguments @(
+        $Python,
+        '-B',
+        (Join-Path $ResolvedSkillPath 'scripts\sync-routing-index.py'),
+        '--check'
+    )
     Invoke-Checked -Label 'copywriting regression corpus' -Arguments @(
         $Python,
         '-B',

@@ -309,6 +309,10 @@ python ../scripts/get-knowledge.py adapt-localization.relationship-realization
 
 Do not duplicate route-to-heading bindings in this README. The routing manifest is the physical source of truth.
 
+If helper execution is unavailable, the manifest supports bounded heading reads. For constrained web environments or rapid invariant checks, [`../references/condensed-abstracts.md`](../references/condensed-abstracts.md) provides high-density summaries and negative boundary constraints across all 22 namespaces.
+
+Route drift against Markdown headings is audited and synchronized via `python ../scripts/sync-routing-index.py --check` (or `--sync` to repair).
+
 ## Evidence
 
 The handbook synthesizes research; it is not itself the evidence ledger.

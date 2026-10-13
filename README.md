@@ -199,9 +199,9 @@ python skills/marketing-agent-skills/scripts/get-knowledge.py adapt-localization
 python skills/marketing-agent-skills/scripts/get-knowledge.py --source PM01
 ```
 
-If helper execution is unavailable, the same index remains the address table: read the smallest feasible section, or degrade to the smallest target file, rather than loading an entire chapter.
+If helper execution is unavailable, the same index remains the address table: read the smallest feasible section, or degrade to the smallest target file, rather than loading an entire chapter. For web and no-code environments without local execution tools, [condensed abstracts](skills/marketing-agent-skills/references/condensed-abstracts.md) provide immediate cross-domain principle, negative boundary, and completion criteria reference before attempting full-chapter reads.
 
-The current index validates at **289 routes / 296 evidence sources**. Evidence files state what a source **supports** and **does not support**; those bounds are part of claim control.
+The current index validates at **289 routes / 296 evidence sources**. Route drift against Markdown headings is audited and synchronized via `scripts/sync_routing_index.py`. Evidence files state what a source **supports** and **does not support**; those bounds are part of claim control.
 
 Shared architecture expands only when a decision-relevant failure cannot be repaired locally without material distortion. Research under [`research/`](research/) keeps theory freezes, audits, and rejected expansions out of the runtime until they survive that bar.
 
@@ -239,7 +239,7 @@ The local and CI gate is:
 .\scripts\verify.ps1
 ```
 
-It validates the package with the repository validator and the installed Codex validator when discoverable, checks 68 routing mechanics and validates all indexed routes and evidence sources, runs the Pressure Discovery and behavioral harness tests, and verifies UTF-8/generated-artifact hygiene.
+It validates the package with the repository validator and the installed Codex validator when discoverable, checks 68 routing mechanics, verifies route synchronizer mechanics and zero route drift, validates all indexed routes and evidence sources, runs the Pressure Discovery and behavioral harness tests, and verifies UTF-8/generated-artifact hygiene.
 
 The recent design work has been reviewed at three connected levels:
 

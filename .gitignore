@@ -4,3 +4,4 @@ __pycache__/
 evals/behavioral/results/
 .worktrees/
 evals/behavioral/.generated/
+.claude/
