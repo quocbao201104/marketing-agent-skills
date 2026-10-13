@@ -327,13 +327,17 @@ The same product can participate in both systems, but the objectives and state a
 
 ---
 
-## 6. Product-information allocation after the July 2026 title change
+<!-- route:id amazon.product-info -->
+## 6. Product-information allocation: Title, item highlights, and visible search fields
 
-Amazon changed title / visible-search representation rules beginning July 27, 2026 [A03]. For all categories except media, titles are now limited to 75 characters including spaces, while Item Highlights adds up to 125 characters for materials, recommended use cases, or comparison-relevant details. Amazon describes both as searchable and visible in search results and PDPs [A03].
+Amazon search and catalog indexing structure product information across distinct functional fields rather than a single keyword bucket [A03]:
+- **Title**: Core entity identification (Brand, Model, Essential Classifier, primary differentiator). Must prioritize immediate clarity and recognition across search result cards and mobile viewports.
+- **Item Highlights / Feature Bullets**: Secondary elaboration (materials, recommended use cases, key technical specifications, and comparative details).
+- **Generic Keywords**: Backend search terms for non-visible indexing support without consuming customer-facing real estate.
 
-The official follow-up describes migration throughout 2026, with not-yet-updated listings remaining active, editable, and searchable. A legacy title alone therefore does not establish suppression; inspect the listing's actual state [A03].
+Character constraints and mobile truncation thresholds vary by marketplace and category (e.g. historical title policies transitioning between 75-200 character recommendations) [A03]. A non-compliant legacy title does not establish suppression by itself; inspect the listing's actual catalog and suppression status dynamically.
 
-Apply the relevant category/marketplace requirements when allocating fields.
+Apply category- and marketplace-specific requirements when allocating fields.
 
 ### 6.1 Title
 
@@ -901,7 +905,24 @@ Do not fill these gaps with third-party “A9/A10 algorithm” folklore.
 
 ---
 
-## 16. Final Amazon commerce check
+## 16. Just-in-Time (JIT) Verification Protocol
+
+Amazon Seller Central policies and attribute requirements vary by category and target marketplace (e.g., US vs EU vs JP). AI Agents must verify time-sensitive constraints dynamically:
+
+| Trigger / Task Need | JIT Verification Focus | Authoritative Target Surface |
+| --- | --- | --- |
+| Publishing or editing titles | Current category character limits, capitalization rules, prohibited promo words | `site:sellercentral.amazon.com` "Product title requirements" |
+| Keyword & backend indexing | Byte limits for generic keywords (e.g. 249 bytes limit), forbidden punctuation | Seller Central "Search Terms" documentation |
+| Category listing requirements | Mandatory item-type keywords, compliance certifications, energy labels | Category Style Guides / Product Type Definitions API |
+| Featured Offer (Buy Box) diagnosis | Account health thresholds, valid FOEP result status, regional delivery metrics | Seller Central "Featured Offer eligibility" |
+
+**Conflict Rule:**
+- **Dynamic Policy Trumps Static Thresholds:** Category-specific Seller Central guidelines override static character estimates.
+- **Architectural Invariants Govern Structure:** Functional allocation (core identity in title, usage in bullets, synonyms in backend) remains invariant across policy updates.
+
+---
+
+## 17. Final Amazon commerce check
 
 1. Is the task in the native Amazon Store regime or Shop Direct / external-store regime?
 2. In the native Store, is the ASIN/catalog item being confused with the seller SKU/listing or offer?

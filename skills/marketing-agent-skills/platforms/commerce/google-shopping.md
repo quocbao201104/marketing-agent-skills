@@ -1033,7 +1033,24 @@ Do not fill these gaps with practitioner folklore.
 
 ---
 
-## 14. Final Google commerce check
+## 14. Just-in-Time (JIT) Verification Protocol
+
+Google Merchant Center policies, product data specifications, and feed schemas update regularly. AI Agents must verify time-sensitive constraints dynamically:
+
+| Trigger / Task Need | JIT Verification Focus | Authoritative Target Surface |
+| --- | --- | --- |
+| Publishing product data / feeds | Current attribute naming, character limits (title, description), required identifier rules (GTIN, MPN) | `site:support.google.com/merchants` "Product data specification" |
+| Feed approval & disapproval diagnosis | Policy violation codes, image overlay rules, landing page price mismatch criteria | Merchant Center Help "Diagnostics and Disapprovals" |
+| Conversational & AI Mode attributes | Supported structured fields for AI Mode/Gemini, structured data markup (`schema.org/Product`) | Google Search Central "Product structured data" |
+| Agentic checkout (UCP) capabilities | Regional availability, participating merchant eligibility, checkout API contracts | Google Developers "Universal Commerce Protocol (UCP)" |
+
+**Conflict Rule:**
+- **Dynamic Product Data Specs Trump Static Estimates:** Current Merchant Center attribute requirements override legacy character counts.
+- **Architectural Invariants Govern Data Modeling:** The separation of raw input (`ProductInput`), processed platform state (`Product`), and rendered customer representation remains invariant.
+
+---
+
+## 15. Final Google commerce check
 
 Before consequential Google product work is finalized, ask only the relevant questions:
 

@@ -623,7 +623,8 @@ Use suggestions as candidate copy for human review / testing, not platform truth
 
 ---
 
-## 15. Title / tag / attribute allocation after the 2026 guidance
+<!-- route:id etsy.field-allocation -->
+## 15. Field allocation: Title, tags, attributes, and descriptions
 
 A compact Etsy allocation strategy is:
 
@@ -868,7 +869,24 @@ Unless fresher Etsy evidence establishes otherwise, preserve:
 
 ---
 
-## 20. Final Etsy check
+## 20. Just-in-Time (JIT) Verification Protocol
+
+Etsy guidelines and category options evolve frequently. AI Agents must verify dynamic requirements via official documentation:
+
+| Trigger / Task Need | JIT Verification Focus | Authoritative Target Surface |
+| --- | --- | --- |
+| Listing creation & tagging | Current 13-tag character limits (20 chars/tag), multi-word phrase matching rules | `site:help.etsy.com` "Keywords that Work: A Guide" |
+| Category & attribute selection | Deepest available category taxonomy, mandatory attributes (color, occasion, holiday) | Etsy Seller Handbook Category Guide |
+| Shipping & Star Seller standards | On-time dispatch thresholds, message response rate criteria, tracking requirements | Etsy Help Center "Star Seller Requirements" |
+| Fees & Payments | Listing fee renewal schedule (0.20 USD), transaction fee percentage, offsite ads policy | `site:help.etsy.com` "Fees and Taxes" |
+
+**Conflict Rule:**
+- **Dynamic Policy Trumps Static Expectations:** Official Seller Handbook updates override legacy guidance.
+- **Architectural Invariants Govern Strategy:** Unique/handcrafted inventory modeling, multi-stage retrieval, and anti-stuffing allocation remain invariant.
+
+---
+
+## 21. Final Etsy check
 
 1. Is the analysis inventing a canonical product object separate from the listing when Etsy's unique/custom item does not require one?
 2. Are variations, personalization, and private custom listings separated correctly?

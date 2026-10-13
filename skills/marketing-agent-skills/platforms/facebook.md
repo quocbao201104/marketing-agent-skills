@@ -616,3 +616,20 @@ Do not fill dimensions that cannot change the decision.
 - every report, suggestion, or contribution will be accepted, fixed, merged, or incorporated.
 
 Use current local evidence when available and keep observed third-party benchmarks scoped to their population and metric definition.
+
+---
+
+## 11. Just-in-Time (JIT) Verification Protocol
+
+Meta policies, Group administrative tools, and ad delivery features update continuously. AI Agents must verify time-sensitive constraints dynamically:
+
+| Trigger / Task Need | JIT Verification Focus | Authoritative Target Surface |
+| --- | --- | --- |
+| Publishing & external link sharing | Current link-preview policies, branded content tag requirements, commercial disclosure rules | `site:transparency.meta.com` "Content Distribution Guidelines" |
+| Group participation & moderation | Admin Assist automation capabilities, membership question limits, post pre-approval settings | `site:facebook.com/help` "Facebook Groups Community Guidelines" |
+| Page / Profile monetization | Professional Mode payout eligibility, Branded Content access thresholds | Meta Business Help Center "Monetization Eligibility Standards" |
+| Advertising & boosted posts | Prohibited claim categories (health, housing, finance), special ad category declarations | Meta Advertising Standards |
+
+**Conflict Rule:**
+- **Current Transparency Disclosures Trump Folk Rules:** Official Meta Distribution Guidelines override third-party "link in first comment" folklore.
+- **Architectural Invariants Govern Strategy:** Container state (Private Group vs Public Page), actor boundaries, and audience membership rights remain invariant.

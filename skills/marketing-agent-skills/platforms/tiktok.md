@@ -936,3 +936,20 @@ Do not fill dimensions that cannot change the decision.
 - visible object metrics are always organic-only.
 
 Use current system-specific facts within scope, then prefer current comparable local evidence for the local decision.
+
+---
+
+## 17. Just-in-Time (JIT) Verification Protocol
+
+TikTok features, video duration limits, commercial disclosure obligations, and monetization eligibility thresholds change frequently. AI Agents must verify volatile parameters via official TikTok Help and Creator documentation:
+
+| Trigger / Task Need | JIT Verification Focus | Authoritative Target Surface |
+| --- | --- | --- |
+| Upload specs & length limits | Maximum allowed duration (mobile vs web), file sizes, supported aspect ratios (`9:16`) | `site:support.tiktok.com` "Video specifications" / "Upload length" |
+| Commercial Content Disclosure | Toggles for branded content, commercial music licensing (Commercial Audio Library rules), FTC/local disclosures | `site:support.tiktok.com` "Commercial content disclosure" |
+| LIVE streaming & feature access | Age and follower thresholds for LIVE, gifts, and subscription tools (e.g., 1,000 follower cutoff) | `site:support.tiktok.com` "Go LIVE on TikTok" |
+| Creator Search Insights & query gaps | Live query suggestions, topic popularity trends, search analytics | TikTok app Creator Search Insights / Creator Center Help |
+
+**Conflict Rule:**
+- **Official Terms & Policy Outrank Algorithmic Lore:** TikTok Safety Guidelines and Commercial Music terms strictly override creator tricks (e.g., hiding muted trending sounds or evading branded content toggles).
+- **Architectural Invariants Govern Recommendation:** The multi-environment architecture (For You ≠ Search ≠ LIVE ≠ Profile Recommendation) remains binding.

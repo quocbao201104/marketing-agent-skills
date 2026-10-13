@@ -742,3 +742,20 @@ Do not fill dimensions that cannot change the decision.
 - human-visible keywords have one fixed ranking weight across Instagram systems.
 
 Use platform-specific facts only within their current scope, then prefer current comparable local evidence for the local decision.
+
+---
+
+## 14. Just-in-Time (JIT) Verification Protocol
+
+Instagram features, recommendation guidelines, and format specifications evolve constantly. AI Agents must verify dynamic requirements via official Meta sources:
+
+| Trigger / Task Need | JIT Verification Focus | Authoritative Target Surface |
+| --- | --- | --- |
+| Creative production & specs | Current aspect ratios (9:16 for Reels, 4:5 for Feed), video duration caps, cover image safe zones | `site:help.instagram.com` "Technical Requirements for Videos" |
+| Recommendation & shadowban checks | Account Status transparency flags, Recommendation Guidelines eligibility criteria | `site:transparency.meta.com` "Instagram Recommendation Guidelines" |
+| Creator & sponsored partnerships | Paid Partnership label rules, partnership ad permissions, creator marketplace requirements | Instagram Creator Hub / Branded Content Policies |
+| Messaging & automated DM limits | Direct Message automation caps, quick-reply tools, broadcast channel eligibility | Meta Developers Instagram Graph API docs |
+
+**Conflict Rule:**
+- **Current Transparency Guidelines Trump Creator Folklore:** Official Meta documentation overrides anecdotal "algorithm hacks" (e.g. hashtag counts or audio hacks).
+- **Architectural Invariants Govern Surface Strategy:** The functional distinction among Feed (relationship retention), Stories (intimacy/daily status), and Reels (unconnected discovery) remains invariant.

@@ -785,7 +785,24 @@ Preserve as unknown unless fresh evidence establishes otherwise:
 
 ---
 
-## 18. Final TikTok Shop check
+## 18. Just-in-Time (JIT) Verification Protocol
+
+TikTok Shop policy rules, product audit guidelines, and feature availability vary by jurisdiction (e.g. US vs UK vs SEA). AI Agents must verify time-sensitive and local requirements dynamically:
+
+| Trigger / Task Need | JIT Verification Focus | Authoritative Target Surface |
+| --- | --- | --- |
+| Publishing listings & titles | Category character limits, prohibited health/claim words, restricted product certifications | `site:seller.tiktok.com` (or local academy) "Product Listing Policy" |
+| Creator collaboration & commission | Open/Target collaboration commission rate caps, affiliate product eligibility | TikTok Shop Creator Academy / Seller Center Affiliate tab |
+| Shoppable video relinking & anchors | Market availability of Product Relinking vs first-link only rules | Seller Center Help / Product Management Guide |
+| Shipping & Shop Performance Score | Dispatch SLA deadlines, Cancellation rate caps, Shop Performance Score (SPS) tiers | TikTok Shop Policy Center "Seller Performance Evaluation" |
+
+**Conflict Rule:**
+- **Local Academy Documentation Trumps Regional Assumptions:** Domestic Seller Academy rules override cross-border documentation.
+- **Architectural Invariants Govern Data Roles:** Content object (video) persistence vs commerce object (product) independence remains invariant regardless of interface feature changes.
+
+---
+
+## 19. Final TikTok Shop check
 
 1. Are product and SKU/variant roles separated correctly?
 2. Are product attributes and sales attributes being used for their documented scopes?

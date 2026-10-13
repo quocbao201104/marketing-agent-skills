@@ -821,3 +821,20 @@ metric changed
 - a public ranking parameter establishes a causal content-writing tactic.
 
 Use X's implementation transparency to eliminate weak algorithm folklore, then return to the human job, the actual audience state, and current comparable local evidence.
+
+---
+
+## 18. Just-in-Time (JIT) Verification Protocol
+
+X Premium tiers, character caps, video length permissions, monetization eligibility, and API policies change frequently. AI Agents must verify volatile parameters via official X Help and Developer surfaces:
+
+| Trigger / Task Need | JIT Verification Focus | Authoritative Target Surface |
+| --- | --- | --- |
+| Character & edit limits | Character caps (280 standard vs 25,000 Premium), post edit window (e.g. 1 hour) | `site:help.x.com` "About different types of Posts on X" |
+| Video duration & upload specs | Max duration (140s standard vs up to 3 hours/8GB for Premium), resolution caps | `site:help.x.com` "Upload and view video on X" |
+| Creator Revenue Sharing & Subscriptions | Follower (500+) and impression (5M over 3 months) eligibility, payout rules | `site:help.x.com` "Creator Revenue Sharing" |
+| Account safety & visibility labels | "Under the Hood" account health, limited visibility labels, sensitive media policy | `site:help.x.com` "Our approach to policy enforcement" |
+
+**Conflict Rule:**
+- **Official Help Center & Developer Docs Outrank Viral Folklore:** Official documentation overrides viral tricks (e.g. "links in second tweet", "manipulating copy-link actions").
+- **Architectural Invariants Govern Recommendation:** Multi-stage pipeline boundaries (Candidate Retrieval ≠ Visibility Filtering ≠ Model Scoring ≠ Slate Blending) remain binding.

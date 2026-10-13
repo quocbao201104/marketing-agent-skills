@@ -259,7 +259,7 @@ TEXT KEYWORD QUERY
 
 ### 6.1 Keyword search does not imply text-only machine retrieval
 
-Shopee's MRSE engineering work describes text-query retrieval using query text together with item text/images and multimodal user preferences/history [S07].
+Shopee's documented retrieval systems (such as the MRSE candidate retrieval archetype) demonstrate that search queries operate across query text, item text, product visual features, and multimodal user engagement history [S07].
 
 Strong scope-correct inference:
 
@@ -268,13 +268,11 @@ TEXT QUERY
 ≠ TEXT-ONLY RETRIEVAL MODEL
 ```
 
-Do not infer that the exact MRSE model, its features, or weights are the complete 2026 Shopee Vietnam production stack. Its online comparison is labeled Shopee Search on Ads; it does not estimate organic lift from a seller edit. Submodel importance scores are representation-similarity measurements, not ranking weights or an effort-allocation formula [S07].
+Treat published retrieval architectures as engineering archetypes rather than static production guarantees. Submodel importance scores measure representation-similarity within evaluated candidate recall sets; they are not organic ranking weights or fixed seller effort formulas [S07].
 
 ### 6.2 Image search does not imply image-only item representation
 
-Buyer help describes image search as finding similar products [S01]. Verify model, compatibility and selected variation before treating a visual match as the exact requested item.
-
-Shopee MIEM uses multiple product images plus product titles to construct item embeddings. The disclosed deployment combines MIEM with I2I recall before ranking; its four-image configuration is not a seller upload requirement [S08].
+Buyer search uses image queries to find visually and semantically similar items [S01]. Product embeddings combine multiple visual features and product titles (as demonstrated in multimodal item embedding archetypes such as MIEM) [S08]. Published experimental setups (such as four-image evaluation inputs) are model benchmark configurations, not seller upload constraints.
 
 Therefore:
 
@@ -290,11 +288,12 @@ ONE VISIBLE IMAGE
 ≠ ALL MACHINE EVIDENCE USED FOR RETRIEVAL
 ```
 
-### 6.3 Shopee App in ChatGPT is a separate conversational discovery surface
+<!-- route:id shopee.conversational-discovery -->
+### 6.3 Conversational shopping and external assistant discovery surfaces
 
-Shopee's current Vietnam guidance says shoppers can ask ChatGPT for Shopee product recommendations using natural language. Connecting a Shopee account is optional; connected users may receive more personalized suggestions based on Shopee purchase history/preferences, while a summary of recent conversational context/needs can be shared with Shopee for the request [S10]. Product detail and checkout then continue on Shopee app/web in the documented flow.
+Shopee supports natural-language product discovery across conversational surfaces and external assistant integrations (such as the Shopee App in ChatGPT in supported markets like Vietnam) [S10]. Connecting a user account allows personalized suggestions based on purchase history and location, while conversational context and structured needs are passed to Shopee's recommendation APIs [S10]. Product inspection and checkout finalize through native Shopee app/web surfaces.
 
-Shopee says ChatGPT does not access the shopper's Shopee purchase history, delivery address or bank-card information; optional personalization is not permission to claim visibility into those records [S10]. Account-free recommendations do not remove Shopee checkout requirements: the Vietnam buying guide requires a valid signed-in account and delivery address in Vietnam [S06].
+Third-party assistants receive scoped summaries rather than unrestricted access to private buyer credentials, full payment tokens, or raw bank details [S10]. Automated recommendations do not bypass domestic delivery and checkout requirements [S06].
 
 Use:
 
@@ -726,7 +725,24 @@ Unless current authoritative Shopee evidence establishes otherwise, preserve as 
 
 ---
 
-## 18. Final Shopee check
+## 18. Just-in-Time (JIT) Verification Protocol
+
+Shopee parameters change frequently across markets and seller tiers. AI Agents must verify time-sensitive thresholds dynamically rather than relying on frozen assumptions:
+
+| Trigger / Task Need | JIT Verification Focus | Authoritative Target Surface |
+| --- | --- | --- |
+| Publishing titles or descriptions | Current category character limits, prohibited claim words, and required title formulas | `site:seller.shopee.vn` (or market equivalent) "tiêu chuẩn đặt tên sản phẩm" |
+| Category and attribute compliance | Mandatory structured attributes, brand certificate requirements, origin licenses | Shopee Seller Education Hub / Category Guidelines |
+| Commercial fee & voucher planning | Transaction fees, fixed fees, Freeship Extra / Voucher Extra commission rates | Shopee Seller Centre "biểu phí người bán" |
+| Shop tier and visibility criteria | Current qualification thresholds for Shop Yêu Thích, Yêu Thích+, or Shopee Mall | Shopee Seller Centre "tiêu chuẩn Shop Yêu Thích" |
+
+**Conflict Rule:**
+- **Dynamic Policy Trumps Static Text:** Current published threshold numbers override static documentation.
+- **Architectural Invariants Govern Data Roles:** Even if character limits expand, durable allocation principles (Brand and Core Product Identity upfront) remain binding.
+
+---
+
+## 19. Final Shopee check
 
 1. Is product posting identity being confused with a presumed canonical underlying product that need not exist?
 2. Are variation/product-page roles separated where price/stock differ?

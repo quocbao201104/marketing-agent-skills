@@ -551,6 +551,23 @@ Use current account evidence when available and keep platform averages scoped.
 
 ---
 
+## 11. Just-in-Time (JIT) Verification Protocol
+
+LinkedIn publishing features, newsletter criteria, and page targeting rules change periodically. AI Agents must verify dynamic requirements via official LinkedIn Help surfaces:
+
+| Trigger / Task Need | JIT Verification Focus | Authoritative Target Surface |
+| --- | --- | --- |
+| Page publishing & targeted updates | Minimum follower thresholds for targeted organic updates (e.g. 300+ followers requirement) | `site:linkedin.com/help/linkedin` "Targeted Updates for Company Pages" |
+| Newsletter creation & scheduling | Creator Mode / Page criteria to launch newsletters, edition frequency limits | LinkedIn Help "Create and Manage a LinkedIn Newsletter" |
+| Document / carousel posts | Supported PDF upload sizes (up to 100MB / 300 pages), aspect ratio rendering | LinkedIn Help "Share Documents on LinkedIn" |
+| Thought Leader Ads & sponsored content | Employee post boosting permissions, campaign manager format rules | LinkedIn Marketing Solutions Help "Thought Leader Ads" |
+
+**Conflict Rule:**
+- **Official Help Center Documentation Trumps Algorithmic Lore:** Formal LinkedIn Engineering/Help documentation overrides viral influencer tips (e.g., "link in comment" tricks).
+- **Architectural Invariants Govern Network Strategy:** Actor role (Personal Profile vs Company Page) and Edge type (Connection vs Follow vs Newsletter Subscribe) remain binding.
+
+---
+
 ## Evidence
 
 Use `references/bibliography.md` for `[R28]` and `references/linkedin-evidence.md` for `[LI01]`.

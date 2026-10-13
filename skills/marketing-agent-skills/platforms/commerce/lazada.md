@@ -322,9 +322,10 @@ Do not assume a displayed starting price represents every SKU or that a special 
 
 ---
 
-## 10. AutoPKG demonstrates platform-derived product knowledge
+<!-- route:id lazada.derived-product-knowledge -->
+## 10. Platform-derived product knowledge and attribute induction
 
-Lazada/Alibaba's 2026 AutoPKG system ingests multimodal product content, dynamically induces product types and attribute keys, extracts values, and canonicalizes them into a Product-Attribute Knowledge Graph [LZ06].
+Platforms increasingly use multimodal product understanding (as demonstrated in architectures like Alibaba/Lazada's AutoPKG system) to dynamically induce product types, extract attribute keys and values, and canonicalize them into a knowledge graph [LZ06].
 
 Use the architecture:
 
@@ -463,11 +464,12 @@ SPONSORED RECOMMENDATION PLACEMENT
 
 ---
 
-## 13. August–September 2026 paid-product transition is a history/state lesson
+<!-- route:id lazada.paid-transition -->
+## 13. Paid-product architecture transitions as historical state lessons
 
-On August 20, 2026 Lazada announced that starting September 19 it will begin phasing out Sponsored Discovery Automated and Promoted Specific Products, with eligible active campaigns upgraded to Sponsored Max Store/Product during September 19–30; Sponsored Discovery Manual remains unchanged under the announced plan [LZ08].
+Lazada ad products undergo continuous migration and consolidation (for example, historical migrations from Sponsored Discovery Automated to Sponsored Max Store/Product) [LZ08].
 
-This means a seller-facing instruction can become outdated within weeks.
+This demonstrates a durable principle: platform campaign types, bidding modes, and reporting categories change over time.
 
 Use:
 
@@ -484,7 +486,7 @@ CURRENT OFFICIAL DOCUMENTATION
 ≠ TIMELESS PRODUCT REGIME
 ```
 
-For campaign work in or after September 2026, verify actual Seller Center campaign type and migration state before applying Sponsored Discovery instructions.
+Verify the active Seller Center campaign type and migration state dynamically before applying campaign optimization instructions.
 
 ### 13.1 Sponsored Max evidence does not backfill organic theory
 
@@ -731,7 +733,24 @@ Preserve these unless fresher authoritative Lazada evidence establishes them for
 
 ---
 
-## 20. Final Lazada check
+## 20. Just-in-Time (JIT) Verification Protocol
+
+Lazada policies, commission rates, and ad formats differ across its 6 Southeast Asian ventures (ID, MY, PH, SG, TH, VN). AI Agents must verify time-sensitive and venture-specific parameters dynamically:
+
+| Trigger / Task Need | JIT Verification Focus | Authoritative Target Surface |
+| --- | --- | --- |
+| Listing creation & categorization | Leaf category IDs, mandatory warranty/origin attributes, brand authorization | Lazada University / Open Platform Category Tree |
+| Sponsored Solutions setup | Active campaign types (Sponsored Max vs Sponsored Media), minimum bidding rules | Lazada Seller Center "Sponsored Solutions Guidelines" |
+| Seller commission & payment fees | Marketplace commission fee by category, payment fee percentage, shipping subsidies | Lazada Seller Center "Commission and Fee Schedule" |
+| Local market compliance | Local packaging/labeling standards, FDA/CR license requirements per venture | Venture-specific Seller Compliance Guides |
+
+**Conflict Rule:**
+- **Venture Documentation Trumps Cross-Border Generalizations:** Local venture rules always override regional or legacy documentation.
+- **Architectural Invariants Govern Data Modeling:** SPU vs SKU relationships, sellable vs withhold stock, and organic vs sponsored separation remain binding across all ventures.
+
+---
+
+## 21. Final Lazada check
 
 1. Are item_id, SellerSku, SkuId and any global/cross-border identity scoped correctly?
 2. Is country/venture scope preserved for category, brand and local item state?
