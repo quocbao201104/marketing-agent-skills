@@ -619,9 +619,10 @@ Use current local evidence when available and keep observed third-party benchmar
 
 ---
 
+<!-- route:id facebook.jit -->
 ## 11. Just-in-Time (JIT) Verification Protocol
 
-Meta policies, Group administrative tools, and ad delivery features update continuously. AI Agents must verify time-sensitive constraints dynamically:
+Before deciding distribution constraints or group administrative actions, verify current rules against official documentation:
 
 | Trigger / Task Need | JIT Verification Focus | Authoritative Target Surface |
 | --- | --- | --- |

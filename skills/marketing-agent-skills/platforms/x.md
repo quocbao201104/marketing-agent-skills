@@ -824,9 +824,10 @@ Use X's implementation transparency to eliminate weak algorithm folklore, then r
 
 ---
 
+<!-- route:id x.jit -->
 ## 18. Just-in-Time (JIT) Verification Protocol
 
-X Premium tiers, character caps, video length permissions, monetization eligibility, and API policies change frequently. AI Agents must verify volatile parameters via official X Help and Developer surfaces:
+Before deciding post length limits, media parameters, or monetization settings, verify current rules against official documentation:
 
 | Trigger / Task Need | JIT Verification Focus | Authoritative Target Surface |
 | --- | --- | --- |

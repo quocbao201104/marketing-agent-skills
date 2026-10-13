@@ -785,9 +785,10 @@ Preserve as unknown unless fresh evidence establishes otherwise:
 
 ---
 
+<!-- route:id tiktok-shop.jit -->
 ## 18. Just-in-Time (JIT) Verification Protocol
 
-TikTok Shop policy rules, product audit guidelines, and feature availability vary by jurisdiction (e.g. US vs UK vs SEA). AI Agents must verify time-sensitive and local requirements dynamically:
+Before deciding listing rules or feature eligibility across jurisdictions, verify current requirements against official documentation:
 
 | Trigger / Task Need | JIT Verification Focus | Authoritative Target Surface |
 | --- | --- | --- |

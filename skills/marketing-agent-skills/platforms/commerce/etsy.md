@@ -869,9 +869,10 @@ Unless fresher Etsy evidence establishes otherwise, preserve:
 
 ---
 
+<!-- route:id etsy.jit -->
 ## 20. Just-in-Time (JIT) Verification Protocol
 
-Etsy guidelines and category options evolve frequently. AI Agents must verify dynamic requirements via official documentation:
+Before deciding category requirements or listing options, verify current specifications against official documentation:
 
 | Trigger / Task Need | JIT Verification Focus | Authoritative Target Surface |
 | --- | --- | --- |

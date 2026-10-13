@@ -905,9 +905,10 @@ Do not fill these gaps with third-party “A9/A10 algorithm” folklore.
 
 ---
 
+<!-- route:id amazon.jit -->
 ## 16. Just-in-Time (JIT) Verification Protocol
 
-Amazon Seller Central policies and attribute requirements vary by category and target marketplace (e.g., US vs EU vs JP). AI Agents must verify time-sensitive constraints dynamically:
+Before deciding category attributes or listing limits across marketplaces, verify current constraints against official documentation:
 
 | Trigger / Task Need | JIT Verification Focus | Authoritative Target Surface |
 | --- | --- | --- |

@@ -733,9 +733,10 @@ Preserve these unless fresher authoritative Lazada evidence establishes them for
 
 ---
 
+<!-- route:id lazada.jit -->
 ## 20. Just-in-Time (JIT) Verification Protocol
 
-Lazada policies, commission rates, and ad formats differ across its 6 Southeast Asian ventures (ID, MY, PH, SG, TH, VN). AI Agents must verify time-sensitive and venture-specific parameters dynamically:
+Before deciding venture-specific parameters or fee structures across Southeast Asian markets, verify current rules against official documentation:
 
 | Trigger / Task Need | JIT Verification Focus | Authoritative Target Surface |
 | --- | --- | --- |

@@ -745,9 +745,10 @@ Use platform-specific facts only within their current scope, then prefer current
 
 ---
 
+<!-- route:id instagram.jit -->
 ## 14. Just-in-Time (JIT) Verification Protocol
 
-Instagram features, recommendation guidelines, and format specifications evolve constantly. AI Agents must verify dynamic requirements via official Meta sources:
+Before deciding format specifications or account eligibility, verify current guidelines against official documentation:
 
 | Trigger / Task Need | JIT Verification Focus | Authoritative Target Surface |
 | --- | --- | --- |

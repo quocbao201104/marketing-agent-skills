@@ -653,7 +653,7 @@ DISCOVERY PRODUCT REPRESENTATION
 
 when price, availability, shipping, tax, selected variant, or other transaction conditions have changed.
 
-Google says its agentic checkout acts at the customer's direction and UCP exchanges data between the AI agent and merchant backend [G10]. Treat shopper intent, user authorization, platform capability, merchant acceptance, payment, and fulfillment as separate states when they matter.
+Google says its agentic checkout acts at the customer's direction and UCP exchanges data between the shopping assistant and merchant backend [G10]. Treat shopper intent, user authorization, platform capability, merchant acceptance, payment, and fulfillment as separate states when they matter.
 
 Availability is phased; do not assume every merchant, market, product, AI Mode result, or Gemini user has the same checkout capability.
 
@@ -1033,9 +1033,10 @@ Do not fill these gaps with practitioner folklore.
 
 ---
 
+<!-- route:id google-commerce.jit -->
 ## 14. Just-in-Time (JIT) Verification Protocol
 
-Google Merchant Center policies, product data specifications, and feed schemas update regularly. AI Agents must verify time-sensitive constraints dynamically:
+Before finalizing feed attributes or merchant requirements, verify current specifications against official documentation:
 
 | Trigger / Task Need | JIT Verification Focus | Authoritative Target Surface |
 | --- | --- | --- |

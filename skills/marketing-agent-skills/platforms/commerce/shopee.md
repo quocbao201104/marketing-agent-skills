@@ -725,9 +725,10 @@ Unless current authoritative Shopee evidence establishes otherwise, preserve as 
 
 ---
 
+<!-- route:id shopee.jit -->
 ## 18. Just-in-Time (JIT) Verification Protocol
 
-Shopee parameters change frequently across markets and seller tiers. AI Agents must verify time-sensitive thresholds dynamically rather than relying on frozen assumptions:
+Before deciding volatile parameters across markets or seller tiers, verify current requirements against official documentation:
 
 | Trigger / Task Need | JIT Verification Focus | Authoritative Target Surface |
 | --- | --- | --- |

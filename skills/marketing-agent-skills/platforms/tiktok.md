@@ -939,9 +939,10 @@ Use current system-specific facts within scope, then prefer current comparable l
 
 ---
 
+<!-- route:id tiktok.jit -->
 ## 17. Just-in-Time (JIT) Verification Protocol
 
-TikTok features, video duration limits, commercial disclosure obligations, and monetization eligibility thresholds change frequently. AI Agents must verify volatile parameters via official TikTok Help and Creator documentation:
+Before deciding video durations, disclosure requirements, or feature eligibility, verify current rules against official documentation:
 
 | Trigger / Task Need | JIT Verification Focus | Authoritative Target Surface |
 | --- | --- | --- |

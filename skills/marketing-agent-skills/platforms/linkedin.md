@@ -551,9 +551,10 @@ Use current account evidence when available and keep platform averages scoped.
 
 ---
 
+<!-- route:id linkedin.jit -->
 ## 11. Just-in-Time (JIT) Verification Protocol
 
-LinkedIn publishing features, newsletter criteria, and page targeting rules change periodically. AI Agents must verify dynamic requirements via official LinkedIn Help surfaces:
+Before deciding publishing formats or page targeting parameters, verify current rules against official documentation:
 
 | Trigger / Task Need | JIT Verification Focus | Authoritative Target Surface |
 | --- | --- | --- |
